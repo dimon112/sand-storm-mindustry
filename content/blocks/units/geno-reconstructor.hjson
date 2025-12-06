@@ -1,0 +1,35 @@
+type: Reconstructor
+name: "geno reconstructor"
+size: 3
+health: 500
+description: "Upgrades inputted sand-bots into the second tier."
+constructTime: 1500
+upgrades: [
+  [crater, support]
+]
+consumes: {
+items:{
+  items: [
+  fossil/75
+  geno/75
+  ]
+}
+}
+requirements: [
+  fossil/200
+  geno/200
+]
+category: units
+research: {
+parent: Desert-factory
+requirements: [
+  fossil/1500
+  geno/1500
+]
+objectives: [
+  {
+    type: SectorComplete 
+    preset: oasis
+  }
+  ]
+}

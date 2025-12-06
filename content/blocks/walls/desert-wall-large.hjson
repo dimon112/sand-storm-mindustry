@@ -1,0 +1,10 @@
+type: Wall
+name: Large desert Wall
+description: Blocks incoming enemy bullets. Can be destroyed. 
+health: 1700
+size: 2
+category: defense
+research: desert-wall
+requirements : [
+        fossil/24
+    ]

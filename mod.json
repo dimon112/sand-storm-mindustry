@@ -1,9 +1,9 @@
 {
-      "name": "sand storm",
+      "name": "sand stormV2",
       "displayname": "sand storm",
       "author": "dimon",
-      "description": "this mod add new blocks, items, units and will continue to be updated",
-      "version": "1.21",
+      "description": "this mod add new blocks, items, units and will continue to be updated, which is actually true",
+      "version": "1.27",
 
       "minGameVersion": "144",
       "dependencies": []

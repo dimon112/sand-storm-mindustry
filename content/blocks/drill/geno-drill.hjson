@@ -1,0 +1,30 @@
+name: "geno-drill"
+"description": "Drills ore with a sharp push, but because of this, most ores break"
+planet: big-desert
+health: 340
+size: 3
+type: BurstDrill
+category: production
+destrucrible: true
+breakable: true
+research: {
+  parent: desert-drill
+requirements: [
+ geno/400
+ ]
+objectives: [
+    {
+      type: SectorCopmlete 
+      preset:geno-base 
+    }
+  ]
+}
+tier: 2
+drillTime: 260
+buildVisibility: shown
+alwaysUnlocked: false
+hasPower: false
+itemCapacity: 15
+requirements: [
+   geno/40
+]

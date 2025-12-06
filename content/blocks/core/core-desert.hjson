@@ -1,0 +1,24 @@
+{
+  "name": "core-desert",
+  "type": "CoreBlock",
+  "health": 3000,
+  "size": 3,
+  "isFirstTier": true,
+  "itemCapacity": 1500,
+  "alwaysUnlocked": true,
+  "unitType": "sand-drone",
+  "requirements": [
+    {
+      "item": "fossil",
+      "amount": 1000
+    }
+  ],
+  "category": "effect",
+  "research": {
+    "root": true,
+    "requiresUnlock": false,
+    "planet": "big-desert",
+    "name": "big-desert",
+    "icon": "core-desert"
+  }
+}

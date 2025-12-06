@@ -1,0 +1,52 @@
+{
+    "type": "ItemTurret",
+    "name": "desert beach",
+    "description": "upgraded desert gun, can attack air, shoots faster"
+    "targetAir": "true",
+    "targetGround": "true",
+    "size": 2,
+    "health": 380,
+    "outlineIcon": "false",
+    "reload": 30,
+    "rotateSpeed": 35
+        shoot: {
+type: ShootPattern
+shots: 2
+}
+inaccuracy: 1
+    "range": 180,
+    "recoilamount": 15,
+    "ammoTypes": { 
+        "fossil":{
+            "damage":20,
+            "status":"freezing"
+            "ammoMultiplier" :1,
+            "lifetime": 45,
+            "speed": 7,
+       },
+       "collarise":{
+            "damage":29,
+            "splashDamage":26,
+            "splashDamageRadius": 43
+            "status":"blasted"
+            "ammoMultiplier" :2,
+            "lifetime": 50,
+            "frontColor": 9e0e0e
+            "backColor": 9e0e0e
+            "speed": 6,
+       }
+    }, 
+    "requirements": [
+   {"item": "fossil", "amount": 120}
+   {"item": "geno", "amount": 40}
+  ],
+"category": "turret"
+"shootSound": "laser"
+research: {
+parent: desert-gun,
+requirements: [
+ fossil/1200
+ geno/400
+ ]
+}
+}

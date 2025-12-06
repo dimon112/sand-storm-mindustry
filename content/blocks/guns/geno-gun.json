@@ -1,0 +1,38 @@
+{
+    "type": "ItemTurret",
+    "name": "Geno gun",
+    "description": "the initial gun for air is not bad but quickly loses its relevance",
+    "targetAir": "true",
+    "targetGround": "false",
+    "size": 1,
+    "health": 185,
+    "outlineIcon": "false",
+    "reload": 65,
+    "rotateSpeed": 20
+        shoot: {
+type: ShootPattern
+shots: 3
+}
+inaccuracy: 2
+    "range": 190,
+    "recoilamount": 5,
+    "ammoTypes": { 
+        "fossil":{
+            "damage":28,
+            "status":"freezing"
+            "lifetime": 60,
+            "speed": 5,
+       }
+    }, 
+    "requirements": [
+   {"item": "geno", "amount": 40}
+  ],
+"category": "turret"
+"shootSound": "laser"
+research: {
+parent: desert-gun,
+requirements: [
+ geno/400
+ ]
+}
+}

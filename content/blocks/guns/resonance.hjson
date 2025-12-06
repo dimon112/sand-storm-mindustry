@@ -1,0 +1,37 @@
+name: Resonance Pulse Emitter
+type: PowerTurret
+size: 1
+health: 450
+reload: 25
+range: 140
+shootCone: 10
+inaccuracy: 0
+targetAir: false
+targetGround: true
+outlineIcon: false
+rotateSpeed: 20
+category: turret
+requirements: [
+   {item: fossil, amount: 60}
+   {item: Quartz, amount: 20}
+  ],
+consumes: {
+  power: 0.6
+}
+
+shootType: {
+  type: BasicBulletType
+  speed: 5
+  damage: 25
+  hitsize: 6.0
+  hitEffect: hitFlamePlasma
+  status: resonance1
+  statusDuration: 75
+}
+research: {
+parent: desert-gun,
+requirements: [
+ fossil/320
+ Quartz/75
+ ]
+}

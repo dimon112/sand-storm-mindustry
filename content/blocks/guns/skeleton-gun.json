@@ -1,0 +1,37 @@
+{
+    "type": "ItemTurret",
+    "name": "skeleton gun",
+    "description": "Pretty serious Cannon is much better than desert cannon and can also attack air units",
+    "targetAir": "true",
+    "targetGround": "true",
+    "size": 2,
+    "health": 500,
+    "outlineIcon": "false",
+    "reload": 65,
+    "rotateSpeed": 20
+        shoot: {
+type: ShootPattern
+shots: 6
+}
+inaccuracy: 2
+    "range": 230,
+    "recoilamount": 5,
+    "ammoTypes": { 
+        "bone":{
+            "damage":20,
+            "lifetime": 60,
+            "speed": 5,
+       }
+    }, 
+    "requirements": [
+   {"item": "bone", "amount": 60}
+  ],
+"category": "turret"
+"shootSound": "laser"
+research: {
+parent: geno-gun,
+requirements: [
+ bone/600
+ ]
+}
+}

@@ -1,0 +1,50 @@
+{
+    "type": "ItemTurret",
+    "name": "Desert gun",
+    "description": "the initial gun is not bad but quickly loses its relevance"
+    "targetAir": "false",
+    "targetGround": "true",
+    "size": 1,
+    "health": 220,
+    "outlineIcon": "false",
+    "reload": 60,
+    "rotateSpeed": 20
+        shoot: {
+type: ShootPattern
+shots: 4
+}
+inaccuracy: 5
+    "range": 130,
+    "recoilamount": 20,
+    "ammoTypes": { 
+        "fossil":{
+            "damage":15,
+            "status":"freezing"
+            "ammoMultiplier" :1,
+            "lifetime": 60,
+            "speed": 5,
+       },
+       "collarise":{
+            "damage":34,
+            "splashDamage":15,
+            "splashDamageRadius": 20
+            "status":"blasted"
+            "ammoMultiplier" :2,
+            "lifetime": 120,
+            "frontColor": 9e0e0e
+            "backColor": 9e0e0e
+            "speed": 3,
+       }
+    }, 
+    "requirements": [
+   {"item": "fossil", "amount": 20}
+  ],
+"category": "turret"
+"shootSound": "laser"
+research: {
+parent: core-desert,
+requirements: [
+ fossil/200
+ ]
+}
+}

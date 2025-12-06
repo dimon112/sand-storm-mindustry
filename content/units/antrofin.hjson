@@ -1,0 +1,47 @@
+type: legs
+name: "antrofin"
+speed: 0.50
+flying: false
+health: 960
+range: 167
+armor: 6
+legCount: 4
+legLength: 20
+legTrns: 1
+legMoveSpace: 3.0
+hovering: true
+  "weapons": [
+  {
+   name: antrofin-gun
+  reload: 60
+  rotate: false
+  mirror:false
+  x: 0
+  y: 10
+  range: 167
+  shootSound: shoot
+  bullet:{
+        type: standardThorium
+        splashDamageRadius: 30
+        splashDamage: 100
+        instantDisappear: false
+        lifetime:30
+        speed: 6
+        collidesAir: true
+        }
+    }
+    ]
+  research: {
+parent: skitch
+requirements: [
+ fossil/1200
+ geno/800
+ undoym/450
+ ]
+ objectives: [
+    {
+      type: SectorComplete
+      preset: gate
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+type:flying
+name: "crater"
+speed: 1
+flying: true
+health: 150
+engineOffset: 0
+range: 160
+  "weapons": [
+  {
+   name: craterg
+  reload: 15
+  rotate: true
+  x: 0
+  y: 0
+  range: 160
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 6
+    color: 80CB7
+    }
+    }
+    ]
+  research: {
+parent: Desert-factory
+requirements: [
+ fossil/400
+ ]
+}

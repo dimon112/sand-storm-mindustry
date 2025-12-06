@@ -1,0 +1,37 @@
+type:mech
+name: "skitch"
+speed: 0.60
+flying: false
+health: 350
+range: 150
+outline: false
+dpsEstimate: 20
+  "weapons": [
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 0
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80CB7
+    }
+    }
+    ]
+  research: {
+parent: Desert-factory
+requirements: [
+ fossil/600
+ ]
+ objectives: [
+    {
+      type: SectorComplete
+      preset: geno-base
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+type: item
+name: collarise
+description:An alloy of sand and fossils, brittle but used to increase the strength of units, Explosive but good as ammunition
+  "cost": 1,
+  "color": "ff6b08",
+  "flammability": 0.2,
+  "explosiveness": 2,
+  "radioactivity": 0,
+  "charge": 0
+  research: fossil

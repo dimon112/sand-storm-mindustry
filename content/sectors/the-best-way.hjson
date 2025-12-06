@@ -1,0 +1,21 @@
+{
+  "planet": "big-desert",
+  "sector": 15,
+  "difficulty": 3
+  "name": "the-best-way"
+  "captureWave": 15,
+  "description": "on this sector enemies will attack in all directions!
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  research: {
+  parent: gate
+objectives: [
+    {
+      type: SectorCopmlete 
+      preset: gate
+    }
+  ]
+}
+}

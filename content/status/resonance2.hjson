@@ -1,0 +1,4 @@
+name: resonance2
+healthMultiplier: 0.5
+transition: resonance3
+transitionChance: 1

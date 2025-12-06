@@ -1,0 +1,24 @@
+{
+  "planet": "big-desert",
+  "sector": 85,
+  "difficulty": 8
+  "name": "skeleton-base"
+  "description": "dangerous sector because of enemy base, but have new resource 
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  research: {
+  parent: oasis
+objectives: [
+    {
+      type: SectorCopmlete 
+      preset: oasis
+    }
+    {
+      type: SectorCopmlete 
+      preset: the-best-way 
+    }
+  ]
+}
+}

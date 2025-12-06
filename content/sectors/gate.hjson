@@ -1,0 +1,20 @@
+{
+  "planet": "big-desert",
+  "sector": 12,
+  "difficulty": 1
+  "name": "gate"
+  "description": "this sector have easy enemy base, rush to core to unlock more ways!
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  research: {
+  parent: sand-storm
+objectives: [
+    {
+      type: SectorComplete 
+      preset: geno-base
+    }
+  ]
+}
+}

@@ -1,0 +1,13 @@
+{
+ "type": " material",
+ "name": "fossil",
+ "description": "new-ore!",
+ "color": "cb7700",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 0,
+ "cost": 3f,
+ "alwaysUnlocked": true
+ "research": core-desert
+}

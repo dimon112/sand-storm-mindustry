@@ -1,0 +1,18 @@
+{
+        "speed": 3,
+
+     	"lowAltitude": true,
+        "mineSpeed": 6,
+        "buildSpeed": 2.5,
+        "mineTier": 1,
+        "itemCapacity": 60,
+        "accel": 0.05,
+        "drag": 0.04,
+        "flying": true,
+        "health": 135,
+        "hitSize": 24,
+        "armor": 3,
+        "engineSize": 0,
+        "engineOffset": 8,
+       "engineColor": "F3E979FF",
+}

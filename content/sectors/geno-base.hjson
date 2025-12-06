@@ -1,0 +1,21 @@
+{
+  "planet": "big-desert",
+  "sector": 54,
+  "difficulty": 3,
+  "name": "geno-base"
+  "description": "this sector have new ore and enemy base, be careful!
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  "SectorComplete": false,
+  research: {
+  parent: sand-storm
+objectives: [
+    {
+      type: SectorCopmlete
+      preset: sand-storm
+    }
+  ]
+}
+}

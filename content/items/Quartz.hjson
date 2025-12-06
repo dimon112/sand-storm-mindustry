@@ -1,0 +1,10 @@
+type: item
+name: Quartz
+description: Quartz, used in liquid buildings and as an ammo
+  "cost": 1,
+  "color": "ffffff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0
+  research: fossil

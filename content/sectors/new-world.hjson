@@ -1,0 +1,22 @@
+{
+  "planet": "big-desert",
+  "sector": 0,
+  "difficulty": 1,
+  "name": new-world
+  "description": "-",
+  "alwaysUnlocked": true,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  "startWaveTimeMultiplayer":2,
+  "SectorComplete": false,
+  research: {
+parent: core-desert
+objectives: [
+    {
+      type: SectorComplete
+      preset: groundZero
+    }
+  ]
+}
+}

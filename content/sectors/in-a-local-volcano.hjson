@@ -1,0 +1,21 @@
+{
+  "planet": "big-desert",
+  "sector": 90,
+  "difficulty": 10
+  "name": "in-a-local-volcano"
+  "captureWave": 30,
+  "description": oh no... ,
+  "alwaysUnlocked": false,
+  "addStartingItems": true,
+  "overrideLaunchDefaults":true,
+  "noLighting":true,
+  research: {
+  parent: skeleton-base
+objectives: [
+    {
+      type: SectorComplete 
+      preset: skeleton-base
+    }
+  ]
+}
+}

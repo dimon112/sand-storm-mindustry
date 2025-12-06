@@ -1,0 +1,5 @@
+name: resonance1
+healthMultiplier: 0.7
+affinities: { 
+  resonance2: 1.0 
+}

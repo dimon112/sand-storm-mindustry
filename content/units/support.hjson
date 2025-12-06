@@ -1,0 +1,52 @@
+type:flying
+name: "support"
+speed: 1.25
+flying: true
+health: 300
+engineOffset: 0
+range: 180
+  "weapons": [
+  {
+   name: supportg1
+  reload: 10
+  rotate: true
+  x: 0
+  y: 0
+  range: 180
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 6
+    color: 80CB7
+    }
+    },
+    {
+   name: supportg2
+  reload: 30
+  rotate: true
+  x: 0
+  y: 0
+  range: 180
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 5
+    damage: 10
+    color: 80CB7
+    }
+    }
+    ]
+    research: {
+parent: crater
+requirements: [
+ fossil/1200
+ geno/1200
+ ]
+ objectives: [
+    {
+      type: SectorComplete
+      preset: gate
+    }
+  ]
+}

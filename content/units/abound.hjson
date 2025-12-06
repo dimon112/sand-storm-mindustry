@@ -1,0 +1,39 @@
+type:mech
+name: "abound"
+speed: 0.50
+flying: false
+health: 810
+range: 190
+armor: 4
+  "weapons": [
+  {
+   name: abound-gun
+  reload: 21
+  rotate: false
+  mirror:false
+  x: 0
+  y: 10
+  range: 190
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 6
+    damage: 24
+    color: 80CB7
+    }
+    }
+    ]
+  research: {
+parent: skitch
+requirements: [
+ fossil/1200
+ geno/800
+ undoym/450
+ ]
+ objectives: [
+    {
+      type: SectorComplete
+      preset: gate
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+  "type": "GenericCrafter",
+  "health": 400,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 175,
+  "craftEffect": "none",
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "itemCapacity": 7,
+  "consumes": {
+    "items": [
+      "fossil/2"
+      "geno/2"
+    ]
+  },
+  "requirements": [
+    fossil/175
+    geno/90
+  ],
+  "category": "crafting",
+  "outputItem": "undoym/2"
+research: {
+    parent: desert-drill
+},
+researchCost: [
+    fossil/1200
+    geno/670
+  ]

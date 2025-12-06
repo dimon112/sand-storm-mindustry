@@ -1,0 +1,8 @@
+name: Quartz Wall
+type: StaticWall
+underBullets: true
+placeablePlayer: false
+requirements: []
+buildVisibility: editorOnly
+itemDrop: Quartz
+variants: 1

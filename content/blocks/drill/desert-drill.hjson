@@ -1,0 +1,24 @@
+name: "desert-drill"
+"description": "Drills ore with a sharp push, but because of this, most ores break"
+planet: big-desert
+health: 300
+size: 3
+type: BurstDrill
+category: production
+destrucrible: true
+breakable: true
+research: {
+parent: core-desert,
+requirements: [
+ fossil/30
+ ]
+}
+tier: 1
+drillTime: 300
+buildVisibility: shown
+alwaysUnlocked: false
+hasPower: false
+itemCapacity: 10
+requirements: [
+   fossil/40
+]

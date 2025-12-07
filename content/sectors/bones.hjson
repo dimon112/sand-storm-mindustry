@@ -2,8 +2,8 @@
   "planet": "big-desert",
   "sector": 85,
   "difficulty": 8
-  "name": "skeleton-base"
-  "description": "dangerous sector because of enemy base, but have new resource 
+  "name": "bones"
+  "description": "dangerous sector because of enemy base, but has valuable new resource"
   "alwaysUnlocked": false,
   "addStartingItems": true,
   "overrideLaunchDefaults":true,
@@ -21,4 +21,5 @@ objectives: [
     }
   ]
 }
+
 }

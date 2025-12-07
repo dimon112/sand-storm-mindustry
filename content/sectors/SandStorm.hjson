@@ -1,10 +1,10 @@
 
   "planet": "big-desert",
-  "name": "sand-storm"
+  "name": "SandStorm"
   "sector": 5,
   "difficulty": 1,
-  "captureWave": 15,
-  "description": "this sector have very more fossil and don't hard"
+  "captureWave": 10,
+  "description": "this sector is small but has a great amount of fossil"
   "alwaysUnlocked": false,
   "addStartingItems": false,
   "overrideLaunchDefaults":true,
@@ -12,12 +12,13 @@
   "startWaveTimeMultiplayer":2,
   "SectorComplete": false,
   research: {
-  parent: new-world 
+  parent: Fresh-and-new
 objectives: [
     {
       type: SectorCopmlete
-      preset: new-world
+      preset: Fresh-and-new
     }
   ]
 }
+
    

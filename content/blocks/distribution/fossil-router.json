@@ -1,0 +1,11 @@
+{
+    "type": "Router",
+    "name": "Desert router",
+	"description": "standard Router.",
+    "category": "distribution",
+    "health": 50,
+    "requirements": [
+        {"item": "fossil", "amount": 3}
+    ],
+    "research": "fossil-conveyor"
+}

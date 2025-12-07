@@ -1,0 +1,15 @@
+{
+    "type": "ItemBridge",
+    "name": "Fossil bridge conveyor",
+    "description": "Allows items to travel along difficult terrain or above steuctures",
+    "health": 125,
+	"itemCapacity": 10,
+    "requirements": [
+  "fossil/8"
+    ],
+    "range": 6,
+    "transportTime": 5,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "fossil-junction"
+}

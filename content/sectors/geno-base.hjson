@@ -14,8 +14,9 @@
 objectives: [
     {
       type: SectorCopmlete
-      preset: sand-storm
+      preset: SandStorm
     }
   ]
 }
+
 }

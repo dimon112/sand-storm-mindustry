@@ -10,7 +10,7 @@
   "noLighting":true,
   "SectorComplete": false,
   research: {
-  parent: sand-storm
+  parent: SandStorm
 objectives: [
     {
       type: SectorCopmlete
@@ -20,3 +20,4 @@ objectives: [
 }
 
 }
+

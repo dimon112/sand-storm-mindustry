@@ -1,5 +1,6 @@
 {
 "type": "Conveyor",
+"name": "fossil conveyor",
 "loadEffect": {
 "type": "ParticleEffect",
 "line": true,

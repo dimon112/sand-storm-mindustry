@@ -4,7 +4,18 @@ description: Blocks incoming enemy bullets. Can be destroyed.
 health: 1700
 size: 2
 category: defense
-research: desert-wall
+research: {
+parent: desert-wall
+objectives: [
+  {
+    type: OnSector
+    preset: SandStorm
+  }
+  ]
+}
+requirements: [
+  fossil/350
+]
 requirements : [
         fossil/24
     ]

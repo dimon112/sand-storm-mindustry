@@ -10,12 +10,13 @@
   "overrideLaunchDefaults":true,
   "noLighting":true,
   research: {
-  parent: skeleton-base
+  parent: bones
 objectives: [
     {
       type: SectorComplete 
-      preset: skeleton-base
+      preset: bones
     }
   ]
 }
+
 }

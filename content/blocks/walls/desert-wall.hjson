@@ -6,16 +6,10 @@ size: 1
 category: defense
 research: {
 parent: core-desert
-objectives: [
-  {
-    type: OnSector
-    preset: SandStorm
-  }
-  ]
-}
 requirements: [
   fossil/12
 ]
+}
 requirements : [
         fossil/6
     ]

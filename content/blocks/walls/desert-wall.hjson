@@ -9,7 +9,7 @@ parent: core-desert
 objectives: [
   {
     type: OnSector
-    preset: sand-storm
+    preset: SandStorm
   }
   ]
 }

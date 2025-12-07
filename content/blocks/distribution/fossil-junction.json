@@ -1,0 +1,14 @@
+{
+ "type": "junction",
+ "name": "Fossil junction",
+ "description": "Allows items to pass through, used for when 2 conveyors need to have separate items",
+ "health": 75,
+ "speed": 0.3,
+ "capacity": 2,
+ "size": 1,
+ "requirements": [
+  "fossil/4"
+ ], 
+ "research": "fossil-router",
+ "category": "distribution",
+ }

@@ -1,6 +1,6 @@
 {
        "type": "flying",     
-       "controller": "BuilderAI",
+       "controller": BuilderAI,
         "speed": 3,
         "targetGround": false,
         "targetAir": false,

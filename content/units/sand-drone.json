@@ -1,11 +1,19 @@
 {
+       "type": "flying",     
+       "controller": "BuilderAI",
         "speed": 3,
+        "targetGround": false,
+        "targetAir": false,
+
 
      	"lowAltitude": true,
         "mineSpeed": 6,
         "buildSpeed": 2.5,
         "mineTier": 1,
         "itemCapacity": 60,
+        "canAttack": false,
+        "isEnemy": false,
+        "coreUnitDock": true,
         "accel": 0.05,
         "drag": 0.04,
         "flying": true,

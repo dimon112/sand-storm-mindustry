@@ -2,7 +2,7 @@ type: item
 name: bone
 description:Pretty durable material, well suited for walls and also for strengthening armor but slowing down the carrier
   "cost": 2,
-  "color": "23be00",
+  "color": "#e3e3e3",
   "flammability": 0,
   "explosiveness": 0,
   "radioactivity": 0,

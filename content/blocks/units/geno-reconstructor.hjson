@@ -2,10 +2,11 @@ type: Reconstructor
 name: "geno reconstructor"
 size: 3
 health: 500
-description: "Upgrades inputted sand-bots into the second tier."
+description: "Upgrades inputted units into the second tier."
 constructTime: 1500
 upgrades: [
   [crater, support]
+  [skitch, abound]
 ]
 consumes: {
 items:{

@@ -1,12 +1,12 @@
 {
   "planet": "big-desert",
   "sector": 12,
-  "difficulty": 1
+  "difficulty": 5
   "name": "gate"
-  "description": "this sector have easy enemy base, rush to core to unlock more ways!
+  "description": "this sector has massive enemy base, utilize T2 units and use bigger unit cap to breeze through this sector, be ready, though!
   "alwaysUnlocked": false,
   "addStartingItems": true,
-  "overrideLaunchDefaults":true,
+  "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
   parent: SandStorm
@@ -19,3 +19,4 @@ objectives: [
 }
 
 }
+

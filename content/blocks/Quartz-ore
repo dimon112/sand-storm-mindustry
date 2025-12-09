@@ -1,0 +1,7 @@
+{
+"type": "OreBlock",
+"oreDefault": false,	
+"oreScale": 27.45,
+"oreThreshold": 0.87,
+"itemDrop": "Quartz"
+}

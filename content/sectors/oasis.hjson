@@ -2,20 +2,21 @@
   "planet": "big-desert",
   "sector": 43,
   "name":oasis
-  "difficulty": 5
+  "difficulty": 4
   "captureWave": 20,
-  "description": wow this oasis into desert!,
+  "description": wow this is an oasis in the desert!
   "alwaysUnlocked": false,
   "addStartingItems": true,
-  "overrideLaunchDefaults":true,
+  "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
   parent: geno-base
 objectives: [
     {
-      type: SectorCopmlete 
+      type: SectorComplete 
       preset:geno-base 
     }
   ]
 }
+
 }

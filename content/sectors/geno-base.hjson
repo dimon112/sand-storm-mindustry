@@ -13,12 +13,13 @@
   parent: SandStorm
 objectives: [
     {
-      type: SectorCopmlete
+      type: SectorComplete
       preset: SandStorm
     }
   ]
 }
 
 }
+
 
 

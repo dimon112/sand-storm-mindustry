@@ -1,4 +1,4 @@
-# sand Storm Mod
+# Sand Storm Mod
 
 A Mindustry mod that adds a custom desert planet with new items, units, and sectors
 

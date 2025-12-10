@@ -1,2 +1,8 @@
-# sand-storm mod
-My first mod
+# sand Storm Mod
+
+A Mindustry mod that adds a custom desert planet with new items, units, and sectors
+
+
+#credits
+
+special thanks to blehhh cat!

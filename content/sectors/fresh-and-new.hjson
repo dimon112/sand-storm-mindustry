@@ -2,7 +2,6 @@
   "planet": "big-desert",
   "sector": 0,
   "difficulty": 1,
-  "name": Fresh-and-new
   "description": "First Sector",
   "alwaysUnlocked": true,
   "addStartingItems": true,

@@ -12,11 +12,11 @@
   "startWaveTimeMultiplayer":2,
   "SectorComplete": false,
   research: {
-  parent: Fresh-and-new
+  parent: fresh-and-new
 objectives: [
     {
-      type: SectorCopmlete
-      preset: Fresh-and-new
+      type: SectorComplete
+      preset: fresh-and-new
     }
   ]
 }

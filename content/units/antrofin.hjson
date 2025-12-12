@@ -1,12 +1,12 @@
 type: legs
 name: "antrofin"
-speed: 0.50
+speed: 0.55
 flying: false
-health: 960
-range: 167
-armor: 6
+health: 1260
+range: 170
+armor: 8
 legCount: 4
-legLength: 20
+legLength: 22
 legTrns: 1
 legMoveSpace: 3.0
 hovering: true
@@ -46,3 +46,4 @@ requirements: [
   ]
 
 }
+

@@ -33,7 +33,8 @@ requirements: [
  objectives: [
     {
       type: SectorComplete
-      preset: gate
+      preset: oasis
     }
   ]
 }
+

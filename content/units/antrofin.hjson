@@ -32,7 +32,7 @@ hovering: true
     }
     ]
   research: {
-parent: skitch
+parent: abound
 requirements: [
  fossil/1200
  geno/800
@@ -41,7 +41,8 @@ requirements: [
  objectives: [
     {
       type: SectorComplete
-      preset: gate
+      preset: bones
     }
   ]
+
 }

@@ -3,23 +3,24 @@
   "sector": 85,
   "difficulty": 8
   "name": "bones"
-  "description": "dangerous sector because of enemy base, but has valuable new resource"
+  "description": "this sectors has enemy base, but has valuable new resource! capture it and get new technologies"
   "alwaysUnlocked": false,
-  "addStartingItems": true,
-  "overrideLaunchDefaults":true,
+  "addStartingItems": false,
+  "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
   parent: oasis
 objectives: [
     {
-      type: SectorCopmlete 
+      type: SectorComplete 
       preset: oasis
     }
     {
-      type: SectorCopmlete 
+      type: SectorComplete 
       preset: the-best-way 
     }
   ]
 }
 
 }
+

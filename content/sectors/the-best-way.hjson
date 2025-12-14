@@ -6,7 +6,7 @@
   "captureWave": 15,
   "description": "on this sector enemies will attack from 5 directions!
   "alwaysUnlocked": false,
-  "addStartingItems": true,
+  "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
@@ -20,3 +20,4 @@ objectives: [
 }
 
 }
+

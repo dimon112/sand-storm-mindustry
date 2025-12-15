@@ -10,6 +10,7 @@ breakable: true
 research: {
   parent: desert-drill
 requirements: [
+ fossil/400
  geno/400
  ]
 objectives: [
@@ -26,5 +27,7 @@ alwaysUnlocked: false
 hasPower: false
 itemCapacity: 15
 requirements: [
+   fossil/20
    geno/40
+
 ]

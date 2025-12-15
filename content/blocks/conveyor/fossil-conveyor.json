@@ -26,7 +26,7 @@
 "colorTo": "66B1FFFF"
 },
 "health": 25,
-"speed": 0.05,
+"speed": 0.08,
     "requirements": [
         "fossil/1"
     ],

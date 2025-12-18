@@ -1,0 +1,50 @@
+name: Raider
+description: jack of all trades, can serve as a wall, can attack both air and land and can be fed any type of ammo
+type: ItemTurret
+size: 1
+health: 500
+reload: 16
+range: 220
+shootCone: 10
+inaccuracy: 0
+targetAir: true
+targetGround: true
+outlineIcon: false
+rotateSpeed: 20
+category: turret
+requirements: [
+   {item: fossil, amount: 80}
+  ],
+
+ammoTypes: { 
+        sand:{
+            damage:13,
+            ammoMultiplier :1,
+            lifetime: 80,
+            speed: 3,
+       },
+        fossil:{
+            damage:17,
+            ammoMultiplier :2,
+            lifetime: 60,
+            speed: 9,
+       },
+       collarise:{
+            damage:34,
+            splashDamage:15,
+            splashDamageRadius: 20
+            status:blasted
+            ammoMultiplier :3,
+            lifetime: 130,
+            frontColor: 9e0e0e
+            backColor: 9e0e0e
+            speed: 6,
+       }
+    }
+
+research: {
+parent: desert-gun,
+requirements: [
+ fossil/1600
+ ]
+}

@@ -1,8 +1,8 @@
 name: Resonance Pulse Emitter
 type: PowerTurret
 size: 1
-health: 450
-reload: 25
+health: 225
+reload: 45
 range: 140
 shootCone: 10
 inaccuracy: 0
@@ -22,11 +22,11 @@ consumes: {
 shootType: {
   type: BasicBulletType
   speed: 5
-  damage: 25
+  damage: 28
   hitsize: 6.0
   hitEffect: hitFlamePlasma
   status: resonance1
-  statusDuration: 75
+  statusDuration: 80
 }
 research: {
 parent: desert-gun,

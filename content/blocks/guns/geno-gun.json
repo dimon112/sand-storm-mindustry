@@ -19,9 +19,9 @@ inaccuracy: 2
     "ammoTypes": { 
         "fossil":{
             "damage":28,
-            "status":"freezing"
             "lifetime": 60,
             "speed": 5,
+            "collidesGround": "false",
        }
     }, 
     "requirements": [

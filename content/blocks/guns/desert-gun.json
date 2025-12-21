@@ -19,10 +19,10 @@ inaccuracy: 5
     "ammoTypes": { 
         "fossil":{
             "damage":15,
-            "status":"freezing"
             "ammoMultiplier" :1,
             "lifetime": 60,
             "speed": 5,
+            "collidesAir": "false",
        },
        "collarise":{
             "damage":34,
@@ -34,6 +34,7 @@ inaccuracy: 5
             "frontColor": 9e0e0e
             "backColor": 9e0e0e
             "speed": 3,
+             "collidesAir": "false",
        }
     }, 
     "requirements": [

@@ -1,0 +1,21 @@
+type: ConsumeGenerator
+name: Small Burner
+description: Compact burner for early power generation. Accepts any flammable fuel.
+size: 1
+health: 100
+powerProduction: 0.9
+itemDuration: 80
+hasItems: true
+hasLiquids: false
+ambientSound: smelter
+ambientSoundVolume: 0.07
+
+requirements: [
+  fossil/35
+]
+
+category: power
+research: core-desert
+researchCost: [
+  fossil/1250
+]

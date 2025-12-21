@@ -20,14 +20,26 @@ ammoTypes: {
         sand:{
             damage:13,
             ammoMultiplier :1,
-            lifetime: 80,
+            lifetime: 75,
             speed: 3,
+            buildingDamageMultiplier: 0.1
+       },
+       geno:{
+            damage:6,
+            ammoMultiplier :1,
+            lifetime: 55,
+            speed: 5,
+            buildingDamageMultiplier: 0.1
+            reloadMultiplier: 0.3
+            ammoMultiplier: 10
+            inaccuracy: 10
        },
         fossil:{
             damage:17,
             ammoMultiplier :2,
-            lifetime: 60,
+            lifetime: 30,
             speed: 9,
+            buildingDamageMultiplier: 0.1
        },
        collarise:{
             damage:34,
@@ -35,10 +47,11 @@ ammoTypes: {
             splashDamageRadius: 20
             status:blasted
             ammoMultiplier :3,
-            lifetime: 130,
+            lifetime: 45,
             frontColor: 9e0e0e
             backColor: 9e0e0e
             speed: 6,
+            buildingDamageMultiplier: 0.1
        }
     }
 

@@ -1,0 +1,21 @@
+type: PowerNode
+name: Fossil Power Node
+description: Transmits power across the desert base. Reinforced with bone-cement for durability against sandstorms.
+size: 1
+health: 60
+maxNodes: 4
+laserRange: 6
+laserColor1: FFA500
+laserColor2: c06900
+
+requirements: [
+  fossil/10
+]
+
+category: power
+research: {
+  parent: small-burner-generator
+  requirements: [
+    fossil/1250
+  ]
+}

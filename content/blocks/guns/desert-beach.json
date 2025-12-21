@@ -18,18 +18,17 @@ inaccuracy: 1
     "recoilamount": 15,
     "ammoTypes": { 
         "fossil":{
-            "damage":20,
-            "status":"freezing"
+            "damage":13,
             "ammoMultiplier" :1,
             "lifetime": 45,
             "speed": 7,
        },
        "collarise":{
-            "damage":29,
-            "splashDamage":26,
+            "damage":19,
+            "splashDamage":16,
             "splashDamageRadius": 43
             "status":"blasted"
-            "ammoMultiplier" :2,
+            "ammoMultiplier" :3,
             "lifetime": 50,
             "frontColor": 9e0e0e
             "backColor": 9e0e0e

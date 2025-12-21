@@ -1,0 +1,19 @@
+type: Battery
+name: Fossil Battery
+description: Stores power, very limited, however is made only from fossil
+size: 1
+health: 80
+consumes: {
+  powerBuffered: 1000
+}
+baseExplosiveness: 1
+
+requirements: [
+  fossil/50
+]
+
+category: power
+research: small-burner-generator
+researchCost: [
+  fossil/2500
+]

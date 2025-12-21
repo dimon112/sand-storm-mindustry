@@ -5,13 +5,13 @@
     "targetAir": "true",
     "targetGround": "true",
     "size": 2,
-    "health": 500,
+    "health": 450,
     "outlineIcon": "false",
-    "reload": 65,
+    "reload": 75,
     "rotateSpeed": 20
         shoot: {
 type: ShootPattern
-shots: 6
+shots: 4
 }
 inaccuracy: 2
     "range": 230,

@@ -30,7 +30,7 @@ ammoTypes: {
             lifetime: 55,
             speed: 5,
             buildingDamageMultiplier: 0.1
-            reloadMultiplier: 0.3
+            reloadMultiplier: 2.2
             ammoMultiplier: 10
             inaccuracy: 10
        },
@@ -60,4 +60,5 @@ parent: desert-gun,
 requirements: [
  fossil/1600
  ]
+
 }

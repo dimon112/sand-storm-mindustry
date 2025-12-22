@@ -1,12 +1,13 @@
 {
-  "planet": "big-desert",
-  "sector": 155,
-  "difficulty": 2
-  "name": "155"
-  "alwaysUnlocked": false,
-  "addStartingItems": false,
-  "overrideLaunchDefaults":false,
-  "noLighting":true,
+  planet: big-desert
+  sector: 155
+  difficulty: 2
+  name: 155
+  alwaysUnlocked: false
+  addStartingItems: false
+  overrideLaunchDefaults: false
+  noLighting:true,
 
 }
+
 

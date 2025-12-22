@@ -6,7 +6,8 @@
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
-  noLighting:true,
+  noLighting:true
+  hidden: true
 
 }
 

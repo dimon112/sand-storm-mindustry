@@ -8,6 +8,7 @@
   overrideLaunchDefaults: false
   noLighting:true
   hidden: true
+  parent: gate
 
 }
 

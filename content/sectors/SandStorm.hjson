@@ -6,7 +6,7 @@
   "captureWave": 10,
   "description": "this sector is small but has a great amount of fossil"
   "alwaysUnlocked": false,
-  "addStartingItems": true,
+  "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
   "startWaveTimeMultiplayer":2,

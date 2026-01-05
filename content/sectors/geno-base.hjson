@@ -5,7 +5,7 @@
   "name": "geno-base"
   "description": "this sector have new ore and enemy base, be careful!
   "alwaysUnlocked": false,
-  "addStartingItems": true,
+  "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
   "SectorComplete": false,

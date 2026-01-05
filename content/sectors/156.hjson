@@ -8,6 +8,15 @@
   "overrideLaunchDefaults":false,
   "noLighting":true,
    hidden:true
+  research: { 
+  parent: gate 
+objectives: [ 
+    { 
+      type: SectorComplete  
+      preset: gate 
+    } 
+  ] 
+}
 
 }
 

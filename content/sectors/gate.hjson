@@ -5,7 +5,7 @@
   "name": "gate"
   "description": "this sector has massive enemy base, utilize T2 units and use bigger unit cap to breeze through this sector, be ready, though!
   "alwaysUnlocked": false,
-  "addStartingItems": true,
+  "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {

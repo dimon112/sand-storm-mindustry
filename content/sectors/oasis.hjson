@@ -6,7 +6,7 @@
   "captureWave": 20,
   "description": wow this is an oasis in the desert!
   "alwaysUnlocked": false,
-  "addStartingItems": true,
+  "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {

@@ -1,8 +1,8 @@
 type:mech
 name: "skitch"
-speed: 0.60
+speed: 0.57
 flying: false
-health: 350
+health: 375
 range: 150
 outline: false
 dpsEstimate: 20
@@ -26,12 +26,7 @@ dpsEstimate: 20
   research: {
 parent: Desert-factory
 requirements: [
- fossil/600
+ fossil/525
  ]
- objectives: [
-    {
-      type: SectorComplete
-      preset: geno-base
-    }
-  ]
+ 
 }

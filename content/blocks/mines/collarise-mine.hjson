@@ -11,6 +11,7 @@
  tileDamage: 45
  baseShake: 5
  priority: -1
+ category: effect
   research: {
 parent: desert-gun
 requirements: [

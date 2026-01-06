@@ -13,7 +13,7 @@
   research: {
 parent: desert-gun
 requirements: [
-  collaris/250
+  collarise/250
   geno/150
 ]
 }

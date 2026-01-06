@@ -5,7 +5,7 @@
  health: 75
  baseExplosiveness: 0.5
  lightningColor: #ff5c26
- tileDamage: 75
+ tileDamage: 950
  damage: 17
  length: 15
  tendrils: 10

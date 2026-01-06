@@ -3,7 +3,7 @@ name: "abound"
 speed: 0.45
 flying: false
 health: 810
-range: 5
+range: 80
 armor: 4
   "weapons": [
   {
@@ -18,7 +18,7 @@ armor: 4
     type: standardThorium
     speed: 5
     damage: 24
-    life: 25
+    lifetime: 125
     color: 80CB7
     }
     }
@@ -36,6 +36,7 @@ requirements: [
     }
   ]
 }
+
 
 
 

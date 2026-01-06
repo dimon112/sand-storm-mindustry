@@ -2,8 +2,7 @@ type:mech
 name: "abound"
 speed: 0.45
 flying: false
-health: 810
-range: 80
+health: 810
 armor: 4
   "weapons": [
   {
@@ -11,6 +10,7 @@ armor: 4
   reload: 21
   rotate: false
   mirror:false
+  range: 80
   x: 0
   y: 10 
   shootSound: shoot

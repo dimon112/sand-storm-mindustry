@@ -1,6 +1,7 @@
 {
 "type": "Conveyor",
 "name": "fossil conveyor",
+"junctionReplacement": "fossil-junction",
 "loadEffect": {
 "type": "ParticleEffect",
 "line": true,

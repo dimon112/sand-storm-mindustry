@@ -1,0 +1,23 @@
+ type: ShockMine
+ name: collaris mine
+ description: "blows up violently when stepped on"
+ underBullets: true
+ health: 75
+ baseExplosiveness: 0.5
+ lightningColor: #ff5c26
+ damage: 17
+ length: 5
+ tendrils: 10
+ baseShake: 5
+ priority: -1
+  research: {
+parent: desert-gun
+requirements: [
+  collaris/250
+  geno/150
+]
+}
+requirements : [
+        collaris/20
+        geno/5
+    ]

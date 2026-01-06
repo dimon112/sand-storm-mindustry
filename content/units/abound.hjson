@@ -2,13 +2,13 @@ type:mech
 name: "abound"
 speed: 0.40
 flying: false
-health: 750
+health: 775
 range: 10
 armor: 5
   "weapons": [
   {
    name: abound-gun
-  reload: 19
+  reload: 17
   rotate: false
   mirror:false
   x: 0
@@ -17,7 +17,7 @@ armor: 5
   bullet: {
     type: standardThorium
     speed: 5
-    damage: 27
+    damage: 35
     lifetime: 16
     color: 80CB7
     }
@@ -36,6 +36,7 @@ requirements: [
     }
   ]
 }
+
 
 
 

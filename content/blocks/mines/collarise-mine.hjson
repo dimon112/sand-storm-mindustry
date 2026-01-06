@@ -1,5 +1,5 @@
  type: ShockMine
- name: collaris mine
+ name: collarise mine
  description: "blows up violently when stepped on"
  underBullets: true
  health: 75
@@ -18,6 +18,6 @@ requirements: [
 ]
 }
 requirements : [
-        collaris/20
+        collarise/20
         geno/5
     ]

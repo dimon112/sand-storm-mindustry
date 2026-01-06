@@ -27,6 +27,7 @@
 },
 "health": 25,
 "speed": 0.08,
+"displayedSpeed": 10.5,   
     "requirements": [
         "fossil/1"
     ],

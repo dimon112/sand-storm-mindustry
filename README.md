@@ -8,4 +8,4 @@ A Mindustry mod that adds a custom desert planet with new items, units, and sect
 special thanks to blehhh cat!
 
 #contact
-discord: https://discord.gg/8gMjCTK6
+discord: https://discord.gg/2wPTtPpxvF

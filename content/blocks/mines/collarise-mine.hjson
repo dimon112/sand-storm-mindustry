@@ -2,13 +2,13 @@
  name: collarise mine
  description: "blows up violently when stepped on"
  underBullets: true
- health: 75
+ health: 45
  baseExplosiveness: 0.5
  lightningColor: #ff5c26
- tileDamage: 950
  damage: 17
  length: 15
  tendrils: 10
+ tileDamage: 45
  baseShake: 5
  priority: -1
   research: {

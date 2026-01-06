@@ -3,7 +3,7 @@ name: "abound"
 speed: 0.50
 flying: false
 health: 810
-range: 190
+range: 160
 armor: 4
   "weapons": [
   {
@@ -12,12 +12,11 @@ armor: 4
   rotate: false
   mirror:false
   x: 0
-  y: 10
-  range: 190
+  y: 10 
   shootSound: shoot
   bullet: {
     type: standardThorium
-    speed: 6
+    speed: 5
     damage: 24
     color: 80CB7
     }

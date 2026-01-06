@@ -28,13 +28,13 @@ parent: skitch
 requirements: [
  fossil/1200
  geno/800
- undoym/450
  ]
  objectives: [
     {
-      type: SectorComplete
-      preset: oasis
+      type: OnSector
+      preset: gate
     }
   ]
 }
+
 

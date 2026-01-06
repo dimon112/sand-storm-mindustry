@@ -3,7 +3,7 @@ name: "abound"
 speed: 0.45
 flying: false
 health: 810
-range: 80
+range: 10
 armor: 4
   "weapons": [
   {
@@ -36,6 +36,7 @@ requirements: [
     }
   ]
 }
+
 
 
 

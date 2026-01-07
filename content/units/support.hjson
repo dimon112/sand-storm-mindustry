@@ -38,7 +38,7 @@ range: 180
     }
     ]
     research: {
-parent: crater
+parent: geno-reconstructor
 requirements: [
  fossil/1200
  geno/1200
@@ -47,7 +47,12 @@ requirements: [
     {
       type: SectorComplete
       preset: oasis
+    },
+    {
+      type: OnSector
+      preset: gate
     }
   ]
 
 }
+

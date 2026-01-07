@@ -2,4 +2,4 @@ type: LogicBlock
 name: Micro Bone Processor
 description: "most basic processor, doesn't have a lot of resources so works poorly"
 hp: 140
-instructionsPerTick: 3,33333333
+instructionsPerTick: 3,333333

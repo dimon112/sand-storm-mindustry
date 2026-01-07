@@ -22,6 +22,13 @@ inaccuracy: 1
             "ammoMultiplier" :1,
             "lifetime": 45,
             "speed": 7,
+            "status":"radiation1"
+       },
+       "geno":{
+            "damage":18,
+            "ammoMultiplier" :2,
+            "lifetime": 45,
+            "speed": 7,
        },
        "collarise":{
             "damage":19,

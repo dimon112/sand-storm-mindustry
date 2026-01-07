@@ -2,7 +2,7 @@
  name: Micro Bone Processor
  description: "most basic processor, doesn't have a lot of resources so works poorly"
  hp: 140
- instructionsPerTick: 4 
+ instructionsPerTick: 3.33333333
  maxInstructionsPerTick: 3.33333333
     category: logic
   research: {

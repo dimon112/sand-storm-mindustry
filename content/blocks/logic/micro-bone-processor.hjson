@@ -1,5 +1,18 @@
-type: LogicBlock
-name: Micro Bone Processor
-description: "most basic processor, doesn't have a lot of resources so works poorly"
-hp: 140
-instructionsPerTick: 3.33333333
+ type: LogicBlock
+ name: Micro Bone Processor
+ description: "most basic processor, doesn't have a lot of resources so works poorly"
+ hp: 140
+ instructionsPerTick: 4 
+ maxInstructionsPerTick: 3.33333333
+    category: logic
+  research: {
+parent: core-desert
+requirements: [
+  bone/750
+  undoym/250
+]
+}
+requirements : [
+        bone/100
+        undoym/25
+    ]

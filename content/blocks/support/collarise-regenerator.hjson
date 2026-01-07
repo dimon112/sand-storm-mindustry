@@ -1,0 +1,33 @@
+ type: MendProjector
+ name: Collarise regenerator
+ description: "regenerates health of nearby blocks, reqiures undoym to function"
+ reload: 300
+ range: 65
+ healPercent: 15
+ hasItems: true
+ itemCapacity: 5
+ squareSprite: false
+ size: 2
+ emitLight: true
+ hasConsumers: true
+ consumers: { items: {
+    items: [
+      undoym/1 
+    ]
+     useTime: 300
+ }
+ }
+ category: effect
+  research: {
+ parent: fossil-node
+ requirements: [
+  undoym/150
+  geno/550
+  fossil/200
+ ]
+  }
+ requirements : [
+        undoym/25
+        geno/50
+        fossil/10
+    ]

@@ -11,7 +11,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.07
 
 consumes: {
-  type: ConsumeItemFlammable
+  itemFlammable: {}
 }
 
 requirements: [
@@ -23,4 +23,5 @@ research: core-desert
 researchCost: [
   fossil/1250
 ]
+
 

@@ -38,7 +38,7 @@ ammoTypes: {
             lifetime: 33,
             speed: 10,
             buildingDamageMultiplier: 0.2
-            status: radiation2
+            status: radiation1
             statusDuration: 300
             reloadMultiplier: 3
             ammoMultiplier: 8

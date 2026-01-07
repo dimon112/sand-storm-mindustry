@@ -1,6 +1,7 @@
  type: MendProjector
  name: Undoym regenerator
  description: "regenerates health of nearby blocks, reqiures undoym to function"
+ hp: 250
  reload: 300
  range: 65
  healPercent: 15

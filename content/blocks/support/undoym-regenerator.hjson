@@ -1,5 +1,5 @@
  type: MendProjector
- name: Collarise regenerator
+ name: Undoym regenerator
  description: "regenerates health of nearby blocks, reqiures undoym to function"
  reload: 300
  range: 65
@@ -10,7 +10,7 @@
  size: 2
  emitLight: true
  hasConsumers: true
- consumers: { items: {
+ consumes: { items: {
     items: [
       undoym/1 
     ]

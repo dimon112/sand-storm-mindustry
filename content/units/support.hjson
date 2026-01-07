@@ -5,7 +5,7 @@ flying: true
 health: 300
 engineOffset: 0
 range: 180
-immunities: radiation1
+immunities: [radiation1]
   "weapons": [
   {
    name: supportg1
@@ -56,4 +56,5 @@ requirements: [
   ]
 
 }
+
 

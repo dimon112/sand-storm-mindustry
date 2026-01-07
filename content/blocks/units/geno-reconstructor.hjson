@@ -29,8 +29,8 @@ requirements: [
 ]
 objectives: [
   {
-    type: SectorComplete 
-    preset: oasis
+    type: OnSector
+    preset: gate
   }
   ]
 }

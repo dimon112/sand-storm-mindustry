@@ -9,14 +9,16 @@
  squareSprite: false
  size: 2
  emitLight: true
- consumes: { items: {
+ nonOptionalConsumers: {
+  items: {
     items: [
-      undoym/1 
-    ]
-     optional: false
-     booster: false
-     useTime: 400
+      undoym/1
+     ]
+   }
  }
+
+ phaseUseTime: 300  // 5 секунд на 1 предмет
+
  }
  category: effect
   research: {

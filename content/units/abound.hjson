@@ -5,7 +5,7 @@ flying: false
 health: 775
 range: 10
 armor: 5
-immunities: [radiation]
+immunities: [radiation1]
   "weapons": [
   {
    name: abound-gun
@@ -37,6 +37,7 @@ requirements: [
     }
   ]
 }
+
 
 
 

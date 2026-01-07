@@ -38,6 +38,8 @@ ammoTypes: {
             lifetime: 33,
             speed: 10,
             buildingDamageMultiplier: 0.2
+            status: radiation2
+            statusDuration: 80 
             reloadMultiplier: 3
             ammoMultiplier: 8
             inaccuracy: 14

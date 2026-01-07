@@ -3,7 +3,7 @@
  description: "regenerates health of nearby blocks, reqiures undoym to function"
  hp: 250
  reload: 300
- range: 65
+ range: 195
  healPercent: 15
  hasItems: true
  itemCapacity: 5

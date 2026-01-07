@@ -19,7 +19,7 @@
 
  phaseUseTime: 300  // 5 секунд на 1 предмет
 
- }
+ 
  category: effect
   research: {
  parent: fossil-node

@@ -39,7 +39,7 @@ ammoTypes: {
             speed: 10,
             buildingDamageMultiplier: 0.2
             status: radiation2
-            statusDuration: 80 
+            statusDuration: 300
             reloadMultiplier: 3
             ammoMultiplier: 8
             inaccuracy: 14

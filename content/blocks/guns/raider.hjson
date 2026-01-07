@@ -32,6 +32,8 @@ ammoTypes: {
             reloadMultiplier: 2.2
             ammoMultiplier: 10
             inaccuracy: 14
+            status: radiation2
+            statusDuration: 300
        },
        undoym:{
             damage:12,
@@ -39,7 +41,7 @@ ammoTypes: {
             speed: 10,
             buildingDamageMultiplier: 0.2
             status: radiation1
-            statusDuration: 300
+            statusDuration: 420
             reloadMultiplier: 3
             ammoMultiplier: 8
             inaccuracy: 14

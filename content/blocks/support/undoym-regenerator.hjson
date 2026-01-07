@@ -9,12 +9,13 @@
  squareSprite: false
  size: 2
  emitLight: true
- hasConsumers: true
  consumes: { items: {
     items: [
       undoym/1 
     ]
-     useTime: 300
+     optional: false
+     booster: false
+     useTime: 400
  }
  }
  category: effect

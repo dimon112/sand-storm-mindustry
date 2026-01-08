@@ -31,9 +31,11 @@ ammoTypes: {
             buildingDamageMultiplier: 0.1
             reloadMultiplier: 2.2
             ammoMultiplier: 10
-            inaccuracy: 14
+            inaccuracy: 11
             status: radiation2
             statusDuration: 300
+            frontColor: #a5fc0d
+            backColor: #a5fc0d
        },
        undoym:{
             damage:12,
@@ -44,7 +46,9 @@ ammoTypes: {
             statusDuration: 420
             reloadMultiplier: 3
             ammoMultiplier: 8
-            inaccuracy: 14
+            inaccuracy: 12
+            frontColor: #567d2e
+            backColor: #567d2e
        },
         fossil:{
             damage:17,
@@ -52,6 +56,69 @@ ammoTypes: {
             lifetime: 30,
             speed: 9,
             buildingDamageMultiplier: 0.1
+            frontColor: #dbc412
+            backColor:  #dbc412
+           
+       },
+       Quartz:{
+            damage:25,
+            ammoMultiplier :2,
+            reloadMultiplier: 0.50
+            lifetime: 60,
+            speed: 4,
+            buildingDamageMultiplier: 0.3
+            frontColor: #ffffff
+            backColor:  #ffffff
+
+            trailLength: 4
+            trailWidth: 2
+            trailColor: #ffffff
+
+            fragBullets: 5
+            fragVelocityMin: 0.6
+            fragVelocityMax: 1.2
+            fragLifeMin: 0.6
+            fragLifeMax: 1.2
+               fragBullet: {
+      type: BasicBulletType
+      damage: 6
+      splashDamage: 3
+      splashDamageRadius: 15
+      lifetime: 15
+      speed: 2.5
+      frontColor: #ffffff
+      backColor: #ffffff
+    }  
+       },
+       Quartz:{
+            damage:38,
+            ammoMultiplier :2,
+            reloadMultiplier: 0.50
+            lifetime: 16,
+            speed: 15,
+            buildingDamageMultiplier: 0.2
+            frontColor: #ffffff
+            backColor:  #ffffff
+
+            trailLength: 9
+            trailWidth: 3
+            trailColor: #ffffff
+
+            fragBullets: 3
+            fragVelocityMin: 0.9
+            fragVelocityMax: 1.6
+            fragLifeMin: 0.7
+            fragLifeMax: 1.1
+               fragBullet: {
+      type: BasicBulletType
+      damage: 12
+      splashDamage: 6
+      splashDamageRadius: 19
+      lifetime: 26
+      speed: 3.5
+      frontColor: #ffffff
+      backColor: #ffffff
+    }
        },
        collarise:{
             damage:22,
@@ -60,10 +127,11 @@ ammoTypes: {
             status:blasted
             ammoMultiplier :3,
             lifetime: 45,
-            frontColor: 9e0e0e
-            backColor: 9e0e0e
+            frontColor: #9e0e0e
+            backColor: #9e0e0e
             speed: 6,
             buildingDamageMultiplier: 0.1
+
        }
     }
 

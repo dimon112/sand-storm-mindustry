@@ -1,0 +1,11 @@
+type: item
+name: pyrit
+description: Much sturdier than fossil, used in more advanced blocks
+  cost: 2,
+  color: #c7a020,
+  flammability: 0,
+  explosiveness: 0,
+  radioactivity: 0,
+  charge: 0
+  research: fossil
+  hiddenOnPlanets: [serpulo, erekir]

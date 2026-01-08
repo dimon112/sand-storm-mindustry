@@ -29,7 +29,8 @@ inaccuracy: 1
             "ammoMultiplier" :2,
             "lifetime": 45,
             "speed": 7,
-            "status":"radiation2"
+            "status":"radiation2",
+            "statusDuration": 120
        },
        "collarise":{
             "damage":19,

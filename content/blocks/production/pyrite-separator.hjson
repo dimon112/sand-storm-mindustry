@@ -1,0 +1,34 @@
+  type: GenericCrafter
+  health: 250
+  size: 2
+  hasItems: true
+  craftTime: 120
+  craftEffect: none
+  hasPower: false
+  hasLiquids: false
+  updateEffect :  none
+  itemCapacity: 25
+  consumes: {
+    items: [
+      fossil/5
+      sand/3
+    ]
+  }
+  requirements: [
+    fossil/200
+    sand/50
+    geno/70
+  ]
+  category: crafting
+  outputItems: [
+  pyrit/2
+  sand/3
+]
+research: {
+    parent: sand-mixer
+}
+researchCost: [
+    fossil/2000
+    sand/750
+    geno/750
+  ]

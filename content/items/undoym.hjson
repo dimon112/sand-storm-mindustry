@@ -2,7 +2,7 @@ type: item
 name: undoym
 description:gem created from fossils and geno, needs for repair buildings and healing units
   "cost": 1,
-  "color": "ff6b08",
+  "color": "#58912c",
   "flammability": 0,
   "explosiveness": 0.1,
   "radioactivity": 0.5,

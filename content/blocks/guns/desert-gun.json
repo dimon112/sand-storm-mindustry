@@ -23,8 +23,8 @@ inaccuracy: 5
             "lifetime": 60,
             "speed": 5,
             "collidesAir": "false",
-            "frontColor": a5fc0d
-            "backColor": a5fc0d
+            "frontColor": dbc412
+            "backColor": dbc412
        },
        "geno":{
             "damage":20,

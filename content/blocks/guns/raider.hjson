@@ -34,8 +34,8 @@ ammoTypes: {
             inaccuracy: 11
             status: radiation2
             statusDuration: 300
-            frontColor: #a5fc0d
-            backColor: #a5fc0d
+            frontColor: a5fc0d
+            backColor: a5fc0d
        },
        undoym:{
             damage:12,
@@ -47,8 +47,8 @@ ammoTypes: {
             reloadMultiplier: 3
             ammoMultiplier: 8
             inaccuracy: 12
-            frontColor: #567d2e
-            backColor: #567d2e
+            frontColor: 567d2e
+            backColor: 567d2e
        },
         fossil:{
             damage:17,
@@ -56,8 +56,8 @@ ammoTypes: {
             lifetime: 30,
             speed: 9,
             buildingDamageMultiplier: 0.1
-            frontColor: #dbc412
-            backColor:  #dbc412
+            frontColor: dbc412
+            backColor:  dbc412
            
        },
        Quartz:{
@@ -67,12 +67,12 @@ ammoTypes: {
             lifetime: 60,
             speed: 4,
             buildingDamageMultiplier: 0.3
-            frontColor: #ffffff
-            backColor:  #ffffff
+            frontColor: ffffff
+            backColor:  ffffff
 
             trailLength: 4
             trailWidth: 2
-            trailColor: #ffffff
+            trailColor: ffffff
 
             fragBullets: 5
             fragVelocityMin: 0.6

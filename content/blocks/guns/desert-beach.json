@@ -22,6 +22,8 @@ inaccuracy: 1
             "ammoMultiplier" :1,
             "lifetime": 45,
             "speed": 7,
+            "frontColor": dbc412
+            "backColor": dbc412
             
        },
        "geno":{
@@ -30,7 +32,9 @@ inaccuracy: 1
             "lifetime": 45,
             "speed": 7,
             "status":"radiation2",
-            "statusDuration": 120
+            "statusDuration": 120,
+            "frontColor": a5fc0d
+            "backColor": a5fc0d
        },
        "collarise":{
             "damage":19,

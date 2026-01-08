@@ -22,13 +22,18 @@ inaccuracy: 2
             "lifetime": 60,
             "speed": 5,
             "collidesGround": "false",
+            "frontColor": dbc412
+            "backColor": dbc412
        },
               "geno":{
-            "damage":30,
-            "ammoMultiplier" :2,
+            "damage":36,
+            "ammoMultiplier" :3,
             "lifetime": 45,
             "speed": 6,
             "status":"radiation2"
+            "frontColor": a5fc0d
+            "backColor": a5fc0d
+            
        }
     }, 
     "requirements": [

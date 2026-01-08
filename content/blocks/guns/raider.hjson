@@ -86,8 +86,8 @@ ammoTypes: {
       splashDamageRadius: 15
       lifetime: 15
       speed: 2.5
-      frontColor: #ffffff
-      backColor: #ffffff
+      frontColor: ffffff
+      backColor: ffffff
     }  
        },
        bone:{
@@ -97,12 +97,12 @@ ammoTypes: {
             lifetime: 16,
             speed: 15,
             buildingDamageMultiplier: 0.2
-            frontColor: #ffffff
-            backColor:  #ffffff
+            frontColor: ffffff
+            backColor:  ffffff
 
             trailLength: 9
             trailWidth: 3
-            trailColor: #ffffff
+            trailColor: ffffff
 
             fragBullets: 3
             fragVelocityMin: 0.9
@@ -116,8 +116,8 @@ ammoTypes: {
       splashDamageRadius: 19
       lifetime: 26
       speed: 3.5
-      frontColor: #ffffff
-      backColor: #ffffff
+      frontColor: ffffff
+      backColor: ffffff
     }
        },
        collarise:{
@@ -127,8 +127,8 @@ ammoTypes: {
             status:blasted
             ammoMultiplier :3,
             lifetime: 45,
-            frontColor: #9e0e0e
-            backColor: #9e0e0e
+            frontColor: 9e0e0e
+            backColor: 9e0e0e
             speed: 6,
             buildingDamageMultiplier: 0.1
 

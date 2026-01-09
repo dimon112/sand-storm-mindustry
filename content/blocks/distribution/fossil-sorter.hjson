@@ -1,0 +1,4 @@
+type: Sorter
+name: Fossil Sorter
+description: "sorts items"
+hp: 30

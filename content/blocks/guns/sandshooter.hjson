@@ -13,7 +13,7 @@ inaccuracy: 6
 shootSound: spray
 ammoPerShot: 1
 outlineIcon: false
-
+trackingRange: 120
 hasPower: true
 hasItems: true
 maxAmmo: 120

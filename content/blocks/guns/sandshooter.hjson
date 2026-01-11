@@ -16,7 +16,7 @@ outlineIcon: false
 
 hasPower: true
 hasItems: true
-itemCapacity: 120
+maxAmmo: 120
 
 consumes: {
   power: 0.5 
@@ -29,7 +29,7 @@ ammoTypes: {
     knockback: 2
     speed: 8
     lifetime: 10
-    ammoMultiplier: 20
+    ammoMultiplier: 10
     frontColor: f4e8c1
     backColor: e4d5a8
     width: 3

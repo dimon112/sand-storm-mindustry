@@ -1,5 +1,5 @@
 localizedName: "Big Desert"
-parent: serpulo # Попробуй привязать к Серпуло вместо Солнца
+parent: sun
 accessible: true
 alwaysUnlocked: true
 defaultCore: "core-desert"

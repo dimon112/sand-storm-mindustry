@@ -1,2 +1,1 @@
-shownPlanets: []
-hidden: true
+hiddenPlanets: [serpulo, erekir, big-desert]

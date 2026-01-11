@@ -55,7 +55,7 @@ inaccuracy: 1
 "category": "turret"
 "shootSound": "laser"
 research: {
-parent: desert-gun,
+parent: raider
 requirements: [
  fossil/1200
  geno/400

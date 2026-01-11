@@ -6,6 +6,11 @@ health: 375
 range: 150
 outline: false
 dpsEstimate: 20
+ammoType: {
+  type: ItemAmmoType
+  item: fossil
+  ammoPerItem: 15
+}
   "weapons": [
   {
    name: skitch-gun
@@ -30,3 +35,4 @@ requirements: [
  ]
  
 }
+

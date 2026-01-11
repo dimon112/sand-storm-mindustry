@@ -20,7 +20,7 @@ inaccuracy: 1
         "fossil":{
             "damage":13,
             "ammoMultiplier" :1,
-            "lifetime": 45,
+            "lifetime": 27,
             "speed": 7,
             "frontColor": dbc412
             "backColor": dbc412
@@ -29,7 +29,7 @@ inaccuracy: 1
        "geno":{
             "damage":18,
             "ammoMultiplier" :2,
-            "lifetime": 45,
+            "lifetime": 27,
             "speed": 7,
             "status":"radiation2",
             "statusDuration": 120,
@@ -42,7 +42,7 @@ inaccuracy: 1
             "splashDamageRadius": 43
             "status":"blasted"
             "ammoMultiplier" :3,
-            "lifetime": 50,
+            "lifetime": 31,
             "frontColor": 9e0e0e
             "backColor": 9e0e0e
             "speed": 6,

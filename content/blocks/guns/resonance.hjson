@@ -32,6 +32,6 @@ research: {
 parent: desert-gun,
 requirements: [
  fossil/320
- Quartz/75
+ quartz/75
  ]
 }

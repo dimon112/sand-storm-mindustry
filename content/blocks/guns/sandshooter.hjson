@@ -4,18 +4,19 @@ description: Shoots pressurized sand, Requires power to operate the compressor
 size: 2
 health: 250
 reload: 90
-range: 80  
+range: 2
 rotateSpeed: 6
 targetAir: true
 targetGround: true
 shootCone: 15
 inaccuracy: 6
 shootSound: spray
-ammoPerShot: 3
+ammoPerShot: 1
+outlineIcon: false
 
 hasPower: true
 hasItems: true
-itemCapacity: 30 
+itemCapacity: 120
 
 consumes: {
   power: 0.5 
@@ -24,11 +25,11 @@ consumes: {
 ammoTypes: {
   sand: {
     type: BasicBulletType
-    damage: 22
-    knockback: 20
+    damage: 1.5
+    knockback: 2
     speed: 8
     lifetime: 10
-    ammoMultiplier: 1
+    ammoMultiplier: 20
     frontColor: f4e8c1
     backColor: e4d5a8
     width: 3

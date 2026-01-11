@@ -26,14 +26,14 @@
     radius: 1,
 
     itemWhitelist: [
-  bone
-  collarise
-  fossil
-  geno
-  pyrit
-  quartz
-  undoym
-  sand
+  "bone",
+  "collarise",
+  "fossil",
+  "geno",
+  "pyrit",
+  "quartz",
+  "undoym",
+  "sand"
 ]
 
     mesh: {

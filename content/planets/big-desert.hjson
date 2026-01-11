@@ -1,96 +1,50 @@
 {
 
     generator: "SerpuloPlanetGenerator",
-
     parent:sun,
-
     solarSystem:sun,
-
     iconColor: 158400,
-
     orbitRadius: 10,
-
     hasAtmosphere: true,
-
     updateLighting: true,
-
     bloom: false,
-
     atmosphereRadIn: 0.5,
-
     atmosphereRadOut: 1.2,
-
     atmosphereColor: 925115,
-
     drawOrbit: true,
-
     accessible: true,
-
     alwaysUnlocked: true,
-
     defaultCore: "core-desert",
-
     sectorSeed: 1423,
-
     startSector: 0,
-
     allowLaunchToNumbered: false,
-
     sectorSize: 3,
-
     clearSectorOnLose: false,
-
     allowSectorInvasion: true,
-
     allowLaunchSchematics: true,
-
-    allowLaunchLoadout: true,
-
+    allowLaunchLoadout: true, 
     radius: 1,
 
     hiddenItems: [
-
         "copper",
-
         "lead",
-
         "scrap",
-
         "graphite",
-
         "coal",
-
         "titanium",
-
         "thorium",
-
         "silicon",
-
         "plastanium",
-
         "phase-fabric",
-
         "surge-alloy",
-
         "spore-pod",
-
-        "fissle-matter",
-
-        "dormant-cyst",
-
         "blast-compound",
-
         "pyratite",
-
         "metaglass",
-
         "beryllium",
-
         "oxide",
-
         "tungsten",
-
-        "carbide",
+        "carbide"
 
         ],
 

@@ -1,0 +1,19 @@
+type: Sorter
+name: Inverted Fossil Sorter
+description: Sorts items based on configuration, Inverted behavior of normal sorter, Lets pass any other items except for the one which is selected
+health: 30
+size: 1
+invert: true
+
+requirements: [
+  fossil/6
+]
+
+category: distribution
+
+research: {
+  parent: fossil-sorter
+  requirements: [
+    fossil/150
+  ]
+}

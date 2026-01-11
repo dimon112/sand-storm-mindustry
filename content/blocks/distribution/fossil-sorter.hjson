@@ -1,5 +1,18 @@
 type: Sorter
 name: Fossil Sorter
-description: "sorts items"
-hp: 30
+description: Sorts items based on configuration, Click to select which items pass through
+health: 30
+size: 1
+
+requirements: [
+  fossil/6
+]
+
 category: distribution
+
+research: {
+  parent: fossil-router
+  requirements: [
+    fossil/50
+  ]
+}

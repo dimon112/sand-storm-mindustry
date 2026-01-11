@@ -1,5 +1,5 @@
 {
-    generator: "SerpuloPlanetGenerator",
+    generator: "PlanetGenerator",
     parent:sun,
     solarSystem:sun,
     iconColor: 158400,

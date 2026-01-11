@@ -20,7 +20,7 @@ inaccuracy: 5
         "fossil":{
             "damage":15,
             "ammoMultiplier" :1,
-            "lifetime": 17,
+            "lifetime": 37,
             "speed": 5,
             "collidesAir": "false",
             "frontColor": dbc412
@@ -43,7 +43,7 @@ inaccuracy: 5
             "splashDamageRadius": 20
             "status":"blasted"
             "ammoMultiplier" :2,
-            "lifetime": 120,
+            "lifetime": 39,
             "frontColor": 9e0e0e
             "backColor": 9e0e0e
             "speed": 3,

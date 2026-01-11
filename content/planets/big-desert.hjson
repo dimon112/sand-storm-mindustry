@@ -1,66 +1,131 @@
-   {
-    generator: "SerpuloPlanetGenerator",
-    parent:sun,
-    solarSystem:sun,
-    iconColor: 158400,
-    orbitRadius: 10,
-    hasAtmosphere: true,
-    updateLighting: true,
-    bloom: false,
-    atmosphereRadIn: 0.5,
-    atmosphereRadOut: 1.2,
-    atmosphereColor: 925115,
-    drawOrbit: true,
-    accessible: true,
-    alwaysUnlocked: true,
-    defaultCore: "core-desert",
-    sectorSeed: 1423,
-    startSector: 0,
-    allowLaunchToNumbered: false,
-    sectorSize: 3,
-    clearSectorOnLose: false,
-    allowSectorInvasion: true,
-    allowLaunchSchematics: true,
-    allowLaunchLoadout: true,
-    radius: 1,
-    hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "fissileMatter",
-        "dormantCyst",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        ],
-    mesh: {
-        type: "NoiseMesh",  //NoiseMesh NoiseMesh
-        seed: 86424,
-        divisions: 5,       //3         3
-        radius: 1,        //0.3      0.4
-        planet: "big-desert",   //2         big-desert
-        color1: "#FF6347",     //ff7a38    158400
-        color2: "#FFA500",     //ff7a38    131316
-        colorOct: 4, //i 1
-        colorPersistence: 0.5, //f 0.5
-        colorScale: 0.5, //f 1
-        colorThreshold: 0.5, //f 0.5
-        octaves: 4,         //1         4
-        persistence: 1,     //0.01      1
-        scale: 0.75,         //0.01      1.1
-        mag: 1.2,             //1         5
-    }
+{
+
+    generator: "SerpuloPlanetGenerator",
+
+    parent:sun,
+
+    solarSystem:sun,
+
+    iconColor: 158400,
+
+    orbitRadius: 10,
+
+    hasAtmosphere: true,
+
+    updateLighting: true,
+
+    bloom: false,
+
+    atmosphereRadIn: 0.5,
+
+    atmosphereRadOut: 1.2,
+
+    atmosphereColor: 925115,
+
+    drawOrbit: true,
+
+    accessible: true,
+
+    alwaysUnlocked: true,
+
+    defaultCore: "core-desert",
+
+    sectorSeed: 1423,
+
+    startSector: 0,
+
+    allowLaunchToNumbered: false,
+
+    sectorSize: 3,
+
+    clearSectorOnLose: false,
+
+    allowSectorInvasion: true,
+
+    allowLaunchSchematics: true,
+
+    allowLaunchLoadout: true,
+
+    radius: 1,
+
+    hiddenItems: [
+
+        "copper",
+
+        "lead",
+
+        "scrap",
+
+        "graphite",
+
+        "coal",
+
+        "titanium",
+
+        "thorium",
+
+        "silicon",
+
+        "plastanium",
+
+        "phase-fabric",
+
+        "surge-alloy",
+
+        "spore-pod",
+
+        "fissle-matter",
+
+        "dormant-cyst",
+
+        "blast-compound",
+
+        "pyratite",
+
+        "metaglass",
+
+        "beryllium",
+
+        "oxide",
+
+        "tungsten",
+
+        "carbide",
+
+        ],
+
+    mesh: {
+
+        type: "NoiseMesh",  //NoiseMesh NoiseMesh
+
+        seed: 86424,
+
+        divisions: 5,       //3         3
+
+        radius: 1,        //0.3      0.4
+
+        planet: "big-desert",   //2         big-desert
+
+        color1: "#FF6347",     //ff7a38    158400
+
+        color2: "#FFA500",     //ff7a38    131316
+
+        colorOct: 4, //i 1
+
+        colorPersistence: 0.5, //f 0.5
+
+        colorScale: 0.5, //f 1
+
+        colorThreshold: 0.5, //f 0.5
+
+        octaves: 4,         //1         4
+
+        persistence: 1,     //0.01      1
+
+        scale: 0.75,         //0.01      1.1
+
+        mag: 1.2,             //1         5
+
+    }
+
 }

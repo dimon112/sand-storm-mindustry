@@ -4,7 +4,7 @@ description: Shoots pressurized sand, Requires power to operate the compressor
 size: 2
 health: 250
 reload: 90
-range: 2
+range: 80
 rotateSpeed: 6
 targetAir: true
 targetGround: true

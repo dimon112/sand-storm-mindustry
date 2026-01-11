@@ -1,62 +1,41 @@
-{
-    "generator": "SerpuloPlanetGenerator",
-    "parent": "sun",
-    "solarSystem": "sun",
-    "iconColor": "158400",
-    "orbitRadius": 10,
-    "hasAtmosphere": true,
-    "updateLighting": true,
-    "bloom": false,
-    "atmosphereRadIn": 0.5,
-    "atmosphereRadOut": 1.2,
-    "atmosphereColor": "925115",
-    "drawOrbit": true,
-    "accessible": true,
-    "alwaysUnlocked": true,
-    "defaultCore": "core-desert",
-    "sectorSeed": 1423,
-    "startSector": 0,
-    "allowLaunchToNumbered": false,
-    "sectorSize": 3,
-    "clearSectorOnLose": false,
-    "allowSectorInvasion": true,
-    "allowLaunchSchematics": true,
-    "allowLaunchLoadout": true,
-    "radius": 1,
-    "hiddenItems": [
-        "fissile-matter",
-        "dormant-cyst",
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide"
-    ],
-    "mesh": {
-        "type": "NoiseMesh",
-        "seed": 86424,
-        "divisions": 5,
-        "radius": 1,
-        "planet": "big-desert",
-        "color1": "FF6347",
-        "color2": "FFA500",
-        "octaves": 4,
-        "persistence": 1,
-        "scale": 0.75,
-        "mag": 1.2
-    }
+generator: SerpuloPlanetGenerator
+parent: sun
+solarSystem: sun
+iconColor: ffb300
+orbitRadius: 10
+hasAtmosphere: true
+updateLighting: true
+bloom: false
+atmosphereRadIn: 0.5
+atmosphereRadOut: 1.2
+atmosphereColor: 925115
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: core-desert
+sectorSeed: 1423
+startSector: 0
+allowLaunchToNumbered: false
+sectorSize: 3
+clearSectorOnLose: false
+allowSectorInvasion: true
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+radius: 1
+// Используем itemWhitelist, так как hiddenItems в этой версии часто капризничает
+itemWhitelist: [
+  sand, fossil, geno, quartz, undoym, pyrit, bone
+]
+mesh: {
+  type: NoiseMesh
+  seed: 86424
+  divisions: 5
+  radius: 1
+  planet: big-desert
+  color1: FF6347
+  color2: FFA500
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1.2
 }

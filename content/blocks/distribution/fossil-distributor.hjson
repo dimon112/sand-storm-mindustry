@@ -1,0 +1,18 @@
+type: Router
+health: 100
+size: 2
+name: Fossil Distributor
+description: Distributes items evenly in 7 directions
+
+requirements: [
+  fossil/12
+]
+
+category: distribution
+
+research: {
+  parent: fossil-router
+  requirements: [
+    fossil/125
+  ]
+}

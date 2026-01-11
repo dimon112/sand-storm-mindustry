@@ -1,0 +1,19 @@
+type: OverflowGate
+name: Fossil Overflow Gate
+description: Lets pass items forward, but if its blocked then outputs from sides
+health: 30
+size: 1
+invert: true
+
+requirements: [
+  fossil/6
+]
+
+category: distribution
+
+research: {
+  parent: overflow-fossil-gate
+  requirements: [
+    fossil/250
+  ]
+}

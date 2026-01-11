@@ -44,7 +44,7 @@
         "beryllium",
         "oxide",
         "tungsten",
-        "carbid",
+        "carbide",
         ],
     mesh: {
         type: "NoiseMesh",  //NoiseMesh NoiseMesh

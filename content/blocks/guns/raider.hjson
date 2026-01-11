@@ -60,7 +60,7 @@ ammoTypes: {
             backColor:  dbc412
            
        },
-       Quartz:{
+       quartz:{
             damage:25,
             ammoMultiplier :2,
             reloadMultiplier: 0.50
@@ -91,12 +91,12 @@ ammoTypes: {
     }  
        },
        bone:{
-            damage:55,
+            damage:57,
             ammoMultiplier :2,
-            reloadMultiplier: 0.25
+            reloadMultiplier: 0.35
             lifetime: 16,
             speed: 15,
-            buildingDamageMultiplier: 0.2
+            buildingDamageMultiplier: 0.1
             frontColor: ffffff
             backColor:  ffffff
 
@@ -111,9 +111,9 @@ ammoTypes: {
             fragLifeMax: 1.1
                fragBullet: {
       type: BasicBulletType
-      damage: 12
-      splashDamage: 8
-      splashDamageRadius: 19
+      damage: 17
+      splashDamage: 9
+      splashDamageRadius: 22
       lifetime: 26
       speed: 3.5
       frontColor: ffffff

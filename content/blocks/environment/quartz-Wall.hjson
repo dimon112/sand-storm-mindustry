@@ -4,5 +4,5 @@ underBullets: true
 placeablePlayer: false
 requirements: []
 buildVisibility: editorOnly
-itemDrop: Quartz
+itemDrop: quartz
 variants: 1

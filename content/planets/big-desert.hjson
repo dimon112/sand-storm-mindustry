@@ -23,29 +23,15 @@
     allowLaunchSchematics: true,
     allowLaunchLoadout: true,
     radius: 1,
-    hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "fissle-matter",
-        "dormant-cyst",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide"
-        ],
+   "itemWhitelist": [
+        "sand",
+        "fossil",
+        "geno",
+        "Quartz",
+        "undoym",
+        "pyrit",
+        "bone"
+    ],
     mesh: {
         type: "NoiseMesh",  //NoiseMesh NoiseMesh
         seed: 86424,

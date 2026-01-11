@@ -1,5 +1,5 @@
 type: item
-name: Quartz
+name: quartz
 description: Quartz, used in liquid buildings and as an ammo
   "cost": 1,
   "color": "ffffff",

@@ -25,28 +25,16 @@
     allowLaunchLoadout: true, 
     radius: 1,
 
-    hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide"
-
-        ],
+    itemWhitelist: [
+  bone
+  collarise
+  fossil
+  geno
+  pyrit
+  quartz
+  undoym
+  sand
+],
 
     mesh: {
 

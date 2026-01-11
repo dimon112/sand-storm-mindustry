@@ -23,7 +23,7 @@
     allowLaunchSchematics: true,
     allowLaunchLoadout: true,
     radius: 1,
-   "itemWhitelist": [
+   itemWhitelist: [
         "sand",
         "fossil",
         "geno",

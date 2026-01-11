@@ -3,7 +3,7 @@ name: Abrasive
 description: Shoots pressurized sand, Requires power to operate the compressor
 size: 2
 health: 250
-reload: 60
+reload: 90
 range: 80  
 rotateSpeed: 6
 targetAir: true
@@ -11,6 +11,7 @@ targetGround: true
 shootCone: 15
 inaccuracy: 6
 shootSound: spray
+ammoPerShot: 3
 
 hasPower: true
 hasItems: true
@@ -23,8 +24,8 @@ consumes: {
 ammoTypes: {
   sand: {
     type: BasicBulletType
-    damage: 10
-    knockback: 3
+    damage: 22
+    knockback: 20
     speed: 8
     lifetime: 10
     ammoMultiplier: 1

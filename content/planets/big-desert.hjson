@@ -1,29 +1,10 @@
-localizedName: Big Desert
-description: A deserted planet.
-alwaysUnlocked: true
-parent: sun
-solarSystem: sun
-// Используем настройки генератора как в примере, а не SerpuloPlanetGenerator
-generator: {
-  octaves: 3
-  persistence: 0.52
-  scale: 22
-  mag: 0.721
-  thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-}
-orbitRadius: 10
-radius: 1.2
-sectorSize: 3
+localizedName: "Big Desert"
+parent: serpulo # Попробуй привязать к Серпуло вместо Солнца
 accessible: true
-hasAtmosphere: true
-atmosphereColor: 925115
-iconColor: ffb300
-defaultCore: core-desert
-// Вот здесь мы четко говорим: только эти предметы и НИКАКИХ fissile-matter
+alwaysUnlocked: true
+defaultCore: "core-desert"
+sectorSize: 1
+
 itemWhitelist: [
   "sand",
   "quartz",
@@ -33,12 +14,29 @@ itemWhitelist: [
   "pyrit",
   "bone"
 ]
+
+# Скрываем то, что ты видишь сейчас
+hiddenItems: [
+  "fissile-matter",
+  "dormant-cyst",
+  "beryllium",
+  "tungsten",
+  "oxide",
+  "carbide"
+]
+
+generator: {
+  # Попробуем использовать самый простой генератор от Серпуло, но с твоим списком
+  type: "SerpuloPlanetGenerator"
+  allowItems: true # ПРИНУДИТЕЛЬНО разрешаем предметы
+}
+
 mesh: [
   {
     type: NoiseMesh
     planet: big-desert
-    divisions: 5
     seed: 86424
+    divisions: 5
     radius: 1.2
     color1: FF6347
     color2: FFA500

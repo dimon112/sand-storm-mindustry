@@ -25,7 +25,7 @@ consumes: {
 ammoTypes: {
   sand: {
     type: BasicBulletType
-    damage: 1.5
+    damage: 3
     knockback: 2
     speed: 8
     lifetime: 10

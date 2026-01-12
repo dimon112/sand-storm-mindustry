@@ -1,0 +1,21 @@
+type: StorageBlock
+name: Small Fossil Container
+description: Stores items, can be placed near core to improve its capacity
+health: 650
+armor: 5
+hasItems: true
+acceptsItems: true
+itemCapacity: 375
+
+requirements: [
+  fossil/250
+  pyrit/75
+]
+
+research: {
+  parent: fossil-conveyor
+  requirements: [
+    fossil/2000
+    pyrit/800
+  ]
+}

@@ -1,0 +1,19 @@
+type: Unloader
+name: Fossil Unloader
+description: Unloads items from neightbouring blocks
+health: 150
+allowCoreUnload: true
+category: distribution
+
+requirements: [
+  fossil/4
+  pyrit/6
+]
+
+research: {
+  parent: fossil-router
+  requirements: [
+    fossil/750
+    pyrit/350
+  ]
+}

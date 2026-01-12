@@ -7,7 +7,7 @@
  cooldown: 20
  tileDamage: 0
  tendrils: 0
- timerDamage: 30
+ timerDamage: 2
  priority: -1
  category: effect
   research: {

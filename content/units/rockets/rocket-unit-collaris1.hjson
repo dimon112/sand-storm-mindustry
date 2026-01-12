@@ -1,0 +1,28 @@
+{
+  type: MissileUnitType 
+  name: rocket-unit
+  speed: 5
+  health: 50
+  engineSize: 2
+  lifetime: 125 // Время жизни ракеты
+  hitSize: 4
+  isEnemy: false
+  allowedInPayloads: false
+  playerControllable: true 
+  logicControllable: true
+  controller: MissileAI 
+  deathExplosionEffect: massiveExplosion
+  weapons: [
+    {
+      shootCone: 360
+      mirror: false
+      reload: 1
+      shootOnDeath: true 
+      bullet: {
+        type: ExplosionBulletType
+        damage: 150
+        radius: 40
+      }
+    }
+  ]
+}

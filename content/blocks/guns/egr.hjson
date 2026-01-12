@@ -1,0 +1,17 @@
+{
+  type: ItemTurret
+  name: Egr
+  size: 3
+  health: 1200
+  range: 600
+  reload: 120 
+  ammoTypes: {
+    collarise: {
+      type: BulletType
+      spawnUnit: rocket-unit-collaris1 
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      keepVelocity: false
+    }
+  }
+}

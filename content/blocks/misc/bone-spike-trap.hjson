@@ -4,7 +4,10 @@
  underBullets: true
  health: 150
  damage: 10
- cooldown: 30
+ cooldown: 20
+ tileDamage: 0
+ tendrils: 0
+ timerDamage: 30
  priority: -1
  category: effect
   research: {

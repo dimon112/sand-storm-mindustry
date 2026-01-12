@@ -1,6 +1,6 @@
 {
   "type": "flying", 
-  "constructor": "UnitEntity::create",
+  "constructor": "missile"
   "name": "Collaris Rocket",
   "flying": true,
   "health": 150,

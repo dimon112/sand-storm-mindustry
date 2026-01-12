@@ -4,7 +4,7 @@
   size: 3
   health: 1200
   range: 600
-  reload: 600
+  reload: 400
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1

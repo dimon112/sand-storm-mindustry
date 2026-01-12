@@ -1,26 +1,24 @@
 {
-  type: MissileUnitType 
-  name: rocket-unit
+  type: missile
+
+  constructor: MissileUnitType::create
+  
+  name: Rocket Collaris
+  health: 150
   speed: 5
-  health: 50
-  engineSize: 2
-  lifetime: 125 // Время жизни ракеты
-  hitSize: 4
-  isEnemy: false
-  allowedInPayloads: false
-  playerControllable: true 
-  logicControllable: true
-  controller: MissileAI 
-  deathExplosionEffect: massiveExplosion
+  rotateSpeed: 5
+  playerControllable: true
+  logicControllable: false
+  
+  lifetime: 120 
+  
   weapons: [
     {
-      shootCone: 360
-      mirror: false
+      shootOnDeath: true
       reload: 1
-      shootOnDeath: true 
       bullet: {
         type: ExplosionBulletType
-        damage: 150
+        damage: 300
         radius: 40
       }
     }

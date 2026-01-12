@@ -1,29 +1,41 @@
-{
-  "type": "flying", 
-  "constructor": "missile"
-  "name": "Collaris Rocket",
-  "flying": true,
-  "health": 150,
-  "speed": 4,
-  "itemCapacity": 0,
-  "isEnemy": false,
-  "hitSize": 4,
-  "lifetime": 160,
-  
-  // Управление
-  "playerControllable": true,
-  "logicControllable": false,
-
-  "weapons": [
-    {
-      "shootOnDeath": true,
-      "reload": 1,
-      "bullet": {
-        "type": "ExplosionBulletType",
-        "damage": 350,
-        "radius": 45,
-        "killShooter": true
-      }
+type: missile
+physics: false
+template: MissileUnitType
+flying: true
+speed: 9
+missileAccelTime: 60
+useUnitCap: false
+engineSize: 0.2
+engineOffset: 2.5
+lifetime: 82
+rotateSpeed: 0
+hitSize: 3
+trailLength: 0
+autoFindTarget: false
+homingDelay: 0
+circleTarget: false
+faceTarget: true
+health: 55
+trailColor: #fcba03
+aimDst: 4
+drawCell: false
+outlines: true
+outlineRadius: 2
+outlineColor: #fcba03
+range: 4
+hidden: true  
+weapons: [
+  {
+    reload: 1
+    shake: 0
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 160
+      splashDamageRadius: 32
     }
-  ]
-}
+  } 
+]

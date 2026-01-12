@@ -8,12 +8,14 @@
   maxAmmo: 60
   shootCone: 35
   predictTarget: false
+  trackingRange: 680
   ammoPerShot: 5
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
+    status
     instantDisappear: true
     damage: 0
     spawnUnit: rocket-unit-collarise1

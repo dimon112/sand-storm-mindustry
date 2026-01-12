@@ -34,8 +34,11 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 240
-      splashDamageRadius: 60
+      damage:40
+      splashDamage: 160
+      splashDamageRadius: 36
+      status:blasted
+      statusDuration: 180
     }
   } 
 ]

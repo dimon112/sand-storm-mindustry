@@ -5,6 +5,6 @@ description:gem created from fossils and geno, needs for repair buildings and he
   "color": "#58912c",
   "flammability": 0,
   "explosiveness": 0.1,
-  "radioactivity": 0.5,
+  "radioactivity": 0.75,
   "charge": 0
   research: geno

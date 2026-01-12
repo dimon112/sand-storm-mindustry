@@ -5,7 +5,7 @@ description:Reactive ore that gives additional abilities, gives out a lot of ene
   "color": "23be00",
   "flammability": 0,
   "explosiveness": 0,
-  "radioactivity": 5,
+  "radioactivity": 1,
   "charge": 0
   research: fossil
   hiddenOnPlanets: [serpulo, erekir]

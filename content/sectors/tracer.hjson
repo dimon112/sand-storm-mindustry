@@ -1,21 +1,19 @@
 {
   planet: big-desert
-  sector: 32
-  difficulty: 6
-  name: Rought time
-  description: Really rough weather detected here, research new technology and defend against enemies
-  captureWave: 25
+  sector: 84
+  difficulty: 2
+  name: Tracer
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting:false
-
+  
     research: { 
-  parent: oasis
+  parent: SandStorm
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: oasis
+      preset: SandStorm
     } 
   ] 
 } 

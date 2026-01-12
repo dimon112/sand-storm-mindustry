@@ -7,7 +7,8 @@
  cooldown: 20
  tileDamage: 0
  tendrils: 1
- length: 1
+ length: 10
+ lightningColor: #a9d8ffff
  priority: -1
  category: effect
   research: {

@@ -1,24 +1,28 @@
 {
-  "type": "missile",
-  "constructor": "timed"
-  "name": "Rocket Collaris",
+  "type": "flying", 
+  "constructor": "UnitEntity::create",
+  "name": "Collaris Rocket",
   "flying": true,
-  "health": 100,
+  "health": 150,
   "speed": 4,
-  "maxRange": 5,
+  "itemCapacity": 0,
+  "isEnemy": false,
+  "hitSize": 4,
   "lifetime": 160,
-  "outlineColor": "42413e",
-  "engineColor": "a9d8ffff",
+  
+  // Управление
   "playerControllable": true,
   "logicControllable": false,
+
   "weapons": [
     {
       "shootOnDeath": true,
-      "reload": 10,
+      "reload": 1,
       "bullet": {
         "type": "ExplosionBulletType",
-        "damage": 300,
-        "radius": 40
+        "damage": 350,
+        "radius": 45,
+        "killShooter": true
       }
     }
   ]

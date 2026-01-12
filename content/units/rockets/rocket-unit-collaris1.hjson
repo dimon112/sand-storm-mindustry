@@ -1,25 +1,24 @@
 {
-  type: missile
-
-  constructor: MissileUnitType::create
-  
-  name: Rocket Collaris
-  health: 150
-  speed: 5
-  rotateSpeed: 5
-  playerControllable: true
-  logicControllable: false
-  
-  lifetime: 120 
-  
-  weapons: [
+  "type": "missile",
+  "constructor": "MissileUnitType::create",
+  "name": "Rocket Collaris",
+  "flying": true,
+  "health": 100,
+  "speed": 4,
+  "maxRange": 5,
+  "lifetime": 160,
+  "outlineColor": "42413e",
+  "engineColor": "a9d8ffff",
+  "playerControllable": true,
+  "logicControllable": false,
+  "weapons": [
     {
-      shootOnDeath: true
-      reload: 1
-      bullet: {
-        type: ExplosionBulletType
-        damage: 300
-        radius: 40
+      "shootOnDeath": true,
+      "reload": 10,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "damage": 300,
+        "radius": 40
       }
     }
   ]

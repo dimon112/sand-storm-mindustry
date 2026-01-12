@@ -5,10 +5,11 @@
   health: 1200
   range: 600
   reload: 400
+  maxAmmo: 60
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1
-    reloadMultiplier: 0.75
+    ammoPerShot: 10
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true

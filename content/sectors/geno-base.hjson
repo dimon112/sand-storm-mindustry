@@ -8,7 +8,6 @@
   "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
-  "SectorComplete": false,
   research: {
   parent: SandStorm
 objectives: [

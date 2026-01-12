@@ -1,0 +1,22 @@
+{
+  planet: big-desert
+  sector: 32
+  difficulty: 2
+  name: Rought time
+  alwaysUnlocked: false
+  addStartingItems: false
+  overrideLaunchDefaults: false
+  noLighting:false
+    research: { 
+  parent: oasis
+objectives: [ 
+    { 
+      type: SectorComplete  
+      preset: oasis
+    } 
+  ] 
+} 
+
+}
+
+

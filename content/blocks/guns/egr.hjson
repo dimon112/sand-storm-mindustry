@@ -6,7 +6,7 @@
   range: 600
   reload: 220.5
   maxAmmo: 60
-  shootCone: 45
+  shootCone: 35
   predictTarget: false
   ammoTypes: {
     collarise: {

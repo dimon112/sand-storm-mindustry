@@ -2,8 +2,8 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 4
-missileAccelTime: 60
+speed: 5
+missileAccelTime: 80
 useUnitCap: false
 engineSize: 0.2
 engineOffset: 2.5

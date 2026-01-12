@@ -29,3 +29,26 @@
     ammoMultiplier: 4
     }
   }
+
+  requirements: [
+  fossil/200
+  pyrit/170
+  geno/50
+]
+
+category: turret
+
+research: {
+  parent: raider
+  requirements: [
+    fossil/5000
+    pyrit/2000
+    geno/2500
+  ]
+  objectives: [
+    {
+      type: OnSector
+      preset: bones
+    }
+  ]
+}

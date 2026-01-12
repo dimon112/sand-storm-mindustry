@@ -6,6 +6,7 @@ armor: 5
 hasItems: true
 acceptsItems: true
 itemCapacity: 375
+size: 2
 
 requirements: [
   fossil/250

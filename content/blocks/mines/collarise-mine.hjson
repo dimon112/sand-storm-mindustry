@@ -1,5 +1,5 @@
  type: ShockMine
- name: collarise mine
+ name: Quartzite mine
  description: "blows up violently when stepped on"
  underBullets: true
  health: 45

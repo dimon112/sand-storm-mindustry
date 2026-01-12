@@ -1,0 +1,19 @@
+ type: ShockMine
+ name: Bone Spike Trap
+ description: "bone spikes"
+ underBullets: true
+ health: 150
+ damage: 10
+ cooldown: 30
+ priority: -1
+ category: effect
+  research: {
+parent: collarise-mine
+requirements: [
+  collarise/250
+  geno/150
+]
+}
+requirements : [
+        bone/10
+    ]

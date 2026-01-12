@@ -3,10 +3,21 @@
   sector: 32
   difficulty: 2
   name: Rought time
+  description: Really rough weather detected here, research new technology and defend against enemies
+  captureWave: 25
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting:false
+   rules: {
+  weather: [
+    {
+      weather: sand-storm
+      intensity: 1
+      always: true  
+    }
+  ]
+}
     research: { 
   parent: oasis
 objectives: [ 

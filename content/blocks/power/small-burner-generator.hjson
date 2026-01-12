@@ -7,6 +7,7 @@ powerProduction: 0.9
 itemDuration: 80
 hasItems: true
 hasLiquids: false
+outputsPower: true
 ambientSound: smelter
 ambientSoundVolume: 0.07
 

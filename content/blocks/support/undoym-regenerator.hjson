@@ -10,6 +10,7 @@
  squareSprite: false
  size: 2
  emitLight: true
+ connectedPower: false
  consumes: {
   items: {
     items: [

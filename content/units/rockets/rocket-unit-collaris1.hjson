@@ -1,6 +1,6 @@
 {
   "type": "missile",
-  "constructor": "MissileUnitType::create",
+  "constructor": "timed"
   "name": "Rocket Collaris",
   "flying": true,
   "health": 100,

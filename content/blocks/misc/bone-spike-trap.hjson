@@ -8,7 +8,7 @@
  tileDamage: 0
  tendrils: 1
  length: 10
- lightningColor: #a9d8ffff
+ lightningColor: #a9d8ff00
  priority: -1
  category: effect
   research: {

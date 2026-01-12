@@ -8,10 +8,10 @@
   maxAmmo: 60
   shootCone: 35
   predictTarget: false
+  ammoPerShot: 10
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1
-    ammoPerShot: 10
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     instantDisappear: true

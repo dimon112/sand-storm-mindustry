@@ -9,15 +9,7 @@
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting:false
-   rules: {
-  weather: [
-    {
-      weather: sand-storm
-      intensity: 1
-      always: true  
-    }
-  ]
-}
+  
     research: { 
   parent: oasis
 objectives: [ 

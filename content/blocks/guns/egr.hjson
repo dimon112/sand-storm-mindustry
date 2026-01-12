@@ -4,7 +4,7 @@
   size: 3
   health: 1200
   range: 600
-  reload: 400
+  reload: 220.5
   maxAmmo: 60
   shootCone: 45
   predictTarget: false

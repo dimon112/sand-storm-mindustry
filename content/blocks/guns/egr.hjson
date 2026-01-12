@@ -15,7 +15,6 @@
     ammoMultiplier: 1
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    status
     instantDisappear: true
     damage: 0
     spawnUnit: rocket-unit-collarise1

@@ -26,9 +26,11 @@
     "layers": [
       {
         "type": "DrawDefault"
+        "suffix": ""
       },
       {
         "type": "DrawFlame",
+        "suffix": "-flame"
         "color": "ffef99" // Цвет пламени (можно заменить на свой)
       }
     ]

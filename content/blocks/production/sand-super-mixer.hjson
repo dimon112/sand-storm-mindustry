@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Кварцинитовый синтезатор",
+  "size": 3,
+  "health": 800,
+  "craftTime": 75,
+  "itemCapacity": 30,
+
+  "consumes": {
+    "power": 1,
+    "items": [
+      "fossil/10",
+      "sand/6"
+    ]
+  },
+
+  "outputItem": "collarise/6",
+
+  // Визуальные эффекты как у кремниевого завода
+  "craftEffect": "smeltsmoke", 
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.07,
+
+  "drawer": {
+    "type": "DrawMulti",
+    "layers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "color": "ffef99" // Цвет пламени (можно заменить на свой)
+      }
+    ]
+  },
+
+  "requirements": [
+    "fossil/200",
+    "sand/150"
+  ],
+  "category": "crafting"
+research: {
+    parent: sand-mixer
+},
+researchCost: [
+    fossil/1750
+    pyrit/550
+    geno/250
+  ]
+}

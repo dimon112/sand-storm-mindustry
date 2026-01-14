@@ -7,7 +7,7 @@
   "itemCapacity": 30,
 
   "consumes": {
-    "power": 1,
+    "power": 0.5,
     "items": [
       "fossil/10",
       "sand/6"

@@ -21,6 +21,13 @@
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,
 
+  "drawer": {
+    "type": "DrawMulti",
+    "layers": [
+      { "type": "DrawDefault" }
+    ]
+  }
+
   "requirements": [
     "fossil/200",
     "sand/150"

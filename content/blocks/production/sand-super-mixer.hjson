@@ -21,18 +21,16 @@
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,
 
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      {
-        "type": "DrawDefault"
-      },
-      {
-        "type": "DrawWarmth",
-        "color": "ff9c5a"
-      }
-    ]
-  }
+  "drawer": [
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawFlame",
+      "suffix": "-flame", 
+      "color": "ffef99"   
+    }
+  ]
 
   "requirements": [
     "fossil/200",

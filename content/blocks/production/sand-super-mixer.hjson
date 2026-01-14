@@ -23,8 +23,14 @@
 
   "drawer": {
     "type": "DrawMulti",
-    "layers": [
-      { "type": "DrawDefault" }
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawWarmth",
+        "color": "ff9c5a"
+      }
     ]
   }
 

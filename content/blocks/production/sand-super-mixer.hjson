@@ -27,7 +27,6 @@
     },
     {
       "type": "DrawFlame",
-      "suffix": "-flame", 
       "color": "ffef99"   
     }
   ]

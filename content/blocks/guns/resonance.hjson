@@ -20,13 +20,20 @@ consumes: {
 }
 
 shootType: {
-  type: BasicBulletType
-  speed: 5
+  shootType: {
+  type: LaserBulletType
   damage: 28
-  hitsize: 6.0
+  length: 160 
+  width: 12
+  hitSize: 6.0
   hitEffect: hitFlamePlasma
+  
+  // Цвета лазера
+  colors: [e8d174, f3e979, ffffff] // От темного к светлому (внутренняя часть)
+  
   status: resonance1
   statusDuration: 80
+}
 }
 research: {
 parent: desert-gun,

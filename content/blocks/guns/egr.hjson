@@ -10,6 +10,7 @@
   predictTarget: false
   trackingRange: 680
   ammoPerShot: 5
+  outlineIcon: false
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1
@@ -42,4 +43,5 @@ research: {
       preset: bones
     }
   ]
+
 }

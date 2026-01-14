@@ -18,8 +18,6 @@ requirements: [
 consumes: {
   power: 0.6
 }
-
-shootType: {
   shootType: {
   type: LaserBulletType
   damage: 28
@@ -33,7 +31,6 @@ shootType: {
   
   status: resonance1
   statusDuration: 80
-}
 }
 research: {
 parent: desert-gun,

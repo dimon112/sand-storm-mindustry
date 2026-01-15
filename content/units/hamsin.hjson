@@ -23,8 +23,8 @@ weapons: [
   {
     reload: 10
     shootOnDeath: true
-    instantDisappear: true
-    killShooter: true
+    instantDeathtime: 0  
+    destructibleWreck: false
     mirror: false
     shootCone: 360
     shake: 2

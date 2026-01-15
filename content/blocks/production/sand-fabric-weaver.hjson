@@ -20,7 +20,7 @@ outputItem: sand-fabric/1
  "drawer": [
     {
     "type": "DrawRotator",
-    "drawPart": "rotator", 
+    "suffix": "-rotator",
     "spinSpeed": 3
     },
     {

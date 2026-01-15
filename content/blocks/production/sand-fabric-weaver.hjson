@@ -15,7 +15,7 @@ outputItem: sand-fabric/1
 
  requirements: [
     fossil/55
-  ],
+  ]
 
  drawer: [
     {

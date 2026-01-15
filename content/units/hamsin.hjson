@@ -1,12 +1,22 @@
 type: flying
 name: Хамсин
 description: Летающий юнит-камикадзе, врезается в противника, нанося огромный взрывной урон
-speed: 3
+speed: 2
+controller: FlyingAI
 accel: 0.1
 drag: 0.05
 health: 125
 armor: 0
 hitSize: 6
+
+research: {
+parent: Desert-factory
+requirements: [
+ fossil/1500
+ collarise/1500
+ sand-fabric/750
+ ]
+}
 
 weapons: [
   {

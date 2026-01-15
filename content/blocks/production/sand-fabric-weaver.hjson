@@ -19,10 +19,11 @@ outputItem: sand-fabric/1
 
  drawer: [
     {
-    type: DrawRotator,
+    type: DrawRegion,
     suffix: "-rotator",
-    spinSpeed: 3
-    },
+    rotateSpeed: 3,
+    spin: true
+    }
     {
       type: DrawDefault
     }

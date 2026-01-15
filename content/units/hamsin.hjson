@@ -1,0 +1,24 @@
+type: flying
+name: Хамсин
+description: Летающий юнит-камикадзе, врезается в противника, нанося огромный взрывной урон
+speed: 3
+accel: 0.1
+drag: 0.05
+health: 125
+armor: 0
+hitSize: 6
+
+weapons: [
+  {
+    reload: 10
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    shake: 2
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 125
+      splashDamageRadius: 32 
+    }
+  }
+]

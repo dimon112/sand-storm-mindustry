@@ -1,27 +1,36 @@
 {
-"type": "UnitFactory",
-"name":"desert-factory",
-"researchCostMultiplier": 0.1,
-"size": 3,
-"plans": [
-{
-    "unit": "crater",
-    	"requirements": [
-		{"item": "fossil", "amount": 40}
-       ],
-	"time": 480
-},
-{
-    "unit": "skitch",
-    	"requirements": [
-		{"item": "fossil", "amount": 45}
-       ],
-	"time": 560
+  "type": "UnitFactory",
+  "name": "desert-factory",
+  "size": 3,
+  "plans": [
+    {
+      "unit": "crater",
+      "time": 480,
+      "requirements": [
+        "fossil/25",
+        "sand-fabric/10"
+      ]
+    },
+    {
+      "unit": "skitch",
+      "time": 560,
+      "requirements": [
+        "fossil/45"
+      ]
+    },
+	{
+  "unit": "khamsin",
+  "time": 600,
+  "requirements": [
+    "fossil/15",
+    "collarris/15",
+    "sand-fabric/5" 
+  ]
 }
-],
-    "requirements": [
-	{"item": "fossil", "amount": 170}
-],
-"category": "units",
-"research": "core-desert"
+  ],
+  "requirements": [
+    "fossil/170"
+  ],
+  "category": "units",
+  "research": "core-desert"
 }

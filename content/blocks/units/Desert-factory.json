@@ -23,7 +23,7 @@
   "time": 600,
   "requirements": [
     "fossil/15",
-    "collarrise/15",
+    "collarise/15",
     "sand-fabric/5" 
   ]
 }

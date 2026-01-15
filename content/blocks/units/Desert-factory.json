@@ -19,7 +19,7 @@
       ]
     },
 	{
-  "unit": "khamsin",
+  "unit": "hamsin",
   "time": 600,
   "requirements": [
     "fossil/15",

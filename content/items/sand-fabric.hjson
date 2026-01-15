@@ -1,0 +1,10 @@
+type: item
+name: Пустынная ткань
+description: Легкий и легко-возгораемый материал из очищенного песка Используется в авиастроении
+flammability: 0.75
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: e4d19b
+research: fossil
+  hiddenOnPlanets: [serpulo, erekir]

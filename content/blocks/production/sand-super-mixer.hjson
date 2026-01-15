@@ -16,7 +16,6 @@
 
   "outputItem": "collarise/6",
 
-  // Визуальные эффекты как у кремниевого завода
   "craftEffect": "smeltsmoke", 
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,

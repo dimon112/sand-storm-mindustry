@@ -26,8 +26,7 @@ consumes: {
   hitSize: 6.0
   hitEffect: hitFlamePlasma
   
-  // Цвета лазера
-  colors: [e8d174, f3e979, ffffff] // От темного к светлому (внутренняя часть)
+  colors: [e8d174, f3e979, ffffff] 
   
   status: resonance1
   statusDuration: 80

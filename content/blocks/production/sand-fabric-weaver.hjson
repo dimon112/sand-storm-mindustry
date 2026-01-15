@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Синтезатор пустынной ткани
+size: 2
+hasItems: true
+craftTime: 60
+itemCapacity: 10
+
+consumes: {
+  items: [
+    sand/3
+  ]
+}
+
+outputItem: sand-fabric/1
+
+ requirements: [
+    fossil/55
+  ],
+
+ "drawer": [
+    {
+    "type": "DrawRotator",
+    "drawPart": "rotator", 
+    "spinSpeed": 3
+    },
+    {
+      "type": "DrawDefault"
+    }
+ ]
+
+category: crafting
+research: {
+    parent: desert-drill
+},
+researchCost: [
+    fossil/80
+  ]

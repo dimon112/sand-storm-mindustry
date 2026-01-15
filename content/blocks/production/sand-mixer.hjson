@@ -21,7 +21,7 @@
   "category": "crafting",
   "outputItem": "collarise/2"
 research: {
-    parent: desert-drill
+    parent: sand-fabric-weaver
 },
 researchCost: [
     fossil/120

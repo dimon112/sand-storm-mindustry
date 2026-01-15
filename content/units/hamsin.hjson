@@ -9,6 +9,7 @@ drag: 0.05
 health: 125
 armor: 0
 hitSize: 6
+createWreck: false
 
 research: {
 parent: Desert-factory
@@ -23,8 +24,6 @@ weapons: [
   {
     reload: 10
     shootOnDeath: true
-    instantDeathtime: 0  
-    destructibleWreck: false
     mirror: false
     shootCone: 360
     shake: 2

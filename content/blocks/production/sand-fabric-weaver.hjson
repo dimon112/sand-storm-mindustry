@@ -17,14 +17,14 @@ outputItem: sand-fabric/1
     fossil/55
   ],
 
- "drawer": [
+ drawer: [
     {
-    "type": "DrawRotator",
-    "suffix": "-rotator",
-    "spinSpeed": 3
+    type: DrawRotator,
+    suffix: "-rotator",
+    spinSpeed: 3
     },
     {
-      "type": "DrawDefault"
+      type: DrawDefault
     }
  ]
 

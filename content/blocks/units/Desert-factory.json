@@ -2,6 +2,7 @@
   "type": "UnitFactory",
   "name": "desert-factory",
   "size": 3,
+  
   "plans": [
     {
       "unit": "crater",
@@ -18,19 +19,28 @@
         "fossil/45"
       ]
     },
-	{
-  "unit": "hamsin",
-  "time": 600,
-  "requirements": [
-    "fossil/15",
-    "collarise/15",
-    "sand-fabric/5" 
-  ]
-}
+    {
+      "unit": "hamsin",
+      "time": 600,
+      "requirements": [
+        "fossil/15",
+        "collarise/15",
+        "sand-fabric/5" 
+      ]
+    }
   ],
+  
   "requirements": [
     "fossil/170"
   ],
+  
+  
   "category": "units",
-  "research": "core-desert"
+  
+  "research": {
+    "parent": "core-desert",
+    "requirements": [
+      "fossil/85"
+    ]
+  }
 }

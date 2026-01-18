@@ -1,8 +1,9 @@
 type: flying
 name: harmatan
-speed: 2
+speed: 1.5
 controller: Flying
-health: 600
+health: 550
+armor: 2
 hitSize: 8
 flying: true
 autoDropBombs: true
@@ -28,7 +29,7 @@ weapons: [
     bullet: {
       type: BombBulletType
       damage: 0
-      splashDamage: 45
+      splashDamage: 35
       splashDamageRadius: 48
       width: 12
       height: 12

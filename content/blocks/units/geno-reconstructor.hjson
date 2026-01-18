@@ -7,6 +7,7 @@ constructTime: 1500
 upgrades: [
   [crater, support]
   [skitch, abound]
+  [hamsin, harmatan]
 ]
 consumes: {
 items:{

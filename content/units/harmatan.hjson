@@ -63,3 +63,18 @@ engines: [
     radius: 1.5
   }
 ]
+
+research: {
+parent: geno-reconstructor
+requirements: [
+  fossil/3000
+  geno/1750
+  collarise/1750
+]
+objectives: [
+  {
+    type: SectorComplete
+    preset: gate
+  }
+  ]
+}

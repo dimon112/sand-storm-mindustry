@@ -6,7 +6,7 @@
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
-  noLighting:false
+  noLighting: true
   
     research: { 
   parent: SandStorm

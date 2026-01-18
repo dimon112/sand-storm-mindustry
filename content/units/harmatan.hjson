@@ -1,0 +1,63 @@
+type: flying
+name: harmatan
+speed: 2
+controller: Flying
+health: 600
+hitSize: 8
+flying: true
+autoDropBombs: true
+rotateMoveFirst: true
+alwaysShootWhenMoving: true
+crashDamageMultiplier: 1.2
+payloadCapacity: 64
+circleTarget: true
+circleTargetRadius: 40
+trailLength: 8
+ammoCapacity: 20
+
+immunities: [blasted, radiation1]
+
+weapons: [
+  {
+    x: 0
+    y: 0
+    reload: 120
+    shootCone: 360
+    ignoreRotation: true
+    shootSound: bomb-drop
+    bullet: {
+      type: BombBulletType
+      damage: 0
+      splashDamage: 45
+      splashDamageRadius: 48
+      width: 12
+      height: 12
+      frontColor: ff5e5e
+      backColor: c21b1b
+      hitEffect: flakExplosionBig
+    }
+  }
+]
+
+engineColor: ff5e5e 
+
+engines: [
+  // Центральный основной двигатель
+  {
+    x: 0
+    y: -5
+    radius: 3
+  }
+  // Левый двигатель 
+  {
+    x: -5
+    y: -2
+    radius: 1.5
+  }
+  // правый двигатель
+  {
+    x: 5
+    y: -2
+    radius: 1.5
+  }
+]

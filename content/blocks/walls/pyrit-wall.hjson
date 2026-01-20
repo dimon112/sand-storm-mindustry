@@ -1,0 +1,15 @@
+type: Wall
+health: 800
+name: Pyrit Wall
+description: Blocks incoming enemy bullets, stronger than the fossil wall
+size: 1
+category: defense
+research: {
+parent: desert-wall
+requirements: [
+  pyrit/200
+]
+}
+requirements : [
+        pyrit/6
+    ]

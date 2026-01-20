@@ -1,4 +1,4 @@
-type: Conduit
+type: Pump
 name: Fossil Pump
 health: 150
 description: Pumps liquids, very slow but requires no energy

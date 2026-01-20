@@ -5,7 +5,7 @@ description: Allows fluids to travel along difficult terrain or above structures
 liquidCapacity: 60
 category: liquid
 research: {
-parent: fossil-junction
+parent: fossil-liquid-junction
 requirements: [
   quartz/500
   fossil/600

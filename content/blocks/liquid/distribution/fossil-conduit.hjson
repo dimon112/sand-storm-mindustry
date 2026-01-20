@@ -1,0 +1,16 @@
+type: Conduit
+name: Fossil Conduit
+health: 15
+description: transports liquids, very brittle
+category: liquid
+research: {
+parent: fossil-conveyor
+requirements: [
+  quartz/50
+  fossil/100
+]
+}
+requirements : [
+        quartz/1
+        fossil/2
+    ]

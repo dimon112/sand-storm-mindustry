@@ -3,6 +3,7 @@ name: Fossil Liquid Junction
 health: 60
 description: Allows fluids to travel along difficult terrain or above structures
 liquidCapacity: 60
+range: 6
 category: liquid
 research: {
 parent: fossil-liquid-junction

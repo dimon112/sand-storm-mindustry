@@ -1,0 +1,17 @@
+type: Conduit
+name: Fossil Pump
+health: 150
+description: Pumps liquids, very slow but requires no energy
+category: liquid
+pumpAmount: 0.5
+research: {
+parent: fossil-conduit
+requirements: [
+  quartz/600
+  fossil/1200
+]
+}
+requirements : [
+        quartz/25
+        fossil/50
+    ]

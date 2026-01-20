@@ -1,7 +1,7 @@
 {
     "type": "ItemBridge",
     "name": "Fossil bridge conveyor",
-    "description": "Allows items to travel along difficult terrain or above steuctures",
+    "description": "Allows items to travel along difficult terrain or above structures",
     "health": 125,
 	"itemCapacity": 10,
     "requirements": [

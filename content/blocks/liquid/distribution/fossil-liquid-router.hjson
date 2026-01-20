@@ -1,0 +1,17 @@
+type: LiquidRouter
+name: Fossil Liquid Router
+health: 50
+description: Distributes fluids evenly in 3 directions
+liquidCapacity: 50
+category: liquid
+research: {
+parent: fossil-conduit
+requirements: [
+  quartz/175
+  fossil/250
+]
+}
+requirements : [
+        quartz/3
+        fossil/6
+    ]

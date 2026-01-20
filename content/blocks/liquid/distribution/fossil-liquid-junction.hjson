@@ -1,0 +1,17 @@
+type: LiquidJunction
+name: Fossil Liquid Junction
+health: 30
+description: Allows fluids to pass through, used for when 2 conduits need to have separate fluids
+liquidCapacity: 20
+category: liquid
+research: {
+parent: fossil-conduit
+requirements: [
+  quartz/200
+  fossil/200
+]
+}
+requirements : [
+        quartz/2
+        fossil/3
+    ]

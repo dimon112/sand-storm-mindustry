@@ -1,0 +1,17 @@
+type: LiquidBridge
+name: Fossil Liquid Junction
+health: 60
+description: Allows fluids to travel along difficult terrain or above structures
+liquidCapacity: 60
+category: liquid
+research: {
+parent: fossil-junction
+requirements: [
+  quartz/500
+  fossil/600
+]
+}
+requirements : [
+        quartz/4
+        fossil/5
+    ]

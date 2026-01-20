@@ -1,8 +1,10 @@
 type: Conduit
 name: Fossil Conduit
-health: 15
+health: 25
 description: transports liquids, very brittle
 category: liquid
+junctionReplacement: fossil-liquid-junction
+bridgeReplacement: fossil-bridge-conduit
 research: {
 parent: fossil-conveyor
 requirements: [

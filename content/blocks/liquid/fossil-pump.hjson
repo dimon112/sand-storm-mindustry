@@ -3,7 +3,7 @@ name: Fossil Pump
 health: 150
 description: Pumps liquids, very slow but requires no energy
 category: liquid
-pumpAmount: 0.5
+pumpAmount: 0.2
 research: {
 parent: fossil-conduit
 requirements: [

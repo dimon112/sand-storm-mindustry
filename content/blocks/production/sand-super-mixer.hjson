@@ -37,6 +37,14 @@
   "category": "crafting"
 research: {
     parent: sand-mixer
+
+     objectives: [
+  {
+    type: OnSector
+    preset: the-best-way
+  }
+  ]
+
 },
 researchCost: [
     fossil/1750

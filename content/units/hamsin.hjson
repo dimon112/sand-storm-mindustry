@@ -14,6 +14,14 @@ immunities: [blasted]
 
 research: {
 parent: Desert-factory
+
+objectives: [
+  {
+    type: CompleteSector
+    preset: SandStorm
+  }
+  ]
+
 requirements: [
  fossil/1500
  collarise/1500

@@ -22,7 +22,15 @@
   "outputItem": "collarise/2"
 research: {
     parent: sand-fabric-weaver
+
+    objectives: [
+  {
+    type: OnSector
+    preset: SandStorm
+  }
+  ]
 },
+
 researchCost: [
     fossil/120
     sand/85

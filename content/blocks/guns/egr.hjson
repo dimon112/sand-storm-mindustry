@@ -1,6 +1,7 @@
 
   type: ItemTurret
   name: Egr
+  description: shoots fast controllable rockets
   size: 3
   health: 1200
   range: 600

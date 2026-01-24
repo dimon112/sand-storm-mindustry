@@ -7,7 +7,7 @@
   "hasPower": false,
   "hasLiquids": false,
   "updateEffect": "none",
-  "itemCapacity": 7,
+  "itemCapacity": 15,
   "consumes": {
     "items": [
       "fossil/2"

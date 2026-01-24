@@ -28,6 +28,12 @@
  category: effect
   research: {
  parent: fossil-node
+  objectives: [
+  {
+    type: OnSector
+    preset: rough-time
+  }
+  ]
  requirements: [
   undoym/150
   geno/550

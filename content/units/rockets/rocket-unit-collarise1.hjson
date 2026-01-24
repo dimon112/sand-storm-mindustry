@@ -10,7 +10,7 @@ engineOffset: 2.5
 lifetime: 175
 rotateSpeed: 2
 hitSize: 3
-trailLength: 1
+trailLength: 4
 autoFindTarget: true
 homingDelay: 0
 circleTarget: false

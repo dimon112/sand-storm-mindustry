@@ -25,6 +25,13 @@
 ]
 research: {
     parent: sand-mixer
+
+    objectives: [
+  {
+    type: CompleteSector
+    preset: gate
+  }
+  ]
 }
 researchCost: [
     fossil/2000

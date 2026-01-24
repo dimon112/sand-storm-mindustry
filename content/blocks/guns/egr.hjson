@@ -21,6 +21,16 @@
     damage: 0
     spawnUnit: rocket-unit-collarise1
     }
+
+    geno: {
+    ammoMultiplier: 1
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: rocket-unit-geno1
+    }
+
   }
 
   requirements: [

@@ -9,4 +9,6 @@ special thanks to blehhh cat!
 
 #contact
 
+*!SPRITER NEEDED!*
+
 discord: https://discord.gg/2wPTtPpxvF

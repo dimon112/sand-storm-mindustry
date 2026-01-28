@@ -11,6 +11,7 @@ lifetime: 175
 rotateSpeed: 2
 hitSize: 3
 trailLength: 4
+trailScl: 3
 autoFindTarget: true
 homingDelay: 0
 circleTarget: false

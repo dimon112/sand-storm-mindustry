@@ -1,7 +1,7 @@
 {
   "planet": "big-desert",
   "sector": 85,
-  "difficulty": 8
+  "difficulty": 6
   "name": "bones"
   "description": "this sectors has enemy base, but has valuable new resource! capture it and get new technologies"
   "alwaysUnlocked": false,

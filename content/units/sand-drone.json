@@ -1,6 +1,7 @@
 {
        "type": "flying",     
        "controller": BuilderAI,
+       "name": Prom,
         "speed": 3,
         "targetGround": false,
         "targetAir": false,

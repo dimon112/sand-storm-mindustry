@@ -1,7 +1,8 @@
 {
        "type": "flying",     
        "controller": BuilderAI,
-       "name": Prom,
+       "name": Messora,
+       "description": The first and the most basic core unit, can build and mine at normal pace, "Prom",
         "speed": 3,
         "targetGround": false,
         "targetAir": false,

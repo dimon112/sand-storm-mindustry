@@ -35,6 +35,6 @@ research: {
 }
 researchCost: [
     fossil/2000
-    desert-fabric/750
+    sand-fabric/750
     geno/750
   ]

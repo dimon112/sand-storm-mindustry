@@ -32,7 +32,7 @@
 
   "requirements": [
     "fossil/200",
-    "desert-fabric/150"
+    "sand-fabric/150"
   ],
   "category": "crafting"
 research: {

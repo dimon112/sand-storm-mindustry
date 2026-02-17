@@ -33,5 +33,5 @@ research: {
 
 researchCost: [
     fossil/120
-    sand/85
+    desert-fabric/85
   ]

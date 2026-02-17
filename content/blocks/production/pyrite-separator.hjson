@@ -15,7 +15,7 @@
   }
   requirements: [
     fossil/200
-    sand/50
+    desert-fabric/50
     geno/70
   ]
   category: crafting
@@ -35,6 +35,6 @@ research: {
 }
 researchCost: [
     fossil/2000
-    sand/750
+    desert-fabric/750
     geno/750
   ]

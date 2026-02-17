@@ -16,7 +16,7 @@
   },
   "requirements": [
     fossil/75
-    sand/40
+    desert-fabric/40
   ],
   "category": "crafting",
   "outputItem": "collarise/2"

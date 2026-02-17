@@ -16,7 +16,7 @@
   },
   "requirements": [
     fossil/75
-    desert-fabric/40
+    sand-fabric/40
   ],
   "category": "crafting",
   "outputItem": "collarise/2"
@@ -33,5 +33,5 @@ research: {
 
 researchCost: [
     fossil/120
-    desert-fabric/85
+    sand-fabric/85
   ]

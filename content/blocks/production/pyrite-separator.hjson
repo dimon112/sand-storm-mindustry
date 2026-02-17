@@ -15,7 +15,7 @@
   }
   requirements: [
     fossil/200
-    desert-fabric/50
+    sand-fabric/50
     geno/70
   ]
   category: crafting

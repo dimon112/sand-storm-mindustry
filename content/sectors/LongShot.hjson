@@ -1,0 +1,24 @@
+{
+  planet: big-desert
+  sector: 99
+  difficulty: 6
+  name: Long Shot
+  description: Enemy set up a major base using a new long range technology here, research it and destroy the enemy!
+  alwaysUnlocked: false
+  addStartingItems: false
+  overrideLaunchDefaults: false
+  noLighting:false
+
+    research: { 
+  parent: gate
+objectives: [ 
+    { 
+      type: SectorComplete  
+      preset: gate
+    } 
+  ] 
+} 
+
+}
+
+

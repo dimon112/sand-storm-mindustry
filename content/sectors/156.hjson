@@ -7,7 +7,6 @@
   "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
-   hidden:true
   research: { 
   parent: gate 
 objectives: [ 

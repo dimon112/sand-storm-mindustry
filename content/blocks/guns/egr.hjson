@@ -55,7 +55,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: bones
+      preset: LongShot
     }
   ]
 

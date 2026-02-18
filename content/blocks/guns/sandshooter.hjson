@@ -19,7 +19,7 @@ hasItems: true
 maxAmmo: 120
 
 consumes: {
-  power: 0.5 
+  power: 0.3
 }
 
 ammoTypes: {

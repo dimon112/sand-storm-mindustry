@@ -12,6 +12,10 @@
   trackingRange: 680
   ammoPerShot: 5
   outlineIcon: false
+  hasPower:true
+  consumes: {
+  power: 0.5
+}
   ammoTypes: {
     collarise: {
     ammoMultiplier: 1

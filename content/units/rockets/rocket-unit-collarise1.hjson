@@ -2,12 +2,12 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 5
-missileAccelTime: 80
+speed: 4
+missileAccelTime: 70
 useUnitCap: false
 engineSize: 0.2
 engineOffset: 2.5
-lifetime: 175
+lifetime: 195
 rotateSpeed: 2
 hitSize: 3
 trailLength: 4

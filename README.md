@@ -13,4 +13,3 @@ special thanks to blehhh cat!
 
 discord: https://discord.gg/2wPTtPpxvF
 
-wantech its me bruh

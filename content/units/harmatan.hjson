@@ -19,6 +19,22 @@ ammoCapacity: 20
 
 immunities: [blasted, radiation1]
 
+parts: [
+    {
+      type: ShapePart,
+      sides: 5,
+      color: ff0000,
+      hollow: true,
+      layer: 100,
+      radius: 0,
+      radiusTo: 2,
+      stroke: 0,
+      strokeTo: 2,
+      rotateSpeed: 2.0,
+      x: 0,
+      y: 0
+    }
+
 weapons: [
   {
     x: 0

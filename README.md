@@ -3,13 +3,11 @@
 A Mindustry mod that adds a custom desert planet with new items, units, and sectors
 
 
-#credits
+## credits
 
 special thanks to blehhh cat!
 
-#contact
-
-*!SPRITER NEEDED!*
+## contact
 
 discord: https://discord.gg/2wPTtPpxvF
 

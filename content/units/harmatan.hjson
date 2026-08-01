@@ -25,7 +25,7 @@ parts: [
       sides: 5,
       color: ff0000,
       hollow: true,
-      layer: 110,
+      layer: 150,
       radius: 0,
       radiusTo: 2,
       stroke: 0,

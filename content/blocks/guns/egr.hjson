@@ -36,6 +36,14 @@
     }
 
   }
+parts: [
+  {
+    type: RegionPart,
+    suffix: -glow,
+    progress: warmup,
+    color: ff8f40
+  }
+]
 
   requirements: [
   fossil/200

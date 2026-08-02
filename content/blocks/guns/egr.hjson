@@ -36,14 +36,19 @@
     }
 
   }
-parts: [
-  {
-    type: RegionPart,
-    suffix: -glow,
-    progress: warmup,
-    color: ff8f40
+  drawer: {
+    type: DrawTurret
+    parts: [
+    {
+        type: RegionPart
+        suffix: -glow
+        layer: 10
+        color: ff8800
+        alpha: 0.6
+        progress: warmup
+      }
+    ]
   }
-]
 
   requirements: [
   fossil/200

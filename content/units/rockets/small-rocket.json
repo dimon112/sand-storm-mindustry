@@ -14,14 +14,14 @@
   "homingDelay": 60,
   "circleTarget": false,
   "faceTarget": true,
-  "health": 25,
+  "health": 50,
   "trailColor": "00000000",
   "aimDst": 4,
   "drawCell": false,
   "outlines": true,
   "outlineRadius": 2,
   "outlineColor": "80400d",
-  "range": 4,
+  "range": 2,
   "hidden": true,
   "weapons": [
     {
@@ -34,7 +34,7 @@
         "type": "ExplosionBulletType",
         "damage": 50,
         "splashDamage": 50,
-        "splashDamageRadius": 16,
+        "splashDamageRadius": 32,
         "status": "blasted",
         "statusDuration": 180
       }

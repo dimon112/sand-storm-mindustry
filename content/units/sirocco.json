@@ -29,9 +29,9 @@
       "reload": 120,
       "shootSound": "shootAvert",
       "shoot": {
-        "shots": 5,
+        "shots": 2,
         "shotDelay": 15,
-        "firstShotDelay": 30
+        "firstShotDelay": 0
       },
       "bullet": {
         "type": "BulletType",

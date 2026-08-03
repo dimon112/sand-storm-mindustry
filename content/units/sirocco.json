@@ -19,8 +19,8 @@
   "weapons": [
     {
       "name": "sirocco-gun",
-      "x": 3,
-      "y": 2,
+      "x": 6,
+      "y": 4,
       "mirror": true,
       "alternate": true,
       "rotate": true,

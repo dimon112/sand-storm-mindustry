@@ -1,0 +1,46 @@
+{
+  "type": "flying",
+  "flying": true,
+  "speed": 3.0,
+  "health": 1250,
+  "hitSize": 14,
+  "armor": 2,
+  "rotateSpeed": 6,
+  "outlineColor": "80400D",
+  "engineColor": "ffaa44",
+  "engineColorInner": "ffdd88",
+  "engines": [
+    {
+      "x": 0,
+      "y": -3,
+      "radius": 2.5
+    }
+  ],
+  "weapons": [
+    {
+      "name": "sirocco-gun",
+      "x": 3,
+      "y": 2,
+      "mirror": true,
+      "alternate": true,
+      "rotate": true,
+      "rotationLimit": 90,
+      "shootCone": 15,
+      "reload": 120,
+      "shootSound": "shootAvert",
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 15,
+        "firstShotDelay": 30
+      },
+      "bullet": {
+        "type": "BulletType",
+        "spawnUnit": "small-rocket",
+        "keepVelocity": false,
+        "collidesAir": true,
+        "speed": 0,
+        "smokeEffect": "none"
+      }
+    }
+  ]
+}

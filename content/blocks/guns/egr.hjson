@@ -42,7 +42,7 @@
     {
         type: RegionPart
         suffix: -glow
-        layer: 10
+        layer: 90
         color: ff8800
         alpha: 0.6
         progress: warmup

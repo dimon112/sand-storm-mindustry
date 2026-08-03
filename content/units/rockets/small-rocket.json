@@ -11,7 +11,7 @@
   "rotateSpeed": 1.5,
   "hitSize": 3,
   "autoFindTarget": true,
-  "homingDelay": 60,
+  "homingDelay": 10,
   "circleTarget": false,
   "faceTarget": true,
   "health": 50,

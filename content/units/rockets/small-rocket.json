@@ -3,11 +3,11 @@
   "physics": false,
   "template": "MissileUnitType",
   "flying": true,
-  "speed": 4,
+  "speed": 3,
   "useUnitCap": false,
   "engineSize": 0,
   "engineOffset": 0,
-  "lifetime": 160,
+  "lifetime": 120,
   "rotateSpeed": 2,
   "hitSize": 3,
   "autoFindTarget": true,
@@ -32,9 +32,9 @@
       "shootCone": 90,
       "bullet": {
         "type": "ExplosionBulletType",
-        "damage": 20,
-        "splashDamage": 80,
-        "splashDamageRadius": 36,
+        "damage": 50,
+        "splashDamage": 50,
+        "splashDamageRadius": 16,
         "status": "blasted",
         "statusDuration": 180
       }

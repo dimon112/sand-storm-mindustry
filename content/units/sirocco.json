@@ -1,7 +1,8 @@
 {
   "type": "flying",
   "flying": true,
-  "speed": 1.5,
+  "speed": 1.0,
+  "layer": 150,
   "health": 1050,
   "hitSize": 16,
   "armor": 0,

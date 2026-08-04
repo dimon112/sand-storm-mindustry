@@ -23,6 +23,26 @@
   "outlineColor": "80400d",
   "range": 2,
   "hidden": true,
+  "abilities": [
+    {
+    "type": "MoveEffectAbility",
+    "interval": 4,
+    "effect": {
+      "type": "ParticleEffect",
+      "cone": 45,
+      "baseRotation": 180,
+      "particles": 5,
+      "length": 2.5,
+      "baseLength": 3,
+      "line": true,
+      "strokeFrom": 1,
+      "strokeTo": 0.5,
+      "colorFrom": "ffaa00",
+      "colorTo": "aa5500"
+      },
+    "rotateEffect": true
+    }
+  ]
   "weapons": [
     {
       "reload": 1,

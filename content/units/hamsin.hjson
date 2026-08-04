@@ -2,6 +2,7 @@ type: flying
 name: Хамсин
 description: Летающий юнит-камикадзе, врезается в противника, нанося огромный взрывной урон
 speed: 3
+outlineColor: 80400D
 controller: SuicideAI
 flying: true
 accel: 0.1

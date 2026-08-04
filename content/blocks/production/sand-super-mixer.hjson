@@ -32,7 +32,8 @@
 
   "requirements": [
     "fossil/200",
-    "sand-fabric/150"
+    "sand-fabric/150",
+    "geno/100"
   ],
   "category": "crafting"
 research: {
@@ -50,5 +51,6 @@ researchCost: [
     fossil/1750
     pyrit/550
     geno/250
+    sand-fabric/50
   ]
 }

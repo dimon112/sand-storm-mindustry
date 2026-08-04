@@ -15,8 +15,8 @@
   "engines": [
     {
       "x": 0,
-      "y": -8,
-      "radius": 2.5
+      "y": -6,
+      "radius": 3.5
     }
   ],
   "weapons": [

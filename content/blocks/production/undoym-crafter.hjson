@@ -2,7 +2,7 @@
   "health": 400,
   "size": 2,
   "hasItems": true,
-  "craftTime": 155,
+  "craftTime": 120,
   "craftEffect": "none",
   "hasPower": false,
   "hasLiquids": false,
@@ -15,8 +15,9 @@
     ]
   },
   "requirements": [
-    fossil/175
+    fossil/150
     geno/90
+    sand-fabric/100
   ],
   "category": "crafting",
   "outputItem": "undoym/2"
@@ -32,7 +33,8 @@ research: {
 },
 researchCost: [
     fossil/1200
-    geno/670
+    geno/500
+    sand-fabric/670
   ],
   "drawer": [
     {

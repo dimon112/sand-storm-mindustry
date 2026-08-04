@@ -23,15 +23,15 @@ range: 160
     }
     ]
   research: {
-    objectives: [
-  {
-      type: OnSector
-      preset: sandstorm
-  }
-  ]
 parent: Desert-factory
 requirements: [
  fossil/100
  sand-fabric/250
  ]
 }
+objectives: [
+  {
+  type: OnSector
+  preset: SandStorm
+  }
+]

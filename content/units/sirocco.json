@@ -41,7 +41,10 @@
         "keepVelocity": false,
         "collidesAir": true,
         "speed": 0,
-        "smokeEffect": "none"
+        "smokeEffect": "shootBigSmoke",
+        "shootEffect": "sparkShoot",
+        "hitColor": "ffaa00",
+        "trailColor": "ffaa00"
       }
     }
   ]

@@ -1,0 +1,13 @@
+{
+  "type": "liquid",
+  "color": "eeff00",
+  "effect": "radiation2",
+  "viscosity": 0.8,
+  "lightColor": "eeff00",
+  "heatCapacity": 0.7,
+  "flammability": 0.0,
+  "explosiveness": 0.5,
+  "coolant": false,
+  "gas": false,
+  "research": "undoym"
+}

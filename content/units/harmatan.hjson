@@ -2,6 +2,7 @@ type: flying
 name: harmatan
 speed: 1.5
 controller: Flying
+outlineColor: 80400D 
 health: 550
 armor: 2
 hitSize: 8
@@ -22,15 +23,29 @@ immunities: [blasted, radiation1]
 parts: [
     {
       type: ShapePart,
-      sides: 5,
+      sides: 3,
       color: ff0000,
       hollow: false,
-      layer: 120,
+      layer: 100,
       radius: 1,
       radiusTo: 2,
       stroke: 1,
       strokeTo: 2,
       rotateSpeed: 2.0,
+      x: 0,
+      y: -1
+    },
+    {
+      type: ShapePart,
+      sides: 3,
+      color: ff0000,
+      hollow: false,
+      layer: 100,
+      radius: 1,
+      radiusTo: 2,
+      stroke: 1,
+      strokeTo: 2,
+      rotateSpeed: -2.0,
       x: 0,
       y: -1
     }

@@ -33,4 +33,13 @@ research: {
 researchCost: [
     fossil/1200
     geno/670
+  ],
+  "drawer": [
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawFlame",
+      "color": "ddff00"   
+    }
   ]

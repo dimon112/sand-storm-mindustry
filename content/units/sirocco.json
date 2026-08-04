@@ -2,7 +2,6 @@
   "type": "flying",
   "flying": true,
   "speed": 1.0,
-  "layer": 150,
   "health": 1050,
   "hitSize": 16,
   "armor": 0,
@@ -15,14 +14,13 @@
   "engines": [
     {
       "x": 0,
-      "y": -6,
-      "radius": 3.5
+      "y": -5,
+      "radius": 3.0
     }
   ],
   "weapons": [
     {
       "name": "sirocco-gun",
-      "layer": 50,
       "x": 6,
       "y": 4,
       "mirror": true,

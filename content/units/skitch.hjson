@@ -1,6 +1,6 @@
 type:mech
 name: "skitch"
-speed: 0.57
+speed: 0.5
 flying: false
 health: 375
 range: 150

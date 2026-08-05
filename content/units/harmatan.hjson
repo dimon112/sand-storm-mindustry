@@ -23,28 +23,28 @@ immunities: [blasted, radiation1]
 parts: [
     {
       type: ShapePart,
-      sides: 5,
+      sides: 3,
       color: ff0000,
       hollow: false,
       layer: 100,
       radius: 1,
       radiusTo: 1.5,
-      stroke: 0.5,
-      strokeTo: 1,
+      stroke: 0.25,
+      strokeTo: 0.5,
       rotateSpeed: 2.0,
       x: 0,
       y: -0.5
     },
     {
       type: ShapePart,
-      sides: 5,
+      sides: 3,
       color: ff0000,
       hollow: false,
       layer: 100,
       radius: 1.5,
       radiusTo: 3,
-      stroke: 1,
-      strokeTo: 1.5,
+      stroke: 0.25,
+      strokeTo: 0.5,
       rotateSpeed: -2.0,
       x: 0,
       y: -1
@@ -57,11 +57,12 @@ weapons: [
     y: -1
     reload: 120
     shootCone: 360
-    ignoreRotation: true
+    rotate: true
     shootSound: bomb-drop
     bullet: {
       type: BombBulletType
       damage: 0
+      speed: 0
       splashDamage: 35
       splashDamageRadius: 48
       width: 12
@@ -73,20 +74,18 @@ weapons: [
   }
 ]
 
-engineColor: ff5e5e 
-
 engines: [
   // Левый двигатель 
   {
-    x: -6
-    y: -6
-    radius: 1.5
+    x: -5
+    y: -5
+    radius: 2
   }
   // правый двигатель
   {
-    x: 6
-    y: -6
-    radius: 1.5
+    x: 5
+    y: -5
+    radius: 2
   }
 ]
 

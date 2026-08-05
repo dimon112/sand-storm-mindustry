@@ -29,6 +29,38 @@ ammoType: {
     sprite: skitch
     }
     }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 4
+  y: -4
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80CB7
+    sprite: skitch
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 4
+  y: 4
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80CB7
+    sprite: skitch
+    }
+    }
     ]
   research: {
 parent: Desert-factory

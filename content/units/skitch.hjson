@@ -1,0 +1,39 @@
+type:mech
+name: "skitch"
+speed: 0.57
+flying: false
+health: 375
+range: 150
+outline: false
+dpsEstimate: 20
+ammoType: {
+  type: ItemAmmoType
+  item: fossil
+  ammoPerItem: 15
+}
+  "weapons": [
+  {
+   name: skitch-gun
+  mirror: true
+  alternate: true
+  reload: 60
+  rotate: false
+  x: 6
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80CB7
+    }
+    }
+    ]
+  research: {
+parent: Desert-factory
+requirements: [
+ fossil/525
+ ]
+ 
+}

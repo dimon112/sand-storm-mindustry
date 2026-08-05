@@ -1,11 +1,10 @@
 type:mech
 name: "skitch"
-speed: 0.57
+speed: 0.4
 outlineColor: 80400d
 flying: false
 health: 375
 range: 150
-outline: false
 dpsEstimate: 20
 ammoType: {
   type: ItemAmmoType

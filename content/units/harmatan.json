@@ -91,7 +91,7 @@
               "sizeTo": 120,
               "lifetime": 30,
               "colorFrom": "ffaaaa",
-              "colorTo": "aa555555",
+              "colorTo": "aa5555",
               "strokeFrom": 5,
               "strokeTo": 0
             },
@@ -100,7 +100,7 @@
               "sizeFrom": 0,
               "sizeTo": 60,
               "lifetime": 25,
-              "colorFrom": "ffaaa",
+              "colorFrom": "ffaaaa",
               "colorTo": "aa5555",
               "strokeFrom": 10,
               "strokeTo": 0
@@ -111,7 +111,7 @@
               "particles": 30,
               "length": 16,
               "lifetime": 35,
-              "colorTo": "ffaaaa20",
+              "colorTo": "ffaaaa",
               "strokeFrom": 5,
               "strokeTo": 0,
               "lenFrom": 25,

@@ -1,58 +1,58 @@
-type: flying
-name: harmatan
-speed: 1.5
-controller: Flying
-outlineColor: 80400D 
-health: 550
-armor: 2
-hitSize: 16
-flying: true
-autoDropBombs: true
-rotateMoveFirst: true
-alwaysShootWhenMoving: true
-crashDamageMultiplier: 1.2
-payloadCapacity: 64
-circleTarget: true
-circleTargetRadius: 40
-trailLength: 8
-trailColor: ff5e5e 
-ammoCapacity: 20
+type: flying 
+name: harmatan 
+speed: 1.5 
+controller: Flying 
+outlineColor: 80400D  
+health: 550 
+armor: 2 
+hitSize: 16 
+flying: true 
+autoDropBombs: true 
+rotateMoveFirst: true 
+alwaysShootWhenMoving: true 
+crashDamageMultiplier: 1.2 
+payloadCapacity: 64 
+circleTarget: true 
+circleTargetRadius: 40 
+trailLength: 8 
+trailColor: ff5e5e  
+ammoCapacity: 20 
 
-immunities: [blasted, radiation1]
+immunities: [blasted, radiation1] 
 
-parts: [
-    {
-      type: ShapePart,
-      sides: 3,
-      color: ff0000,
-      hollow: false,
-      layer: 100,
-      radius: 1,
-      radiusTo: 1.5,
-      stroke: 0.25,
-      strokeTo: 0.5,
-      rotateSpeed: 2.0,
-      x: 0,
-      y: -0.5
-    },
-    {
-      type: ShapePart,
-      sides: 3,
-      color: ff0000,
-      hollow: false,
-      layer: 100,
-      radius: 1.5,
-      radiusTo: 3,
-      stroke: 0.25,
-      strokeTo: 0.5,
-      rotateSpeed: -2.0,
-      x: 0,
-      y: -1
-    }
-  ],
+parts: [ 
+    { 
+      type: ShapePart, 
+      sides: 3, 
+      color: ff0000, 
+      hollow: false, 
+      layer: 100, 
+      radius: 1, 
+      radiusTo: 1.5, 
+      stroke: 0.25, 
+      strokeTo: 0.5, 
+      rotateSpeed: 2.0, 
+      x: 0, 
+      y: -0.5 
+    }, 
+    { 
+      type: ShapePart, 
+      sides: 3, 
+      color: ff0000, 
+      hollow: false, 
+      layer: 100, 
+      radius: 1.5, 
+      radiusTo: 3, 
+      stroke: 0.25, 
+      strokeTo: 0.5, 
+      rotateSpeed: -2.0, 
+      x: 0, 
+      y: -1 
+    } 
+  ], 
 
-weapons: [
-  {
+weapons: [ 
+  { 
   x: 0
   y: -1
   mirror: false
@@ -120,38 +120,38 @@ weapons: [
         lenTo: 8
         }
       ]
-    }
-  }
-]
+    } 
+  } 
+] 
 
 engineOffset: 8
-engineSize: 0
-engines: [
-  // Левый двигатель 
-  {
-    x: -5
-    y: -5
-    radius: 2
-  }
-  // правый двигатель
-  {
-    x: 5
-    y: -5
-    radius: 2
-  }
-]
+engineSize: 0 
+engines: [ 
+  // Левый двигатель  
+  { 
+    x: -5 
+    y: -5 
+    radius: 2 
+  } 
+  // правый двигатель 
+  { 
+    x: 5 
+    y: -5 
+    radius: 2 
+  } 
+] 
 
-research: {
-parent: geno-reconstructor
-requirements: [
-  fossil/2000
-  geno/1500
-  collarise/1750
-]
-objectives: [
-  {
-    type: SectorComplete
-    preset: the-best-way
-    }
-  ]
-}
+research: { 
+parent: geno-reconstructor 
+requirements: [ 
+  fossil/2000 
+  geno/1500 
+  collarise/1750 
+] 
+objectives: [ 
+  { 
+    type: SectorComplete 
+    preset: the-best-way 
+    } 
+  ] 
+} 

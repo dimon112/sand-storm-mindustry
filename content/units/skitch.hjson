@@ -16,7 +16,7 @@ ammoType: {
    name: skitch-gun
   reload: 60
   rotate: false
-  x: 4
+  x: 6
   y: 0
   range: 150
   shootSound: shoot

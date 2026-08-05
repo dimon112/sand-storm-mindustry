@@ -16,7 +16,7 @@ ammoType: {
    name: skitch-gun
   reload: 60
   rotate: false
-  x: 0
+  x: 4
   y: 0
   range: 150
   shootSound: shoot
@@ -25,6 +25,7 @@ ammoType: {
     speed: 4
     damage: 20
     color: 80CB7
+    sprite: skitch-gun
     }
     }
     ]

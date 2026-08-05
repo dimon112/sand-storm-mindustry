@@ -14,7 +14,7 @@ ammoType: {
   "weapons": [
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 6
   y: 0
@@ -29,7 +29,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 10
   y: 0
@@ -44,7 +44,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 14
   y: 0
@@ -59,7 +59,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 18
   y: 0
@@ -74,7 +74,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 22
   y: 0
@@ -89,7 +89,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 26
   y: 0
@@ -104,7 +104,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 30
   y: 0
@@ -119,7 +119,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 34
   y: 0
@@ -134,7 +134,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 38
   y: 0
@@ -149,7 +149,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 6
   y: -6
@@ -164,7 +164,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 10
   y: -10
@@ -179,7 +179,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 14
   y: -14
@@ -194,7 +194,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 18
   y: -18
@@ -209,7 +209,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 22
   y: -22
@@ -224,7 +224,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 26
   y: -26
@@ -239,7 +239,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 30
   y: -30
@@ -254,7 +254,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 34
   y: -34
@@ -269,7 +269,7 @@ ammoType: {
     }
   {
    name: skitch-gun
-  reload: 60
+  reload: 1
   rotate: false
   x: 38
   y: -38

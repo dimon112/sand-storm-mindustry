@@ -23,22 +23,22 @@
     {
       "type": "ShapePart",
       "sides": 3,
-      "color": "ff0000",
+      "color": "e65555",
       "hollow": false,
       "layer": 100,
-      "radius": 1,
-      "radiusTo": 1.5,
+      "radius": 1.5,
+      "radiusTo": 3,
       "stroke": 0.25,
       "strokeTo": 0.5,
       "rotateSpeed": 2.0,
       "x": 0,
-      "y": -0.5
+      "y": -1
     },
     {
       "type": "ShapePart",
       "sides": 3,
-      "color": "ff0000",
-      "hollow": false,
+      "color": "e65555",
+      "hollow": true,
       "layer": 100,
       "radius": 1.5,
       "radiusTo": 3,
@@ -88,7 +88,7 @@
             {
               "type": "WaveEffect",
               "sizeFrom": 0,
-              "sizeTo": 120,
+              "sizeTo": 24,
               "lifetime": 30,
               "colorFrom": "ffaaaa",
               "colorTo": "aa5555",
@@ -98,7 +98,7 @@
             {
               "type": "WaveEffect",
               "sizeFrom": 0,
-              "sizeTo": 60,
+              "sizeTo": 12,
               "lifetime": 25,
               "colorFrom": "ffaaaa",
               "colorTo": "aa5555",
@@ -108,14 +108,14 @@
             {
               "type": "ParticleEffect",
               "line": true,
-              "particles": 30,
-              "length": 16,
+              "particles": 5,
+              "length": 4,
               "lifetime": 35,
               "colorTo": "ffaaaa",
-              "strokeFrom": 5,
+              "strokeFrom": 2,
               "strokeTo": 0,
-              "lenFrom": 25,
-              "lenTo": 8
+              "lenFrom": 8,
+              "lenTo": 2
             }
           ]
         }
@@ -128,12 +128,14 @@
     {
       "x": -5,
       "y": -5,
-      "radius": 2
+      "radius": 2,
+      "rotation": 45
     },
     {
       "x": 5,
       "y": -5,
-      "radius": 2
+      "radius": 2,
+      "rotation": 45
     }
   ],
   "research": {

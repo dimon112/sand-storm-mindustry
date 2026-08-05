@@ -124,6 +124,8 @@ weapons: [
   }
 ]
 
+engineOffset: 8
+engineSize: 0
 engines: [
   // Левый двигатель 
   {

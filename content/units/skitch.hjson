@@ -27,6 +27,126 @@ ammoType: {
     color: 80C700
     }
     }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 8
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 10
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 12
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 14
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 16
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 18
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 20
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
+  {
+   name: skitch-gun
+  reload: 60
+  rotate: false
+  x: 22
+  y: 0
+  range: 150
+  shootSound: shoot
+  bullet: {
+    type: standardThorium
+    speed: 4
+    damage: 20
+    color: 80C700
+    }
+    }
     ]
   research: {
 parent: Desert-factory

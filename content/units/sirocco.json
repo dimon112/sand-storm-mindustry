@@ -26,10 +26,11 @@
       "mirror": true,
       "alternate": true,
       "rotate": true,
-      "rotationLimit": 45,
-      "shootCone": 15,
+      "inaccuracy": 15,
+      "shootCone": 45,
       "reload": 120,
       "shootSound": "shootAvert",
+      "shootStatus": "slow",
       "shoot": {
         "shots": 2,
         "shotDelay": 15,

@@ -25,7 +25,7 @@
       "y": 4,
       "mirror": true,
       "alternate": true,
-      "rotate": true,
+      "rotate": false,
       "inaccuracy": 15,
       "shootCone": 45,
       "reload": 120,

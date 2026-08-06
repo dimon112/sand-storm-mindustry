@@ -10,7 +10,7 @@
   "itemCapacity": 15,
   "consumes": {
     "items": [
-      "fossil/2"
+      "sand-fabric/1"
       "geno/2"
     ]
   },

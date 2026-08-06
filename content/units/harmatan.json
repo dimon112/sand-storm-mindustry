@@ -4,9 +4,9 @@
   "speed": 1.5,
   "controller": "Flying",
   "outlineColor": "80400D",
-  "health": 550,
+  "health": 525,
   "armor": 2,
-  "hitSize": 16,
+  "hitSize": 13,
   "flying": true,
   "autoDropBombs": true,
   "rotateMoveFirst": true,
@@ -19,12 +19,13 @@
   "trailColor": "ff5e5e",
   "ammoCapacity": 20,
   "immunities": ["blasted", "radiation1"],
+  "faseTarget": false,
   "parts": [
     {
       "type": "ShapePart",
       "sides": 3,
       "color": "e65555",
-      "hollow": false,
+      "hollow": true,
       "layer": 100,
       "radius": 1.5,
       "radiusTo": 3,
@@ -55,6 +56,7 @@
       "y": -1,
       "mirror": false,
       "reload": 120,
+      "faseTarget": false,
       "ignoreRotation": true,
       "shootCone": 360,
       "minShootVelocity": 0.5,
@@ -67,7 +69,8 @@
         "absorbable": false,
         "collides": false,
         "collidesTiles": false,
-        "splashDamage": 150,
+        "damage": 1,
+        "splashDamage": 200,
         "splashDamageRadius": 24,
         "frontColor": "ffffff",
         "backColor": "e65555",
@@ -96,21 +99,11 @@
               "strokeTo": 0
             },
             {
-              "type": "WaveEffect",
-              "sizeFrom": 0,
-              "sizeTo": 12,
-              "lifetime": 25,
-              "colorFrom": "ffaaaa",
-              "colorTo": "aa5555",
-              "strokeFrom": 10,
-              "strokeTo": 0
-            },
-            {
               "type": "ParticleEffect",
               "line": true,
               "particles": 5,
-              "length": 4,
-              "lifetime": 35,
+              "length": 8,
+              "lifetime": 60,
               "colorTo": "ffaaaa",
               "strokeFrom": 2,
               "strokeTo": 0,
@@ -122,8 +115,8 @@
       }
     }
   ],
-  "engineOffset": 8,
-  "engineSize": 0,
+  "engineOffset": 1,
+  "engineSize": 1,
   "engines": [
     {
       "x": -5,
@@ -135,7 +128,7 @@
       "x": 5,
       "y": -5,
       "radius": 2,
-      "rotation": 45
+      "rotation": -45
     }
   ],
   "research": {

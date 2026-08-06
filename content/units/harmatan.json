@@ -29,7 +29,7 @@
       "layer": 100,
       "radius": 1.5,
       "radiusTo": 3,
-      "stroke": 0.25,
+      "stroke": 0.5,
       "strokeTo": 0.5,
       "rotateSpeed": 2.0,
       "x": 0,
@@ -43,7 +43,7 @@
       "layer": 100,
       "radius": 1.5,
       "radiusTo": 3,
-      "stroke": 0.25,
+      "stroke": 0.5,
       "strokeTo": 0.5,
       "rotateSpeed": -2.0,
       "x": 0,
@@ -116,19 +116,19 @@
     }
   ],
   "engineOffset": 1,
-  "engineSize": 1,
+  "engineSize": 0,
   "engines": [
     {
-      "x": -5,
-      "y": -5,
+      "x": -6,
+      "y": -1,
       "radius": 2,
-      "rotation": 45
+      "rotation": 0
     },
     {
-      "x": 5,
-      "y": -5,
+      "x": 6,
+      "y": -1,
       "radius": 2,
-      "rotation": -45
+      "rotation": 0
     }
   ],
   "research": {

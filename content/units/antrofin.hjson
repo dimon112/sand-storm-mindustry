@@ -2,7 +2,7 @@ type: legs
 name: "antrofin"
 speed: 0.55
 flying: false
-health: 1260
+health: 1500
 range: 170
 armor: 8
 legCount: 4

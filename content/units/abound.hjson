@@ -2,7 +2,7 @@ type:mech
 name: "abound"
 speed: 0.40
 flying: false
-health: 775
+health: 700
 range: 10
 armor: 5
 immunities: [radiation1]

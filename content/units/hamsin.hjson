@@ -7,7 +7,7 @@ controller: SuicideAI
 flying: true
 accel: 0.1
 drag: 0.05
-health: 200
+health: 225
 armor: 0
 hitSize: 6
 createWreck: false

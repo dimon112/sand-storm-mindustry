@@ -1,6 +1,7 @@
 type:flying
 name: "crater"
 speed: 1
+hitSize: 8
 flying: true
 health: 150
 engineOffset: 0

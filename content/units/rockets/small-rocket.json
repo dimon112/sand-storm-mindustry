@@ -14,7 +14,7 @@
   "homingDelay": 10,
   "circleTarget": false,
   "faceTarget": true,
-  "health": 50,
+  "health": 100,
   "trailColor": "00000000",
   "aimDst": 4,
   "drawCell": false,
@@ -53,7 +53,7 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 50,
-        "splashDamage": 50,
+        "splashDamage": 75,
         "splashDamageRadius": 32,
         "status": "blasted",
         "statusDuration": 180

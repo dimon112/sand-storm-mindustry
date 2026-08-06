@@ -2,7 +2,7 @@ type:flying
 name: "support"
 speed: 1.25
 flying: true
-health: 300
+health: 350
 engineOffset: 0
 range: 180
 immunities: [radiation1]

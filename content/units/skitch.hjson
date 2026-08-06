@@ -3,7 +3,7 @@ name: "skitch"
 speed: 0.5
 outlineColor: 60400d
 flying: false
-health: 375
+health: 300
 range: 150
 outline: false
 dpsEstimate: 20

@@ -49,9 +49,11 @@
     "backColor": "88ccff",
     "trailColor": "4488ff",
     "trailLength": 10,
-    "homingPower": 0.12,
+    "homingPower": 0.05,
+    "homingDelay": 22.5,
     "homingRange": 120,
     "hitEffect": "hitLaser",
+    "despawnEffect": "hitLaser",
     "shootEffect": "shootBig",
     "sprite": "circle"
   }

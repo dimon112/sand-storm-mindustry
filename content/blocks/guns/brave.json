@@ -1,0 +1,58 @@
+{
+  "type": "PowerTurret",
+  "name": "Храбрый",
+  "description": "Энергетическая турель, стреляющая тремя самонаводящимися синими орбами.",
+  "size": 2,
+  "health": 350,
+  "targetGround": true,
+  "targetAir": false,
+  "range": 112,
+  "reload": 90,
+  "shootCone": 30,
+  "rotateSpeed": 20,
+  "shootSound": "laser",
+  "consumes": {
+    "power": 4.375
+  },
+  "requirements": [
+    { "item": "geno", "amount": 150 },
+    { "item": "pyrit", "amount": 45 },
+    { "item": "quartz", "amount": 15 }
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "resonance",
+    "requirements": [
+      { "item": "geno", "amount": 1500 },
+      { "item": "pyrit", "amount": 450 },
+      { "item": "quartz", "amount": 150 }
+    ]
+  },
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 3,
+    "shotDelay": 4,
+    "barrels": [
+      [-4, 0, -8],
+      [0, 0, 0],
+      [4, 0, 8]
+    ]
+  },
+  "shootType": {
+    "type": "BasicBulletType",
+    "damage": 30,
+    "speed": 4,
+    "lifetime": 45,
+    "width": 8,
+    "height": 8,
+    "frontColor": "4488ff",
+    "backColor": "88ccff",
+    "trailColor": "4488ff",
+    "trailLength": 10,
+    "homingPower": 0.12,
+    "homingRange": 120,
+    "hitEffect": "hitLaser",
+    "shootEffect": "shootBig",
+    "sprite": "circle"
+  }
+}

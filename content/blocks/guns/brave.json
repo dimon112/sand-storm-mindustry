@@ -12,7 +12,7 @@
   "rotateSpeed": 20,
   "shootSound": "laser",
   "consumes": {
-    "power": 4.375
+    "power": 0.5833333333333333333333333333
   },
   "requirements": [
     { "item": "geno", "amount": 150 },

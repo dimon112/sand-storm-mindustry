@@ -14,7 +14,7 @@
   "crashDamageMultiplier": 1.2,
   "payloadCapacity": 64,
   "circleTarget": true,
-  "circleTargetRadius": 40,
+  "circleTargetRadius": 24,
   "trailLength": 8,
   "trailColor": "ff5e5e",
   "ammoCapacity": 20,
@@ -81,7 +81,7 @@
         "spin": 2,
         "shrinkX": 0.5,
         "shrinkY": 0.5,
-        "maxRange": 24,
+        "maxRange": 12,
         "hitSound": "plasmaboom",
         "hitEffect": "none",
         "despawnEffect": {

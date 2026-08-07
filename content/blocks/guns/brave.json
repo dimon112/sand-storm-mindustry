@@ -49,7 +49,7 @@
     "backColor": "88ccff",
     "trailColor": "4488ff",
     "trailLength": 10,
-    "homingPower": 0.075,
+    "homingPower": 0.1,
     "homingDelay": 15,
     "homingRange": 120,
     "hitEffect": "hitLaser",

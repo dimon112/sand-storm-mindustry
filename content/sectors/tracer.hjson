@@ -13,7 +13,7 @@
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: geno-base
+      preset: SandStorm
     } 
   ] 
 } 

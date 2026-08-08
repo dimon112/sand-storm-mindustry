@@ -14,7 +14,7 @@ quicksandfloor.drownUpdateEffect = Fx.bubble;
 quicksandfloor.liquidMultiplier = 0.5;
 
 Events.on(ContentInitEvent, () => {
-    quicksandfloor.liquidDrop = Vars.content.liquid("sandstormv2-quicksand") || Vars.content.liquid("quicksand");
+    quicksandfloor.liquidDrop = Vars.content.liquid("sand-stormv2-quicksand") || Vars.content.liquid("quicksand");
 });
 
 Events.run(Trigger.draw, () => {

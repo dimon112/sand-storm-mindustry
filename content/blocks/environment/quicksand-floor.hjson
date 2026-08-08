@@ -1,0 +1,12 @@
+type: Floor
+speedMultiplier: 0.5
+variants: 0
+cacheLayer: "mud"
+drownTime: 300
+isLiquid: true
+liquidDrop: quicksand
+liquidMultiplier: 0.5
+albedo: 1
+shallow: true
+supportsOverlay: true
+emitLight: false

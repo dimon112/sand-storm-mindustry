@@ -6,7 +6,7 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
 });
 
 quicksandfloor.placeableOn = true;
-quicksandfloor.isLiquid = true;
+quicksandfloor.isLiquid = false;
 
 quicksandfloor.speedMultiplier = 0.65;
 quicksandfloor.drownTime = 133.33;

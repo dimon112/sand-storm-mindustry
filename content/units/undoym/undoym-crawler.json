@@ -3,8 +3,8 @@
   "name": "Ундоумный живчик",
   "description": "Ундоумный живчик - живая зелёнка.",
   "speed": 0.8,
-  "health": 500,
-  "outlineColor": "001000",
+  "health": 750,
+  "outlineColor": "002000",
   "armor": 2,
   "hitSize": 10,
   "legCount": 6,
@@ -19,15 +19,15 @@
       "reload": 90,
       "shootSound": "splash",
       "shoot": {
-  "type": "ShootBarrel",
-  "shots": 3,
-  "shotDelay": 15,
-  "barrels": [
-    -4, 0, 0,
-    0, 0, 0,
-    4, 0, 0
-      ]
-    },
+        "type": "ShootBarrel",
+        "shots": 9,
+        "shotDelay": 5,
+        "barrels": [
+          -4, 0, 0,
+          0, 0, 0,
+          4, 0, 0
+        ]
+      },
       "bullet": {
         "type": "LiquidBulletType",
         "liquid": "liquid-undoym",

@@ -4,6 +4,7 @@
   "description": "Ундоумный живчик - живая зелёнка.",
   "speed": 0.8,
   "health": 500,
+  "outlineColor": "001000",
   "armor": 2,
   "hitSize": 10,
   "legCount": 6,

@@ -1,7 +1,6 @@
 {
   "type": "liquid",
   "color": "E1B996",
-  "effect": "slow",
   "viscosity": 0.8,
   "heatCapacity": 0.1,
   "flammability": 0.0,

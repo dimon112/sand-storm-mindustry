@@ -5,12 +5,8 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
     }
 });
 
-quicksandfloor.placeableOn = true;
-
-// Setting isLiquid to false removes Mindustry's 1-block shoreline limit,
-// allowing pumps and all buildings to be constructed at ANY depth!
-quicksandfloor.isLiquid = false;
-
+quicksandfloor.isLiquid = true;
+quicksandfloor.supportsBuildings = true;
 quicksandfloor.speedMultiplier = 0.65;
 quicksandfloor.drownTime = 133.33;
 quicksandfloor.variants = 3;
@@ -38,22 +34,8 @@ Events.run(Trigger.update, () => {
                 let tile = Vars.world.tile(x, y);
 
                 if (tile && tile.floor() === quicksandfloor && tile.build) {
-                    let l = Vars.world.tile(x - 1, y);
-                    let r = Vars.world.tile(x + 1, y);
-                    let t = Vars.world.tile(x, y - 1);
-                    let b = Vars.world.tile(x, y + 1);
-
-                    let isEdge = (l && l.floor() !== quicksandfloor) ||
-                                 (r && r.floor() !== quicksandfloor) ||
-                                 (t && t.floor() !== quicksandfloor) ||
-                                 (b && b.floor() !== quicksandfloor);
-
-                    let isPump = (tile.build.block instanceof Pump) || (tile.build.block.name && tile.build.block.name.includes("pump"));
-
-                    if (!isPump || !isEdge) {
-                        tile.build.damage(3.0);
-                        Fx.bubble.at(tile.worldx(), tile.worldy());
-                    }
+                    tile.build.damage(3.0);
+                    Fx.bubble.at(tile.worldx(), tile.worldy());
                 }
             }
         }

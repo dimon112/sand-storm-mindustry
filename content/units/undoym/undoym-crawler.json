@@ -9,6 +9,16 @@
   "hitSize": 10,
   "legCount": 6,
   "legLength": 12,
+  "immunities": ["radiation1", "radiation2"],
+  "abilities": [
+    {
+      "type": "LiquidRegenAbility",
+      "liquid": "liquid-undoym",
+      "regenPerSlurp": 5.0,
+      "slurpSpeed": 5.0,
+      "slurpEffect": "heal"
+    }
+  ],
   "weapons": [
     {
       "x": 0,
@@ -34,11 +44,55 @@
         "speed": 4,
         "lifetime": 40,
         "knockback": 1,
-        "puddleSize": 4,
+        "puddleSize": 8,
         "status": "radiation2",
         "damage": 5,
         "statusDuration": 120
       }
     }
-  ]
+  ],
+  "deathExplosionEffect": {
+    "type": "MultiEffect",
+    "effects": [
+      {
+        "type": "ParticleEffect",
+        "particles": 30,
+        "lifetime": 40,
+        "cone": 360,
+        "sizeFrom": 4,
+        "sizeTo": 0,
+        "colorFrom": "44ff44",
+        "colorTo": "44ff4400",
+        "length": 20,
+        "interp": "pow2Out",
+        "sizeInterp": "pow2In"
+      },
+      {
+        "type": "WaveEffect",
+        "colorFrom": "44ff44",
+        "colorTo": "44ff4400",
+        "sizeFrom": 0,
+        "sizeTo": 30,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "lifetime": 30,
+        "interp": "pow2Out"
+      }
+    ]
+  },
+  "deathSpawnEffect": {
+    "type": "ParticleEffect",
+    "particles": 20,
+    "lifetime": 30,
+    "cone": 360,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "colorFrom": "44ff44",
+    "colorTo": "44ff4400",
+    "length": 15,
+    "interp": "pow2Out",
+    "sizeInterp": "pow2In"
+  },
+  "deathSpawnLiquid": "liquid-undoym",
+  "deathSpawnLiquidAmount": 30
 }

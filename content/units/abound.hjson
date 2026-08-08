@@ -12,9 +12,9 @@ immunities: [radiation1]
    name: abound-gun
   reload: 17
   rotate: false
-  mirror:false
-  x: 0
-  y: 10 
+  mirror: true
+  x: 12
+  y: 0
   shootSound: shoot
   bullet: {
     type: standardThorium

@@ -35,7 +35,8 @@
         "lifetime": 40,
         "knockback": 1,
         "puddleSize": 4,
-        "status": "radiation1",
+        "status": "radiation2",
+        "damage": 5,
         "statusDuration": 120
       }
     }

@@ -10,17 +10,17 @@
   "legLength": 12,
   "weapons": [
     {
-      "x": 5,
-      "y": 0,
+      "x": 0,
+      "y": 5,
       "mirror": false,
       "rotate": false,
       "shootCone": 30,
-      "reload": 30,
+      "reload": 90,
       "shootSound": "splash",
       "shoot": {
   "type": "ShootBarrel",
   "shots": 3,
-  "shotDelay": 0,
+  "shotDelay": 15,
   "barrels": [
     -4, 0, 0,
     0, 0, 0,

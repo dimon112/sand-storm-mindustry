@@ -14,14 +14,14 @@ immunities: [radiation1]
   rotate: false
   mirror: true
   x: 12
-  y: 0
+  y: 8
   shootSound: shoot
   bullet: {
     type: standardThorium
     speed: 5
     damage: 35
     lifetime: 16
-    color: 80CB7
+    color: 80CB70
     }
     }
     ]

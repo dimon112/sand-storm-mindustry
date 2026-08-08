@@ -1,7 +1,7 @@
 type: Floor
 speedMultiplier: 0.5
 variants: 0
-cacheLayer: "mud"
+cacheLayer: "sand"
 drownTime: 300
 isLiquid: true
 liquidDrop: quicksand

@@ -5,10 +5,7 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
     }
 });
 
-quicksandfloor.isLiquid = true;
-
-// Unlocks placement for ALL standard buildings (conveyors, walls, turrets, factories, power nodes)
-quicksandfloor.shallow = true;
+quicksandfloor.isLiquid = false;
 
 quicksandfloor.speedMultiplier = 0.65;
 quicksandfloor.drownTime = 133.33;

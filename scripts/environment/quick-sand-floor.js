@@ -6,6 +6,9 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
 });
 
 quicksandfloor.placeableOn = true;
+
+// Setting isLiquid to false removes Mindustry's 1-block shoreline limit,
+// allowing pumps and all buildings to be constructed at ANY depth!
 quicksandfloor.isLiquid = false;
 
 quicksandfloor.speedMultiplier = 0.65;

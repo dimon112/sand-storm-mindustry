@@ -1,7 +1,8 @@
-
 const quicksandfloor = extend(Floor, "quick-sand-floor", {
-   // idk, making this blank makes game not cache anything
-    drawBase(tile) {}
+    drawBase(tile) {
+        let region = this.variantRegions[Math.abs(tile.pos()) % this.variants];
+        Draw.rect(region, tile.drawx(), tile.drawy());
+    }
 });
 
 quicksandfloor.isLiquid = true;
@@ -20,12 +21,15 @@ Events.run(Trigger.draw, () => {
     let minY = Math.max(0, Math.floor((camera.position.y - camera.height / 2) / Vars.tilesize) - 1);
     let maxY = Math.min(Vars.world.height() - 1, Math.ceil((camera.position.y + camera.height / 2) / Vars.tilesize) + 1);
 
+    let steppedTime = Math.floor(Time.time / 2.0) * 2.0;
+
+    Draw.z(Layer.floor);
+
     for (let x = minX; x <= maxX; x++) {
         for (let y = minY; y <= maxY; y++) {
             let tile = Vars.world.tile(x, y);
-            
             if (tile && tile.floor() === quicksandfloor) {
-                let moveY = Math.sin((Time.time + (x + y) * 10) / 25.0) * 1.2;
+                let moveY = Math.sin((steppedTime + (x + y) * 10) / 25.0) * 1.2;
                 Draw.color(0.95, 0.95, 0.95, 1.0);
                 let region = quicksandfloor.variantRegions[Math.abs(tile.pos()) % quicksandfloor.variants];
                 Draw.rect(region, tile.drawx(), tile.drawy() + moveY, Vars.tilesize + 0.8, Vars.tilesize + 0.8);

@@ -21,7 +21,7 @@ Events.run(Trigger.draw, () => {
     let minY = Math.max(0, Math.floor((camera.position.y - camera.height / 2) / Vars.tilesize) - 1);
     let maxY = Math.min(Vars.world.height() - 1, Math.ceil((camera.position.y + camera.height / 2) / Vars.tilesize) + 1);
 
-    let steppedTime = Math.floor(Time.time / 2.0) * 2.0;
+    let steppedTime = Math.floor(Time.time / 4.0) * 4.0;
 
     Draw.z(Layer.floor + 0.01); //draw this 0.01 layer above floor layer so now it should animateee
 

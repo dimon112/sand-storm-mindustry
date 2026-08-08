@@ -3,7 +3,7 @@ isLiquid: true
 speedMultiplier: 0.65
 drownTime: 133.33
 
-cacheLayer: mud
+cacheLayer: tar
 walkEffect: ripple
 drownUpdateEffect: bubble
 

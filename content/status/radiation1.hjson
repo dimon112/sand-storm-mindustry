@@ -1,4 +1,4 @@
 name: radiation1
 speedMultiplier: 0.75
 reloadMultiplier: 0.9
-show: false
+show: true

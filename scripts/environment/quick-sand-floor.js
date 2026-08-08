@@ -12,6 +12,9 @@ quicksandfloor.variants = 3;
 quicksandfloor.walkEffect = Fx.ripple;
 quicksandfloor.drownUpdateEffect = Fx.bubble;
 
+quicksandfloor.liquidDrop = Liquids.water;
+quicksandfloor.liquidMultiplier = 0.5;
+
 Events.run(Trigger.draw, () => {
     if (!Vars.world || !Vars.state.isGame()) return;
 
@@ -21,9 +24,11 @@ Events.run(Trigger.draw, () => {
     let minY = Math.max(0, Math.floor((camera.position.y - camera.height / 2) / Vars.tilesize) - 1);
     let maxY = Math.min(Vars.world.height() - 1, Math.ceil((camera.position.y + camera.height / 2) / Vars.tilesize) + 1);
 
-    let steppedTime = Math.floor(Time.time / 4.0) * 4.0;
+    let steppedTime = Math.floor(Time.time / 5.0) * 5.0;
+    let size = Vars.tilesize + 0.8;
 
-    Draw.z(Layer.floor + 0.01); //draw this 0.01 layer above floor layer so now it should animateee
+    Draw.z(Layer.floor + 0.01);
+    Draw.color(0.85, 0.85, 0.85, 1.0);
 
     for (let x = minX; x <= maxX; x++) {
         for (let y = minY; y <= maxY; y++) {
@@ -31,12 +36,12 @@ Events.run(Trigger.draw, () => {
 
             if (tile && tile.floor() === quicksandfloor) {
                 let moveY = Math.sin((steppedTime + (x + y) * 10) / 25.0) * 1.2;
-                Draw.color(0.95, 0.95, 0.95, 1.0);
                 let region = quicksandfloor.variantRegions[Math.abs(tile.pos()) % quicksandfloor.variants];
-                Draw.rect(region, tile.drawx(), tile.drawy() + moveY, Vars.tilesize + 0.8, Vars.tilesize + 0.8);
 
-                Draw.color();
+                Draw.rect(region, tile.drawx(), tile.drawy() + moveY, size, size);
             }
         }
     }
+
+    Draw.color();
 });

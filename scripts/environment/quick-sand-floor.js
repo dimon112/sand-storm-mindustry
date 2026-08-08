@@ -6,15 +6,43 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
 });
 
 quicksandfloor.isLiquid = true;
-quicksandfloor.speedMultiplier = 0.55;
+
+// Allows ANY building (conveyors, walls, turrets, factories, reactors) to be built on quicksand!
+quicksandfloor.supportsBuildings = true;
+
+quicksandfloor.speedMultiplier = 0.65;
 quicksandfloor.drownTime = 133.33;
 quicksandfloor.variants = 3;
 quicksandfloor.walkEffect = Fx.ripple;
 quicksandfloor.drownUpdateEffect = Fx.bubble;
-quicksandfloor.liquidMultiplier = 0.5;
+quicksandfloor.liquidMultiplier = 0.4;
 
 Events.on(ContentInitEvent, () => {
-    quicksandfloor.liquidDrop = Vars.content.liquid("sand-stormv2-quicksand") || Vars.content.liquid("quicksand");
+    let foundLiquid = Vars.content.liquids().find(l => l.name.includes("quicksand"));
+    quicksandfloor.liquidDrop = foundLiquid || Liquids.water;
+});
+
+Events.run(Trigger.update, () => {
+    if (!Vars.world || !Vars.state.isGame()) return;
+
+    if (Time.ticks % 30 < 1) {
+        let camera = Core.camera;
+        let minX = Math.max(0, Math.floor((camera.position.x - camera.width / 2) / Vars.tilesize) - 1);
+        let maxX = Math.min(Vars.world.width() - 1, Math.ceil((camera.position.x + camera.width / 2) / Vars.tilesize) + 1);
+        let minY = Math.max(0, Math.floor((camera.position.y - camera.height / 2) / Vars.tilesize) - 1);
+        let maxY = Math.min(Vars.world.height() - 1, Math.ceil((camera.position.y + camera.height / 2) / Vars.tilesize) + 1);
+
+        for (let x = minX; x <= maxX; x++) {
+            for (let y = minY; y <= maxY; y++) {
+                let tile = Vars.world.tile(x, y);
+
+                if (tile && tile.floor() === quicksandfloor && tile.build) {
+                    tile.build.damage(3.0);
+                    Fx.bubble.at(tile.worldx(), tile.worldy());
+                }
+            }
+        }
+    }
 });
 
 Events.run(Trigger.draw, () => {
@@ -26,18 +54,18 @@ Events.run(Trigger.draw, () => {
     let minY = Math.max(0, Math.floor((camera.position.y - camera.height / 2) / Vars.tilesize) - 1);
     let maxY = Math.min(Vars.world.height() - 1, Math.ceil((camera.position.y + camera.height / 2) / Vars.tilesize) + 1);
 
-    let steppedTime = Math.floor(Time.time / 5.0) * 5.0;
+    let steppedTime = Math.floor(Time.time / 6.0) * 6.0;
     let size = Vars.tilesize + 0.8;
 
     Draw.z(Layer.floor + 0.01);
-    Draw.color(0.85, 0.85, 0.85, 1.0);
+    Draw.color(0.98, 0.98, 0.98, 1.0);
 
     for (let x = minX; x <= maxX; x++) {
         for (let y = minY; y <= maxY; y++) {
             let tile = Vars.world.tile(x, y);
 
             if (tile && tile.floor() === quicksandfloor) {
-                let moveY = Math.sin((steppedTime + (x + y) * 10) / 25.0) * 1.2;
+                let moveY = Math.sin((steppedTime + (x + y) * 10) / 25.0) * 0.5;
                 let region = quicksandfloor.variantRegions[Math.abs(tile.pos()) % quicksandfloor.variants];
 
                 Draw.rect(region, tile.drawx(), tile.drawy() + moveY, size, size);

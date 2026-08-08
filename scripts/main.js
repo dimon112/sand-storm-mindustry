@@ -1,1 +1,1 @@
-require("environment/quick-sand");
+require("environment/quick-sand-floor");

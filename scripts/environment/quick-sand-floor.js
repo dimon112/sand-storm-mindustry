@@ -5,6 +5,8 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
     }
 });
 
+// Explicitly allow building placement anywhere on this floor tile
+quicksandfloor.placeableOn = true;
 quicksandfloor.isLiquid = false;
 
 quicksandfloor.speedMultiplier = 0.65;

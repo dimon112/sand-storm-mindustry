@@ -6,10 +6,7 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
 });
 
 quicksandfloor.isLiquid = true;
-
-// Allows ANY building (conveyors, walls, turrets, factories, reactors) to be built on quicksand!
 quicksandfloor.supportsBuildings = true;
-
 quicksandfloor.speedMultiplier = 0.65;
 quicksandfloor.drownTime = 133.33;
 quicksandfloor.variants = 3;
@@ -25,7 +22,7 @@ Events.on(ContentInitEvent, () => {
 Events.run(Trigger.update, () => {
     if (!Vars.world || !Vars.state.isGame()) return;
 
-    if (Time.ticks % 30 < 1) {
+    if (Math.floor(Time.time) % 30 === 0) {
         let camera = Core.camera;
         let minX = Math.max(0, Math.floor((camera.position.x - camera.width / 2) / Vars.tilesize) - 1);
         let maxX = Math.min(Vars.world.width() - 1, Math.ceil((camera.position.x + camera.width / 2) / Vars.tilesize) + 1);

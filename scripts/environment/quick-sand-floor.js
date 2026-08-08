@@ -1,6 +1,6 @@
 const quicksandfloor = extend(Floor, "quick-sand-floor", {
     drawBase(tile) {
-        let moveY = Math.sin((Time.time + (tile.x + tile.y) * 12) / 35.0) * 0.5;
+        let moveY = Math.sin((Time.time + (tile.x + tile.y) * 12) / 35.0) * 1.5;
         Draw.color(0.95, 0.95, 0.95, 1.0);
         let region = this.variantRegions[Math.abs(tile.pos()) % this.variants];
         let tileSize = Vars.tilesize + 0.8; 

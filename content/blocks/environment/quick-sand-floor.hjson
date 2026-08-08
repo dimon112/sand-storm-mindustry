@@ -1,0 +1,10 @@
+type: Floor
+isLiquid: true
+speedMultiplier: 0.65
+drownTime: 133.33
+
+cacheLayer: mud
+walkEffect: ripple
+drownUpdateEffect: bubble
+
+variants: 3

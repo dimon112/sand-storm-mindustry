@@ -6,14 +6,16 @@ const quicksandfloor = extend(Floor, "quick-sand-floor", {
 });
 
 quicksandfloor.isLiquid = true;
-quicksandfloor.speedMultiplier = 0.65;
+quicksandfloor.speedMultiplier = 0.55;
 quicksandfloor.drownTime = 133.33;
 quicksandfloor.variants = 3;
 quicksandfloor.walkEffect = Fx.ripple;
 quicksandfloor.drownUpdateEffect = Fx.bubble;
-
-quicksandfloor.liquidDrop = Liquids.water;
 quicksandfloor.liquidMultiplier = 0.5;
+
+Events.on(ContentInitEvent, () => {
+    quicksandfloor.liquidDrop = Vars.content.liquid("sandstormv2-quicksand") || Vars.content.liquid("quicksand");
+});
 
 Events.run(Trigger.draw, () => {
     if (!Vars.world || !Vars.state.isGame()) return;

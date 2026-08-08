@@ -23,11 +23,12 @@ Events.run(Trigger.draw, () => {
 
     let steppedTime = Math.floor(Time.time / 2.0) * 2.0;
 
-    Draw.z(Layer.floor);
+    Draw.z(Layer.floor + 0.01); //draw this 0.01 layer above floor layer so now it should animateee
 
     for (let x = minX; x <= maxX; x++) {
         for (let y = minY; y <= maxY; y++) {
             let tile = Vars.world.tile(x, y);
+
             if (tile && tile.floor() === quicksandfloor) {
                 let moveY = Math.sin((steppedTime + (x + y) * 10) / 25.0) * 1.2;
                 Draw.color(0.95, 0.95, 0.95, 1.0);

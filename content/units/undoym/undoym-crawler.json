@@ -1,0 +1,42 @@
+{
+  "type": "legs",
+  "name": "Ундоумный живчик",
+  "description": "Ундоумный живчик - живая зелёнка.",
+  "speed": 0.8,
+  "health": 500,
+  "armor": 2,
+  "hitSize": 10,
+  "legCount": 6,
+  "legLength": 12,
+  "weapons": [
+    {
+      "x": 5,
+      "y": 0,
+      "mirror": false,
+      "rotate": false,
+      "shootCone": 30,
+      "reload": 30,
+      "shootSound": "splash",
+      "shoot": {
+  "type": "ShootBarrel",
+  "shots": 3,
+  "shotDelay": 0,
+  "barrels": [
+    -4, 0, 0,
+    0, 0, 0,
+    4, 0, 0
+      ]
+    },
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "liquid-undoym",
+        "speed": 4,
+        "lifetime": 40,
+        "knockback": 1,
+        "puddleSize": 4,
+        "status": "radiation1",
+        "statusDuration": 120
+      }
+    }
+  ]
+}

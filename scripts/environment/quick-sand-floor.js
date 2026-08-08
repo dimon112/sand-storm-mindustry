@@ -34,8 +34,22 @@ Events.run(Trigger.update, () => {
                 let tile = Vars.world.tile(x, y);
 
                 if (tile && tile.floor() === quicksandfloor && tile.build) {
-                    tile.build.damage(3.0);
-                    Fx.bubble.at(tile.worldx(), tile.worldy());
+                    let l = Vars.world.tile(x - 1, y);
+                    let r = Vars.world.tile(x + 1, y);
+                    let t = Vars.world.tile(x, y - 1);
+                    let b = Vars.world.tile(x, y + 1);
+
+                    let isEdge = (l && l.floor() !== quicksandfloor) ||
+                                 (r && r.floor() !== quicksandfloor) ||
+                                 (t && t.floor() !== quicksandfloor) ||
+                                 (b && b.floor() !== quicksandfloor);
+
+                    let isPump = (tile.build.block instanceof Pump) || (tile.build.block.name && tile.build.block.name.includes("pump"));
+
+                    if (!isPump || !isEdge) {
+                        tile.build.damage(3.0);
+                        Fx.bubble.at(tile.worldx(), tile.worldy());
+                    }
                 }
             }
         }

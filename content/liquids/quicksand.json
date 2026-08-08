@@ -8,5 +8,6 @@
   "explosiveness": 0.0,
   "coolant": false,
   "gas": false,
+  "shownPlanets": ["big-desert"],
   "research": "sand"
 }

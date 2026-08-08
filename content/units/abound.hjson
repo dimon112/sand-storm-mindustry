@@ -4,6 +4,7 @@ speed: 0.40
 flying: false
 hitSize: 16
 health: 700
+outlineColor: 402000
 range: 10
 armor: 5
 immunities: [radiation1]

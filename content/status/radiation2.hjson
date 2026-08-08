@@ -1,6 +1,6 @@
 name: radiation2
 speedMultiplier: 0.50
 reloadMultiplier: 0.9
-show: false
+show: true
 intervalDamageTime: 60
 intervalDamage: 10

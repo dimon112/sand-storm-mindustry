@@ -141,7 +141,7 @@
     "objectives": [
       {
         "type": "SectorComplete",
-        "preset": "the-best-way"
+        "preset": "the-way"
       }
     ]
   }

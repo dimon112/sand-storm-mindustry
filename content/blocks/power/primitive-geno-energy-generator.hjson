@@ -8,7 +8,7 @@ outputsPower: true
 ambientSound: smelter
 ambientSoundVolume: 0.10
 
-explosionRadius: 150
+explosionRadius: 20
 explosionDamage: 700
 
 consumes: {

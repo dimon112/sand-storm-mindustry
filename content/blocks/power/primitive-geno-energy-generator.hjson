@@ -1,8 +1,7 @@
-type: ConsumeGenerator
 size: 3
 health: 250
 powerProduction: 2.50
-itemDuration: 120
+itemDuration: 40
 hasItems: true
 outputsPower: true
 ambientSound: smelter
@@ -11,11 +10,6 @@ ambientSoundVolume: 0.10
 explosionRadius: 20
 explosionDamage: 700
 
-consumes: {
-  items: [
-    geno/3
-  ]
-}
 requirements: [
   geno/300
   fossil/150
@@ -31,5 +25,3 @@ researchCost: [
   sand-fabric/2400
   collarise/1700
 ]
-
-

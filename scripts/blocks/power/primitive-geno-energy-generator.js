@@ -1,25 +1,31 @@
-
-const findItem = (name) => Vars.content.items().find(i => i.name === name || i.name.endsWith("-" + name));
-
 const customGen = extend(ItemLiquidGenerator, "primitive-geno-energy-generator", {
-    efficiencies: null,
+    targetGeno: null,
+    targetUndoym: null,
 
     init() {
         this.super$init();
-        this.efficiencies = new ObjectFloatMap();
-        const geno = findItem("geno");
-        const undoym = findItem("undoym");
-
-        if (geno != null) this.efficiencies.put(geno, 0.88);     // 88%
-        if (undoym != null) this.efficiencies.put(undoym, 0.50); // 50%
+        
+        let itemsSeq = Vars.content.items();
+        for (let i = 0; i < itemsSeq.size; i++) {
+            let item = itemsSeq.get(i);
+            
+            if (item.name === "geno" || item.name.endsWith("-geno")) {
+                this.targetGeno = item;
+            }
+            if (item.name === "undoym" || item.name.endsWith("-undoym")) {
+                this.targetUndoym = item;
+            }
+        }
     },
 
-    
     getItemEfficiency(item) {
-        if (this.efficiencies != null && this.efficiencies.containsKey(item)) {
-            return this.efficiencies.get(item, 0);
+        if (this.targetGeno !== null && item === this.targetGeno) {
+            return 0.88;
         }
-        return 0; 
+        if (this.targetUndoym !== null && item === this.targetUndoym) {
+            return 0.50;
+        }
+        return 0;
     },
 
     acceptItem(building, item) {

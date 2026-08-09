@@ -15,7 +15,7 @@ requirements: [
  ]
 objectives: [
     {
-      type: SectorCopmlete 
+      type: SectorComplete
       preset:geno-base 
     }
   ]

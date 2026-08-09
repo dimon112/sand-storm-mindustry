@@ -25,17 +25,6 @@
     allowLaunchLoadout: true, 
     radius: 1,
 
-    itemWhitelist: [
-  "bone",
-  "collarise",
-  "fossil",
-  "geno",
-  "pyrit",
-  "quartz",
-  "undoym",
-  "sand"
-]
-
     mesh: {
 
         type: "NoiseMesh",  //NoiseMesh NoiseMesh

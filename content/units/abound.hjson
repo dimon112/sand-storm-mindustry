@@ -18,7 +18,7 @@ immunities: [radiation1]
   y: 8
   shootSound: shoot
   bullet: {
-    type: standardThorium
+    type: BasicBulletType
     speed: 5
     damage: 35
     lifetime: 16

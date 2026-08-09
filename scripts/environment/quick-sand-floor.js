@@ -19,7 +19,6 @@ quicksandfloor.liquidMultiplier = 0.4;
 
 quicksandfloor.liquidDrop = Liquids.water;
 
-// Overrides liquid placement restrictions across all blocks in Mindustry
 Events.on(ContentInitEvent, () => {
     let foundLiquid = Vars.content.liquids().find(l => l.name.includes("quicksand"));
     if (foundLiquid) quicksandfloor.liquidDrop = foundLiquid;
@@ -29,7 +28,6 @@ Events.on(ContentInitEvent, () => {
     });
 });
 
-// Structure Damage Logic
 Events.run(Trigger.update, () => {
     if (!Vars.world || !Vars.state.isGame()) return;
 

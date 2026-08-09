@@ -8,11 +8,7 @@ health: 300
 range: 150
 outline: false
 dpsEstimate: 20
-ammoType: {
-  type: ItemAmmoType
-  item: fossil
-  ammoPerItem: 15
-}
+
   "weapons": [
   {
    name: skitch-gun
@@ -25,7 +21,7 @@ ammoType: {
   range: 150
   shootSound: shoot
   bullet: {
-    type: standardThorium
+    type: BasicBulletType
     speed: 4
     damage: 10
     color: 60400d

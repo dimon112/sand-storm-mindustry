@@ -28,7 +28,7 @@ research: {
 
     objectives: [
   {
-    type: CompleteSector
+    type: SectorComplete
     preset: gate
   }
   ]

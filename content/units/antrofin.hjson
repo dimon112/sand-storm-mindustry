@@ -8,7 +8,7 @@ hitSize: 24
 armor: 8
 legCount: 4
 legLength: 22
-legTrns: 1
+legTurns: 1
 legMoveSpace: 3.0
 hovering: true
   "weapons": [
@@ -19,10 +19,9 @@ hovering: true
   mirror:false
   x: 0
   y: 10
-  range: 167
   shootSound: shoot
   bullet:{
-        type: standardThorium
+        type: BasicBulletType
         splashDamageRadius: 30
         splashDamage: 100
         instantDisappear: false

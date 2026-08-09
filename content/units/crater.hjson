@@ -16,7 +16,7 @@ range: 160
   range: 160
   shootSound: shoot
   bullet: {
-    type: standardThorium
+    type: BasicBulletType
     speed: 4
     damage: 6
     color: 80CB7

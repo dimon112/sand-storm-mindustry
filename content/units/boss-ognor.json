@@ -26,7 +26,6 @@
   "rotate": false,
   "alternate": false,
   "mirror": false,
-  "shots": 1,
   "reload": 185,
   "recoil": 2,
   "shake": 0.1,

@@ -1,21 +1,22 @@
-
+{
   planet: big-desert,
-  sector: 5,
-  difficulty: 1,
-  captureWave: 10,
-  description: this sector is small but has a great amount of fossil
+  sector: 263,
+  difficulty: 6,
   alwaysUnlocked: false,
   addStartingItems: false,
   overrideLaunchDefaults:false,
   noLighting:true,
   research: {
-  parent: fresh-and-new
+  parent: geno-base
 objectives: [
     {
       type: SectorComplete
-      preset: fresh-and-new
+      preset: geno-base
     }
   ]
 }
 
-   
+}
+
+
+

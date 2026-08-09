@@ -18,7 +18,7 @@ parent: Desert-factory
 
 objectives: [
   {
-    type: CompleteSector
+    type: SectorComplete
     preset: SandStorm
   }
   ]

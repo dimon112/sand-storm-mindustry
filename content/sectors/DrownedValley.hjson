@@ -1,18 +1,18 @@
 {
   planet: big-desert
-  sector: 84
-  difficulty: 2
+  sector: 83
+  difficulty: 6
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting: true
   
     research: { 
-  parent: SandStorm
+  parent: tracer
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: SandStorm
+      preset: tracer
     } 
   ] 
 } 

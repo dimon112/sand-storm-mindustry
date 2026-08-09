@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Разделитель зыбучего песка",
+  "description": "Разделяет зыбучий песок на воду и песок.",
+  "size": 2,
+  "health": 200,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "itemCapacity": 10,
+  "liquidCapacity": 10,
+  "craftTime": 60,
+  "consumes": {
+    "liquids": [
+      {"liquid": "quicksand", "amount": 0.16666666666666666667}
+    ]
+  },
+  "requirements": [
+    {"item": "quartz", "amount": 100},
+    {"item": "fossil", "amount": 60},
+    {"item": "sand-fabric", "amount": 50}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-fabric-weaver",
+    "requirements": [
+      {"item": "quartz", "amount": 500},
+      {"item": "fossil", "amount": 300},
+      {"item": "sand-fabric", "amount": 250}
+    ]
+  },
+  "outputLiquid": {"liquid": "water", "amount": 0.0833333333333333333},
+  "outputItem": {"item": "sand", "amount": 5}
+}

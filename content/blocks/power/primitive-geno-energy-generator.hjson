@@ -11,9 +11,9 @@ ambientSoundVolume: 0.10
 explosionRadius: 150
 explosionDamage: 700
 
-consumes: {
+consumes: [
   geno/3
-}
+]
 
 requirements: [
   geno/300

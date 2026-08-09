@@ -42,7 +42,7 @@ research: {
      objectives: [
   {
     type: OnSector
-    preset: the-best-way
+    preset: the-way
   }
   ]
 

@@ -1,6 +1,5 @@
 type: PowerNode
-name: Fossil Power Node
-description: Transmits power across the desert base. Reinforced with bone-cement for durability against sandstorms.
+name: Pyrite Power Node
 size: 1
 health: 60
 maxNodes: 4

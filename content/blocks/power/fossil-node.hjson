@@ -10,12 +10,14 @@ laserColor2: c06900
 
 requirements: [
   fossil/10
+  pyrit/5
 ]
 
 category: power
 research: {
-  parent: small-burner-generator
+  parent: sand-fabric-weaver
   requirements: [
-    fossil/1250
+    fossil/100
+    pyrit/50
   ]
 }

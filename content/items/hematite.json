@@ -1,0 +1,8 @@
+{
+  "name": "Гематит",
+  "cost": 2,
+  "color": "994326",
+  "research": "pyrit",
+  "hiddenOnPlanets": ["serpulo", "erekir"],
+  "buildable": "false"
+}

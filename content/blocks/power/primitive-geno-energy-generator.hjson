@@ -1,14 +1,21 @@
+type: ConsumeGenerator
 size: 3
 health: 250
 powerProduction: 2.50
-itemDuration: 40
+itemDuration: 120
 hasItems: true
 outputsPower: true
 ambientSound: smelter
 ambientSoundVolume: 0.10
 
-explosionRadius: 20
+explosionRadius: 15
 explosionDamage: 700
+
+consumes: {
+  items: [
+    geno/3
+  ]
+}
 
 requirements: [
   geno/300

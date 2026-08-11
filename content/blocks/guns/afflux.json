@@ -1,0 +1,48 @@
+{
+  "type": "LiquidTurret",
+  "size": 2,
+  "health": 300,
+  "range": 240,
+  "reload": 1,
+  "shootCone": 30,
+  "rotateSpeed": 10,
+  "shootSound": "splash",
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "category": "turret",
+  "requirements": [
+    {"item": "quartz", "amount": 80},
+    {"item": "fossil", "amount": 50}
+  ],
+  "research": {
+    "parent": "desert-gun",
+    "requirements": [
+      {"item": "quartz", "amount": 160},
+      {"item": "fossil", "amount": 100}
+    ]
+  },
+  "ammoTypes": {
+    "water": {
+      "type": "LiquidBulletType",
+      "liquid": "water",
+      "damage": 0.7,
+      "speed": 4.0,
+      "lifetime": 60,
+      "knockback": 0.5,
+      "status": "wet",
+      "statusDuration": 120,
+      "puddleSize": 5
+    },
+    "quicksand": {
+      "type": "LiquidBulletType",
+      "liquid": "quicksand",
+      "damage": 1.2,
+      "speed": 3.5,
+      "lifetime": 68.57142857,
+      "knockback": 0.2,
+      "status": "slow",
+      "statusDuration": 120,
+      "puddleSize": 2.5
+    }
+  }
+}

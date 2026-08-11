@@ -3,7 +3,7 @@ health: 2600
 name: Pyrit Wall
 description: Blocks incoming enemy bullets, stronger than the fossil wall, but takes up more space
 size: 2
-buildTime: 240
+buildTime: 40
 category: defense
 research: {
 parent: pyrit-wall

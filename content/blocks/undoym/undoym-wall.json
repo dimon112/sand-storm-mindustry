@@ -38,7 +38,7 @@
       }
     ]
   },
-  "category": "defence",
+  "category": "effect",
   "research": {
     "parent": "undoym-wire",
     "requirements": [

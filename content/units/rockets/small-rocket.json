@@ -26,7 +26,7 @@
   "abilities": [
     {
     "type": "MoveEffectAbility",
-    "interval": 4,
+    "interval": 3,
     "effect": {
       "type": "ParticleEffect",
       "cone": 45,
@@ -52,8 +52,8 @@
       "shootCone": 90,
       "bullet": {
         "type": "ExplosionBulletType",
-        "damage": 50,
-        "splashDamage": 75,
+        "damage": 40,
+        "splashDamage": 80,
         "splashDamageRadius": 32,
         "status": "blasted",
         "statusDuration": 180

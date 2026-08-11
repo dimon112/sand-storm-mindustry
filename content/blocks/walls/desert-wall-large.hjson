@@ -4,7 +4,7 @@ description: Blocks incoming enemy bullets. Can be destroyed.
 health: 1600
 size: 2
 category: defense
-buildTime: 120
+buildTime: 20
 research: {
 parent: desert-wall
 objectives: [

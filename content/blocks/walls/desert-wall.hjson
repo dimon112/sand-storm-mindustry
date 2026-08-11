@@ -3,6 +3,7 @@ health: 420
 name: desert Wall
 description: Blocks incoming enemy bullets. Can be destroyed.
 size: 1
+buildTime: 60
 category: defense
 research: {
 parent: core-desert

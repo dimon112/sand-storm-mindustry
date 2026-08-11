@@ -1,5 +1,5 @@
 type: Wall
-health: 400
+health: 250
 name: desert Wall
 description: Blocks incoming enemy bullets. Can be destroyed.
 size: 1

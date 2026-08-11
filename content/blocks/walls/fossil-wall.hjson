@@ -1,0 +1,16 @@
+type: Wall
+health: 400
+name: desert Wall
+description: Blocks incoming enemy bullets. Can be destroyed.
+size: 1
+buildTime: 10
+category: defense
+research: {
+parent: desert-wall
+requirements: [
+  fossil/12
+]
+}
+requirements : [
+        fossil/6
+    ]

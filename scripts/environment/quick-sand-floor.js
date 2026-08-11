@@ -10,8 +10,8 @@ quicksandfloor.shallow = true;
 quicksandfloor.supportsOverlay = true;
 quicksandfloor.placeableOn = true;
 
-quicksandfloor.speedMultiplier = 0.65;
-quicksandfloor.drownTime = 133.33;
+quicksandfloor.speedMultiplier = 0.7;
+quicksandfloor.drownTime = 600;
 quicksandfloor.variants = 3;
 quicksandfloor.walkEffect = Fx.ripple;
 quicksandfloor.drownUpdateEffect = Fx.bubble;

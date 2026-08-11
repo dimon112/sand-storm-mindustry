@@ -1,9 +1,10 @@
 type: Wall
 name: Large desert Wall
 description: Blocks incoming enemy bullets. Can be destroyed. 
-health: 1700
+health: 1600
 size: 2
 category: defense
+buildTime: 120
 research: {
 parent: desert-wall
 objectives: [
@@ -14,8 +15,8 @@ objectives: [
   ]
 }
 requirements: [
-  fossil/350
+  sand/350
 ]
 requirements : [
-        fossil/24
+       sand/24
     ]

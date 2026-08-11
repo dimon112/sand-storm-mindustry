@@ -3,6 +3,7 @@ health: 800
 name: Pyrit Wall
 description: Blocks incoming enemy bullets, stronger than the fossil wall
 size: 1
+buildTime: 60
 category: defense
 research: {
 parent: desert-wall

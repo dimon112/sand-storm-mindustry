@@ -8,9 +8,9 @@ category: defense
 research: {
 parent: core-desert
 requirements: [
-  fossil/12
+  sand/12
 ]
 }
 requirements : [
-        fossil/6
+        sand/6
     ]

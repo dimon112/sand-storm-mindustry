@@ -1,0 +1,53 @@
+{
+  "type": "RegenProjector",
+  "size": 2,
+  "health": 2500,
+  "hasPower": true,
+  "range": 2,
+  "healPercent": 0.083333333333333333333333,
+  "conductivePower": true,
+  "consumes": {
+    "power": 0.1666666667,
+  },
+  "effect": {
+    "type": "ParticleEffect",
+    "colorFrom": "44ff44",
+    "colorTo": "88ff88",
+    "particles": 4,
+    "line": true,
+    "length": 8,
+    "baseLength": 3,
+    "strokeFrom": 0.5,
+    "strokeTo": 1.5,
+    "lifetime": 30,
+    "cone": 360,
+    "interp": "pow2",
+    "sizeInterp": "pow2Out"
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawPulseShape",
+        "square": true,
+        "color": "44ff44",
+        "layer": 110
+      }
+    ]
+  },
+  "category": "defence",
+  "research": {
+    "parent": "undoym-wire",
+    "requirements": [
+      {"item": "undoym", "amount": 100},
+      {"item": "geno", "amount": 50}
+    ]
+  },
+  "requirements": [
+    {"item": "undoym", "amount": 50},
+    {"item": "geno", "amount": 25}
+  ]
+}

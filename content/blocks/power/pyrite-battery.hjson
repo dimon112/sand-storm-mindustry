@@ -1,6 +1,7 @@
 {
   "type": "battery",
-  "size": 2,
+  "name": "Пиритовый аккумулятор",
+  "size": 1,
   "fullLightColor": "ffee88",
   "emptyLightColor": "ccbb55",
   "hasPower": true,
@@ -15,11 +16,11 @@
       { "type": "DrawRegion", "suffix": "-top" }
     ]
   },
-  "consumes": { "powerBuffered": 1500 },
+  "consumes": { "powerBuffered": 250 },
   "category": "power",
   "requirements": [ "pyrit/25" ],
   "research": {
-    "parent": "pyrit-node",
+    "parent": "pyrite-node",
   },
   "researchCost": [ "pyrit/500" ]
 }

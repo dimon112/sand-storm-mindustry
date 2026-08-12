@@ -1,5 +1,5 @@
 type: PowerNode
-name: Pyrite Power Node
+name: Пиритовый энергоузел
 size: 1
 health: 60
 maxNodes: 4

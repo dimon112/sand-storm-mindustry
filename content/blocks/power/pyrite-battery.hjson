@@ -1,0 +1,25 @@
+{
+  "type": "battery",
+  "size": 2,
+  "fullLightColor": "ffee88",
+  "emptyLightColor": "ccbb55",
+  "hasPower": true,
+  "outputsPower": true,
+  "consumesPower": true,
+  "hasItems": false,
+  "canOverdrive": false,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      { "type": "DrawDefault" },
+      { "type": "DrawRegion", "suffix": "-top" }
+    ]
+  },
+  "consumes": { "powerBuffered": 1500 },
+  "category": "power",
+  "requirements": [ "pyrit/25" ],
+  "research": {
+    "parent": "pyrit-node",
+  },
+  "researchCost": [ "pyrit/500" ]
+}

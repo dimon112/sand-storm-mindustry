@@ -1,0 +1,38 @@
+type: Reconstructor
+name: Эксплозивный реконструктор
+size: 5
+health: 1500
+description: Превращает харматтана в сирроко с помощью ядерки.
+constructTime: 2400
+upgrades: [
+  [harmatan, sirocco]
+]
+consumes: {
+items:{
+  items: [
+    collarise/75
+    pyrit/50
+    fossil/100
+    ]
+  }
+}
+requirements: [
+  fossil/500
+  geno/200
+  pyrit/250
+]
+category: units
+research: {
+parent: router
+requirements: [
+  fossil/3000
+  geno/1000
+  pyrit/2000
+]
+objectives: [
+  {
+    type: SectorComplete
+    preset: the-way
+  }
+  ]
+}

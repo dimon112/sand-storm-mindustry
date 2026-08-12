@@ -1,5 +1,6 @@
 {
   planet: big-desert
+  name: Затопленная местность
   sector: 83
   difficulty: 6
   alwaysUnlocked: false

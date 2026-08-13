@@ -1,0 +1,16 @@
+{
+  "type": "liquid",
+  "name": "Диоксид серы",
+  "description": "Зелёный газ. Вызывает коррозию.",
+  "color": "B8C84D",
+  "flammability": 0.0,
+  "temperature": 0.4,
+  "viscosity": 0.0,
+  "effect": "corroded",
+  "effectDuration": 120,
+  "lightColor": "B8C84D88",
+  "heatCapacity": 0.0,
+  "explosiveness": 0.0,
+  "coolant": false,
+  "gas": true
+}

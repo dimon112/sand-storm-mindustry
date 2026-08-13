@@ -1,0 +1,16 @@
+{
+  "type": "liquid",
+  "name": "Триоксид серы",
+  "description": "Светлоголубая, очень подвижная жидкость. Вызывает коррозию.",
+  "color": "88ddff",
+  "flammability": 0.0,
+  "temperature": 0.3,
+  "viscosity": 0.2,
+  "effect": "corroded",
+  "effectDuration": 120,
+  "lightColor": "88ddff88",
+  "heatCapacity": 0.0,
+  "explosiveness": 0.0,
+  "coolant": false,
+  "gas": false
+}

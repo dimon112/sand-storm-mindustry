@@ -1,13 +1,22 @@
 {
-  "type": "PowerGenerator",
+  "type": "VariableReactor",
   "name": "Термоэлектрический генератор",
-  "description": "Использует разницу температур между водой и корпусом для генерации энергии.",
+  "description": "Потребляет тепло и воду для выработки энергии. Нестабилен при перегреве.",
   "size": 2,
   "health": 300,
   "hasLiquids": true,
   "hasPower": true,
-  "craftTime": 60,
-  "heatRequirement": 6,
+  "maxHeat": 6,
+  "unstableSpeed": 0.0055555557,
+  "warmupSpeed": 0.1,
+  "effect": "fluxVapor",
+  "effectChance": 0.05,
+  "effectColor": "ffaa55",
+  "flashThreshold": 0.01,
+  "flashAlpha": 0.4,
+  "flashSpeed": 7.0,
+  "flashColor1": "ff6600",
+  "flashColor2": "ffaa55",
   "consumes": {
     "liquids": [
       {"liquid": "water", "amount": 0.1}

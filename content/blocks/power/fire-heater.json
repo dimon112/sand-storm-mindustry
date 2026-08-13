@@ -1,7 +1,7 @@
 {
   "type": "HeatProducer",
   "name": "Тепловой нагреватель",
-  "description": "Производит тепло из любых горючих tapkov.",
+  "description": "Производит тепло из любых воспламеняемых материалов.",
   "size": 2,
   "health": 200,
   "hasItems": true,
@@ -11,7 +11,7 @@
   "consumes": {
     "itemFlammable": {}
   },
-  "heatOutput": 10,
+  "heatOutput": 8,
   "requirements": [
     {"item": "pyrit", "amount": 50},
     {"item": "fossil", "amount": 25}

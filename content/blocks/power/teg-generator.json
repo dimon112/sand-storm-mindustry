@@ -13,7 +13,7 @@
     "liquids": [
       {"liquid": "water", "amount": 0.11666666666666666666666}
     ],
-    "heat": 7
+    "heat": 6
   },
   "outputsPower": 3.33333333333333333,
   "requirements": [
@@ -28,6 +28,19 @@
       {"item": "pyrit", "amount": 1500},
       {"item": "fossil", "amount": 1000},
       {"item": "sand-fabric", "amount": 800}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatInput",
+        "suffix": "-heat",
+        "color": "ffaa55"
+      }
     ]
   }
 }

@@ -1,19 +1,17 @@
 {
-  "type": "GenericCrafter",
+  "type": "HeatCrafter",
   "name": "Термоэлектрический генератор",
-  "description": "Превращает тепло и воду в электричество.",
+  "description": "использует разницу температур между водой и корпусом для генерации энергии.",
   "size": 2,
   "health": 300,
-  "hasItems": false,
   "hasLiquids": true,
   "hasPower": true,
   "craftTime": 60,
+  "heatRequirement": 6,
   "consumes": {
-    "power": 0,
     "liquids": [
       {"liquid": "water", "amount": 0.11666666666666666666666}
-    ],
-    "heat": 6
+    ]
   },
   "outputsPower": 3.33333333333333333,
   "requirements": [

@@ -1,7 +1,7 @@
 {
   "planet": "big-desert",
   "sector": 156,
-  "difficulty": 3
+  "difficulty": 5
   "name": "156"
   "alwaysUnlocked": false,
   "addStartingItems": false,
@@ -12,7 +12,7 @@
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: gate 
+      preset: the-way
     } 
   ] 
 }

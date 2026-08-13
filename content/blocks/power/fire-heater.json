@@ -1,0 +1,27 @@
+{
+  "type": "GenericCrafter",
+  "name": "Тепловой нагреватель",
+  "description": "Производит тепло из любых горючих tapkov.",
+  "size": 2,
+  "health": 200,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": false,
+  "craftTime": 60,
+  "consumes": {
+    "itemFlammable": {}
+  },
+  "outputsHeat": 10,
+  "requirements": [
+    {"item": "pyrit", "amount": 50},
+    {"item": "fossil", "amount": 25}
+  ],
+  "category": "power",
+  "research": {
+    "parent": "router",
+    "requirements": [
+      {"item": "pyrit", "amount": 500},
+      {"item": "fossil", "amount": 250}
+    ]
+  }
+}

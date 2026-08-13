@@ -3,8 +3,8 @@ name: Small Burner
 description: Compact burner for early power generation. Accepts any flammable fuel.
 size: 1
 health: 100
-powerProduction: 0.9
-itemDuration: 80
+powerProduction: 1.11111111111111111111
+itemDuration: 60
 hasItems: true
 hasLiquids: false
 outputsPower: true
@@ -16,13 +16,15 @@ consumes: {
 }
 
 requirements: [
-  fossil/35
+  pyrit/10
+  fossil/25
 ]
 
 category: power
-research: core-desert
+research: pyrite-node
 researchCost: [
-  fossil/1250
+  pyrit/100
+  fossil/500
 ]
 
 

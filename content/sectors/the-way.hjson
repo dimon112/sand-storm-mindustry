@@ -14,7 +14,7 @@
 objectives: [
     {
       type: SectorComplete 
-      preset: LongShot
+      preset: gate
     }
   ]
 }

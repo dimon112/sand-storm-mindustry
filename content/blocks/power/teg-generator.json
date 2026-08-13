@@ -1,7 +1,7 @@
 {
-  "type": "HeatCrafter",
+  "type": "PowerGenerator",
   "name": "Термоэлектрический генератор",
-  "description": "использует разницу температур между водой и корпусом для генерации энергии.",
+  "description": "Использует разницу температур между водой и корпусом для генерации энергии.",
   "size": 2,
   "health": 300,
   "hasLiquids": true,
@@ -10,10 +10,10 @@
   "heatRequirement": 6,
   "consumes": {
     "liquids": [
-      {"liquid": "water", "amount": 0.11666666666666666666666}
+      {"liquid": "water", "amount": 0.1}
     ]
   },
-  "outputsPower": 3.33333333333333333,
+  "powerProduction": 3.33333333333333333,
   "requirements": [
     {"item": "pyrit", "amount": 150},
     {"item": "fossil", "amount": 100},

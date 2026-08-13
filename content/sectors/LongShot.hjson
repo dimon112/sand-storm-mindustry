@@ -10,11 +10,11 @@
   noLighting:false
 
     research: { 
-  parent: gate
+  parent: the-way
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: gate
+      preset: the-way
     } 
   ] 
 } 

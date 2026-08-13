@@ -1,5 +1,5 @@
 {
-  "type": "GenericCrafter",
+  "type": "HeatProducer",
   "name": "Тепловой нагреватель",
   "description": "Производит тепло из любых горючих tapkov.",
   "size": 2,
@@ -11,7 +11,7 @@
   "consumes": {
     "itemFlammable": {}
   },
-  "outputsHeat": 10,
+  "heatOutput": 10,
   "requirements": [
     {"item": "pyrit", "amount": 50},
     {"item": "fossil", "amount": 25}
@@ -22,6 +22,19 @@
     "requirements": [
       {"item": "pyrit", "amount": 500},
       {"item": "fossil", "amount": 250}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput",
+        "suffix": "-heat",
+        "color": "ffaa55"
+      }
     ]
   }
 }

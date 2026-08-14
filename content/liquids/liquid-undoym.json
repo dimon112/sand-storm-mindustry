@@ -1,5 +1,7 @@
 {
-  "type": "liquid",
+  "type": "cellLiquid",
+  "name": "Жидкий ундоум",
+  "description": "Органическая жидкость, содержащая клетки способные использовать процесс радиосинтеза и радиолиза для получения и обработки энергии из углекислого газа. Ну короче живная хрень",
   "color": "00ff00",
   "effect": "radiation2",
   "viscosity": 0.8,
@@ -9,5 +11,7 @@
   "explosiveness": 0.5,
   "coolant": false,
   "gas": false,
-  "research": "undoym"
+  "research": "undoym",
+  "capPuddles": false,
+  "spreadTarget": "oxygen"
 }

@@ -11,7 +11,7 @@
   "consumes": {
     "itemFlammable": {}
   },
-  "heatOutput": 8,
+  "heatOutput": 6,
   "requirements": [
     {"item": "asterite", "amount": 50},
     {"item": "pyrit", "amount": 25}

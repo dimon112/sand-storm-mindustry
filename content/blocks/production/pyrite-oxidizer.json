@@ -1,0 +1,54 @@
+{
+  "type": "HeatProducer",
+  "name": "Окислитель пирита",
+  "description": "Окисляет пирит с помощью кислорода для получения диоксида серы и гематита. Побочно выделяет большое количество тепла.",
+  "details": "Всё по канонам химии: 4FeS₂ + 11O₂ -> 2Fe₂O₃ + 8SO₂",
+  "size": 4,
+  "health": 1050,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "craftTime": 120,
+  "consumes": {
+    "items": [
+      {"item": "pyrit", "amount": 4}
+    ],
+    "liquids": [
+      {"liquid": "oxygen", "amount": 11}
+    ]
+  },
+  "outputItems": [
+    {"item": "hematite", "amount": 2}
+  ],
+  "outputLiquids": [
+    {"liquid": "sulfur-dioxide", "amount": 8}
+  ],
+  "heatOutput": 36,
+  "requirements": [
+    {"item": "pyrit", "amount": 350},
+    {"item": "fossil", "amount": 200},
+    {"item": "geno", "amount": n.jzzkz0}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "router",
+    "requirements": [
+      {"item": "pyrit", "amount": 240},
+      {"item": "fossil", "amount": 160},
+      {"item": "geno", "amount": 120}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput",
+        "suffix": "-heat",
+        "color": "ff8833"
+      }
+    ]
+  }
+}

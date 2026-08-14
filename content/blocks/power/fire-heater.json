@@ -1,6 +1,6 @@
 {
   "type": "HeatProducer",
-  "name": "Тепловой нагреватель",
+  "name": "Сжигательный нагреватель",
   "description": "Производит тепло из любых воспламеняемых материалов.",
   "size": 2,
   "health": 200,
@@ -11,7 +11,7 @@
   "consumes": {
     "itemFlammable": {}
   },
-  "heatOutput": 8,
+  "heatOutput": 6,
   "requirements": [
     {"item": "pyrit", "amount": 50},
     {"item": "fossil", "amount": 25}

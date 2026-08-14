@@ -19,7 +19,7 @@
   ],
   "category": "power",
   "research": {
-    "parent": "small-burner-generator",
+    "parent": "fire-heater",
     "requirements": [
       {"item": "pyrit", "amount": 750},
       {"item": "fossil", "amount": 500},

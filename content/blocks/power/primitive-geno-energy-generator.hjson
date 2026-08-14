@@ -12,9 +12,7 @@ explosionRadius: 15
 explosionDamage: 700
 
 consumes: {
-  items: [
-    geno/3
-  ]
+  itemRadioactive: {}
 }
 
 requirements: [

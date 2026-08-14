@@ -7,8 +7,10 @@
   "hasLiquids": true,
   "hasPower": true,
   "maxHeat": 18,
-  "unstableSpeed": 0.0005,
+  "unstableSpeed": 0.00055555555555555555555555,
   "warmupSpeed": 0.1,
+  "explosionRadius": 2,
+  "explosionDamage": 0,
   "effect": "fluxVapor",
   "effectChance": 0.05,
   "effectColor": "ffaa55",
@@ -19,14 +21,15 @@
   "flashColor2": "ffaa55",
   "consumes": {
     "liquids": [
-      {"liquid": "water", "amount": 0.1}
+      {"liquid": "water", "amount": 0.3}
     ]
   },
   "powerProduction": 3.33333333333333333,
   "requirements": [
     {"item": "pyrit", "amount": 150},
     {"item": "fossil", "amount": 100},
-    {"item": "sand-fabric", "amount": 80}
+    {"item": "asterite", "amount": 80},
+    {"item": "quartz", "amount": 80}
   ],
   "category": "power",
   "research": {
@@ -34,7 +37,8 @@
     "requirements": [
       {"item": "pyrit", "amount": 1500},
       {"item": "fossil", "amount": 1000},
-      {"item": "sand-fabric", "amount": 800}
+      {"item": "asterite", "amount": 800},
+      {"item": "quartz", "amount": 800}
     ]
   },
   "drawer": {

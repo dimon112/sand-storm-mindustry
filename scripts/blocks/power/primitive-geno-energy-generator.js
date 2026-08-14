@@ -1,3 +1,4 @@
+/*
 const customGen = extend(ItemLiquidGenerator, "primitive-geno-energy-generator", {
     targetGeno: null,
     targetUndoym: null,
@@ -32,3 +33,4 @@ const customGen = extend(ItemLiquidGenerator, "primitive-geno-energy-generator",
         return this.getItemEfficiency(item) > 0 && building.items.get(item) < this.itemCapacity;
     }
 });
+*/

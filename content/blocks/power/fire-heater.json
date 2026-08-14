@@ -18,7 +18,7 @@
   ],
   "category": "power",
   "research": {
-    "parent": "small-burner-generator",
+    "parent": "router",
     "requirements": [
       {"item": "pyrit", "amount": 500},
       {"item": "fossil", "amount": 250}

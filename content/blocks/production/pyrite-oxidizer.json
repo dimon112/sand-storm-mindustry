@@ -27,15 +27,15 @@
   "requirements": [
     {"item": "pyrit", "amount": 350},
     {"item": "fossil", "amount": 200},
-    {"item": "geno", "amount": n.jzzkz0}
+    {"item": "geno", "amount": 150}
   ],
   "category": "crafting",
   "research": {
     "parent": "router",
     "requirements": [
-      {"item": "pyrit", "amount": 240},
-      {"item": "fossil", "amount": 160},
-      {"item": "geno", "amount": 120}
+      {"item": "pyrit", "amount": 3000},
+      {"item": "fossil", "amount": 2000},
+      {"item": "geno", "amount": hamam}
     ]
   },
   "drawer": {

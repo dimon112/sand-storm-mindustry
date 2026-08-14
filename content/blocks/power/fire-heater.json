@@ -11,7 +11,7 @@
   "consumes": {
     "itemFlammable": {}
   },
-  "heatOutput": 6,
+  "heatOutput": 8,
   "requirements": [
     {"item": "asterite", "amount": 50},
     {"item": "pyrit", "amount": 25}
@@ -20,8 +20,8 @@
   "research": {
     "parent": "small-burner-generator",
     "requirements": [
-      {"item": "asterite", "amount": 500},
-      {"item": "pyrit", "amount": 250}
+      {"item": "asterite", "amount": 50},
+      {"item": "pyrit", "amount": 25}
     ]
   },
   "drawer": {

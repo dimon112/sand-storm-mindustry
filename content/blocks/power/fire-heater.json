@@ -13,15 +13,15 @@
   },
   "heatOutput": 6,
   "requirements": [
-    {"item": "pyrit", "amount": 50},
-    {"item": "fossil", "amount": 25}
+    {"item": "asterite", "amount": 50},
+    {"item": "pyrit", "amount": 25}
   ],
   "category": "power",
   "research": {
-    "parent": "router",
+    "parent": "small-burner-generator",
     "requirements": [
-      {"item": "pyrit", "amount": 500},
-      {"item": "fossil", "amount": 250}
+      {"item": "asterite", "amount": 500},
+      {"item": "pyrit", "amount": 250}
     ]
   },
   "drawer": {

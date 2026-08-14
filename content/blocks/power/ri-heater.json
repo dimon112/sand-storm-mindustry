@@ -14,7 +14,7 @@
   "heatOutput": 18,
   "requirements": [
     {"item": "pyrit", "amount": 75},
-    {"item": "fossil", "amount": 50},
+    {"item": "asterite", "amount": 50},
     {"item": "geno", "amount": 50}
   ],
   "category": "power",
@@ -22,8 +22,8 @@
     "parent": "fire-heater",
     "requirements": [
       {"item": "pyrit", "amount": 750},
-      {"item": "fossil", "amount": 500},
-      {"item": "geno", "amount": 500}
+      {"item": "asterite", "amount": 1500},
+      {"item": "geno", "amount": 2000}
     ]
   },
   "drawer": {

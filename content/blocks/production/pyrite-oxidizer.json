@@ -29,7 +29,7 @@
     {"item": "fossil", "amount": 200},
     {"item": "geno", "amount": 150},
     {"item": "quartz", "amount": 100},
-    {"item": "asterit", "amount": 50}
+    {"item": "asterite", "amount": 50}
   ],
   "category": "crafting",
   "research": {
@@ -39,7 +39,7 @@
       {"item": "fossil", "amount": 2000},
       {"item": "geno", "amount": 1500},
       {"item": "quartz", "amount": 1000},
-      {"item": "asterit", "amount": 5000}
+      {"item": "asterite", "amount": 5000}
     ]
   },
   "drawer": {

@@ -1,0 +1,42 @@
+{
+  "type": "HeatProducer",
+  "name": "Радиоизотопный нагреватель",
+  "description": "Производит тепло путём распада радиоактивных материалов.",
+  "size": 2,
+  "health": 250,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": false,
+  "craftTime": 60,
+  "consumes": {
+    "itemRadioactive": {}
+  },
+  "heatOutput": 18,
+  "requirements": [
+    {"item": "pyrit", "amount": 75},
+    {"item": "fossil", "amount": 50},
+    {"item": "geno", "amount": 50}
+  ],
+  "category": "power",
+  "research": {
+    "parent": "small-burner-generator",
+    "requirements": [
+      {"item": "pyrit", "amount": 750},
+      {"item": "fossil", "amount": 500},
+      {"item": "geno", "amount": 500}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawHeatOutput",
+        "suffix": "-heat",
+        "color": "ffaa55"
+      }
+    ]
+  }
+}

@@ -14,14 +14,14 @@
       {"item": "pyrit", "amount": 4}
     ],
     "liquids": [
-      {"liquid": "oxygen", "amount": 11}
+      {"liquid": "oxygen", "amount": 0.1833333333333333333333333}
     ]
   },
   "outputItems": [
     {"item": "hematite", "amount": 2}
   ],
   "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 8}
+    {"liquid": "sulfur-dioxide", "amount": 0.13333333333333333333}
   ],
   "heatOutput": 36,
   "requirements": [

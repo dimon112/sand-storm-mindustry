@@ -1,4 +1,4 @@
-{
+ t{
   "type": "HeatProducer",
   "name": "Окислитель пирита",
   "description": "Окисляет пирит с помощью кислорода для получения диоксида серы и гематита. Побочно выделяет большое количество тепла.",
@@ -11,31 +11,35 @@
   "craftTime": 60,
   "consumes": {
     "items": [
-      {"item": "pyrit", "amount": 4}
+      {"item": "pyrit", "amount": 8}
     ],
     "liquids": [
-      {"liquid": "oxygen", "amount": 0.1833333333333333333333333}
+      {"liquid": "oxygen", "amount": 0.36666666666666666666666}
     ]
   },
   "outputItems": [
-    {"item": "hematite", "amount": 2}
+    {"item": "hematite", "amount": 4}
   ],
   "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 0.13333333333333333333}
+    {"liquid": "sulfur-dioxide", "amount": 0.26666666666666}
   ],
   "heatOutput": 36,
   "requirements": [
     {"item": "pyrit", "amount": 350},
     {"item": "fossil", "amount": 200},
-    {"item": "geno", "amount": 150}
+    {"item": "geno", "amount": 150},
+    {"item": "quartz", "amount": 100},
+    {"item": "asterit", "amount": 50}
   ],
   "category": "crafting",
   "research": {
-    "parent": "router",
+    "parent": "route",
     "requirements": [
-      {"item": "pyrit", "amount": 3000},
+      {"item": "pyrit", "amount": 3500},
       {"item": "fossil", "amount": 2000},
-      {"item": "geno", "amount": 1500}
+      {"item": "geno", "amount": 1500},
+      {"item": "quartz", "amount": 1000},
+      {"item": "asterit", "amount": 5000}
     ]
   },
   "drawer": {

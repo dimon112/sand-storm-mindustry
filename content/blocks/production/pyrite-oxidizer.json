@@ -4,6 +4,7 @@
   "description": "Окисляет пирит с помощью кислорода для получения диоксида серы и гематита. Побочно выделяет большое количество тепла.",
   "details": "Всё по канонам химии: 4FeS₂ + 11O₂ -> 2Fe₂O₃ + 8SO₂",
   "size": 4,
+  "itemsCapacity": 80,
   "health": 1050,
   "hasItems": true,
   "hasLiquids": true,
@@ -14,14 +15,14 @@
       {"item": "pyrit", "amount": 8}
     ],
     "liquids": [
-      {"liquid": "oxygen", "amount": 0.36666666666666666666666}
+      {"liquid": "oxygen", "amount": 0.366666666666666666666666666}
     ]
   },
   "outputItems": [
     {"item": "hematite", "amount": 4}
   ],
   "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 0.26666666666666}
+    {"liquid": "sulfur-dioxide", "amount": 0.26666666666666666666666666}
   ],
   "heatOutput": 36,
   "requirements": [
@@ -33,7 +34,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "route",
+    "parent": "pyrite-burner",
     "requirements": [
       {"item": "pyrit", "amount": 3500},
       {"item": "fossil", "amount": 2000},

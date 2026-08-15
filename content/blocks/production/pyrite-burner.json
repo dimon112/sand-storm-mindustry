@@ -11,17 +11,17 @@
   "craftTime": 60,
   "consumes": {
     "items": [
-      {"item": "pyrit", "amount": 1}
+      {"item": "pyrit", "amount": 2}
     ],
     "liquids": [
-      {"liquid": "oxygen", "amount": 0.0166666666666667}
+      {"liquid": "oxygen", "amount": 0.033333333333333333333333333333}
     ]
   },
   "outputItems": [
-    {"item": "iron-sulfide", "amount": 1}
+    {"item": "iron-sulfide", "amount": 2}
   ],
   "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 0.0166666666666667}
+    {"liquid": "sulfur-dioxide", "amount": 0.0333333333333333333333333333}
   ],
   "requirements": [
     {"item": "pyrit", "amount": 100},
@@ -30,7 +30,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "router",
+    "parent": "radiolyzer",
     "requirements": [
       {"item": "pyrit", "amount": 1200},
       {"item": "fossil", "amount": 800},

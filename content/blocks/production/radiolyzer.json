@@ -60,14 +60,10 @@
       {
         "type": "DrawLiquidOutputs",
         "liquidOutputRegions": [
-          [
-            {"suffix": "-hydrogen-outpit1"},
-            {"suffix": "-hydrogen-outpit2"}
-          ],
-          [
-            {"suffix": "-oxygen-outpit1"},
-            {"suffix": "-oxygen-outpit2"}
-          ]
+            "-hydrogen-outpit1",
+            "-hydrogen-outpit2",
+            "-oxygen-outpit1",
+            "-oxygen-outpit2"
         ]
       }
     ]

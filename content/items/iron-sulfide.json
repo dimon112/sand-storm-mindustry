@@ -1,0 +1,7 @@
+{
+  "name": "Сульфид железа",
+  "color": "111122",
+  "research": "pyrit",
+  "hiddenOnPlanets": ["serpulo", "erekir"],
+  "buildable": "false"
+}

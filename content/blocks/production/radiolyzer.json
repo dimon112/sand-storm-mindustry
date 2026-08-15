@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Радиолизер",
+  "description": "Использует радиацию для расщепления воды на водород и кислород. Водород можно использовать как топливо или восстановитель, кислород — для окисления пирита.",
+  "details": "2H₂O → 2H₂↑ + O₂↑ (под действием радиации)",
+  "size": 3,
+  "health": 500,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "liquidCapacity": 30,
+  "craftTime": 60,
+  "rotate": true,
+  "squareSprite": false,
+  "consumes": {
+    "items": [
+      {"item": "geno", "amount": 1}
+    ],
+    "liquids": [
+      {"liquid": "water", "amount": 0.25}
+    ]
+  },
+  "liquidOutputDirections": [3, 1],
+  "outputLiquids": [
+    {"liquid": "hydrogen", "amount": 0.1666666666666667},
+    {"liquid": "oxygen", "amount": 0.0833333333333333}
+  ],
+  "requirements": [
+    {"item": "pyrit", "amount": 150},
+    {"item": "fossil", "amount": 100},
+    {"item": "geno", "amount": 50}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-fabric-weaver",
+    "requirements": [
+      {"item": "pyrit", "amount": 1000},
+      {"item": "fossil", "amount": 600},
+      {"item": "geno", "amount": 300}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padLeft": 0.7,
+        "padBottom": 0.7,
+        "padTop": 0.7,
+        "padRight": 0.7
+      }
+    ]
+  }
+}

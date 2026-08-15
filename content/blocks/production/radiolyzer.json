@@ -28,7 +28,7 @@
   "requirements": [
     {"item": "pyrit", "amount": 150},
     {"item": "fossil", "amount": 100},
-    {"item": "geno", "amount": 50}
+    {"item": "quartz", "amount": 50}
   ],
   "category": "crafting",
   "research": {
@@ -36,7 +36,7 @@
     "requirements": [
       {"item": "pyrit", "amount": 1000},
       {"item": "fossil", "amount": 600},
-      {"item": "geno", "amount": 300}
+      {"item": "quartz", "amount": 300}
     ]
   },
   "drawer": {

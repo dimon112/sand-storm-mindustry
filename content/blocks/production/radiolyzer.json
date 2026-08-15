@@ -56,6 +56,19 @@
       },
       {
         "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs",
+        "liquidOutputRegions": [
+          [
+            {"suffix": "-hydrogen-outpit1"},
+            {"suffix": "-hydrogen-outpit2"}
+          ],
+          [
+            {"suffix": "-oxygen-outpit1"},
+            {"suffix": "-oxygen-outpit2"}
+          ]
+        ]
       }
     ]
   }

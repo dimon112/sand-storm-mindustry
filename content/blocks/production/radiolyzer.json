@@ -58,13 +58,7 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawLiquidOutputs",
-        "liquidOutputRegions": [
-            "-hydrogen-output1",
-            "-hydrogen-output2",
-            "-oxygen-output1",
-            "-oxygen-output2"
-        ]
+        "type": "DrawLiquidOutputs"
       }
     ]
   }

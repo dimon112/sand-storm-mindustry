@@ -30,7 +30,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "k",
+    "parent": "router",
     "requirements": [
       {"item": "pyrit", "amount": 1200},
       {"item": "fossil", "amount": 800},

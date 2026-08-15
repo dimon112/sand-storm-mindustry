@@ -14,7 +14,11 @@ objectives: [
     { 
       type: SectorComplete  
       preset: geno-base
-    } 
+    }
+    { 
+      type: SectorComplete  
+      preset: tracer
+    }
   ] 
 } 
 

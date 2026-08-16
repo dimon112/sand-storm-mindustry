@@ -1,7 +1,7 @@
 name: "Пельмень"
 parent: "big-desert"
 solarSystem: "sun"
-radius: 0.5
+radius: 0.2
 sectorSize: 1
 accessible: true
 alwaysUnlocked: true
@@ -13,7 +13,7 @@ clearSectorOnLose: true
 defaultCore: "core-desert"
 visible: true
 hasAtmosphere: false
-bloom: true
+bloom: false
 iconColor: "E6CC7FFF"
 orbitRadius: 5
 drawOrbit: true
@@ -24,7 +24,7 @@ mesh: {
   type: NoiseMesh
   seed: 12345
   divisions: 3
-  radius: 0.5
+  radius: 0.2
   color1: "555555"
   color2: "E6CC7FFF"
   octaves: 2

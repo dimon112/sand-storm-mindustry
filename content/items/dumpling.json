@@ -1,0 +1,8 @@
+{
+  "name": "Пельмень",
+  "description": "Это самый важный ресурс в этом моде, который обеспечивает одного из его создателей.",
+  "cost": 1,
+  "color": "E6CC7FFF",
+  "research": "pyrit",
+  "hiddenOnPlanets": ["serpulo", "erekir"]
+}

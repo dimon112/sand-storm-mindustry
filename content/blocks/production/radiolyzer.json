@@ -11,7 +11,9 @@
   "liquidCapacity": 30,
   "craftTime": 60,
   "rotate": true,
+  "rotateDraw": false,
   "squareSprite": false,
+  "ignoreLiquidFullness": true,
   "consumes": {
     "items": [
       {"item": "geno", "amount": 1}

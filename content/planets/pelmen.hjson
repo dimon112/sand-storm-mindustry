@@ -12,6 +12,7 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-desert"
 visible: true
+minZoom: 1
 hasAtmosphere: false
 bloom: false
 iconColor: "E6CC7FFF"
@@ -25,7 +26,7 @@ mesh: {
   seed: 12345
   divisions: 3
   radius: 0.2
-  color1: "555555"
+  color1: "D5BB6EFF"
   color2: "E6CC7FFF"
   octaves: 2
   persistence: 0.5

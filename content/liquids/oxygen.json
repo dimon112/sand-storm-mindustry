@@ -1,14 +1,14 @@
 {
   "type": "liquid",
   "name": "Кислород",
-  "description": "Основной окислитель. Используется для производства диоксида и триоксида серы.",
-  "color": "00ffff",
+  "description": "Самый окисляющие и горючий газ. Используется для производства диоксида и триоксида серы.",
+  "color": "00eeee",
   "viscosity": 0.0,
-  "lightColor": "00ffff",
+  "lightColor": "eeffff",
   "heatCapacity": 0.5,
-  "flammability": 0.5,
+  "flammability": 1.5,
   "explosiveness": 0.0,
   "coolant": false,
   "gas": true,
-  "research": "water"
+  "research": "geno"
 }

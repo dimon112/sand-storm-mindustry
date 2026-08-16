@@ -13,7 +13,8 @@ outlineIcon: false
 rotateSpeed: 20
 category: turret
 requirements: [
-   {item: fossil, amount: 80}
+   {item: fossil, amount: 45}
+   {item: sand-fabric, amount: 15}
   ],
 
 ammoTypes: { 
@@ -36,19 +37,6 @@ ammoTypes: {
             statusDuration: 300
             frontColor: a5fc0d
             backColor: a5fc0d
-       },
-       undoym:{
-            damage:12,
-            lifetime: 33,
-            speed: 10,
-            buildingDamageMultiplier: 0.2
-            status: radiation1
-            statusDuration: 420
-            reloadMultiplier: 3
-            ammoMultiplier: 8
-            inaccuracy: 12
-            frontColor: 567d2e
-            backColor: 567d2e
        },
         fossil:{
             damage:17,
@@ -138,7 +126,8 @@ ammoTypes: {
 research: {
 parent: desert-gun,
 requirements: [
- fossil/1600
+ fossil/450
+ sand-fabric/250
  ]
 
 }

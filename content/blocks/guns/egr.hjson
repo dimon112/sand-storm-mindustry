@@ -3,7 +3,7 @@
   name: Egr
   description: shoots fast controllable rockets
   size: 3
-  health: 1200
+  health: 1650
   range: 600
   reload: 220.5
   maxAmmo: 60

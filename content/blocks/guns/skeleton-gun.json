@@ -9,28 +9,33 @@
     "outlineIcon": "false",
     "reload": 75,
     "rotateSpeed": 20
-        shoot: {
-type: ShootPattern
-shots: 4
-}
-inaccuracy: 2
-    "range": 230,
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 4
+    }
+    "inaccuracy": 2,
+    "range": 300,
     "recoilamount": 5,
     "ammoTypes": { 
         "bone":{
             "damage":20,
             "lifetime": 60,
             "speed": 5,
+            "frontColor": "ffffff",
+            "backColor":  "ffffff",
+            "trailLength": 9,
+            "trailWidth": 3,
+            "trailColor": "ffffff"
        }
     }, 
     "requirements": [
    {"item": "bone", "amount": 60}
   ],
-"category": "turret"
-"shootSound": "laser"
-research: {
-parent: geno-gun,
-requirements: [
+"category": "turret",
+"shootSound": "laser",
+"research": {
+"parent": "geno-gun",
+"requirements": [
  bone/600
  ]
 }

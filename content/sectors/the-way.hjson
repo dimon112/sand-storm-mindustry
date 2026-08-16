@@ -1,10 +1,10 @@
 {
   "planet": "big-desert",
   "sector": 15,
-  "difficulty": 6
-  "name": "the-way"
-  "captureWave": 30,
-  "description": "on this sector enemies will attack from 5 directions!
+  "difficulty": 7
+  "name": "пути в ад"
+  "captureWave": 21,
+  "description": "На этом секторе тебе сломают лицо с пяти направлений!"
   "alwaysUnlocked": false,
   "addStartingItems": false,
   "overrideLaunchDefaults":false,

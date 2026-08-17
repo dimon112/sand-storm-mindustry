@@ -23,8 +23,8 @@ ammoTypes: {
     type: BasicBulletType
     damage: 5
     knockback: 2
-    speed: 5
-    lifetime: 25
+    speed: 10
+    lifetime: 12.5
     ammoMultiplier: 10
     frontColor: f4e8aa
     backColor: e4d599
@@ -38,10 +38,10 @@ ammoTypes: {
     type: BasicBulletType
     damage: 10
     knockback: 4
-    speed: 5
-    lifetime: 50
+    speed: 10
+    lifetime: 25
     ammoMultiplier: 20
-    rangeMultiplier: 2
+    range: 250
     frontColor: CC5933FF
     backColor: 994326FF
     width: 4

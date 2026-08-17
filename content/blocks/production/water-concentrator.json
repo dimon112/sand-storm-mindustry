@@ -2,7 +2,6 @@
   "type": "GenericCrafter",
   "name": "Концентратор воды",
   "description": "Извлекает маленькое количество влаги из окружающей среды и конденсирует её в невероятно маленькое количество жидкой воды",
-  "details": "Костыль core:",
   "size": 1,
   "health": 100,
   "hasItems": false,
@@ -47,13 +46,6 @@
       },
       {
         "type": "DrawDefault"
-      },
-      {
-        "type": "DrawGlowRegion",
-        "suffix": "-top",
-        "glowScale": 8,
-        "color": "66B1FF",
-        "alpha": 0.8
       },
       {
         "type": "DrawParticles",

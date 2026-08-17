@@ -22,7 +22,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "router",
+    "parent": "brave",
     "requirements": [
       { "item": "collarise", "amount": 800 },
       { "item": "fossil", "amount": 550 },

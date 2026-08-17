@@ -22,7 +22,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "kiln",
+    "parent": "sand-fabric-weaver",
     "requirements": [
       {"item": "fossil", "amount": 300},
       {"item": "sand-fabric", "amount": 200},

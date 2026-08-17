@@ -6,7 +6,7 @@
   "health": 350,
   "targetGround": true,
   "targetAir": true,
-  "range": 195,,
+  "range": 195,
   "reload": 85,
   "shootCone": 30,
   "rotateSpeed": 20,

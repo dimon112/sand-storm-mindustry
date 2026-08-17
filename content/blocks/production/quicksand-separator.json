@@ -22,7 +22,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "sand-fabric-weaver",
+    "parent": "water-concentrator",
     "requirements": [
       {"item": "quartz", "amount": 500},
       {"item": "fossil", "amount": 300},

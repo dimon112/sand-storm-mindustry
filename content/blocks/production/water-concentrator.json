@@ -3,15 +3,16 @@
   "name": "Концентратор воды",
   "description": "Извлекает маленькое количество влаги из окружающей среды и конденсирует её в невероятно маленькое количество жидкой воды",
   "details": "Костыль core:",
-  "size": 2,
-  "health": 250,
+  "size": 1,
+  "health": 100,
   "hasItems": false,
   "hasLiquids": true,
   "hasPower": true,
   "liquidCapacity": 30,
   "craftTime": 60,
+  "conductiveEnergy": true,
   "consumes": {
-    "power": 1.25
+    "power": 0.16666666666666667
   },
   "outputLiquids": [
     {"liquid": "water", "amount": 0.0166666666666667}

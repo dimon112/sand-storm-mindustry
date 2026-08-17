@@ -14,20 +14,20 @@ consumes: {
 outputItem: sand-fabric/1
 
  requirements: [
-    fossil/55
+    fossil/40
   ]
 
  drawer: [
     {
     type: DrawRegion,
     suffix: "-rotator",
-    rotateSpeed: 3,
+    rotateSpeed: 1,
     spin: true
     }
     {
     type: DrawRegion,
     suffix: "-rotator",
-    rotateSpeed: -3,
+    rotateSpeed: -1,
     spin: true
     }
     {

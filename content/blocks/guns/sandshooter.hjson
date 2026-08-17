@@ -4,7 +4,7 @@ description: Стреляет песком или гематитом, не тр�
 size: 2
 health: 250
 reload: 2
-range: 120
+range: 125
 rotateSpeed: 6
 targetAir: true
 targetGround: true
@@ -41,9 +41,9 @@ ammoTypes: {
     speed: 10
     lifetime: 25
     ammoMultiplier: 20
-    range: 250
-    frontColor: CC5933FF
-    backColor: 994326FF
+    rangeBoost: 125
+    frontColor: FF7744FF
+    backColor: DD5533FF
     width: 4
     height: 9
     hitEffect: hitBulletSmall

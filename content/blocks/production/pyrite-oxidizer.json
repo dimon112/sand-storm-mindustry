@@ -21,6 +21,7 @@
   "outputItems": [
     {"item": "hematite", "amount": 4}
   ],
+  "liquidOutputDirections": [2],
   "outputLiquids": [
     {"liquid": "sulfur-dioxide", "amount": 0.26666666666666666666666666}
   ],
@@ -53,6 +54,9 @@
         "type": "DrawHeatOutput",
         "suffix": "-heat",
         "color": "ff8833"
+      },
+      {
+        "type": "DrawLiquidOutputs"
       }
     ]
   }

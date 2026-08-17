@@ -1,0 +1,89 @@
+{
+  "type": "GenericCrafter",
+  "name": "Концентратор воды",
+  "description": "Извлекает маленькое количество влаги из окружающей среды и конденсирует её в невероятно маленькое количество жидкой воды",
+  "details": "Костыль core:",
+  "size": 2,
+  "health": 250,
+  "hasItems": false,
+  "hasLiquids": true,
+  "hasPower": true,
+  "liquidCapacity": 30,
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.25
+  },
+  "outputLiquids": [
+    {"liquid": "water", "amount": 0.0166666666666667}
+  ],
+  "requirements": [
+    {"item": "fossil", "amount": 30},
+    {"item": "sand-fabric", "amount": 20}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "kiln",
+    "requirements": [
+      {"item": "fossil", "amount": 300},
+      {"item": "sand-fabric", "amount": 200},
+      {"item": "quartz", "amount": 150}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top",
+        "glowScale": 8,
+        "color": "66B1FF",
+        "alpha": 0.8
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+        "alpha": 0.3,
+        "blending": "additive",
+        "particleSize": 1.5,
+        "reverse": false,
+        "particleRad": 12,
+        "particles": 12,
+        "fadeMargin": 1,
+        "rotateScl": 5,
+        "particleLife": 60
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+        "alpha": 0.25,
+        "reverse": false,
+        "blending": "additive",
+        "particleSize": 2.5,
+        "particleRad": 8,
+        "particles": 10,
+        "fadeMargin": 1,
+        "rotateScl": 5,
+        "particleLife": 80
+      }
+    ]
+  },
+  "updateEffect": "none",
+  "craftEffect": "none",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.8
+}

@@ -1,47 +1,59 @@
 type: ItemTurret
 name: Abrasive
-description: Shoots pressurized sand, Requires power to operate the compressor
+description: Стреляет песком или гематитом, не требует энергии Так как она на пирите
 size: 2
 health: 250
 reload: 2
-range: 80
+range: 120
 rotateSpeed: 6
 targetAir: true
 targetGround: true
 shootCone: 15
-inaccuracy: 6
+inaccuracy: 3
 shootSound: spray
 ammoPerShot: 1
 outlineIcon: false
 trackingRange: 120
-hasPower: true
+hasPower: false
 hasItems: true
-maxAmmo: 120
-
-consumes: {
-  power: 0.3
-}
+maxAmmo: 120
 
 ammoTypes: {
   sand: {
     type: BasicBulletType
-    damage: 3
-    knockback: 2.1
-    speed: 10
-    lifetime: 10
+    damage: 5
+    knockback: 2
+    speed: 5
+    lifetime: 25
     ammoMultiplier: 10
-    frontColor: f4e8c1
-    backColor: e4d5a8
+    frontColor: f4e8aa
+    backColor: e4d599
     width: 4
     height: 9
     
     hitEffect: hitBulletSmall
     despawnEffect: hitBulletSmall
   }
+  hematite: {
+    type: BasicBulletType
+    damage: 10
+    knockback: 4
+    speed: 5
+    lifetime: 50
+    ammoMultiplier: 20
+    rangeMultiplier: 2
+    frontColor: CC5933FF
+    backColor: 994326FF
+    width: 4
+    height: 9
+    hitEffect: hitBulletSmall
+    despawnEffect: hitBulletSmall
+  }
 }
 
 requirements: [
-  fossil/95
+  fossil/75
+  sand-fabric/50
 ]
 
 category: turret
@@ -49,7 +61,8 @@ category: turret
 research: {
   parent: raider
   requirements: [
-    fossil/1750
+    fossil/750
+    sand-fabric/500
   ]
   objectives: [
     {

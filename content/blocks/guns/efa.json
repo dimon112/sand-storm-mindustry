@@ -1,7 +1,7 @@
 {
   "type": "ContinuousLiquidTurret",
   "name": "Эфа",
-  "description": "мибамба",
+  "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон. Использует диоксид серы (зелёный) и триоксид серы (голубой).",
   "size": 2,
   "health": 280,
   "range": 130,
@@ -20,8 +20,7 @@
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 120,
-      "frontColor": "88FF44",
-      "backColor": "44CC22",
+      "colors": ["FFFFFF", "88FF44", "44CC22"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "length": 110
@@ -32,8 +31,7 @@
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 600,
-      "frontColor": "66DDFF",
-      "backColor": "44AADD",
+      "colors": ["FFFFFF", "66DDFF", "44AADD"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "shake": 0.5,

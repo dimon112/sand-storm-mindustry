@@ -1,7 +1,7 @@
 {
   "type": "ContinuousLiquidTurret",
   "name": "Эфа",
-  "description": "Непрерывно газанит едкими газами, нанося коррозионный урон.",
+  "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон. Использует диоксид серы (зелёный) и триоксид серы (голубой).",
   "size": 2,
   "health": 280,
   "range": 130,
@@ -12,27 +12,27 @@
   "targetAir": true,
   "shootSound": "spray",
   "liquidCapacity": 30,
-  "liquidConsumed": 0.033,
+  "liquidConsumed": 0.083333333333333,
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousLiquidBulletType",
       "damage": 5,
+      "length": 120,
+      "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 120,
       "frontColor": "88FF44",
-      "backColor": "44CC22",
-      "hitEffect": "smokeCloud",
-      "trailEffect": "smokeCloud"
+      "backColor": "44CC22"
     },
     "sulfur-trioxide": {
       "type": "ContinuousLiquidBulletType",
       "damage": 20,
+      "length": 140,
+      "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 600,
       "frontColor": "66DDFF",
       "backColor": "44AADD",
-      "hitEffect": "smokeCloud",
-      "trailEffect": "smokeCloud",
       "shake": 0.5
     }
   },

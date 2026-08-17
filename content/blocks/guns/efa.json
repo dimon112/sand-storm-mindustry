@@ -1,0 +1,56 @@
+{
+  "type": "ContinuousLiquidTurret",
+  "name": "Эфа",
+  "description": "Непрерывно газанит едкими газами, нанося коррозионный урон.",
+  "size": 2,
+  "health": 280,
+  "range": 130,
+  "reload": 5,
+  "shootCone": 30,
+  "rotateSpeed": 15,
+  "targetGround": true,
+  "targetAir": true,
+  "shootSound": "spray",
+  "liquidCapacity": 30,
+  "liquidConsumed": 0.033,
+  "ammoTypes": {
+    "sulfur-dioxide": {
+      "type": "ContinuousLiquidBulletType",
+      "damage": 5,
+      "status": "corroded",
+      "statusDuration": 120,
+      "frontColor": "88FF44",
+      "backColor": "44CC22",
+      "hitEffect": "smokeCloud",
+      "trailEffect": "smokeCloud"
+    },
+    "sulfur-trioxide": {
+      "type": "ContinuousLiquidBulletType",
+      "damage": 20,
+      "status": "corroded",
+      "statusDuration": 600,
+      "frontColor": "66DDFF",
+      "backColor": "44AADD",
+      "hitEffect": "smokeCloud",
+      "trailEffect": "smokeCloud",
+      "shake": 0.5
+    }
+  },
+  "consumes": {
+    "power": 0.5
+  },
+  "requirements": [
+    {"item": "pyrit", "amount": 100},
+    {"item": "fossil", "amount": 60},
+    {"item": "quartz", "amount": 40}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "router",
+    "requirements": [
+      {"item": "pyrit", "amount": 800},
+      {"item": "fossil", "amount": 500},
+      {"item": "quartz", "amount": 300}
+    ]
+  }
+}

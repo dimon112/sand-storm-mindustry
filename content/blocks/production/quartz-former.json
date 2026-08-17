@@ -1,0 +1,83 @@
+{
+  "type": "GenericCrafter",
+  "name": "Формовщик кварца",
+  "description": "Слепляет песок в цельные куски кварца с помощью воды.",
+  "size": 2,
+  "health": 250,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "liquidCapacity": 20,
+  "craftTime": 60,
+  "consumes": {
+    "items": [
+      {"item": "sand", "amount": 2}
+    ],
+    "liquids": [
+      {"liquid": "water", "amount": 0.0166666666666667}
+    ]
+  },
+  "outputItems": [
+    {"item": "quartz", "amount": 1}
+  ],
+  "requirements": [
+    {"item": "sand", "amount": 60},
+    {"item": "fossil", "amount": 40},
+    {"item": "sand-fabric", "amount": 50}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "water-concentrator",
+    "requirements": [
+      {"item": "sand", "amount": 400},
+      {"item": "fossil", "amount": 300},
+      {"item": "sand-fabric", "amount": 350}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+        "alpha": 0.25,
+        "blending": "additive",
+        "particleSize": 0.4,
+        "reverse": false,
+        "particleRad": 4,
+        "particles": 6,
+        "fadeMargin": 1,
+        "rotateScl": 0,
+        "particleLife": 35
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66B1FFFF",
+        "alpha": 0.15,
+        "blending": "additive",
+        "particleSize": 0.25,
+        "reverse": false,
+        "particleRad": 2,
+        "particles": 3,
+        "fadeMargin": 1,
+        "rotateScl": 0,
+        "particleLife": 25
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

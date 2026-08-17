@@ -25,6 +25,12 @@ outputItem: sand-fabric/1
     spin: true
     }
     {
+    type: DrawRegion,
+    suffix: "-rotator",
+    rotateSpeed: -3,
+    spin: true
+    }
+    {
       type: DrawDefault
     }
  ]

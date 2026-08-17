@@ -1,0 +1,71 @@
+{
+  "type": "PowerTurret",
+  "name": "Кримера",
+  "description": "Энергетическая турель, стреляющая огромным красным орбом. При попадании орб разделяется на множество маленьких орбов.",
+  "size": 2,
+  "health": 350,
+  "targetGround": true,
+  "targetAir": true,
+  "range": 195,,
+  "reload": 85,
+  "shootCone": 30,
+  "rotateSpeed": 20,
+  "shootSound": "laser",
+  "consumes": {
+    "power": 0.85
+  },
+  "requirements": [
+    { "item": "collarise", "amount": 80 },
+    { "item": "fossil", "amount": 55 },
+    { "item": "pyrit", "amount": 65 },
+    { "item": "sand-fabric", "amount": 75 }
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "router",
+    "requirements": [
+      { "item": "collarise", "amount": 800 },
+      { "item": "fossil", "amount": 550 },
+      { "item": "pyrit", "amount": 650 },
+      { "item": "sand-fabric", "amount": 750 }
+    ]
+  },
+  "shootType": {
+    "type": "BasicBulletType",
+    "damage": 50,
+    "speed": 3,
+    "lifetime": 40,
+    "width": 22,
+    "height": 22,
+    "frontColor": "ff3333",
+    "backColor": "ff6633",
+    "trailColor": "ff3333",
+    "trailLength": 12,
+    "hitEffect": "hitLancer",
+    "despawnEffect": "hitLancer",
+    "shootEffect": "shootBig",
+    "sprite": "circle",
+    "splashDamage": 20,
+    "splashDamageRadius": 40,
+    "fragBullets": 10,
+    "fragSpread": 360,
+    "fragBullet": {
+      "type": "BasicBulletType",
+      "damage": 5,
+      "speed": 2.5,
+      "lifetime": 30,
+      "splashDamage": 10,
+      "splashDamageRadius": 20,
+      "status":"blasted",
+      "width": 8,
+      "height": 8,
+      "frontColor": "ff6633",
+      "backColor": "ffaa33",
+      "trailColor": "ff6633",
+      "trailLength": 6,
+      "sprite": "circle",
+      "homingPower": 0.05,
+      "homingRange": 80
+    }
+  }
+}

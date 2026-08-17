@@ -12,7 +12,7 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-desert"
 visible: true
-minZoom: 1
+minZoom: 3
 hasAtmosphere: false
 bloom: false
 iconColor: "E6CC7FFF"

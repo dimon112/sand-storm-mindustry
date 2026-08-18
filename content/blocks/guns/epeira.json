@@ -1,0 +1,45 @@
+{
+  "type": "ItemTurret",
+  "name": "Эпейра",
+  "description": "Стреляет веером ткани, останавливая цели.",
+  "size": 2,
+  "health": 500,
+  "range": 180,
+  "reload": 60,
+  "inaccuracy": 0,
+  "outlineRadius": 0,
+  
+  "shootPattern": {
+    "type": "ShootSpread",
+    "shots": 50,
+    "spread": 60
+  },
+
+  "ammoTypes": {
+    "sand-fabric": {
+      "type": "BasicBulletType",
+      "speed": 4,
+      "damage": 25,
+      "lifetime": 45,
+      "knockBack": 2,
+      
+      "drawSize": 4,
+      "lightColor": "9c6f49",
+      
+      "frontColor": "805333",
+      "backColor": "805333",
+      "trailColor": "b08968",
+      
+      "trailLength": 12,
+      "trailWidth": 2,
+      
+      "status": "entangled",
+      "statusDuration": 30
+    }
+  },
+  
+  "requirements": [
+    { "item": "copper", "amount": 6767000000 }
+  ],
+  "category": "turret"
+}

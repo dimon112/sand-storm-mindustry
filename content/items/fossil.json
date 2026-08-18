@@ -6,7 +6,7 @@
  "flammability": 0,
  "radioactivity": 0,
  "hardness": 0,
- "cost": 3,
+ "cost": 1,
  "alwaysUnlocked": true,
  "research": "core-desert"
 }

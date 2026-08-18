@@ -51,20 +51,20 @@ ammoTypes: {
        sand-fabric:{
             damage:13,
             ammoMultiplier :2,
-            lifetime: 33,
+            lifetime: 36,
             speed: 27,
             inaccuracy: 0
             drag: 0.2
 
             intervalBullets: 1
-            bulletInterval: 15
+            bulletInterval: 5
             intervalRandomSpread: 0
             intervalBullet: {
     type: BasicBulletType
-    damage: 6
-    speed: 7
-    lifetime: 22
-    drag: 0.03
+    damage: 4
+    speed: 10
+    lifetime: 14
+    drag: 0.02
     frontColor: dbc412
     backColor: dbc412
   }

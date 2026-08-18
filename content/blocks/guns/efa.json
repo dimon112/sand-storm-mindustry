@@ -16,31 +16,28 @@
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 10,
+      "damage": 2,
       "knockBack": 3,
-      "damageInterval": 5.0,
+      "damageInterval": 1.0,
       "status": "corroded",
       "statusDuration": 120,
-      "colors": ["88FF4411", "88FF4455", "88FF44AA", "88FF44FF", "FFFFFF"],
+      "colors": ["88FF4411", "88FF4455", "88FF44", "88FF44", "FFFFFF"],
       "flareColor": "88FF44",
       "hitEffect": "smokeCloud",
-      "trailEffect": "smokeCloud",
-      "length": 240
+      "length": 260
     },
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 40,
+      "damage": 8,
       "knockBack": 3,
       "rangeChange": 60,
-      "damageInterval": 5.0,
+      "damageInterval": 1.0,
       "status": "corroded",
       "statusDuration": 600,
-      "colors": ["66DDFF11", "66DDFF55", "66DDFFAA", "66DDFFFF", "FFFFFF"],
+      "colors": ["66DDFF11", "66DDFF55", "66DDFF", "66DDFF", "FFFFFF"],
       "flareColor": "66DDFF",
       "hitEffect": "smokeCloud",
-      "trailEffect": "smokeCloud",
-      "shake": 0.5,
-      "length": 300
+      "length": 320
     }
   },
   "consumes": {

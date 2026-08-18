@@ -45,7 +45,6 @@
     "pierce": true,
     "pierceBuilding": false,
     "pierceCap": 4,
-    "pierceDamageFactor": 1.2,
     "accel": 0.1,
     "lifetime": 70,
     "width": 9,

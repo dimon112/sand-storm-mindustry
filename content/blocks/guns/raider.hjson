@@ -52,7 +52,7 @@ ammoTypes: {
             type: BasicBulletType
             damage: 6,
             ammoMultiplier :2,
-            lifetime: 180,
+            lifetime: 120,
             speed: 6,
             inaccuracy: 0
             drag: 0.01
@@ -68,12 +68,12 @@ ammoTypes: {
             intervalRandomSpread: 0
             intervalBullet: {
     type: BasicBulletType
-    damage: 7
-    speed: -0.006
-    lifetime: 300
+    damage: 10
+    speed: -0.009
+    lifetime: 200
     pierce: true
     pierceBuilding: false
-    pierceCap: 50
+    pierceCap: 5
     frontColor: dbc412
     backColor: dbc412
   }

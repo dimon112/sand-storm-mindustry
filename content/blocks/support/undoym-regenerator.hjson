@@ -10,6 +10,7 @@
  squareSprite: false
  size: 2
  emitLight: true
+ hasPower: false
  connectedPower: false
  consumes: {
   items: {
@@ -27,11 +28,11 @@
  
  category: effect
   research: {
- parent: fossil-node
+ parent: core-desert
   objectives: [
   {
     type: OnSector
-    preset: rough-time
+    preset: oasis
   }
   ]
  requirements: [

@@ -3,13 +3,13 @@
   name: Egr
   description: shoots fast controllable rockets
   size: 3
-  health: 1650
-  range: 600
+  health: 1050
+  range: 800
   reload: 220.5
   maxAmmo: 60
   shootCone: 35
   predictTarget: false
-  trackingRange: 680
+  trackingRange: 880
   ammoPerShot: 5
   outlineIcon: false
   hasPower:true
@@ -39,7 +39,7 @@
 
   requirements: [
   fossil/200
-  pyrit/170
+  pyrit/150
   geno/50
 ]
 

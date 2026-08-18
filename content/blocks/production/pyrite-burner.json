@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Обжигатель пирита",
-  "description": "Обжигает пирит в бескислородной среде, а затем окисляет серу с помощью кислорода для получения диоксида серы. Побочно производит сульфид железа",
+  "description": "Обжигает пирит в бескислородной среде, а затем окисляет серу с помощью кислорода для получения диоксида серы. Побочно производит сульфид железа.",
   "details": "FeS₂ → FeS + S, S + O₂ → SO₂",
   "size": 2,
   "health": 200,
@@ -9,6 +9,7 @@
   "hasLiquids": true,
   "hasPower": false,
   "craftTime": 60,
+  "squareSprite": false,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 2}
@@ -35,6 +36,36 @@
       {"item": "pyrit", "amount": 1200},
       {"item": "fossil", "amount": 800},
       {"item": "sand-fabric", "amount": 450}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom-1"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom-2"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": 0.5
+      },
+      {
+        "type": "DrawDefault"
+      }
     ]
   }
 }

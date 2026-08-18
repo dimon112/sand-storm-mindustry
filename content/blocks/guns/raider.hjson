@@ -59,6 +59,15 @@ ammoTypes: {
             intervalBullets: 1
             bulletInterval: 4
             intervalRandomSpread: 0
+            intervalBullet: {
+    type: BasicBulletType
+    damage: 15
+    speed: 20
+    lifetime: 30
+    drag: 0.5
+    frontColor: dbc412
+    backColor: dbc412
+  }
             pierce: true
             pierceBuilding: false
             pierceDamageFactor: 0.5

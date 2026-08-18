@@ -51,7 +51,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "aflux",
+    "parent": "afflux",
     "requirements": [
       {"item": "pyrit", "amount": 800},
       {"item": "fossil", "amount": 500},

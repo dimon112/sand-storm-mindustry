@@ -12,15 +12,16 @@
   "targetAir": true,
   "shootSound": "spray",
   "liquidCapacity": 30,
-  "liquidConsumed": 0.033,
+  "liquidConsumed": 0.083333333333333,
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 5,
+      "knockBack": 3,
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 120,
-      "colors": ["FFFFFF", "888888", "66666688", "55555555", "55555522"],
+      "colors": ["88FF4411", "88FF4455", "88FF44AA", "88FF44FF", "FFFFFF"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "length": 110
@@ -28,10 +29,11 @@
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 20,
+      "knockBack": 3,
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 600,
-      "colors": ["FFFFFF", "66DDFF", "44AADD44"],
+      "colors": ["66DDFF11", "66DDFF55", "66DDFFAA", "66DDFFFF", "FFFFFF"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "shake": 0.5,

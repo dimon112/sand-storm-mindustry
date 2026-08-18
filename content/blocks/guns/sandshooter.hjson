@@ -2,7 +2,7 @@ type: ItemTurret
 name: Abrasive
 description: Стреляет песком или гематитом, не требует энергии Так как она на пирите
 size: 2
-health: 250
+health: 50
 reload: 2
 range: 125
 rotateSpeed: 6
@@ -22,7 +22,7 @@ ammoTypes: {
   sand: {
     type: BasicBulletType
     damage: 5
-    knockback: 2
+    knockback: 3
     speed: 10
     lifetime: 12.5
     ammoMultiplier: 10
@@ -37,7 +37,7 @@ ammoTypes: {
   hematite: {
     type: BasicBulletType
     damage: 10
-    knockback: 4
+    knockback: 5
     speed: 10
     rangeChange: 125
     lifetime: 25

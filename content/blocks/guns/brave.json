@@ -7,9 +7,10 @@
   "targetGround": true,
   "targetAir": false,
   "range": 112,
-  "reload": 90,
+  "reload": 80,
   "shootCone": 30,
   "rotateSpeed": 20,
+  "outlineIcon": "false",
   "shootSound": "laser",
   "consumes": {
     "power": 0.5833333333333333333333333333

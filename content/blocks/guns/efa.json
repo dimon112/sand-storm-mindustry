@@ -20,7 +20,7 @@
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 120,
-      "colors": ["FFFFFF", "88FF44", "44CC2244"],
+      "colors": ["FFFFFF", "888888", "66666688", "55555555", "55555522"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "length": 110

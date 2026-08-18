@@ -52,9 +52,9 @@ ammoTypes: {
             damage: 6,
             ammoMultiplier :2,
             lifetime: 180,
-            speed: 10,
+            speed: 5,
             inaccuracy: 0
-            drag: 0.01
+            drag: 0.08
             pierce: true
             pierceBuilding: false
             pierceDamageFactor: 0.5
@@ -66,12 +66,12 @@ ammoTypes: {
             rangeOverride: 130
 
             intervalBullets: 1
-            bulletInterval: 3
+            bulletInterval: 5
             intervalRandomSpread: 0
             intervalBullet: {
     type: BasicBulletType
     damage: 7
-    speed: 0
+    speed: -0.001
     lifetime: 300
     pierce: true
     pierceBuilding: false

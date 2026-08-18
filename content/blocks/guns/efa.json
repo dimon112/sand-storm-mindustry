@@ -3,11 +3,11 @@
   "name": "Эфа",
   "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон.",
   "size": 3,
-  "health": 1000,
+  "health": 1500,
   "range": 224,
   "reload": 5,
   "shootCone": 30,
-  "rotateSpeed": 15,
+  "rotateSpeed": 5,
   "targetGround": true,
   "targetAir": true,
   "shootSound": "spray",
@@ -46,15 +46,15 @@
   "requirements": [
     {"item": "pyrit", "amount": 100},
     {"item": "fossil", "amount": 60},
-    {"item": "quartz", "amount": 40}
+    {"item": "quartz", "amount": 200}
   ],
   "category": "turret",
   "research": {
     "parent": "afflux",
     "requirements": [
-      {"item": "pyrit", "amount": 800},
+      {"item": "pyrit", "amount": 1000},
       {"item": "fossil", "amount": 500},
-      {"item": "quartz", "amount": 300}
+      {"item": "quartz", "amount": 1500}
     ]
   }
 }

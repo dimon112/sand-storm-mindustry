@@ -48,6 +48,28 @@ ammoTypes: {
             backColor:  dbc412
            
        },
+       sand-fabric:{
+            damage:15,
+            ammoMultiplier :2,
+            lifetime: 30,
+            speed: 20,
+            inaccuracy: 0
+            drag: 0.5
+            shoot: {
+        type: ShootAlternate
+        shots: 3
+        shotDelay: 4
+                   }
+            pierce: true
+            pierceBuilding: false
+            pierceDamageFactor: 0.5
+            pierceCap: 2
+            frontColor: dbc412
+            backColor:  dbc412
+            reloadMultiplier: 0.50
+            buildingDamageMultiplier: 0.2
+           
+       },
        quartz:{
             damage:25,
             ammoMultiplier :2,

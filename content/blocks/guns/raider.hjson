@@ -52,14 +52,12 @@ ammoTypes: {
             damage:15,
             ammoMultiplier :2,
             lifetime: 30,
-            speed: 20,
+            speed: 25,
             inaccuracy: 0
-            drag: 0.5
-            shoot: {
-        type: ShootAlternate
-        shots: 3
-        shotDelay: 4
-                   }
+            drag: 0.2
+            intervalBullets: 1
+            bulletInterval: 4
+            intervalRandomSpread: 0
             pierce: true
             pierceBuilding: false
             pierceDamageFactor: 0.5
@@ -68,6 +66,7 @@ ammoTypes: {
             backColor:  dbc412
             reloadMultiplier: 0.50
             buildingDamageMultiplier: 0.2
+            rangeOverride: 130
            
        },
        quartz:{

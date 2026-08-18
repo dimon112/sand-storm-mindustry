@@ -1,10 +1,10 @@
 {
   "type": "ContinuousLiquidTurret",
   "name": "Эфа",
-  "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон. Использует диоксид серы (зелёный) и триоксид серы (голубой).",
-  "size": 2,
-  "health": 280,
-  "range": 120,
+  "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон.",
+  "size": 3,
+  "health": 1000,
+  "range": 240,
   "reload": 5,
   "shootCone": 30,
   "rotateSpeed": 15,
@@ -16,7 +16,7 @@
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 5,
+      "damage": 10,
       "knockBack": 3,
       "damageInterval": 5.0,
       "status": "corroded",
@@ -24,13 +24,13 @@
       "colors": ["88FF4411", "88FF4455", "88FF44AA", "88FF44FF", "FFFFFF"],
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
-      "length": 120
+      "length": 240
     },
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 20,
+      "damage": 40,
       "knockBack": 3,
-      "rangeChange": 20,
+      "rangeChange": 60,
       "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 600,
@@ -38,7 +38,7 @@
       "hitEffect": "smokeCloud",
       "trailEffect": "smokeCloud",
       "shake": 0.5,
-      "length": 140
+      "length": 300
     }
   },
   "consumes": {
@@ -51,7 +51,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "router",
+    "parent": "aflux",
     "requirements": [
       {"item": "pyrit", "amount": 800},
       {"item": "fossil", "amount": 500},

@@ -69,7 +69,7 @@ ammoTypes: {
              frontColor: dbc412
              backColor: dbc412
                   }
-               }
+                  
             pierce: true
             pierceBuilding: false
             pierceDamageFactor: 0.5

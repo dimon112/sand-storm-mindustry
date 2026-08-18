@@ -42,3 +42,23 @@ weapons: [
     }
   } 
 ]
+  "abilities": [
+    {
+    "type": "MoveEffectAbility",
+    "interval": 3,
+    "effect": {
+      "type": "ParticleEffect",
+      "cone": 45,
+      "baseRotation": 180,
+      "particles": 5,
+      "length": 2.5,
+      "baseLength": 3,
+      "line": true,
+      "strokeFrom": 1,
+      "strokeTo": 0.5,
+      "colorFrom": "00ff00",
+      "colorTo": "00aa00"
+      },
+    "rotateEffect": true
+    }
+  ]

@@ -9,7 +9,7 @@
   "hasLiquids": true,
   "hasPower": false,
   "craftTime": 60,
-  "squareSprite": false,
+  "craftEffect": "fireSmoke",
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 2}

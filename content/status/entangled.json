@@ -1,0 +1,8 @@
+{
+  "type": "StatusEffect",
+  "name": "Опутан",
+  "description": "Опутан пустынной тканью.",
+  "color": "805333",
+  "speedMultiplier": 0.0,
+  "reloadMultiplier": 0.5
+}

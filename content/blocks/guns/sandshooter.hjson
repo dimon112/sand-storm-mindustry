@@ -39,7 +39,7 @@ ammoTypes: {
     damage: 10
     knockback: 4
     speed: 10
-    rangeChange: 250
+    rangeChange: 125
     lifetime: 25
     ammoMultiplier: 20
     rangeBoost: 125

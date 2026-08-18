@@ -49,6 +49,7 @@ ammoTypes: {
            
        },
        sand-fabric:{
+            type: BasicBulletType
             damage: 6,
             ammoMultiplier :2,
             lifetime: 180,

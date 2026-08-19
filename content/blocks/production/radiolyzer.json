@@ -29,7 +29,7 @@
     {"liquid": "oxygen", "amount": 0.0833333333333333}
   ],
   "requirements": [
-    {"item": "pyrit", "amount": 150},
+    {"item": "pyrit", "amount": 50},
     {"item": "fossil", "amount": 100},
     {"item": "quartz", "amount": 50}
   ],

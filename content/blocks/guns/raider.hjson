@@ -50,9 +50,9 @@ ammoTypes: {
        },
        sand-fabric:{
             type: BasicBulletType
-            damage: 6,
+            damage: 10,
             ammoMultiplier :2,
-            lifetime: 120,
+            lifetime: 130,
             speed: 6,
             inaccuracy: 0
             drag: 0.01
@@ -61,19 +61,20 @@ ammoTypes: {
             pierceCap: -1
             frontColor: dbc412
             backColor:  dbc412
-            reloadMultiplier: 0.33
+            reloadMultiplier: 0.10
             buildingDamageMultiplier: 0.2
             intervalBullets: 1
             bulletInterval: 5
             intervalRandomSpread: 0
             intervalBullet: {
     type: BasicBulletType
-    damage: 10
-    speed: -0.009
-    lifetime: 200
+    damage: 16
+    speed: -0.018
+    acceleration: -0.01
+    lifetime: 220
     pierce: true
     pierceBuilding: false
-    pierceCap: 5
+    pierceCap: 6
     frontColor: dbc412
     backColor: dbc412
   }

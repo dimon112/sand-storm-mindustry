@@ -13,8 +13,8 @@
     {"liquid": "water", "amount": 0.0166666666666667}
   ],
   "requirements": [
-    {"item": "fossil", "amount": 30},
-    {"item": "sand-fabric", "amount": 20}
+    {"item": "fossil", "amount": 5},
+    {"item": "sand-fabric", "amount": 25}
   ],
   "category": "crafting",
   "research": {

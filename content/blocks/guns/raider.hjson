@@ -72,7 +72,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 17
     speed: -0.034
-    acceleration: -0.01
+    acceleration: 0.04
     lifetime: 250
     width: 10
     height: 10

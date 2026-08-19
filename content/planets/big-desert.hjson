@@ -4,7 +4,7 @@
     parent:sun,
     solarSystem:sun,
     iconColor: 158400,
-    orbitRadius: 19,
+    orbitRadius: 22,
     hasAtmosphere: true,
     updateLighting: true,
     bloom: false,

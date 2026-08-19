@@ -12,7 +12,6 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-desert"
 visible: true
-minZoom: 2
 hasAtmosphere: false
 bloom: false
 iconColor: "E6CC7FFF"
@@ -22,14 +21,33 @@ updateLighting: true
 allowWaves: true
 generator: "PlanetGenerator"
 mesh: {
-  type: NoiseMesh
-  seed: 12345
-  divisions: 3
-  radius: 0.2
-  color1: "B4AA5DFF"
-  color2: "E6CC7FFF"
-  octaves: 2
-  persistence: 0.5
-  scale: 0.3
-  mag: 0.5
+  type: MultiMesh
+  meshes: [
+    {
+      type: NoiseMesh
+      seed: 12345
+      divisions: 3
+      radius: 0.4
+      color1: "B4AA5DFF"
+      color2: "E6CC7FFF"
+      octaves: 2
+      persistence: 0.5
+      scale: 0.3
+      mag: 0.5
+    }
+    {
+      type: NoiseMesh
+      seed: 54321
+      divisions: 3
+      radius: 0.43
+      color1: "8C7A4BFF"
+      color2: "5C5030FF"
+      octaves: 3
+      persistence: 0.6
+      scale: 0.2
+      mag: 0.8
+
+      clip: 0.15
+    }
+  ]
 }

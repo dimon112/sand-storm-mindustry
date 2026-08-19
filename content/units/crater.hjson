@@ -9,7 +9,7 @@ range: 160
 weapons: [ 
   { 
     name: craterg 
-    reload: 15 
+    reload: 60
     x: 4
     y: 0 
     baseRotation: -90

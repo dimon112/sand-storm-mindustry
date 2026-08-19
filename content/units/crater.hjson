@@ -25,15 +25,15 @@ weapons: [
     }
     bullet: { 
       type: BasicBulletType 
-      sprite: Sand-StormV2-starred-tetragon
+      sprite: sand-stormv2-starred-tetragon
       spin: 2.5
       speed: 4
       damage: 6 
       color: "F7CBA4FF" 
-      lifetime: 45
+      lifetime: 30
       followAim: true
-      followAimSpeed: 0.7
-      homingPower: 0.05
+      followAimSpeed: 1.5
+      homingPower: 0.12
       homingRange: 160
     } 
   } 

@@ -6,8 +6,8 @@
   "health": 350,
   "targetGround": true,
   "targetAir": false,
-  "range": 112,
-  "reload": 80,
+  "range": 180,
+  "reload": 60,
   "shootCone": 30,
   "rotateSpeed": 20,
   "outlineIcon": "false",
@@ -34,20 +34,20 @@
     "shots": 3,
     "shotDelay": 0,
     "barrels": [
-      -8, 0, -30,
+      -4, 0, 30,
       0, 0, 0,
-      8, 0, 30
+      4, 0, -30
     ]
   },
   "shootType": {
     "type": "BasicBulletType",
     "damage": 30,
-    "speed": 3.5,
+    "speed": 3,
     "pierce": true,
     "pierceBuilding": false,
     "pierceCap": 4,
     "accel": 0.1,
-    "lifetime": 70,
+    "lifetime": 60,
     "width": 9,
     "height": 9,
     "frontColor": "4488ff",

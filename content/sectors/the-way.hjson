@@ -10,11 +10,11 @@
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
-  parent: LongShot
+  parent: gate
 objectives: [
     {
       type: SectorComplete 
-      preset: LongShot
+      preset: gate
     }
   ]
 }

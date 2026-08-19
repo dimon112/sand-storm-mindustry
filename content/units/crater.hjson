@@ -5,7 +5,7 @@ hitSize: 8
 flying: true 
 health: 150
 engineOffset: 0
-range: 160 
+range: 140 
 weapons: [ 
   { 
     name: craterg 
@@ -27,11 +27,11 @@ weapons: [
       sprite: sand-stormv2-starred-tetragon
       spin: 2.5
       speed: 4
-      wight: 16
-      height: 16
-      damage: 6 
+      wight: 24
+      height: 24
+      damage: 6
       color: "F7CBA4FF" 
-      lifetime: 90
+      lifetime: 35
       followAim: true
       followAimSpeed: 2
       homingPower: 0.2

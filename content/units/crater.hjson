@@ -1,38 +1,50 @@
-type:flying
-name: "crater"
-speed: 1
-hitSize: 8
-flying: true
-health: 150
-engineOffset: 0
-range: 160
-  "weapons": [
-  {
-   name: craterg
-  reload: 15
-  rotate: true
-  x: 0
-  y: 0
-  range: 160
-  shootSound: shoot
-  bullet: {
-    type: BasicBulletType
-    speed: 4
-    damage: 6
-    color: 80CB7
+type: flying 
+name: "crater" 
+speed: 1 
+hitSize: 8 
+flying: true 
+health: 150 
+engineOffset: 0 
+range: 160 
+weapons: [ 
+  { 
+    name: craterg 
+    reload: 15 
+    x: 4
+    y: 0 
+    baseRotation: -90
+    shootCone: 180
+    mirror: true
+    rotate: false
+    shootSound: shoot 
+    shoot: {
+      type: ShootPattern
+      shots: 3
+      shotDelay: 5
     }
-    }
-    ]
-  research: {
-parent: Desert-factory
-requirements: [
- fossil/100
- sand-fabric/250
- ]
-}
-objectives: [
-  {
-  type: OnSector
-  preset: SandStorm
-  }
+    bullet: { 
+      type: BasicBulletType 
+      sprite: starred-tetragon
+      spin: 2.5
+      speed: 4 
+      damage: 6 
+      color: "F7CBA4FF" 
+      lifetime: 60
+      homingPower: 0.7
+      homingRange: 160
+    } 
+  } 
+] 
+research: { 
+  parent: Desert-factory 
+  requirements: [ 
+    fossil/100 
+    sand-fabric/250 
+  ] 
+} 
+objectives: [ 
+  { 
+    type: OnSector 
+    preset: SandStorm 
+  } 
 ]

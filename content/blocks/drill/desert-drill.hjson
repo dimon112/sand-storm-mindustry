@@ -5,6 +5,7 @@ size: 3
 type: BurstDrill
 category: production
 breakable: true
+squareSprite: false
 research: {
 parent: core-desert,
 requirements: [

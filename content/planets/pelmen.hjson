@@ -1,13 +1,13 @@
 name: "Пельмень"
 parent: "big-desert"
 solarSystem: "sun"
-radius: 0.2
+radius: 0.4
 sectorSize: 1
 accessible: true
 alwaysUnlocked: true
 startSector: 0
 allowLaunchToNumbered: false
-allowSectorInvasion: false
+allowSectorInvasion: true
 allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-desert"
@@ -21,9 +21,6 @@ updateLighting: true
 allowWaves: true
 generator: "PlanetGenerator"
 mesh: {
-  type: MultiMesh
-  meshes: [
-    {
       type: NoiseMesh
       seed: 12345
       divisions: 3
@@ -34,20 +31,4 @@ mesh: {
       persistence: 0.5
       scale: 0.3
       mag: 0.5
-    }
-    {
-      type: NoiseMesh
-      seed: 54321
-      divisions: 3
-      radius: 0.43
-      color1: "8C7A4BFF"
-      color2: "5C5030FF"
-      octaves: 3
-      persistence: 0.6
-      scale: 0.2
-      mag: 0.8
-
-      clip: 0.15
-    }
-  ]
 }

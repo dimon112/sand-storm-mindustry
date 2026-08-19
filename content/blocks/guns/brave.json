@@ -1,6 +1,6 @@
 {
   "type": "PowerTurret",
-  "name": "Храбрый",
+  "name": "Храбрость",
   "description": "Энергетическая турель, стреляющая тремя самонаводящимися синими орбами.",
   "size": 2,
   "health": 350,
@@ -47,7 +47,7 @@
     "pierceBuilding": false,
     "pierceCap": 4,
     "accel": 0.1,
-    "lifetime": 30,
+    "lifetime": 45,
     "width": 9,
     "height": 9,
     "frontColor": "4488ff",

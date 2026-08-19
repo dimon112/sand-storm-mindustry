@@ -47,7 +47,7 @@
     "pierceBuilding": false,
     "pierceCap": 4,
     "accel": 0.1,
-    "lifetime": 60,
+    "lifetime": 30,
     "width": 9,
     "height": 9,
     "frontColor": "4488ff",

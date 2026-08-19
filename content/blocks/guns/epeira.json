@@ -8,18 +8,20 @@
   "reload": 60,
   "inaccuracy": 0,
   "outlineRadius": 0,
-  
   "shootPattern": {
-    "type": "ShootSpread",
-    "shots": 50,
-    "spread": 60
+    "type": "ShootBarrel",
+    "shots": 30,
+    "shotDelay": 0,
+    "spread": 45,
+    "barrels": [
+      0, 8, 0
+    ]
   },
-
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",
       "speed": 4,
-      "damage": 25,
+      "damage": 5,
       "lifetime": 45,
       "knockBack": 2,
       
@@ -39,7 +41,7 @@
   },
   
   "requirements": [
-    { "item": "copper", "amount": 6767000000 }
+    { "item": "fossil", "amount": 42 }
   ],
   "category": "turret"
 }

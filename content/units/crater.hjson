@@ -3,8 +3,8 @@ name: "crater"
 speed: 1 
 hitSize: 8 
 flying: true 
-health: 150 
-engineOffset: 0 
+health: 150
+engineOffset: 0
 range: 160 
 weapons: [ 
   { 
@@ -15,22 +15,25 @@ weapons: [
     baseRotation: -90
     shootCone: 180
     mirror: true
+    alternate: false
     rotate: false
     shootSound: shoot 
     shoot: {
       type: ShootPattern
-      shots: 3
-      shotDelay: 5
+      shots: 2
+      shotDelay: 10
     }
     bullet: { 
       type: BasicBulletType 
-      sprite: starred-tetragon
+      sprite: Sand-StormV2-starred-tetragon
       spin: 2.5
-      speed: 4 
+      speed: 4
       damage: 6 
       color: "F7CBA4FF" 
-      lifetime: 60
-      homingPower: 0.7
+      lifetime: 45
+      followAim: true
+      followAimSpeed: 0.7
+      homingPower: 0.05
       homingRange: 160
     } 
   } 

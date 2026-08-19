@@ -17,7 +17,6 @@ weapons: [
     mirror: true
     alternate: false
     rotate: false
-    shootSound: shoot 
     shoot: {
       type: ShootPattern
       shots: 2
@@ -28,12 +27,14 @@ weapons: [
       sprite: sand-stormv2-starred-tetragon
       spin: 2.5
       speed: 4
+      wight: 16
+      height: 16
       damage: 6 
       color: "F7CBA4FF" 
-      lifetime: 30
+      lifetime: 90
       followAim: true
-      followAimSpeed: 1.5
-      homingPower: 0.12
+      followAimSpeed: 2
+      homingPower: 0.2
       homingRange: 160
     } 
   } 

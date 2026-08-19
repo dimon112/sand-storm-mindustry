@@ -9,7 +9,7 @@
   "hasLiquids": true,
   "hasPower": false,
   "craftTime": 60,
-  "craftEffect": "fireSmoke",
+  "squareSprite": false,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 2}
@@ -24,8 +24,21 @@
   "outputLiquids": [
     {"liquid": "sulfur-dioxide", "amount": 0.0333333333333333333333333333}
   ],
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "cone": 360,
+    "baseRotation": 0,
+    "particles": 8,
+    "length": 4,
+    "baseLength": 3,
+    "line": true,
+    "strokeFrom": 1.5,
+    "strokeTo": 0.5,
+    "colorFrom": "ffaa00",
+    "colorTo": "ff4400"
+  },
   "requirements": [
-    {"item": "pyrit", "amount": 100},
+    {"item": "pyrit", "amount": 25},
     {"item": "fossil", "amount": 50},
     {"item": "sand-fabric", "amount": 40}
   ],
@@ -61,7 +74,7 @@
         "type": "DrawRegion",
         "suffix": "-wheel",
         "spinSprite": true,
-        "rotateSpeed": 0.5
+        "rotateSpeed": 1.0
       },
       {
         "type": "DrawDefault"

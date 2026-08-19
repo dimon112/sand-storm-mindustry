@@ -6,7 +6,7 @@
   "health": 500,
   "range": 180,
   "reload": 60,
-  "inaccuracy": 0,
+  "inaccuracy": 45,
   "outlineRadius": 0,
   "shootPattern": {
     "type": "ShootBarrel",

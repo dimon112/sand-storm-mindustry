@@ -41,7 +41,7 @@ research: {
     objectives: [ 
     { 
     type: OnSector 
-    preset: sand-storm
+    preset: SandStorm
     } 
   ] 
 },

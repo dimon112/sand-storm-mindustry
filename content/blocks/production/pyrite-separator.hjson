@@ -14,14 +14,14 @@
     ]
   }
   requirements: [
-    fossil/200
+    fossil/150
     sand-fabric/50
-    geno/70
+    geno/25
   ]
   category: crafting
   outputItems: [
-  pyrit/2
-  sand/3
+  pyrit/3
+  sand/2
 ]
 research: {
     parent: sand-mixer

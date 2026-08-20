@@ -38,6 +38,12 @@ outputItem: sand-fabric/1
 category: crafting
 research: {
     parent: desert-drill
+    objectives: [ 
+    { 
+    type: OnSector 
+    preset: sand-storm
+    } 
+  ] 
 },
 researchCost: [
     fossil/80

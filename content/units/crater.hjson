@@ -27,13 +27,13 @@ weapons: [
       sprite: sand-stormv2-starred-tetragon
       spin: 2.5
       speed: 4
-      wight: 24
+      wigth: 24
       height: 24
       damage: 6
       color: "F7CBA4FF" 
       lifetime: 35
       followAim: true
-      followAimSpeed: 2
+      followAimSpeed: 4
       homingPower: 0.2
       homingRange: 160
     } 
@@ -44,11 +44,12 @@ research: {
   requirements: [ 
     fossil/100 
     sand-fabric/250 
-  ] 
-} 
 objectives: [ 
   { 
     type: OnSector 
     preset: SandStorm 
   } 
 ]
+
+  ] 
+} 

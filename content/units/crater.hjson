@@ -27,8 +27,8 @@ weapons: [
       sprite: sand-stormv2-starred-tetragon
       spin: 2.5
       speed: 4
-      wigth: 24
-      height: 24
+      width: 16
+      height: 16
       damage: 6
       color: "F7CBA4FF" 
       lifetime: 35

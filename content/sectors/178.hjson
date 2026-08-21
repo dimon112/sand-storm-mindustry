@@ -1,15 +1,15 @@
 {
   planet: big-desert
-  sector: 155
-  difficulty: 2
-  name: 155
+  sector: 178
+  difficulty: 4
+  name: 178
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting:true
     
     shieldSectors: [
-    "gate"
+    "rough-time"
   ]
 
 }

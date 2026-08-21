@@ -7,15 +7,10 @@
   "addStartingItems": false,
   "overrideLaunchDefaults":false,
   "noLighting":true,
-  research: { 
-  parent: gate 
-objectives: [ 
-    { 
-      type: SectorComplete  
-      preset: the-way
-    } 
-  ] 
-}
+  
+  shieldSectors: [
+    "gate"
+  ]
 
 }
 

@@ -59,9 +59,6 @@
       },
       {
         "type": "DrawDefault"
-      },
-      {
-        "type": "DrawLiquidOutputs"
       }
     ]
   }

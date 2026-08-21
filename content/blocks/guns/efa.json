@@ -17,8 +17,8 @@
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 4.166666667,
-      "knockBack": 3,
-      "damageInterval": 1.0,
+      "knockback": 3,
+      "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 180,
       "colors": ["88FF4411", "88FF4455", "88FF44", "88FF44", "FFFFFF"],
@@ -29,9 +29,9 @@
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 12.5,
-      "knockBack": 3,
+      "knockback": 5,
       "rangeChange": 44,
-      "damageInterval": 1.0,
+      "damageInterval": 5.0,
       "status": "corroded",
       "statusDuration": 600,
       "colors": ["66DDFF11", "66DDFF55", "66DDFF", "66DDFF", "FFFFFF"],

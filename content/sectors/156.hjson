@@ -1,16 +1,20 @@
 {
-  "planet": "big-desert",
-  "sector": 156,
-  "difficulty": 5
-  "name": "156"
-  "alwaysUnlocked": false,
-  "addStartingItems": false,
-  "overrideLaunchDefaults":false,
-  "noLighting":true,
-  
-  shieldSectors: [
-    "sand-stormv2-gate"
-  ]
+  planet: big-desert
+  sector: 156
+  difficulty: 5
+  name: 156
+  alwaysUnlocked: false
+  addStartingItems: false
+  overrideLaunchDefaults: false
+  noLighting:true
 
+    research: { 
+  parent: gate 
+objectives: [ 
+    {
+      type: SectorComplete  
+      preset: gate 
+    } 
+  ] 
+} 
 }
-

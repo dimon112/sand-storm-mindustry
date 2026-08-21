@@ -7,11 +7,14 @@
   addStartingItems: false
   overrideLaunchDefaults: false
   noLighting:true
-    
-    shieldSectors: [
-    "sand-stormv2-gate"
-  ]
 
+    research: { 
+  parent: gate 
+objectives: [ 
+    {
+      type: SectorComplete  
+      preset: gate 
+    } 
+  ] 
+} 
 }
-
-

@@ -8,10 +8,15 @@
   overrideLaunchDefaults: false
   noLighting:true
     
-    shieldSectors: [
-    sand-stormv2-big-desert-32
-  ]
-
+    research: { 
+  parent: rough-time
+objectives: [ 
+    {
+      type: SectorComplete  
+      preset: rough-time
+    } 
+  ] 
+} 
 }
 
 

@@ -19,10 +19,17 @@ requirements: [
 
 ammoTypes: { 
         sand:{
-            damage:12,
-            ammoMultiplier :1,
+            damage: 10,
+            ammoMultiplier: 2,
             lifetime: 85,
             speed: 4,
+            buildingDamageMultiplier: 0.1
+       },
+        hematite:{
+            damage: 15,
+            ammoMultiplier: 5,
+            lifetime: 85,
+            speed: 5,
             buildingDamageMultiplier: 0.1
        },
        geno:{

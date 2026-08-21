@@ -10,6 +10,7 @@
   "hasLiquids": true,
   "hasPower": false,
   "craftTime": 60,
+  "squareSprite": false,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 8}
@@ -64,17 +65,35 @@
         "suffix": "-wheel",
         "spinSprite": true,
         "rotateSpeed": 1.0
+        "x": -8,
+        "y": -8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": 1.0
+        "x": 8,
+        "y": 8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": -1.0
+        "x": 8,
+        "y": -8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": -1.0
+        "x": -8,
+        "y": 8
       },
       {
         "type": "DrawDefault"
-      },
-      {
-        "type": "DrawLiquidOutputs"
-      },
-      {
-        "type": "DrawHeatOutput",
-        "suffix": "-heat",
-        "color": "ff8833"
       }
     ]
   }

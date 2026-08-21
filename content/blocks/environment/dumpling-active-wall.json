@@ -1,0 +1,5 @@
+{
+  "type": "StaticWall",
+  "itemDrop": "dumpling",
+  "variants": 3
+}

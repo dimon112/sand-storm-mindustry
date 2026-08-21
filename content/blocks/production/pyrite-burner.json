@@ -7,7 +7,7 @@
   "health": 200,
   "hasItems": true,
   "hasLiquids": true,
-  "hasPower": trie,
+  "hasPower": true,
   "craftTime": 60,
   "squareSprite": false,
   "consumes": {

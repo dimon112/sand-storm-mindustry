@@ -16,7 +16,7 @@
     {"item": "fossil", "amount": 5},
     {"item": "sand-fabric", "amount": 25}
   ],
-  "category": "crafting",
+  "category": "liquid",
   "research": {
     "parent": "sand-fabric-weaver",
     "requirements": [

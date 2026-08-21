@@ -9,7 +9,7 @@
   "noLighting":true,
   
   shieldSectors: [
-    "gate"
+    "sand-stormv2-gate"
   ]
 
 }

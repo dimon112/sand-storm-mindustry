@@ -7,7 +7,7 @@
   "health": 200,
   "hasItems": true,
   "hasLiquids": true,
-  "hasPower": false,
+  "hasPower": trie,
   "craftTime": 60,
   "squareSprite": false,
   "consumes": {
@@ -16,6 +16,7 @@
     ],
     "liquids": [
       {"liquid": "oxygen", "amount": 0.033333333333333333333333333333}
+    "power": 0.125,
     ]
   },
   "outputItems": [

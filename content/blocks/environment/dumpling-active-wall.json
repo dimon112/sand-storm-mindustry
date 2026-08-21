@@ -1,5 +1,8 @@
 {
   "type": "StaticWall",
   "itemDrop": "dumpling",
+  "attributes": {
+  "dumpling": 2
+  }
   "variants": 3
 }

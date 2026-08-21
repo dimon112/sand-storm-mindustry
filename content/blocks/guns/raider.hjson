@@ -4,7 +4,7 @@ type: ItemTurret
 size: 1
 health: 500
 reload: 16
-range: 220
+range: 200
 shootCone: 10
 inaccuracy: 0
 targetAir: true
@@ -21,21 +21,22 @@ ammoTypes: {
         sand:{
             damage: 10,
             ammoMultiplier: 2,
-            lifetime: 85,
+            lifetime: 50,
             speed: 4,
             buildingDamageMultiplier: 0.1
        },
         hematite:{
             damage: 15,
             ammoMultiplier: 5,
-            lifetime: 85,
-            speed: 5,
+            lifetime: 44.444444444,
+            speed: 4.5,
             buildingDamageMultiplier: 0.1
        },
        geno:{
             damage:8,
-            lifetime: 55,
+            lifetime: 45,
             speed: 5,
+            rangeChange: 25 
             buildingDamageMultiplier: 0.1
             reloadMultiplier: 2.2
             ammoMultiplier: 10
@@ -48,8 +49,8 @@ ammoTypes: {
         fossil:{
             damage:17,
             ammoMultiplier :2,
-            lifetime: 30,
-            speed: 9,
+            lifetime: 50,
+            speed: 4,
             buildingDamageMultiplier: 0.1
             frontColor: dbc412
             backColor:  dbc412
@@ -59,8 +60,9 @@ ammoTypes: {
             type: BasicBulletType
             damage: 12,
             ammoMultiplier :2,
-            lifetime: 130,
-            speed: 6,
+            lifetime: 60,
+            speed: 4,
+            rangeChange: 40,
             inaccuracy: 0
             drag: 0.01
             width: 9
@@ -96,7 +98,7 @@ ammoTypes: {
             damage:25,
             ammoMultiplier :2,
             reloadMultiplier: 0.50
-            lifetime: 60,
+            lifetime: 50,
             speed: 4,
             buildingDamageMultiplier: 0.3
             frontColor: ffffff
@@ -123,11 +125,12 @@ ammoTypes: {
     }  
        },
        bone:{
-            damage:57,
+            damage: 30,
             ammoMultiplier :2,
             reloadMultiplier: 0.35
             lifetime: 16,
             speed: 15,
+            rangeChange: 40
             buildingDamageMultiplier: 0.1
             frontColor: ffffff
             backColor:  ffffff
@@ -143,7 +146,7 @@ ammoTypes: {
             fragLifeMax: 1.1
                fragBullet: {
       type: BasicBulletType
-      damage: 17
+      damage: 10
       splashDamage: 9
       splashDamageRadius: 22
       lifetime: 26
@@ -153,15 +156,16 @@ ammoTypes: {
     }
        },
        collarise:{
-            damage:22,
-            splashDamage:8,
+            damage: 20,
+            splashDamage: 8,
             splashDamageRadius: 35
-            status:blasted
-            ammoMultiplier :3,
+            status: blasted
+            ammoMultiplier: 3,
             lifetime: 45,
             frontColor: 9e0e0e
             backColor: 9e0e0e
-            speed: 6,
+            speed: 5,
+            rangeChange: 25
             buildingDamageMultiplier: 0.1
 
        }

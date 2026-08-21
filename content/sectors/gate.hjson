@@ -1,4 +1,5 @@
 {
+  type: SectorPreset
   "planet": "big-desert",
   "sector": 12,
   "difficulty": 5

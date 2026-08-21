@@ -12,7 +12,6 @@
   "itemCapacity": 5,
   "craftTime": 120,
   "rotate": true,
-  "rotateDraw": false,
   "squareSprite": false,
   "ignoreLiquidFullness": true,
   "consumes": {

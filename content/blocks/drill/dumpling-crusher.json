@@ -1,19 +1,17 @@
 {
   "type": "WallCrafter",
   "name": "Буритель пельменей"
-  "description": "Изымает пельмени из пельменных стен",
+  "description": "Изымает пельмени из пельменных стен.",
   "size": 1,
-  "squareSprite": true,
+  "squareSprite": false,
   "category": "production",
   "requirements": [
     "dumpling/4"
   ],
   "drillTime": 120,
   "output": "dumpling",
+  "attribute": "dumpling",
   "fogRadius": 2,
-  "consumes": {
-    "power": 0.2,
-  },
   "ambientSound": "drill",
   "ambientSoundVolume": 0.06
   "research": "desert-drill"

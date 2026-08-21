@@ -9,7 +9,7 @@
   noLighting:true
     
     shieldSectors: [
-    "sand-stormV2-rought-time"
+    "rought-time"
   ]
 
 }

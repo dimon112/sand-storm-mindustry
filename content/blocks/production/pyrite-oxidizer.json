@@ -48,15 +48,33 @@
     "type": "DrawMulti",
     "drawers": [
       {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padLeft": 2,
+        "padBottom": 2,
+        "padTop": 2,
+        "padRight": 2
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": 1.0
+      },
+      {
         "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs"
       },
       {
         "type": "DrawHeatOutput",
         "suffix": "-heat",
         "color": "ff8833"
-      },
-      {
-        "type": "DrawLiquidOutputs"
       }
     ]
   }

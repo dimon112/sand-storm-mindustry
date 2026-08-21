@@ -9,7 +9,7 @@
   noLighting:true
     
     shieldSectors: [
-    "rought-time"
+    "rough-time"
   ]
 
 }

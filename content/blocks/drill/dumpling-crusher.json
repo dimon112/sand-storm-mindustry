@@ -5,7 +5,7 @@
   "size": 1,
   "category": "production",
   "requirements": [
-    "dumpling"/5,
+    "dumpling/5"
   ],
   "drillTime": 120,
   "output": "dumpling",
@@ -17,6 +17,6 @@
   "ambientSoundVolume": 0.06
   "research": "desert-drill"
   "researchCost": [
-    "yttrium"/30
+    "yttrium/30"
   ]
 }

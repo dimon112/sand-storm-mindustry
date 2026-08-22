@@ -8,7 +8,7 @@
   "engineSize": 0,
   "engineOffset": 0,
   "lifetime": 120,
-  "rotateSpeed": 1.5,
+  "rotateSpeed": 2.5,
   "hitSize": 3,
   "autoFindTarget": true,
   "homingDelay": 10,

@@ -6,10 +6,10 @@ health: 1500
 range: 170
 hitSize: 24
 armor: 8
-legCount: 4
+legCount: 6
 legLength: 22
 legTurns: 1
-legMoveSpace: 3.0
+legMoveSpace: 1.5
 hovering: true
   "weapons": [
   {

@@ -52,29 +52,10 @@
         "homingPower": 0.1,
         "homingRange": 120
       }
-    },
-  "consumes": {
-    "power": 1.0
+    }
   },
   "requirements": [
-    {"item": "pyrit", "amount": 120},
-    {"item": "fossil", "amount": 80},
-    {"item": "quartz", "amount": 50}
+    {"item": "pyrit", "amount": 42}
   ],
-  "category": "turret",
-  "research": {
-    "parent": "router",
-    "requirements": [
-      {"item": "pyrit", "amount": 1000},
-      {"item": "fossil", "amount": 700},
-      {"item": "quartz", "amount": 400}
-    ]
-  },
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      {"type": "DrawDefault"},
-      {"type": "DrawTurret"}
-    ]
-  }
+  "category": "turret"
 }

@@ -1,0 +1,99 @@
+{
+  "type": "missile",
+  "physics": false,
+  "template": "MissileUnitType",
+  "flying": true,
+  "speed": 4,
+  "useUnitCap": false,
+  "engineSize": 0.2,
+  "engineOffset": 2.5,
+  "lifetime": 195,
+  "rotateSpeed": 3.5,
+  "hitSize": 3,
+  "trailLength": 4,
+  "trailScl": 3,
+  "autoFindTarget": true,
+  "homingDelay": 15,
+  "circleTarget": false,
+  "faceTarget": true,
+  "health": 55,
+  "trailColor": "66DDFF",
+  "aimDst": 4,
+  "drawCell": false,
+  "outlines": true,
+  "outlineRadius": 2,
+  "outlineColor": "66DDFF",
+  "range": 4,
+  "hidden": true,
+  "weapons": [
+    {
+      "reload": 1,
+      "shake": 0,
+      "shootOnDeath": true,
+      "mirror": true,
+      "shootCone": 360,
+      "shake": 1,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "damage": 30,
+        "splashDamage": 100,
+        "splashDamageRadius": 24
+      }
+    },
+    {
+      "reload": 6000,
+      "shootCone": 360,
+      "rotate": false,
+      "mirror": false,
+      "alwaysShoot": true,
+      "shootSound": "laser",
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 20,
+        "firstShotDelay": 5
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 50,
+        "speed": 6,
+        "lifetime": 300,
+        "width": 16,
+        "height": 16,
+        "sprite": "sand-stormv2-stared-tetragon",
+        "frontColor": "66DDFF",
+        "backColor": "4488FF",
+        "trailColor": "66DDFF",
+        "trailLength": 8,
+        "circleShooter": true,
+        "circleShooterRadius": 48,
+        "circleShooterRadiusSmooth": 48,
+        "homingPower": 0.5,
+        "homingDelay": 5,
+        "homingRange": 80,
+        "hitEffect": "hitLaser",
+        "despawnEffect": "hitLaser",
+        "shootEffect": "shootBlue"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "MoveEffectAbility",
+      "interval": 3,
+      "effect": {
+        "type": "ParticleEffect",
+        "cone": 45,
+        "baseRotation": 180,
+        "particles": 5,
+        "length": 2.5,
+        "baseLength": 3,
+        "line": true,
+        "strokeFrom": 1,
+        "strokeTo": 0.5,
+        "colorFrom": "66DDFF",
+        "colorTo": "4488FF"
+      },
+      "rotateEffect": true
+    }
+  ]
+}

@@ -50,12 +50,12 @@
       "shoot": {
         "shots": 3,
         "shotDelay": 20,
-        "firstShotDelay": 5
+        "firstShotDelay": 0
       },
       "bullet": {
         "type": "BasicBulletType",
         "damage": 50,
-        "speed": 6,
+        "speed": 12,
         "lifetime": 255,
         "width": 16,
         "height": 16,

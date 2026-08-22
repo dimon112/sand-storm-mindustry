@@ -1,0 +1,80 @@
+{
+  "type": "ItemTurret",
+  "size": 2,
+  "health": 450,
+  "range": 160,
+  "reload": 60,
+  "shootCone": 360,
+  "rotateSpeed": 10,
+  "targetGround": true,
+  "targetAir": true,
+  "shootSound": "laser",
+  "ammoTypes": {
+    "pyrit": {
+      "type": "BasicBulletType",
+      "damage": 25,
+      "speed": 4,
+      "lifetime": 180,
+      "width": 12,
+      "height": 12,
+      "frontColor": "ff8833",
+      "backColor": "ff4400",
+      "trailColor": "ff8833",
+      "trailLength": 8,
+      "circleShooter": true,
+      "circleShooterRadius": 48,
+      "circleShooterRadiusSmooth": 48,
+      "hitEffect": {
+        "type": "ExplosionEffect",
+        "lifetime": 15,
+        "waveColor": "ff8833",
+        "waveStroke": 2,
+        "waveRad": 4,
+        "sparkColor": "ff4400",
+        "sparks": 3,
+        "sparkRad": 5
+      },
+      "despawnEffect": "hitLaser",
+      "shootEffect": "shootOrange",
+      "fragBullets": 3,
+      "fragSpread": 360,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "damage": 10,
+        "speed": 5,
+        "lifetime": 40,
+        "width": 6,
+        "height": 6,
+        "frontColor": "ffaa44",
+        "backColor": "ff6633",
+        "trailColor": "ffaa44",
+        "trailLength": 6,
+        "homingPower": 0.1,
+        "homingRange": 120
+      }
+    },
+  "consumes": {
+    "power": 1.0
+  },
+  "requirements": [
+    {"item": "pyrit", "amount": 120},
+    {"item": "fossil", "amount": 80},
+    {"item": "quartz", "amount": 50}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "router",
+    "requirements": [
+      {"item": "pyrit", "amount": 1000},
+      {"item": "fossil", "amount": 700},
+      {"item": "quartz", "amount": 400}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {"type": "DrawDefault"},
+      {"type": "DrawTurret"}
+    ]
+  }
+}

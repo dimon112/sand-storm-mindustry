@@ -71,8 +71,7 @@
         "homingDelay": 5,
         "homingRange": 80,
         "hitEffect": "hitLaser",
-        "despawnEffect": "hitLaser",
-        "shootEffect": "shootBlue"
+        "despawnEffect": "hitLaser"
       }
     }
   ],

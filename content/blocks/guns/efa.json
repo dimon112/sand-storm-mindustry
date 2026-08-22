@@ -7,7 +7,7 @@
   "range": 224,
   "reload": 5,
   "shootCone": 30,
-  "rotateSpeed": 5,
+  "rotateSpeed": 2.4,
   "targetGround": true,
   "targetAir": true,
   "shootSound": "spray",
@@ -15,12 +15,11 @@
   "liquidConsumed": 0.083333333333333,
   "shoot": {
     "type": "ShootBarrel",
-    "shots": 3,
-    "shotDelay": 5,
+    "shots": 2,
+    "shotDelay": 0,
     "barrels": [
-      0, 0, 0,
-      -4, 0, 0,
-      4, 0, 0
+      -8, 0, 0,
+      8, 0, 0
     ]
   },
   "ammoTypes": {

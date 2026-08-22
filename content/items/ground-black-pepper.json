@@ -1,0 +1,8 @@
+{
+  "name": "Чёрный молотый перец",
+  "cost": 1,
+  "color": "A87E54FF",
+  "research": "dumpling",
+  "flammable": 0.4,
+  "buildable": "false"
+}

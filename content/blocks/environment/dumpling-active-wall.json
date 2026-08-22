@@ -3,7 +3,7 @@
   "name": "Активная пельменная стена",
   "itemDrop": "dumpling",
   "attributes": {
-  "dumpling": 2
+  "dumpling": 1
   },
   "variants": 3
 }

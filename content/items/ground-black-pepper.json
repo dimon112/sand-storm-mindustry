@@ -3,6 +3,7 @@
   "cost": 1,
   "color": "A87E54FF",
   "research": "dumpling",
-  "flammable": 0.4,
+  "flammability": 0.3,
+  "hardness": 0,
   "buildable": "false"
 }

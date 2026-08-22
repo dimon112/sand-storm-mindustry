@@ -1,0 +1,92 @@
+{
+  "type": "GenericCrafter",
+  "name": "Восстановитель гематита",
+  "description": "Обжигает сульфид железа в кислородной среде, превращая его в гематит. Побочно выделяет диоксид серы.",
+  "details": "4FeS + 7O₂ → 2Fe₂O₃ + 4SO₂↑",
+  "size": 3,
+  "health": 400,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "liquidCapacity": 30,
+  "itemCapacity": 20,
+  "craftTime": 60,
+  "squareSprite": false,
+  "consumes": {
+    "items": [
+      {"item": "iron-sulfide", "amount": 4}
+    ],
+    "liquids": [
+      {"liquid": "oxygen", "amount": 0.1166666666666667}
+    ]
+  },
+  "outputItems": [
+    {"item": "hematite", "amount": 2}
+  ],
+  "outputLiquids": [
+    {"liquid": "sulfur-dioxide", "amount": 0.0666666666666667}
+  ],
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "cone": 360,
+    "particles": 12,
+    "length": 5,
+    "line": true,
+    "strokeFrom": 2,
+    "strokeTo": 0.5,
+    "colorFrom": "ff8800",
+    "colorTo": "ff2200"
+  },
+  "requirements": [
+    {"item": "pyrit", "amount": 150},
+    {"item": "fossil", "amount": 100},
+    {"item": "sand-fabric", "amount": 60}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "pyrite-burner",
+    "requirements": [
+      {"item": "pyrit", "amount": 1200},
+      {"item": "fossil", "amount": 800},
+      {"item": "sand-fabric", "amount": 500}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom-1"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "sulfur-dioxide",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom-2"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+        "padLeft": 0.5,
+        "padBottom": 0.5,
+        "padTop": 0.5,
+        "padRight": 0.5
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": 2.0
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

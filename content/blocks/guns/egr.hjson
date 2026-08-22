@@ -35,6 +35,15 @@
     spawnUnit: rocket-unit-geno1
     }
 
+    kyanite: {
+    ammoMultiplier: 1
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    spawnUnit: rocket-unit-kyanite1
+    }
+
   }
 
   requirements: [

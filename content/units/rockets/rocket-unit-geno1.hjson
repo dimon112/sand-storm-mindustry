@@ -7,12 +7,12 @@ useUnitCap: false
 engineSize: 0.2
 engineOffset: 2.5
 lifetime: 175
-rotateSpeed: 2
+rotateSpeed: 3.5
 hitSize: 4
 trailLength: 5
 trailScl: 4
 autoFindTarget: true
-homingDelay: 0
+homingDelay: 15
 circleTarget: false
 faceTarget: true
 health: 75

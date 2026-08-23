@@ -9,11 +9,11 @@
     "outlineIcon": "false",
     "reload": 60,
     "rotateSpeed": 20
-        shoot: {
-type: ShootPattern
-shots: 4
-}
-inaccuracy: 5
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 4
+    },
+    "inaccuracy": 5
     "range": 130,
     "recoilamount": 20,
     "ammoTypes": { 
@@ -59,6 +59,11 @@ research: {
 parent: core-desert,
 requirements: [
  fossil/200
- ]
+ ],
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
+  }
 }
 }

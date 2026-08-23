@@ -8,6 +8,8 @@
   "hasPower": true,
   "maxHeat": 18,
   "unstableSpeed": 0.00055555555555555555555555,
+  "explosionPuddleRange": 2,
+  "explosionPuddleLiquid": "quicksand",
   "warmupSpeed": 0.1,
   "explosionRadius": 2,
   "explosionDamage": 0,

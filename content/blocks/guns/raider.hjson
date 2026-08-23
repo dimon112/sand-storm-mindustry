@@ -178,8 +178,10 @@ requirements: [
  ]
 
 }
+  "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "sand-stormv2-"
-}
+  }
+
 

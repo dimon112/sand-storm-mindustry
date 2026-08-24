@@ -69,16 +69,17 @@ research: {
   ]
   drawer: {
     type: DrawTurret
-    basePrefix: "sand-stormv2-"
+    basePrefix: sand-stormv2-
     parts: [
       {
         type: DrawPart
-        suffix: "-glow"
+        suffix: -glow
         blending: additive
         color: ff6a00
         drawRegion: true
         progress: reload
       }
     ]
-  }
+  }
+
 }

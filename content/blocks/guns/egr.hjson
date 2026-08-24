@@ -1,85 +1,79 @@
-
-  type: ItemTurret
-  name: Egr
-  description: shoots fast controllable rockets
-  size: 3
-  health: 1050
-  range: 800
-  reload: 220.5
-  maxAmmo: 60
-  shootCone: 35
-  predictTarget: false
-  trackingRange: 880
-  ammoPerShot: 5
-  outlineIcon: false
-  hasPower:true
-  consumes: {
-  power: 0.5
-}
-  ammoTypes: {
-    collarise: {
-    ammoMultiplier: 1
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    instantDisappear: true
-    damage: 0
-    spawnUnit: rocket-unit-collarise1
+{
+  "type": "ItemTurret",
+  "name": "Egr",
+  "description": "shoots fast controllable rockets",
+  "size": 3,
+  "health": 1050,
+  "range": 800,
+  "reload": 220.5,
+  "maxAmmo": 60,
+  "shootCone": 35,
+  "predictTarget": false,
+  "trackingRange": 880,
+  "ammoPerShot": 5,
+  "outlineIcon": false,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.5
+  },
+  "ammoTypes": {
+    "collarise": {
+      "ammoMultiplier": 1,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "instantDisappear": true,
+      "damage": 0,
+      "spawnUnit": "rocket-unit-collarise1"
+    },
+    "geno": {
+      "ammoMultiplier": 1,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "instantDisappear": true,
+      "damage": 0,
+      "spawnUnit": "rocket-unit-geno1"
+    },
+    "kyanite": {
+      "ammoMultiplier": 1,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "instantDisappear": true,
+      "damage": 0,
+      "spawnUnit": "rocket-unit-kyanite1"
     }
-
-    geno: {
-    ammoMultiplier: 1
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    instantDisappear: true
-    damage: 0
-    spawnUnit: rocket-unit-geno1
-    }
-
-    kyanite: {
-    ammoMultiplier: 1
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    instantDisappear: true
-    damage: 0
-    spawnUnit: rocket-unit-kyanite1
-    }
-
-  }
-
-  requirements: [
-  fossil/200
-  pyrit/150
-  geno/50
-]
-
-category: turret
-
-research: {
-  parent: raider
-  requirements: [
-    fossil/5000
-    pyrit/2000
-    geno/2500
-  ]
-  objectives: [
-    {
-      type: OnSector
-      preset: LongShot
-    }
-  ]
-  drawer: {
-    type: DrawTurret
-    basePrefix: sand-stormv2-
-    parts: [
+  },
+  "requirements": [
+    "fossil/200",
+    "pyrit/150",
+    "geno/50"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "raider",
+    "requirements": [
+      "fossil/5000",
+      "pyrit/2000",
+      "geno/2500"
+    ],
+    "objectives": [
       {
-        type: DrawPart
-        suffix: -glow
-        blending: additive
-        color: ff6a00
-        drawRegion: true
-        progress: reload
+        "type": "OnSector",
+        "preset": "LongShot"
       }
-    ]
+    ],
+    "drawer": {
+      "type": "DrawTurret",
+      "basePrefix": "sand-stormv2-",
+      "parts": [
+        {
+          "type": "DrawPart",
+          "suffix": "-glow",
+          "blending": "additive",
+          "color": "ff6a00",
+          "drawRegion": true,
+          "progress": "reload"
+        }
+      ]
+    }
   }
-
 }

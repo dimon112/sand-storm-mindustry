@@ -12,11 +12,11 @@
   noLighting:false
 
     research: { 
-  parent: oasis
+  parent: vortex
 objectives: [ 
     { 
       type: SectorComplete  
-      preset: oasis
+      preset: vortex
     } 
   ] 
 } 

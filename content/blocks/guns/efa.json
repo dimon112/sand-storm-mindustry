@@ -65,5 +65,10 @@
       {"item": "fossil", "amount": 500},
       {"item": "quartz", "amount": 1500}
     ]
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
   }
 }

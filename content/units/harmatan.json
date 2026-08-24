@@ -140,8 +140,8 @@
     ],
     "objectives": [
       {
-        "type": "SectorComplete",
-        "preset": "the-way"
+        "type": "OnSector",
+        "preset": "vortex"
       }
     ]
   }

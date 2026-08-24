@@ -8,12 +8,12 @@
     "health": 380,
     "outlineIcon": "false",
     "reload": 30,
-    "rotateSpeed": 35
-        shoot: {
-type: ShootPattern
-shots: 2
-}
-inaccuracy: 1
+    "rotateSpeed": 35,
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 2
+    }
+    "inaccuracy": 1,
     "range": 180,
     "recoilamount": 15,
     "ammoTypes": { 
@@ -52,13 +52,18 @@ inaccuracy: 1
    {"item": "fossil", "amount": 120}
    {"item": "geno", "amount": 40}
   ],
-"category": "turret"
-"shootSound": "laser"
-research: {
-parent: raider
-requirements: [
- fossil/1200
- geno/400
+"category": "turret",
+"shootSound": "laser",
+"research": {
+"parent": "raider",
+"requirements": [
+ "fossil/1200",
+ "geno/400"
  ]
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
+  }
 }
 }

@@ -2,7 +2,7 @@ type: ItemTurret
 name: Abrasive
 description: Стреляет песком или гематитом, не требует энергии Так как она на пирите
 size: 2
-health: 50
+health: 500
 reload: 2
 range: 125
 rotateSpeed: 6
@@ -41,7 +41,7 @@ ammoTypes: {
     speed: 10
     rangeChange: 125
     lifetime: 25
-    ammoMultiplier: 20
+    ammoMultiplier: 25
     rangeBoost: 125
     frontColor: FF7744FF
     backColor: DD5533FF

@@ -11,21 +11,22 @@
   "hasPower": true,
   "craftTime": 60,
   "squareSprite": false,
+  "warmupSpeed": 0.00333,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 8}
     ],
     "liquids": [
-      {"liquid": "oxygen", "amount": 0.366666666666666666666666666}
+      {"liquid": "oxygen", "amount": 0.3666666666666667}
     ],
-    "power": 2.5,
+    "power": 2.5
   },
   "outputItems": [
     {"item": "hematite", "amount": 4}
   ],
-  "liquidOutputDirections": [2],
+  "liquidOutputDirections":,
   "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 0.26666666666666666666666666}
+    {"liquid": "sulfur-dioxide", "amount": 0.26666666666666666}
   ],
   "heatOutput": 36,
   "requirements": [
@@ -65,7 +66,7 @@
         "type": "DrawRegion",
         "suffix": "-wheel",
         "spinSprite": true,
-        "rotateSpeed": 1.0
+        "rotateSpeed": 1.0,
         "x": -8,
         "y": -8
       },
@@ -73,7 +74,7 @@
         "type": "DrawRegion",
         "suffix": "-wheel",
         "spinSprite": true,
-        "rotateSpeed": 1.0
+        "rotateSpeed": 1.0,
         "x": 8,
         "y": 8
       },
@@ -81,7 +82,7 @@
         "type": "DrawRegion",
         "suffix": "-wheel",
         "spinSprite": true,
-        "rotateSpeed": -1.0
+        "rotateSpeed": -1.0,
         "x": 8,
         "y": -8
       },
@@ -89,7 +90,7 @@
         "type": "DrawRegion",
         "suffix": "-wheel",
         "spinSprite": true,
-        "rotateSpeed": -1.0
+        "rotateSpeed": -1.0,
         "x": -8,
         "y": 8
       },
@@ -98,6 +99,12 @@
       },
       {
         "type": "DrawHeatOutput"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ff6a00",
+        "glowScale": 1.0
       }
     ]
   }

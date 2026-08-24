@@ -41,13 +41,14 @@
     {"item": "fossil", "amount": 120},
     {"item": "sand-fabric", "amount": 40}
   ],
-"category": "turret",
-"research": {
-"parent": "raider",
-"requirements": [
- "fossil/1200",
- "sand-fabric/400"
- ],
+  "category": "turret",
+  "research": {
+  "parent": "raider",
+  "requirements": [
+    "fossil/1200",
+    "sand-fabric/400"
+    ]
+  },
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

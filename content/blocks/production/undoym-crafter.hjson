@@ -22,7 +22,7 @@
   "category": "crafting",
   "outputItem": "undoym/2"
 research: {
-    parent: desert-drill
+    parent: sand-fabric-weaver
     
      objectives: [
   {

@@ -37,6 +37,11 @@ weapons: [
     mirror: false
     shootCone: 360
     shake: 2
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 0,
+        "firstShotDelay": 30
+      },
     bullet: {
       type: ExplosionBulletType
       splashDamage: 150

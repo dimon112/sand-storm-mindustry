@@ -71,4 +71,9 @@ research: {
       preset: fresh-and-new
     }
   ]
-}
+} 
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
+  }

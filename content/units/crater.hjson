@@ -5,11 +5,11 @@ hitSize: 8
 flying: true 
 health: 150
 engineOffset: 0
-range: 140 
+range: 160 
 weapons: [ 
   { 
     name: craterg 
-    reload: 60
+    reload: 10
     x: 4
     y: 0 
     baseRotation: -90
@@ -17,11 +17,6 @@ weapons: [
     mirror: true
     alternate: false
     rotate: false
-    shoot: {
-      type: ShootPattern
-      shots: 2
-      shotDelay: 10
-    }
     bullet: { 
       type: BasicBulletType 
       sprite: sand-stormv2-starred-tetragon
@@ -29,13 +24,11 @@ weapons: [
       speed: 4
       width: 16
       height: 16
-      damage: 6
+      damage: 5
       color: "F7CBA4FF" 
-      lifetime: 35
+      lifetime: 50
       followAim: true
-      followAimSpeed: 5
-      homingPower: 0.05
-      homingRange: 160
+      followAimSpeed: 6.7
     } 
   } 
 ] 

@@ -22,9 +22,8 @@
             "ammoMultiplier" :1,
             "lifetime": 27,
             "speed": 7,
-            "frontColor": dbc412
-            "backColor": dbc412
-            
+            "frontColor": "dbc412",
+            "backColor": "dbc412"   
        },
        "geno":{
             "damage":18,
@@ -33,8 +32,8 @@
             "speed": 7,
             "status":"radiation2",
             "statusDuration": 120,
-            "frontColor": a5fc0d
-            "backColor": a5fc0d
+            "frontColor": "a5fc0d",
+            "backColor": "a5fc0d"
        },
        "collarise":{
             "damage":19,
@@ -43,13 +42,13 @@
             "status":"blasted"
             "ammoMultiplier" :3,
             "lifetime": 31,
-            "frontColor": 9e0e0e
-            "backColor": 9e0e0e
+            "frontColor": "9e0e0e",
+            "backColor": "9e0e0e",
             "speed": 6,
        }
     }, 
     "requirements": [
-   {"item": "fossil", "amount": 120}
+   {"item": "fossil", "amount": 120},
    {"item": "geno", "amount": 40}
   ],
 "category": "turret",
@@ -59,7 +58,7 @@
 "requirements": [
  "fossil/1200",
  "geno/400"
- ]
+ ],
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

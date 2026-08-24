@@ -2,7 +2,7 @@ name: Raider
 description: jack of all trades, can serve as a wall, can attack both air and land and can be fed any type of ammo
 type: ItemTurret
 size: 1
-health: 500
+health: 300
 reload: 16
 range: 200
 shootCone: 10

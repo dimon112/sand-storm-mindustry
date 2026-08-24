@@ -7,10 +7,11 @@
   "range": 180,
   "reload": 60,
   "outlineRadius": 0,
-    "shoot": {
-      "type": "ShootPattern",
-      "shots": 100
-    },
+  "shootSound": "shootsnap",
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 50
+  },
   "inaccuracy": 50,
   "ammoTypes": {
     "sand-fabric": {
@@ -19,24 +20,75 @@
       "damage": 2,
       "lifetime": 45,
       "knockBack": 2,
-      
       "width": 4,
       "length": 4,
       "sprite": "circle",
-
       "lightColor": "9c6f49",
       "frontColor": "805333",
       "backColor": "805333",
       "trailColor": "b08968",
-      
       "trailLength": 8,
       "trailWidth": 4,
-      
       "status": "entangled",
       "statusDuration": 30,
-
       "homingPower": 0.005,
-      "homingRange": 80   
+      "homingRange": 80,
+
+      "hitEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "line": false,
+            "square": true,
+            "particles": 5,
+            "lifetime": 20,
+            "length": 15,
+            "sizeFrom": 2,
+            "sizeTo": 0,
+            "colorFrom": "b08968",
+            "colorTo": "805333"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 15,
+            "sizeFrom": 0,
+            "sizeTo": 12,
+            "strokeFrom": 2,
+            "strokeTo": 0,
+            "colorFrom": "b08968",
+            "colorTo": "805333"
+          }
+        ]
+      },
+
+      "despawnEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "line": false,
+            "square": true,
+            "particles": 3,
+            "lifetime": 15,
+            "length": 10,
+            "sizeFrom": 2,
+            "sizeTo": 0,
+            "colorFrom": "b08968",
+            "colorTo": "805333"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 12,
+            "sizeFrom": 0,
+            "sizeTo": 8,
+            "strokeFrom": 1.5,
+            "strokeTo": 0,
+            "colorFrom": "b08968",
+            "colorTo": "805333"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -45,13 +97,13 @@
   ],
   "category": "turret",
   "research": {
-  "parent": "raider",
-  "shootSound": "shootSnap",
-  "requirements": [
-    "fossil/1200",
-    "sand-fabric/400"
+    "parent": "raider",
+    "requirements": [
+      "fossil/1200",
+      "sand-fabric/400"
     ]
   },
+  "shootSound": "shootBig",
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

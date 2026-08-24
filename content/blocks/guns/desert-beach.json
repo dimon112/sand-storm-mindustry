@@ -58,11 +58,11 @@
 "requirements": [
  "fossil/1200",
  "geno/400"
- ],
+ ]
+},
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
     "basePrefix": "sand-stormv2-"
   }
-}
 }

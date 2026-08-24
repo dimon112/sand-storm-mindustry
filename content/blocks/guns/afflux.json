@@ -44,5 +44,10 @@
       "statusDuration": 120,
       "puddleSize": 2.5
     }
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
   }
 }

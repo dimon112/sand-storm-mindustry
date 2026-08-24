@@ -2,16 +2,15 @@
   "type": "flying",
   "name": "harmatan",
   "speed": 1.5,
-  "controller": "Flying",
   "outlineColor": "80400D",
   "health": 525,
   "armor": 2,
   "hitSize": 13,
   "flying": true,
   "autoDropBombs": true,
-  "rotateMoveFirst": true,
+  "rotateMoveFirst": false,
   "alwaysShootWhenMoving": true,
-  "crashDamageMultiplier": 1.2,
+  "crashDamageMultiplier": 1.5,
   "payloadCapacity": 64,
   "circleTarget": true,
   "circleTargetRadius": 24,
@@ -122,13 +121,13 @@
       "x": -6,
       "y": -1,
       "radius": 2,
-      "rotation": 0
+      "rotation": 90
     },
     {
       "x": 6,
       "y": -1,
       "radius": 2,
-      "rotation": 0
+      "rotation": -90
     }
   ],
   "research": {

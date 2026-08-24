@@ -9,15 +9,15 @@
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
-  parent: oasis
+  parent: vortex
 objectives: [
     {
       type: SectorComplete 
-      preset: oasis
+      preset: vortex
     }
     {
       type: SectorComplete 
-      preset: the-way 
+      preset: gate
     }
   ]
 }

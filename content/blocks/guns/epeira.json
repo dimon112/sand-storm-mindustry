@@ -15,25 +15,27 @@
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",
-      "speed": 2,
-      "damage": 5,
+      "speed": 4,
+      "damage": 2,
       "lifetime": 45,
       "knockBack": 2,
       
-      "drawSize": 4,
+      "width": 4,
+      "length": 4,
+      "sprite": "circle",
+
       "lightColor": "9c6f49",
-      
       "frontColor": "805333",
       "backColor": "805333",
       "trailColor": "b08968",
       
-      "trailLength": 12,
-      "trailWidth": 2,
+      "trailLength": 8,
+      "trailWidth": 4,
       
       "status": "entangled",
       "statusDuration": 30,
 
-      "homingPower": 0.05,
+      "homingPower": 0.005,
       "homingRange": 80   
     }
   },
@@ -44,6 +46,7 @@
   "category": "turret",
   "research": {
   "parent": "raider",
+  "shootSound": "shootSnap",
   "requirements": [
     "fossil/1200",
     "sand-fabric/400"

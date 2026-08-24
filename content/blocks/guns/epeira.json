@@ -36,18 +36,6 @@
         "type": "MultiEffect",
         "effects": [
           {
-            "type": "ParticleEffect",
-            "line": false,
-            "square": true,
-            "particles": 5,
-            "lifetime": 20,
-            "length": 15,
-            "sizeFrom": 2,
-            "sizeTo": 0,
-            "colorFrom": "b08968ff",
-            "colorTo": "805333ff"
-          },
-          {
             "type": "WaveEffect",
             "lifetime": 15,
             "sizeFrom": 0,
@@ -63,18 +51,6 @@
       "despawnEffect": {
         "type": "MultiEffect",
         "effects": [
-          {
-            "type": "ParticleEffect",
-            "line": false,
-            "square": true,
-            "particles": 3,
-            "lifetime": 15,
-            "length": 10,
-            "sizeFrom": 2,
-            "sizeTo": 0,
-            "colorFrom": "b08968ff",
-            "colorTo": "805333ff"
-          },
           {
             "type": "WaveEffect",
             "lifetime": 12,

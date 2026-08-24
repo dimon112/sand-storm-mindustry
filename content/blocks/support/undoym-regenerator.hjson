@@ -28,11 +28,11 @@
  
  category: effect
   research: {
- parent: core-desert
+ parent: undoym-crafter
   objectives: [
   {
-    type: OnSector
-    preset: oasis
+    type: SectorComplete
+    preset: vortex
   }
   ]
  requirements: [

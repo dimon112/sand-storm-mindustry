@@ -24,7 +24,7 @@
   "outputItems": [
     {"item": "hematite", "amount": 4}
   ],
-  "liquidOutputDirections":,
+  "liquidOutputDirections": [2],
   "outputLiquids": [
     {"liquid": "sulfur-dioxide", "amount": 0.26666666666666666}
   ],

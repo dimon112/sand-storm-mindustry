@@ -10,23 +10,23 @@
   "shootSound": "shootsnap",
   "shoot": {
     "type": "ShootPattern",
-    "shots": 50
+    "shots": 40
   },
-  "inaccuracy": 50,
+  "inaccuracy": 25,
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",
-      "speed": 4,
+      "speed": 8,
       "damage": 2,
-      "lifetime": 45,
+      "lifetime": 22.5,
       "knockBack": 2,
       "width": 4,
       "length": 4,
       "sprite": "circle",
-      "lightColor": "9c6f49",
-      "frontColor": "805333",
-      "backColor": "805333",
-      "trailColor": "b08968",
+      "lightColor": "9c6f49ff",
+      "frontColor": "805333ff",
+      "backColor": "805333ff",
+      "trailColor": "b08968ff",
       "trailLength": 8,
       "trailWidth": 4,
       "status": "entangled",
@@ -46,18 +46,18 @@
             "length": 15,
             "sizeFrom": 2,
             "sizeTo": 0,
-            "colorFrom": "b08968",
-            "colorTo": "805333"
+            "colorFrom": "b08968ff",
+            "colorTo": "805333ff"
           },
           {
             "type": "WaveEffect",
             "lifetime": 15,
             "sizeFrom": 0,
             "sizeTo": 12,
-            "strokeFrom": 2,
-            "strokeTo": 0,
-            "colorFrom": "b08968",
-            "colorTo": "805333"
+            "strokeFrom": 4,
+            "strokeTo": 1,
+            "colorFrom": "b08968ff",
+            "colorTo": "805333ff"
           }
         ]
       },
@@ -74,18 +74,18 @@
             "length": 10,
             "sizeFrom": 2,
             "sizeTo": 0,
-            "colorFrom": "b08968",
-            "colorTo": "805333"
+            "colorFrom": "b08968ff",
+            "colorTo": "805333ff"
           },
           {
             "type": "WaveEffect",
             "lifetime": 12,
             "sizeFrom": 0,
             "sizeTo": 8,
-            "strokeFrom": 1.5,
-            "strokeTo": 0,
-            "colorFrom": "b08968",
-            "colorTo": "805333"
+            "strokeFrom": 4,
+            "strokeTo": 1,
+            "colorFrom": "b08968ff",
+            "colorTo": "805333ff"
           }
         ]
       }
@@ -103,7 +103,7 @@
       "sand-fabric/400"
     ]
   },
-  "shootSound": "shootBig",
+  "shootSound": "shootReign",
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

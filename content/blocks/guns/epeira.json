@@ -9,13 +9,13 @@
   "outlineRadius": 0,
     "shoot": {
       "type": "ShootPattern",
-      "shots": 50
+      "shots": 100
     },
   "inaccuracy": 50,
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",
-      "speed": 4,
+      "speed": 2,
       "damage": 5,
       "lifetime": 45,
       "knockBack": 2,
@@ -31,14 +31,23 @@
       "trailWidth": 2,
       
       "status": "entangled",
-      "statusDuration": 30
+      "statusDuration": 30,
+
+      "homingPower": 0.05,
+      "homingRange": 80   
     }
   },
-  
   "requirements": [
-    { "item": "fossil", "amount": 42 }
+    {"item": "fossil", "amount": 120},
+    {"item": "sand-fabric", "amount": 40}
   ],
-  "category": "turret",
+"category": "turret",
+"research": {
+"parent": "raider",
+"requirements": [
+ "fossil/1200",
+ "sand-fabric/400"
+ ],
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

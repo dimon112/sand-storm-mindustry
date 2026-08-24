@@ -38,5 +38,10 @@
   "requirements": [
     { "item": "fossil", "amount": 42 }
   ],
-  "category": "turret"
+  "category": "turret",
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
+  }
 }

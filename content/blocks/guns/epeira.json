@@ -7,12 +7,11 @@
   "range": 180,
   "reload": 30,
   "outlineRadius": 0,
-  "shootSound": "shootsnap",
   "shoot": {
     "type": "ShootPattern",
-    "shots": 40
+    "shots": 30
   },
-  "inaccuracy": 25,
+  "inaccuracy": 15,
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",
@@ -21,8 +20,7 @@
       "lifetime": 22.5,
       "knockBack": 2,
       "width": 4,
-      "length": 4,
-      "sprite": "circle",
+      "length": 6,
       "lightColor": "9c6f49ff",
       "frontColor": "805333ff",
       "backColor": "805333ff",

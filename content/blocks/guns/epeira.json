@@ -6,17 +6,12 @@
   "health": 500,
   "range": 180,
   "reload": 60,
-  "inaccuracy": 45,
   "outlineRadius": 0,
-  "shootPattern": {
-    "type": "ShootBarrel",
-    "shots": 30,
-    "shotDelay": 0,
-    "spread": 45,
-    "barrels": [
-      0, 8, 0
-    ]
-  },
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 50
+    },
+  "inaccuracy": 50,
   "ammoTypes": {
     "sand-fabric": {
       "type": "BasicBulletType",

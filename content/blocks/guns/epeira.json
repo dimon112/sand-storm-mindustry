@@ -5,7 +5,7 @@
   "size": 2,
   "health": 500,
   "range": 180,
-  "reload": 60,
+  "reload": 30,
   "outlineRadius": 0,
   "shootSound": "shootsnap",
   "shoot": {
@@ -30,8 +30,8 @@
       "trailLength": 8,
       "trailWidth": 4,
       "status": "entangled",
-      "statusDuration": 30,
-      "homingPower": 0.005,
+      "statusDuration": 60,
+      "homingPower": 0.01,
       "homingRange": 80,
 
       "hitEffect": {

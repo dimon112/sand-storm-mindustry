@@ -18,8 +18,8 @@
     "shots": 2,
     "shotDelay": 0,
     "barrels": [
-      -8, 0, 0,
-      8, 0, 0
+      -7, 0, 0,
+      7, 0, 0
     ]
   },
   "ammoTypes": {

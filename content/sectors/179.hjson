@@ -1,0 +1,26 @@
+{
+  planet: big-desert
+  sector: 179
+  difficulty: 4
+  name: 179
+  alwaysUnlocked: false
+  addStartingItems: false
+  overrideLaunchDefaults: false
+  noLighting:true
+    
+    research: { 
+  parent: 92
+objectives: [ 
+    {
+      type: SectorComplete  
+      preset: 92
+    }
+    {
+      type: Research
+      content: hamsin
+    }
+  ] 
+} 
+}
+
+

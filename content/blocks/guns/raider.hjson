@@ -2,7 +2,7 @@ name: Raider
 description: jack of all trades, can serve as a wall, can attack both air and land and can be fed any type of ammo
 type: ItemTurret
 size: 1
-health: 300
+health: 400
 reload: 16
 range: 200
 shootCone: 10
@@ -13,7 +13,7 @@ outlineIcon: false
 rotateSpeed: 20
 category: turret
 requirements: [
-   {item: fossil, amount: 45}
+   {item: fossil, amount: 80}
    {item: sand-fabric, amount: 15}
   ],
 
@@ -24,7 +24,7 @@ ammoTypes: {
             lifetime: 22.22222222222,
             rangeChange: -100,
             speed: 4.5,
-            buildingDamageMultiplier: 0.5
+            buildingDamageMultiplier: 0.2
        },
         hematite:{
             damage: 15,

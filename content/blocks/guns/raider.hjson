@@ -13,7 +13,7 @@ outlineIcon: false
 rotateSpeed: 20
 category: turret
 requirements: [
-   {item: fossil, amount: 80}
+   {item: fossil, amount: 50}
    {item: sand-fabric, amount: 15}
   ],
 

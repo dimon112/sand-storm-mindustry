@@ -3,10 +3,8 @@ const DelayedBuilderAI = () => {
     let cooldown = 0;
     let lastPlansCount = 0;
 
-    return extend(AIController, {
+    return extend(BuilderAI, {
         updateUnit() {
-            vanillaAI.unit = this.unit;
-            
             let teamData = this.unit.team.data();
             let currentPlans = teamData.plans.size;
 
@@ -17,21 +15,21 @@ const DelayedBuilderAI = () => {
             
             if (cooldown > 0) {
                 cooldown -= Time.delta;
-                
                 this.unit.clearBuilding();
                 
                 let core = this.unit.closestCore();
                 if (core != null && !this.unit.within(core, 150)) {
                     this.moveTo(core, 120);
                 }
-                
                 return; 
             }
             
-            vanillaAI.updateUnit();
+            this.super$updateUnit();
         }
     });
 };
 
-const sandDrone = extend(UnitType, "sand-drone", {});
-sandDrone.controller = prov(() => DelayedBuilderAI());
+const sandDrone = Vars.content.getByName(ContentType.unit, "sand-stormv2-sand-drone");
+if (sandDrone != null) {
+    sandDrone.controller = prov(() => DelayedBuilderAI());
+}

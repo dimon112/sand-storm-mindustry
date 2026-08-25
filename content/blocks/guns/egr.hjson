@@ -67,7 +67,7 @@
     "basePrefix": "sand-stormv2-",
     "parts": [
       {
-        "type": "DrawPart",
+        "type": "DrawRegion",
         "suffix": "-glow",
         "blending": "additive",
         "color": "ff6a00",

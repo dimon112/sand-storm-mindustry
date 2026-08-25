@@ -12,5 +12,10 @@
   "heatCapacity": 0.0,
   "explosiveness": 0.0,
   "coolant": false,
-  "gas": true
+  "gas": true,
+  "research": {
+    "parent": "oxygen",
+    "planet": "big-desert",
+    "requirements": []
+  }
 }

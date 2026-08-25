@@ -44,7 +44,7 @@ const DelayedBuilderAI = extend(BuilderAI, {
     }
 });
 
-let sandDrone = Vars.content.getByName(ContentType.unit, "sand-stormV2-sand-drone");
+let sandDrone = Vars.content.getByName(ContentType.unit, "sand-drone");
 
 if (sandDrone != null) {
     sandDrone.controller = prov(() => new DelayedBuilderAI());

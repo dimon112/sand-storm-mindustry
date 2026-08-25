@@ -12,5 +12,10 @@
   "heatCapacity": 0.0,
   "explosiveness": 0.0,
   "coolant": false,
-  "gas": false
+  "gas": false,
+  "research"": {
+    "parent": "sulfur-dioxide",
+    "planet": "big-desert",
+    "requirements": []
+  }
 }

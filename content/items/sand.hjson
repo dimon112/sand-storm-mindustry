@@ -1,4 +1,5 @@
 {
+  "shownPlanets": ["big-desert"],
   "research": {
     "parent": "fossil",
     "planet": "big-desert",

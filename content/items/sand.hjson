@@ -1,2 +1,7 @@
-shownPlanets: [serpulo, erekir, big-desert]
-research: fossil
+{
+  "research": {
+    "parent": "fossil",
+    "planet": "big-desert",
+    "requirements": []
+  }
+}

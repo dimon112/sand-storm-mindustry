@@ -1,2 +1,7 @@
-shownPlanets: [serpulo, erekir, big-desert]
-research: quicksand
+{
+  "research": {
+    "parent": "sand",
+    "planet": "quicksand",
+    "requirements": []
+  }
+}

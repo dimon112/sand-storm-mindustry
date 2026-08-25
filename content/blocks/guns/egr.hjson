@@ -67,13 +67,10 @@
     "basePrefix": "sand-stormv2-",
     "parts": [
       {
-        "type": "RegionPart",
+        "type": "HeatPart",
         "suffix": "-glow",
         "blending": "additive",
-        "color": "ff6a00",
-        "drawRegion": true,
-        "progress": "reload"
+        "color": "ff6a00"
       }
     ]
   }
-}

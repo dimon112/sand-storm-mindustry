@@ -10,5 +10,9 @@
   "explosiveness": 0.0,
   "coolant": false,
   "gas": true,
-  "research": "geno"
+  "research": {
+    "parent": "water",
+    "planet": "big-desert",
+    "requirements": []
+  }
 }

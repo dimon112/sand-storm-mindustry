@@ -7,7 +7,7 @@
   "explosiveness": 0.0,
   "coolant": false,
   "gas": false,
-  "research: {
+  "research": {
     "parent": "sand",
     "planet": "big-desert",
     "requirements": []

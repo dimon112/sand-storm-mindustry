@@ -3,13 +3,12 @@ const DelayedBuilderAI = extend(BuilderAI, {
     lastPlansCount: -1,
     vanillaAI: null,
 
-    init() {
-        this.vanillaAI = new BuilderAI();
-        this.cooldown = 0;
-        this.lastPlansCount = -1;
-    },
-
     updateUnit() {
+        if (this.vanillaAI == null) {
+            this.vanillaAI = new BuilderAI();
+            this.vanillaAI.unit = this.unit;
+        }
+
         if (this.vanillaAI.unit != this.unit) {
             this.vanillaAI.unit = this.unit;
         }

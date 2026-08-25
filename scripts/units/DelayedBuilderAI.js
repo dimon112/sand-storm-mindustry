@@ -1,20 +1,22 @@
 const DelayedBuilderAI = () => {
-    return extend(BuilderAI, {
-        rebuildDelay: 1800, // 30 seconds bleh
-        cooldown: 0,
-        lastPlansCount: 0,
+    let vanillaAI = new BuilderAI();
+    let cooldown = 0;
+    let lastPlansCount = 0;
 
+    return extend(AIController, {
         updateUnit() {
+            vanillaAI.unit = this.unit;
+            
             let teamData = this.unit.team.data();
             let currentPlans = teamData.plans.size;
 
-            if (currentPlans > this.lastPlansCount) {
-                this.cooldown = this.rebuildDelay;
+            if (currentPlans > lastPlansCount) {
+                cooldown = 300; 
             }
-            this.lastPlansCount = currentPlans;
+            lastPlansCount = currentPlans;
             
-            if (this.cooldown > 0) {
-                this.cooldown -= Time.delta;
+            if (cooldown > 0) {
+                cooldown -= Time.delta;
                 
                 this.unit.clearBuilding();
                 
@@ -26,7 +28,7 @@ const DelayedBuilderAI = () => {
                 return; 
             }
             
-            this.super$updateUnit();
+            vanillaAI.updateUnit();
         }
     });
 };

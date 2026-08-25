@@ -1,5 +1,4 @@
 const DelayedBuilderAI = extend(BuilderAI, {
-    // These are instance fields (each unit gets its own)
     cooldown: 0,
     lastPlansCount: -1,
     vanillaAI: null,
@@ -29,7 +28,6 @@ const DelayedBuilderAI = extend(BuilderAI, {
 
         if (this.cooldown > 0) {
             this.cooldown -= Time.delta;
-
             this.unit.clearBuilding();
             this.unit.plans.clear();
 
@@ -44,11 +42,17 @@ const DelayedBuilderAI = extend(BuilderAI, {
     }
 });
 
-let sandDrone = Vars.content.getByName(ContentType.unit, "sand-drone");
+let sandDrone = Vars.content.getByName(ContentType.unit, "sand-stormv2-sand-drone");
+if (sandDrone == null) {
+    sandDrone = Vars.content.getByName(ContentType.unit, "sand-stormV2-sand-drone");
+}
 
 if (sandDrone != null) {
     sandDrone.controller = prov(() => new DelayedBuilderAI());
-    print("[DelayedBuilderAI] Assigned to unit: " + sandDrone.name);
-} else {
-    print("[DelayedBuilderAI] ERROR: Unit 'sand-stormv2-sand-drone' not found!");
 }
+
+Events.on(UnitSpawnEvent, e => {
+    if (e.unit.type == sandDrone && !(e.unit.controller() instanceof DelayedBuilderAI)) {
+        e.unit.controller(new DelayedBuilderAI());
+    }
+});

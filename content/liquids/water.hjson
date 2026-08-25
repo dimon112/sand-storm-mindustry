@@ -1,7 +1,7 @@
 {
   "research": {
-    "parent": "sand",
-    "planet": "quicksand",
+    "parent": "quicksand",
+    "planet": "big-desert",
     "requirements": []
   }
 }

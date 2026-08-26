@@ -68,7 +68,7 @@
         "flameRadiusScl": 1,
         "circleStroke": 0,
         "flameRad": 4,
-        "particleRad": 20
+        "particleRad": 14
       },
       {
         "type": "DrawRegion",

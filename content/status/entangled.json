@@ -3,6 +3,6 @@
   "name": "Опутан",
   "description": "Опутан пустынной тканью.",
   "color": "805333",
-  "speedMultiplier": 0.5,
+  "speedMultiplier": 0.25,
   "reloadMultiplier": 0.5
 }

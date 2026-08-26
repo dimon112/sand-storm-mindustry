@@ -16,9 +16,9 @@
     "sand-fabric": {
       "type": "BasicBulletType",
       "speed": 8,
-      "damage": 2,
+      "damage": 0.5,
       "lifetime": 22.5,
-      "knockBack": 2,
+      "knockback": 2,
       "width": 4,
       "length": 6,
       "lightColor": "9c6f49ff",

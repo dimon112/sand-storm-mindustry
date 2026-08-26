@@ -55,12 +55,20 @@
         "suffix": "-bottom"
       },
       {
+        "type": "DrawLiquidTile",
+        "drawLiqiud": "oxygen",
+        "padLeft": 2,
+        "padBottom": 2,
+        "padTop": 2,
+        "padRight": 2
+      },
+      {
         "type": "DrawCrucibleFlame",
-        "flameColor": "424242",
+        "flameColor": "00ffff",
         "flameRadiusScl": 1,
-        "circleStroke": 4,
-        "flameRad": 10,
-        "particleRad": 10
+        "circleStroke": 0,
+        "flameRad": 4,
+        "particleRad": 20
       },
       {
         "type": "DrawRegion",

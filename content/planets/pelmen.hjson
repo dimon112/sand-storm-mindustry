@@ -2,7 +2,7 @@ name: "Пельмень"
 parent: "big-desert"
 solarSystem: "sun"
 radius: 0.4
-minZoom: 1.2
+minZoom: 0.7
 sectorSize: 1
 accessible: true
 alwaysUnlocked: true

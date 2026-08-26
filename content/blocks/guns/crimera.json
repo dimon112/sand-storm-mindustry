@@ -71,5 +71,10 @@
       "homingPower": 0.05,
       "homingRange": 80
     }
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
   }
 }

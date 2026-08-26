@@ -22,6 +22,7 @@ ammoTypes: {
   sand: {
     type: BasicBulletType
     damage: 5
+    buildingDamageMultiplier: 1.5 
     knockback: 3
     speed: 10
     lifetime: 12.5
@@ -37,6 +38,7 @@ ammoTypes: {
   hematite: {
     type: BasicBulletType
     damage: 10
+    buildingDamageMultiplier: 1.5 
     knockback: 5
     speed: 10
     rangeChange: 125

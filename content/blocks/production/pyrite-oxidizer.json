@@ -56,7 +56,7 @@
       },
       {
         "type": "DrawLiquidTile",
-        "drawLiqiud": "oxygen",
+        "drawLiquid": "oxygen",
         "padLeft": 2,
         "padBottom": 2,
         "padTop": 2,

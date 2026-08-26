@@ -38,3 +38,8 @@ requirements: [
  quartz/75
  ]
 }
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-"
+  }

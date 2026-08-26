@@ -21,6 +21,9 @@ updateLighting: true
 allowWaves: true
 generator: "PlanetGenerator"
 mesh: {
+      type: MultiMesh
+      meshes:[
+  {
       type: NoiseMesh
       seed: 12345
       divisions: 3
@@ -31,4 +34,17 @@ mesh: {
       persistence: 0.5
       scale: 0.3
       mag: 0.5
-}
+  }
+  {
+      type: NoiseMesh
+      seed: 42424
+      divisions: 3
+      radius: 0.2
+      color1: "AA4444"
+      color2: "FFAAAA"
+      octaves: 2
+      persistence: 0.5
+      scale: 0.75
+      mag: 1.2
+  }
+]

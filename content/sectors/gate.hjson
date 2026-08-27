@@ -10,7 +10,7 @@
   "overrideLaunchDefaults":false,
   "noLighting":true,
   research: {
-  parent: SandStorm
+  parent: geno-base
 objectives: [
     {
       type: SectorComplete 

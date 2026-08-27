@@ -43,21 +43,23 @@
     }
   },
   "requirements": [
-    "fossil/200",
+    "fossil/100",
     "pyrit/150",
-    "geno/50"
+    "geno/50",
+    "sand-fabric/50"
   ],
   "category": "turret",
   "research": {
     "parent": "desert-beach",
     "requirements": [
       "fossil/5000",
-      "pyrit/2000",
-      "geno/2500"
+      "pyrit/7500",
+      "geno/2500",
+      "sand-fabric/2500"
     ],
     "objectives": [
       {
-        "type": "OnSector",
+        "type": "SectorComplete",
         "preset": "LongShot"
       }
     ]
@@ -70,7 +72,8 @@
         "type": "HeatPart",
         "suffix": "-glow",
         "blending": "additive",
-        "color": "ff6a00"
+        "color": "ff6a00",
+        "progress": "warmup"
       }
     ]
   }

@@ -72,18 +72,18 @@
         "suffix": "-bottom-2"
       },
       {
-        "type": "DrawRegion",
-        "suffix": "-wheel",
-        "spinSprite": true,
-        "rotateSpeed": 1.0
-      },
-      {
         "type": "DrawCrucibleFlame",
         "flameColor": "B8C84D",
         "flameRadiusScl": 1,
         "circleStroke": 0,
         "flameRad": 4,
         "particleRad": 8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-wheel",
+        "spinSprite": true,
+        "rotateSpeed": 1.0
       },
       {
         "type": "DrawDefault"

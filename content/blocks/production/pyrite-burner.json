@@ -17,7 +17,7 @@
     "liquids": [
       {"liquid": "oxygen", "amount": 0.033333333333333333333333333333}
     ],
-    "power": 0.125
+    "power": 0.8333333333
   },
   "outputItems": [
     {"item": "iron-sulfide", "amount": 2}
@@ -76,6 +76,14 @@
         "suffix": "-wheel",
         "spinSprite": true,
         "rotateSpeed": 1.0
+      },
+      {
+        "type": "DrawCrucibleFlame",
+        "flameColor": "B8C84D",
+        "flameRadiusScl": 1,
+        "circleStroke": 0,
+        "flameRad": 4,
+        "particleRad": 8
       },
       {
         "type": "DrawDefault"

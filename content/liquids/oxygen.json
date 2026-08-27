@@ -11,7 +11,7 @@
   "coolant": false,
   "gas": true,
   "research": {
-    "parent": "water",
+    "parent": "geno",
     "planet": "big-desert",
     "requirements": []
   }

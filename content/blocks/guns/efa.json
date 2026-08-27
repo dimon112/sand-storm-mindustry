@@ -5,6 +5,8 @@
   "size": 3,
   "health": 1500,
   "range": 224,
+  "minRange": 32,
+  "drawMinRange": true,
   "reload": 5,
   "shootCone": 30,
   "rotateSpeed": 2.4,

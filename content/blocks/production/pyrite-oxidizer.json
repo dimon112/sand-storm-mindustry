@@ -12,7 +12,7 @@
   "craftTime": 60,
   "squareSprite": false,
   "warmupSpeed": 0.0005555555555555555555555,
-  "warmupRate": 0.0005555555555555555555555,
+  "warmupRate": 0.01,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 8}

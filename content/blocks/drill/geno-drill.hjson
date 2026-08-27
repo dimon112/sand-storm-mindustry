@@ -14,12 +14,12 @@ requirements: [
  fossil/400
  geno/400
  ]
-objectives: [
-    {
-      type: SectorComplete
-      preset:geno-base 
-    }
-  ]
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "geno"
+      }
+    ]
 }
 tier: 2
 drillTime: 260

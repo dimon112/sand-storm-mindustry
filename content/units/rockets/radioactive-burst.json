@@ -25,6 +25,8 @@
   "alwaysShoot": true,
   "weapons": [
     {
+      "x": 0,
+      "y": 0,
       "shootOnDeath": true,
       "alwaysShoot": true,
       "range": 240,

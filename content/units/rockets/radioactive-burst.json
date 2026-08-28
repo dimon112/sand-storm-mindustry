@@ -13,7 +13,6 @@
   "trailLength": 4,
   "trailScl": 3,
   "autoFindTarget": false,
-  "aiControllable": false,
   "homingDelay": 0,
   "circleTarget": false,
   "faceTarget": true,
@@ -22,7 +21,6 @@
   "drawCell": false,
   "outlines": false,
   "range": 240,
-  "maxRange": 240,
   "hidden": true,
   "weapons": [
     {

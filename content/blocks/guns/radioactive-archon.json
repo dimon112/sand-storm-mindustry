@@ -1,13 +1,12 @@
 {
   "type": "LiquidTurret",
-  "name": "Радиоактивный архонт",
+  "name": "Иерофант",
   "description": "Запускает два [acid]радиоактивных всплеска[], которые рассыпаются на залп из [acid]гено[]. Требует аркицит для работы.",
   "details": "Обнаружен Джоджо референс! Мод переходит в фонд Спидвагона",
-  "targetFlags": ["turret", "core", "unit"],
   "size": 3,
-  "health": 400,
+  "health": 2000,
   "outlineColor": "00000000",
-  "range": 280,
+  "range": 240,
   "minRange": 80,
   "drawMinRange": true,
   "reload": 120,
@@ -32,6 +31,7 @@
       "despawnEffect": "none",
       "hitEffect": "none",
       "shootEffect": "shootBig",
+      "fragIfAbsorb": true,
       "fragBullets": 1,
       "fragBullet": {
         "type": "MissileBulletType",
@@ -75,7 +75,7 @@
         "y": 9.5,
         "moveX": 3,
         "moveY": -3,
-        "progress": "reload",
+        "progress": "totalProgress",
         "under": true
       },
       {
@@ -85,7 +85,7 @@
         "y": 9.5,
         "moveX": -3,
         "moveY": -3,
-        "progress": "recoil",
+        "progress": "heat",
         "under": true
       }
     ]

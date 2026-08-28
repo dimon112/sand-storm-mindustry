@@ -27,8 +27,10 @@
     {
       "shootOnDeath": true,
       "alwaysShoot": true,
+      "range": 240,
+      "maxRange": 240,
       "reload": 0,
-      "shootCone": 30,
+      "shootCone": 360,
       "rotate": false,
       "mirror": false,
       "alwaysShoot": true,

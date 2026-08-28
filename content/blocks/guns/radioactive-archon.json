@@ -11,9 +11,9 @@
   "rotateSpeed": 10,
   "targetGround": true,
   "targetAir": true,
-  "shootSound": "missile",
-  "liquidCapacity": 40,
-  "liquidConsumed": 0.033,
+  "shootSound": "shootMissile",
+  "liquidCapacity": 100,
+  "liquidConsumed": 0.1666666666666666666,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",
@@ -42,16 +42,8 @@
     "shots": 2,
     "shotDelay": 0,
     "barrels": [
-      {
-        "x": 8,
-        "y": 0,
-        "rotation": -45
-      },
-      {
-        "x": -8,
-        "y": 0,
-        "rotation": 45
-      }
+      8, 0, -45,
+      -8, 0, 45
     ]
   },
   "requirements": [

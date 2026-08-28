@@ -75,7 +75,7 @@
         "y": 9.5,
         "moveX": 3,
         "moveY": -3,
-        "progress": "totalProgress",
+        "progress": "charge",
         "under": true
       },
       {

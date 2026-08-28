@@ -25,9 +25,9 @@
       "lifetime": 16,
       "width": 12,
       "height": 12,
-      "frontColor": "a5fc0d",
-      "backColor": "88dd00",
-      "trailColor": "a5fc0d",
+      "frontColor": "44ff44",
+      "backColor": "00dd00",
+      "trailColor": "44ff44",
       "trailLength": 8,
       "despawnEffect": "none",
       "hitEffect": "none",
@@ -45,8 +45,8 @@
     "shots": 2,
     "shotDelay": 0,
     "barrels": [
-      8, 0, -45,
-      -8, 0, 45
+      9, 0, -45,
+      -9, 0, 45
     ]
   },
   "requirements": [
@@ -73,8 +73,8 @@
         "suffix": "-left",
         "x": -9.5,
         "y": 9.5,
-        "moveX": 4,
-        "moveY": -4,
+        "moveX": 3,
+        "moveY": -3,
         "progress": "reload",
         "under": true
       },
@@ -83,9 +83,9 @@
         "suffix": "-right",
         "x": 9.5,
         "y": 9.5,
-        "moveX": -4,
-        "moveY": -4,
-        "progress": "reload",
+        "moveX": -3,
+        "moveY": -3,
+        "progress": "recoil",
         "under": true
       }
     ]

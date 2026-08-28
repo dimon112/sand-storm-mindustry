@@ -1,0 +1,94 @@
+{
+  "type": "missile",
+  "physics": false,
+  "template": "MissileUnitType",
+  "flying": true,
+  "speed": 0,
+  "useUnitCap": false,
+  "engineSize": 0.2,
+  "engineOffset": 2.5,
+  "lifetime": 45,
+  "rotateSpeed": 3.5,
+  "hitSize": 0.5,
+  "trailLength": 4,
+  "trailScl": 3,
+  "autoFindTarget": true,
+  "homingDelay": 45,
+  "circleTarget": false,
+  "faceTarget": false,
+  "health": 55,
+  "trailColor": "00000000",
+  "aimDst": 4,
+  "drawCell": false,
+  "outlines": false,
+  "range": 4,
+  "hidden": true,
+  "weapons": [
+    {
+      "alwaysShoot": true,
+      "reload": 0,
+      "shootCone": 30,
+      "rotate": false,
+      "mirror": false,
+      "alwaysShoot": true,
+      "shootSound": "laser",
+      "shoot": {
+        "shots": 16,
+        "shotDelay": 2.5,
+        "firstShotDelay": 5
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 8,
+        "speed": 4,
+        "lifetime": 45,
+        "width": 8,
+        "height": 8,
+        "frontColor": "eeffee",
+        "backColor": "00dd00",
+        "trailColor": "00ff00",
+        "trailLength": 6,
+        "hitEffect": {
+          "type": "WaveEffect",
+          "colorFrom": "00ff00",
+          "colorTo": "00dd00",
+          "lifetime": 30,
+          "sizeTo": 20,
+          "sizeFrom": 0,
+          "strokeFrom": 2,
+          "strokeTo": 0
+        },
+        "despawnEffect": "none"
+      }
+    }
+  ],
+  "parts": [
+    {
+      "type": "ShapePart",
+      "sides": 3,
+      "color": "00dd00",
+      "hollow": true,
+      "layer": 100,
+      "radius": 16,
+      "radiusTo": 16,
+      "stroke": 1,
+      "strokeTo": 2,
+      "rotateSpeed": 2.0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "ShapePart",
+      "circle": true,
+      "color": "00dd00",
+      "hollow": true,
+      "layer": 100,
+      "radius": 16,
+      "radiusTo": 16,
+      "stroke": 1,
+      "strokeTo": 2,
+      "x": 0,
+      "y": 0
+    }
+  ]
+}

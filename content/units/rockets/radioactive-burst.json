@@ -22,7 +22,7 @@
   "drawCell": false,
   "outlines": false,
   "range": 4,
-  "hidden": true,
+  "hidden": false,
   "weapons": [
     {
       "alwaysShoot": true,

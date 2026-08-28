@@ -3,7 +3,7 @@
   "physics": false,
   "template": "MissileUnitType",
   "flying": true,
-  "targetFlags": ["turret", "core", "unit"],
+  "targetFlags": ["turret", "core", "wall"],
   "speed": 0,
   "useUnitCap": false,
   "engineSize": 0,
@@ -51,6 +51,8 @@
         "backColor": "00dd00",
         "trailColor": "00ff00",
         "trailLength": 6,
+        "status": "radiation2",
+        "statusDuration": 180,
         "hitEffect": {
           "type": "WaveEffect",
           "colorFrom": "00ff00",

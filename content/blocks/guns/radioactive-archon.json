@@ -1,0 +1,101 @@
+{
+  "type": "LiquidTurret",
+  "name": "Радиоактивный архонт",
+  "description": "Запускает ракеты, которые останавливаются и начинают шквальный огонь зелёными снарядами. Требует аркицит.",
+  "details": "Аура зелёнки +1000000",
+  "size": 3,
+  "health": 400,
+  "range": 200,
+  "reload": 60,
+  "shootCone": 30,
+  "rotateSpeed": 10,
+  "targetGround": true,
+  "targetAir": true,
+  "shootSound": "missile",
+  "liquidCapacity": 40,
+  "liquidConsumed": 0.033,
+  "ammoTypes": {
+    "arkicite": {
+      "type": "BasicBulletType",
+      "damage": 0,
+      "speed": 5,
+      "lifetime": 45,
+      "width": 12,
+      "height": 12,
+      "frontColor": "a5fc0d",
+      "backColor": "88dd00",
+      "trailColor": "a5fc0d",
+      "trailLength": 8,
+      "despawnEffect": "none",
+      "hitEffect": "none",
+      "shootEffect": "shootBig",
+      "fragBullets": 1,
+      "fragBullet": {
+        "type": "MissileBulletType",
+        "speed": 0,
+        "spawnUnit": "radioactive-burst"
+      }
+    }
+  },
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 2,
+    "shotDelay": 0,
+    "barrels": [
+      {
+        "x": 8,
+        "y": 0,
+        "rotation": -45
+      },
+      {
+        "x": -8,
+        "y": 0,
+        "rotation": 45
+      }
+    ]
+  },
+  "requirements": [
+    {"item": "pyrit", "amount": 150},
+    {"item": "fossil", "amount": 100},
+    {"item": "quartz", "amount": 80}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "geno-gun"
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawTurret"
+      },
+      {
+        "type": "DrawLiquid",
+        "drawLiquid": "arkicite",
+        "padLeft": 4.75,
+        "padRight": 4.75,
+        "padTop": 4.75,
+        "padBottom": 4.75
+      },
+      {
+        "type": "DrawLiquid",
+        "drawLiquid": "arkicite",
+        "padLeft": 3.5,
+        "padRight": 3.5,
+        "padTop": 10,
+        "padBottom": 10
+      },
+      {
+        "type": "DrawLiquid",
+        "drawLiquid": "arkicite",
+        "padLeft": 10,
+        "padRight": 10,
+        "padTop": 3.5,
+        "padBottom": 3.5
+      }
+    ]
+  }
+}

@@ -89,6 +89,24 @@
         "padRight": 10,
         "padTop": 3.5,
         "padBottom": 3.5
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-left",
+        "x": -9.5,
+        "y": 9.5,
+        "moveX": 2,
+        "moveY": -2,
+        "progress": "reload"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-right",
+        "x": 9.5,
+        "y": 9.5,
+        "moveX": -2,
+        "moveY": -2,
+        "progress": "reload"
       }
     ]
   }

@@ -58,38 +58,10 @@
     "parent": "geno-gun"
   },
   "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      {
-        "type": "DrawDefault"
-      },
-      {
-        "type": "DrawTurret"
-      },
-      {
-        "type": "DrawLiquid",
-        "drawLiquid": "arkycite",
-        "padLeft": 4.75,
-        "padRight": 4.75,
-        "padTop": 4.75,
-        "padBottom": 4.75
-      },
-      {
-        "type": "DrawLiquid",
-        "drawLiquid": "arkycite",
-        "padLeft": 3.5,
-        "padRight": 3.5,
-        "padTop": 10,
-        "padBottom": 10
-      },
-      {
-        "type": "DrawLiquid",
-        "drawLiquid": "arkycite",
-        "padLeft": 10,
-        "padRight": 10,
-        "padTop": 3.5,
-        "padBottom": 3.5
-      },
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-geno-",
+    "liquidDraw": "arkycite",
+    "parts": [
       {
         "type": "RegionPart",
         "suffix": "-left",

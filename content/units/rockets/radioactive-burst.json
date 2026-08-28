@@ -8,7 +8,7 @@
   "engineSize": 0.2,
   "engineOffset": 2.5,
   "lifetime": 45,
-  "rotateSpeed": 3.5,
+  "rotateSpeed": 5,
   "hitSize": 0.5,
   "trailLength": 4,
   "trailScl": 3,
@@ -25,6 +25,7 @@
   "hidden": false,
   "weapons": [
     {
+      "shootOnDeath": true,
       "alwaysShoot": true,
       "reload": 0,
       "shootCone": 30,

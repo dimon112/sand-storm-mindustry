@@ -23,6 +23,7 @@
   "outlines": false,
   "range": 240,
   "hidden": false,
+  "alwaysShoot": true,
   "weapons": [
     {
       "shootOnDeath": true,
@@ -43,6 +44,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 8,
+        "alwaysShoot": true,
         "inaccuracy": 8,
         "speed": 4,
         "lifetime": 45,

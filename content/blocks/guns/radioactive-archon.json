@@ -5,7 +5,6 @@
   "details": "Обнаружен Джоджо референс! Мод переходит в фонд Спидвагона",
   "size": 3,
   "health": 400,
-  "outline": false,
   "outlineColor": "00000000",
   "range": 280,
   "minRange": 80,
@@ -17,7 +16,6 @@
   "targetAir": true,
   "shootSound": "shootMissile",
   "liquidCapacity": 100,
-  "liquidConsumed": 0.1666666666666666666,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",
@@ -51,13 +49,18 @@
     ]
   },
   "requirements": [
-    {"item": "pyrit", "amount": 150},
-    {"item": "fossil", "amount": 100},
-    {"item": "quartz", "amount": 80}
+    {"item": "geno", "amount": 150},
+    {"item": "undoym", "amount": 100},
+    {"item": "quartz", "amount": 50}
   ],
   "category": "turret",
   "research": {
-    "parent": "geno-gun"
+    "parent": "geno-gun",
+    "requirements": [
+      {"item": "geno", "amount": 1500},
+      {"item": "undoym", "amount": 1000},
+      {"item": "quartz", "amount": 500}
+    ]
   },
   "drawer": {
     "type": "DrawTurret",

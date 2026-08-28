@@ -16,7 +16,6 @@
   "targetAir": true,
   "shootSound": "shootMissile",
   "liquidCapacity": 100,
-  "liquidConsumed": 0.1666666666666666666,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",
@@ -32,33 +31,11 @@
       "despawnEffect": "none",
       "hitEffect": "none",
       "shootEffect": "shootBig",
-      "fragBullets": 16,
-      "fragSpread": 360,
-      "fragDelay": 2.5,
+      "fragBullets": 1,
       "fragBullet": {
-        "type": "BasicBulletType",
-        "damage": 10,
-        "inaccuracy": 8,
-        "speed": 4,
-        "lifetime": 45,
-        "width": 8,
-        "height": 8,
-        "frontColor": "44ff44",
-        "backColor": "00dd00",
-        "trailColor": "00ff00",
-        "trailLength": 6,
-        "hitEffect": {
-          "type": "WaveEffect",
-          "colorFrom": "00ff00",
-          "colorTo": "00dd00",
-          "lifetime": 30,
-          "sizeTo": 20,
-          "sizeFrom": 0,
-          "strokeFrom": 2,
-          "strokeTo": 0
-        },
-        "despawnEffect": "none",
-        "shootEffect": "none"
+        "type": "MissileBulletType",
+        "speed": 0,
+        "spawnUnit": "radioactive-burst"
       }
     }
   },
@@ -95,8 +72,8 @@
         "suffix": "-left",
         "x": -9.5,
         "y": 9.5,
-        "moveX": 2,
-        "moveY": -2,
+        "moveX": 4,
+        "moveY": -4,
         "progress": "reload",
         "under": true
       },
@@ -105,8 +82,8 @@
         "suffix": "-right",
         "x": 9.5,
         "y": 9.5,
-        "moveX": -2,
-        "moveY": -2,
+        "moveX": -4,
+        "moveY": -4,
         "progress": "reload",
         "under": true
       }

@@ -2,9 +2,11 @@
   "type": "LiquidTurret",
   "name": "Радиоактивный архонт",
   "description": "Запускает вовчиков, которые останавливаются и поливают врагов зелёнкой.",
-  "details": "Аура зелёнки +1000000",
+  "details": "Обнаружен Джоджо референс! Мод переходит в фонд Спидвагона",
   "size": 3,
   "health": 400,
+  "outline": false,
+  "outlineColor": "00000000",
   "range": 280,
   "minRange": 80,
   "drawMinRange": true,
@@ -69,7 +71,8 @@
         "y": 9.5,
         "moveX": 2,
         "moveY": -2,
-        "progress": "reload"
+        "progress": "reload",
+        "under": true
       },
       {
         "type": "RegionPart",
@@ -78,7 +81,8 @@
         "y": 9.5,
         "moveX": -2,
         "moveY": -2,
-        "progress": "reload"
+        "progress": "reload",
+        "under": true
       }
     ]
   }

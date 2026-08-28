@@ -16,6 +16,7 @@
   "targetAir": true,
   "shootSound": "shootMissile",
   "liquidCapacity": 100,
+  "liquidConsumed": 0.1666666666666666666,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",
@@ -31,11 +32,33 @@
       "despawnEffect": "none",
       "hitEffect": "none",
       "shootEffect": "shootBig",
-      "fragBullets": 1,
+      "fragBullets": 16,
+      "fragSpread": 360,
+      "fragDelay": 2.5,
       "fragBullet": {
-        "type": "MissileBulletType",
-        "speed": 0,
-        "spawnUnit": "radioactive-burst"
+        "type": "BasicBulletType",
+        "damage": 10,
+        "inaccuracy": 8,
+        "speed": 4,
+        "lifetime": 45,
+        "width": 8,
+        "height": 8,
+        "frontColor": "44ff44",
+        "backColor": "00dd00",
+        "trailColor": "00ff00",
+        "trailLength": 6,
+        "hitEffect": {
+          "type": "WaveEffect",
+          "colorFrom": "00ff00",
+          "colorTo": "00dd00",
+          "lifetime": 30,
+          "sizeTo": 20,
+          "sizeFrom": 0,
+          "strokeFrom": 2,
+          "strokeTo": 0
+        },
+        "despawnEffect": "none",
+        "shootEffect": "none"
       }
     }
   },

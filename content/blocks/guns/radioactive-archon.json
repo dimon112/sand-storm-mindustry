@@ -75,7 +75,7 @@
         "y": 9.5,
         "moveX": 3,
         "moveY": -3,
-        "progress": "charge",
+        "progress": "recoil",
         "under": true
       },
       {
@@ -85,7 +85,7 @@
         "y": 9.5,
         "moveX": -3,
         "moveY": -3,
-        "progress": "heat",
+        "progress": "recoil",
         "under": true
       }
     ]

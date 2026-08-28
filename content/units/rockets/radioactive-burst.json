@@ -20,8 +20,8 @@
   "trailColor": "00000000",
   "drawCell": false,
   "outlines": false,
-  "range": 300,
-  "maxRange": 300,
+  "range": 100000,
+  "maxRange": 100000,
   "hidden": true,
   "weapons": [
     {

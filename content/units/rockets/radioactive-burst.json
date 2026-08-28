@@ -12,7 +12,7 @@
   "hitSize": 0.5,
   "trailLength": 4,
   "trailScl": 3,
-  "autoFindTarget": true,
+  "autoFindTarget": false,
   "homingDelay": 0,
   "circleTarget": false,
   "faceTarget": true,

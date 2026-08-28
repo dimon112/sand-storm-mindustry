@@ -21,8 +21,7 @@
   "drawCell": false,
   "outlines": false,
   "range": 240,
-  "hidden": false,
-  "alwaysShoot": true,
+  "hidden": true,
   "weapons": [
     {
       "x": 0,
@@ -44,14 +43,13 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 8,
-        "alwaysShoot": true,
+        "damage": 10,
         "inaccuracy": 8,
         "speed": 4,
         "lifetime": 45,
         "width": 8,
         "height": 8,
-        "frontColor": "eeffee",
+        "frontColor": "44ff44",
         "backColor": "00dd00",
         "trailColor": "00ff00",
         "trailLength": 6,
@@ -65,7 +63,8 @@
           "strokeFrom": 2,
           "strokeTo": 0
         },
-        "despawnEffect": "none"
+        "despawnEffect": "none",
+        "shootEffect": "none"
       }
     }
   ],

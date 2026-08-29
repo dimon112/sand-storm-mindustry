@@ -44,6 +44,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 15,
+        "healAmount": 5,
         "inaccuracy": 8,
         "speed": 4,
         "lifetime": 45,

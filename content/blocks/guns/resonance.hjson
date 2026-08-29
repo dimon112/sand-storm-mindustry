@@ -41,5 +41,5 @@ requirements: [
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "sand-stormv2-"
+    "basePrefix": "sand-stormv2-quartz-"
   }

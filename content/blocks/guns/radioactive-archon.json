@@ -6,7 +6,7 @@
   "size": 3,
   "health": 2000,
   "outlineColor": "00000000",
-  "range": 240,
+  "range": 232,
   "minRange": 80,
   "drawMinRange": true,
   "reload": 120,
@@ -73,8 +73,8 @@
         "suffix": "-left",
         "x": -9.5,
         "y": 9.5,
-        "moveX": 3,
-        "moveY": -3,
+        "moveX": 2.5,
+        "moveY": -2.5,
         "progress": "recoil",
         "under": true
       },
@@ -83,8 +83,8 @@
         "suffix": "-right",
         "x": 9.5,
         "y": 9.5,
-        "moveX": -3,
-        "moveY": -3,
+        "moveX": -2.5,
+        "moveY": -2.5,
         "progress": "recoil",
         "under": true
       }

@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "name": "Кримера",
-  "description": "Энергетическая турель, стреляющая огромным красным орбом. При попадании орб разделяется на множество маленьких орбов.",
+  "description": "Стреляет зарядом [red[кварцинита], который разлетается на несколько частей.",
   "size": 2,
   "outlineIcon": false,
   "health": 350,
@@ -36,8 +36,8 @@
     "damage": 50,
     "speed": 3,
     "lifetime": 40,
-    "width": 8,
-    "height": 8,
+    "width": 16,
+    "height": 16,
     "frontColor": "ff6633",
     "backColor": "ffaa33",
     "trailColor": "ff6633",
@@ -48,7 +48,7 @@
     "sprite": "circle",
     "splashDamage": 20,
     "splashDamageRadius": 40,
-    "fragRandomSpread": 45,
+    "fragRandomSpread": 0,
     "fragSpread": 45,
     "fragLifeMax": 1,
     "fragLifeMin": 1,
@@ -67,7 +67,7 @@
       "splashDamageRadius": 20,
       "status": "blasted",
       "width": 4,
-      "height": 2,
+      "height": 4,
       "frontColor": "ff6633",
       "backColor": "ffaa33",
       "trailColor": "ff6633",
@@ -80,6 +80,6 @@
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "sand-stormv2-"
+    "basePrefix": "sand-stormv2-quartz-"
   }
 }

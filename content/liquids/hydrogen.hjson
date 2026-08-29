@@ -1,7 +1,5 @@
 {
-{
-  "shownPlanets": ["big-desert", "serpulo", "erekir"]
-},
+  "shownPlanets": ["big-desert", "serpulo", "erekir"],
   "research": {
     "parent": "geno",
     "planet": "big-desert",

@@ -61,5 +61,10 @@
     "despawnEffect": "hitLaser",
     "shootEffect": "shootBig",
     "sprite": "circle"
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-kyanite-"
   }
 }

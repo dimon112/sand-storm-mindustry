@@ -27,9 +27,9 @@
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 8.333333333,
+      "damage": 50,
       "knockback": 3,
-      "damageInterval": 2.0,
+      "damageInterval": 12.0,
       "status": "corroded",
       "statusDuration": 180,
       "colors": ["88FF4411", "88FF4455", "88FF44", "88FF44", "FFFFFF"],
@@ -39,10 +39,10 @@
     },
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
-      "damage": 25,
+      "damage": 150,
       "knockback": 5,
       "rangeChange": 44,
-      "damageInterval": 2.0,
+      "damageInterval": 12.0,
       "status": "corroded",
       "statusDuration": 600,
       "colors": ["66DDFF11", "66DDFF55", "66DDFF", "66DDFF", "FFFFFF"],

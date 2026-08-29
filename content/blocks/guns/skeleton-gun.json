@@ -1,42 +1,50 @@
 {
-    "type": "ItemTurret",
-    "name": "skeleton gun",
-    "description": "Pretty serious Cannon is much better than desert cannon and can also attack air units",
-    "targetAir": "true",
-    "targetGround": "true",
-    "size": 2,
-    "health": 450,
-    "outlineIcon": "false",
-    "reload": 75,
-    "rotateSpeed": 20
-    "shoot": {
-      "type": "ShootPattern",
-      "shots": 4
+  "type": "ItemTurret",
+  "name": "skeleton gun",
+  "description": "Pretty serious Cannon is much better than desert cannon and can also attack air units",
+  "targetAir": true,
+  "targetGround": true,
+  "size": 2,
+  "health": 450,
+  "outlineIcon": false,
+  "reload": 75,
+  "rotateSpeed": 20,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 4
+  },
+  "inaccuracy": 2,
+  "range": 300,
+  "recoilamount": 5,
+  "ammoTypes": {
+    "bone": {
+      "damage": 20,
+      "lifetime": 60,
+      "speed": 5,
+      "frontColor": "ffffff",
+      "backColor": "ffffff",
+      "trailLength": 9,
+      "trailWidth": 3,
+      "trailColor": "ffffff"
     }
-    "inaccuracy": 2,
-    "range": 300,
-    "recoilamount": 5,
-    "ammoTypes": { 
-        "bone":{
-            "damage":20,
-            "lifetime": 60,
-            "speed": 5,
-            "frontColor": "ffffff",
-            "backColor":  "ffffff",
-            "trailLength": 9,
-            "trailWidth": 3,
-            "trailColor": "ffffff"
-       }
-    }, 
-    "requirements": [
-   {"item": "bone", "amount": 60}
+  },
+  "requirements": [
+    {
+      "item": "bone",
+      "amount": 60
+    }
   ],
-"category": "turret",
-"shootSound": "laser",
-"research": {
-"parent": "geno-gun",
-"requirements": [
- bone/600
- ]
-}
+  "category": "turret",
+  "shootSound": "laser",
+  "research": {
+    "parent": "geno-gun",
+    "requirements": [
+      "bone/600"
+    ]
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "sand-stormv2-quartz-"
+  }
 }

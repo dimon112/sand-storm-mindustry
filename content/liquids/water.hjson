@@ -1,7 +1,3 @@
 {
-  "research": {
-    "parent": "quicksand",
-    "planet": "big-desert",
-    "requirements": []
-  }
+  "shownPlanets": ["big-desert", "serpulo", "erekir"]
 }

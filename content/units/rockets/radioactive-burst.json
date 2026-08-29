@@ -4,6 +4,8 @@
   "template": "MissileUnitType",
   "flying": true,
   "targetFlags": ["turret", "core"],
+  "targetable": false,
+  "hittable": false,
   "speed": 0,
   "useUnitCap": false,
   "engineSize": 0,
@@ -17,11 +19,11 @@
   "homingDelay": 0,
   "circleTarget": false,
   "faceTarget": true,
-  "health": 55,
+  "health": 100,
   "trailColor": "00000000",
   "drawCell": false,
   "outlines": false,
-  "range": 280,
+  "range": 180,
   "hidden": true,
   "weapons": [
     {
@@ -35,13 +37,13 @@
       "mirror": false,
       "shootSound": "shootCleroy",
       "shoot": {
-        "shots": 16,
+        "shots": 20,
         "shotDelay": 2.5,
-        "firstShotDelay": 5
+        "firstShotDelay": 0
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 10,
+        "damage": 15,
         "inaccuracy": 8,
         "speed": 4,
         "lifetime": 45,

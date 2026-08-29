@@ -5,7 +5,7 @@
   "size": 3,
   "health": 1050,
   "range": 800,
-  "reload": 220.5,
+  "reload": 240,
   "maxAmmo": 60,
   "shootCone": 35,
   "predictTarget": false,
@@ -66,6 +66,7 @@
   },
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "sand-stormv2-"
+    "basePrefix": "sand-stormv2-",
+    "heatProgress": "warmup"
   }
 }

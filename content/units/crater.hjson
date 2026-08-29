@@ -5,7 +5,7 @@ hitSize: 8
 flying: true 
 health: 150
 engineOffset: 0
-range: 160 
+range: 150 
 weapons: [ 
   { 
     name: craterg 
@@ -25,6 +25,7 @@ weapons: [
       width: 16
       height: 16
       damage: 5
+      knockback: 1
       color: "F7CBA4FF" 
       lifetime: 50
       followAim: true

@@ -23,6 +23,10 @@
   "trailColor": "00000000",
   "drawCell": false,
   "outlines": false,
+  "deathSoundVolume": 0.0,
+  "fallEffect": "none",
+  "deathExplosionEffect": "none",
+  "fallEngineEffect": "none",
   "range": 180,
   "hidden": true,
   "weapons": [

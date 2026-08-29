@@ -8,7 +8,8 @@
   "rotateSpeed": 10,
   "shootSound": "splash",
   "hasLiquids": true,
-  "liquidCapacity": 40,
+  "liquidCapacity": 32,
+  "liquidConsumed": 0.2666666666666666,
   "category": "turret",
   "requirements": [
     {"item": "quartz", "amount": 80},

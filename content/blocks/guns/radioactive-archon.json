@@ -16,6 +16,10 @@
   "targetAir": true,
   "shootSound": "shootMissile",
   "liquidCapacity": 100,
+  "extinguish": false,
+  "targetUnderBlocks": false,
+  "targetHealing": true,
+  "playerControllable": false,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",

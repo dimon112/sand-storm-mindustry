@@ -22,6 +22,8 @@
   },
   "inaccuracy": 1,
   "range": 240,
+  "minRange": 16,
+  "drawMinRange": true,
   "ammoTypes": {
     "fossil": {
       "type": "ArtilleryBulletType",
@@ -31,7 +33,8 @@
       "speed": 4,
       "sprite": "desert-beach-launcher",
       "frontColor": "dbc412",
-      "backColor": "dbc412"
+      "backColor": "dbc412",
+      "hitEffect": "flakExplosion"
     },
     "geno": {
       "type": "ArtilleryBulletType",
@@ -43,7 +46,8 @@
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "a5fc0d",
-      "backColor": "a5fc0d"
+      "backColor": "a5fc0d",
+      "hitEffect": "flakExplosion"
     },
     "collarise": {
       "type": "ArtilleryBulletType",

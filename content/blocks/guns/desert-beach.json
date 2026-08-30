@@ -1,7 +1,5 @@
 {
   "type": "ItemTurret",
-  "name": "desert beach",
-  "description": "upgraded desert gun, can attack air, shoots faster",
   "targetAir": true,
   "targetGround": true,
   "size": 2,
@@ -31,7 +29,7 @@
       "ammoMultiplier": 1,
       "lifetime": 60,
       "speed": 4,
-      "sprite": "desert-beach-launcher",
+      "sprite": "sand-stormv2-desert-beach-launcher",
       "frontColor": "dbc412",
       "backColor": "dbc412",
       "hitEffect": "flakExplosion",
@@ -43,7 +41,7 @@
       "ammoMultiplier": 2,
       "lifetime": 60,
       "speed": 4,
-      "sprite": "desert-beach-launcher",
+      "sprite": "sand-stormv2-desert-beach-launcher",
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "a5fc0d",
@@ -62,7 +60,7 @@
       "frontColor": "9e0e0e",
       "backColor": "9e0e0e",
       "speed": 4,
-      "sprite": "desert-beach-launcher"
+      "sprite": "sand-stormv2-desert-beach-launcher"
     }
   },
   "requirements": [

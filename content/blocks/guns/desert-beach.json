@@ -26,13 +26,13 @@
     "fossil": {
       "type": "ArtilleryBulletType",
       "damage": 10,
-      "splashDamage": 50,
+      "splashDamage": 75,
       "splashDamageRadius": 10,
       "ammoMultiplier": 1,
       "lifetime": 60,
       "speed": 4,
-      "width": 7,
-      "height": 9,
+      "width": 10,
+      "height": 15,
       "frontColor": "AA8800",
       "backColor": "884400",
       "trailColor": "884400",
@@ -42,13 +42,13 @@
     "geno": {
       "type": "ArtilleryBulletType",
       "damage": 10,
-      "splashDamage": 50,
+      "splashDamage": 75,
       "splashDamageRadius": 20,
       "ammoMultiplier": 2,
       "lifetime": 60,
       "speed": 4,
-      "width": 7,
-      "height": 9,
+      "width": 10,
+      "height": 15,
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "44AA44",
@@ -60,7 +60,7 @@
     "collarise": {
       "type": "ArtilleryBulletType",
       "damage": 10,
-      "splashDamage": 75,
+      "splashDamage": 100,
       "splashDamageRadius": 40,
       "status": "blasted",
       "ammoMultiplier": 3,
@@ -69,8 +69,8 @@
       "backColor": "884444",
       "trailColor": "884444",
       "speed": 4,
-      "width": 7,
-      "height": 9
+      "width": 10,
+      "height": 15
     }
   },
   "requirements": [

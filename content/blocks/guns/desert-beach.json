@@ -56,7 +56,7 @@
     "collarise": {
       "type": "ArtilleryBulletType",
       "damage": 10,
-      "splashDamage": 50,
+      "splashDamage": 75,
       "splashDamageRadius": 40,
       "status": "blasted",
       "ammoMultiplier": 3,

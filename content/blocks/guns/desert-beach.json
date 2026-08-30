@@ -16,7 +16,7 @@
     "shotDelay": 0,
     "barrels": [
       0,
-      -8,
+      -16,
       0
     ]
   },
@@ -29,6 +29,7 @@
       "ammoMultiplier": 1,
       "lifetime": 60,
       "speed": 4,
+      "sprite": "desert-beach-launcher",
       "frontColor": "dbc412",
       "backColor": "dbc412"
     },
@@ -38,6 +39,7 @@
       "ammoMultiplier": 2,
       "lifetime": 60,
       "speed": 4,
+      "sprite": "desert-beach-launcher",
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "a5fc0d",
@@ -53,7 +55,8 @@
       "lifetime": 60,
       "frontColor": "9e0e0e",
       "backColor": "9e0e0e",
-      "speed": 4
+      "speed": 4,
+      "sprite": "desert-beach-launcher"
     }
   },
   "requirements": [

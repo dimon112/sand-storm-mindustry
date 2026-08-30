@@ -8,17 +8,17 @@
   "outlineColor": "402000",
   "reload": 120,
   "rotateSpeed": 5,
+  "shootCone": 10,
   "shoot": {
     "type": "ShootBarrel",
     "shots": 1,
     "shotDelay": 0,
     "barrels": [
       0,
-      -16,
+      -14,
       0
     ]
   },
-  "inaccuracy": 1,
   "range": 240,
   "minRange": 32,
   "drawMinRange": true,
@@ -97,7 +97,7 @@
         "x": 0,
         "y": -4,
         "moveX": 0,
-        "moveY": 8,
+        "moveY": 10,
         "progress": "recoil",
         "under": false
       }

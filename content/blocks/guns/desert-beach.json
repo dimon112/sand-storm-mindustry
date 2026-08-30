@@ -34,7 +34,8 @@
       "sprite": "desert-beach-launcher",
       "frontColor": "dbc412",
       "backColor": "dbc412",
-      "hitEffect": "flakExplosion"
+      "hitEffect": "flakExplosion",
+      "despawnEffect": "flakExplosion"
     },
     "geno": {
       "type": "ArtilleryBulletType",
@@ -47,7 +48,8 @@
       "statusDuration": 120,
       "frontColor": "a5fc0d",
       "backColor": "a5fc0d",
-      "hitEffect": "flakExplosion"
+      "hitEffect": "flakExplosion",
+      "despawnEffect": "flakExplosion"
     },
     "collarise": {
       "type": "ArtilleryBulletType",

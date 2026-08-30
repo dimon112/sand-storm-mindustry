@@ -25,7 +25,9 @@
   "ammoTypes": {
     "fossil": {
       "type": "ArtilleryBulletType",
-      "damage": 50,
+      "damage": 10,
+      "splashDamage": 50,
+      "splashDamageRadius": 10,
       "ammoMultiplier": 1,
       "lifetime": 60,
       "speed": 4,
@@ -39,7 +41,9 @@
     },
     "geno": {
       "type": "ArtilleryBulletType",
-      "damage": 50,
+      "damage": 10,
+      "splashDamage": 50,
+      "splashDamageRadius": 20,
       "ammoMultiplier": 2,
       "lifetime": 60,
       "speed": 4,

@@ -20,7 +20,7 @@
   },
   "inaccuracy": 1,
   "range": 240,
-  "minRange": 16,
+  "minRange": 32,
   "drawMinRange": true,
   "ammoTypes": {
     "fossil": {
@@ -30,6 +30,8 @@
       "lifetime": 60,
       "speed": 4,
       "sprite": "sand-stormv2-desert-beach-launcher",
+      "width": 4,
+      "length": 6,
       "frontColor": "dbc412",
       "backColor": "dbc412",
       "hitEffect": "flakExplosion",
@@ -42,6 +44,8 @@
       "lifetime": 60,
       "speed": 4,
       "sprite": "sand-stormv2-desert-beach-launcher",
+      "width": 4,
+      "length": 6,
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "a5fc0d",
@@ -60,7 +64,9 @@
       "frontColor": "9e0e0e",
       "backColor": "9e0e0e",
       "speed": 4,
-      "sprite": "sand-stormv2-desert-beach-launcher"
+      "sprite": "sand-stormv2-desert-beach-launcher",
+      "width": 4,
+      "length": 6
     }
   },
   "requirements": [

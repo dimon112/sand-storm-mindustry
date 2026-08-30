@@ -8,8 +8,8 @@
   "health": 500,
   "outlineIcon": true,
   "outlineColor": "402000",
-  "reload": 60,
-  "rotateSpeed": 35,
+  "reload": 120,
+  "rotateSpeed": 5,
   "shoot": {
     "type": "ShootBarrel",
     "shots": 1,
@@ -21,10 +21,11 @@
     ]
   },
   "inaccuracy": 1,
-  "range": 180,
+  "range": 240,
   "ammoTypes": {
     "fossil": {
-      "damage": 25,
+      "type": "ArtilleryBulletType",
+      "damage": 50,
       "ammoMultiplier": 1,
       "lifetime": 60,
       "speed": 4,
@@ -32,7 +33,8 @@
       "backColor": "dbc412"
     },
     "geno": {
-      "damage": 25,
+      "type": "ArtilleryBulletType",
+      "damage": 50,
       "ammoMultiplier": 2,
       "lifetime": 60,
       "speed": 4,
@@ -42,8 +44,9 @@
       "backColor": "a5fc0d"
     },
     "collarise": {
-      "damage": 20,
-      "splashDamage": 25,
+      "type": "ArtilleryBulletType",
+      "damage": 10,
+      "splashDamage": 50,
       "splashDamageRadius": 40,
       "status": "blasted",
       "ammoMultiplier": 3,

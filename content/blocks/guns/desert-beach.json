@@ -7,8 +7,8 @@
   "size": 2,
   "health": 500,
   "outlineIcon": true,
-  "outlineColor": "004000",
-  "reload": 30,
+  "outlineColor": "402000",
+  "reload": 60,
   "rotateSpeed": 35,
   "shoot": {
     "type": "ShootBarrel",
@@ -24,33 +24,33 @@
   "range": 180,
   "ammoTypes": {
     "fossil": {
-      "damage": 13,
+      "damage": 25,
       "ammoMultiplier": 1,
-      "lifetime": 27,
-      "speed": 7,
+      "lifetime": 60,
+      "speed": 4,
       "frontColor": "dbc412",
       "backColor": "dbc412"
     },
     "geno": {
-      "damage": 18,
+      "damage": 25,
       "ammoMultiplier": 2,
-      "lifetime": 27,
-      "speed": 7,
+      "lifetime": 60,
+      "speed": 4,
       "status": "radiation2",
       "statusDuration": 120,
       "frontColor": "a5fc0d",
       "backColor": "a5fc0d"
     },
     "collarise": {
-      "damage": 19,
-      "splashDamage": 16,
-      "splashDamageRadius": 43,
+      "damage": 20,
+      "splashDamage": 25,
+      "splashDamageRadius": 40,
       "status": "blasted",
       "ammoMultiplier": 3,
-      "lifetime": 31,
+      "lifetime": 60,
       "frontColor": "9e0e0e",
       "backColor": "9e0e0e",
-      "speed": 6
+      "speed": 4
     }
   },
   "requirements": [

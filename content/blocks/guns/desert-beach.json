@@ -1,68 +1,86 @@
 {
-    "type": "ItemTurret",
-    "name": "desert beach",
-    "description": "upgraded desert gun, can attack air, shoots faster"
-    "targetAir": "true",
-    "targetGround": "true",
-    "size": 2,
-    "health": 380,
-    "outlineIcon": "false",
-    "reload": 30,
-    "rotateSpeed": 35,
-    "shoot": {
-      "type": "ShootPattern",
-      "shots": 2
+  "type": "ItemTurret",
+  "name": "desert beach",
+  "description": "upgraded desert gun, can attack air, shoots faster",
+  "targetAir": true,
+  "targetGround": true,
+  "size": 2,
+  "health": 500,
+  "outlineIcon": true,
+  "outlineColor": "004000",
+  "reload": 30,
+  "rotateSpeed": 35,
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 1,
+    "shotDelay": 0,
+    "barrels": [
+      0,
+      -8,
+      0
+    ]
+  },
+  "inaccuracy": 1,
+  "range": 180,
+  "ammoTypes": {
+    "fossil": {
+      "damage": 13,
+      "ammoMultiplier": 1,
+      "lifetime": 27,
+      "speed": 7,
+      "frontColor": "dbc412",
+      "backColor": "dbc412"
+    },
+    "geno": {
+      "damage": 18,
+      "ammoMultiplier": 2,
+      "lifetime": 27,
+      "speed": 7,
+      "status": "radiation2",
+      "statusDuration": 120,
+      "frontColor": "a5fc0d",
+      "backColor": "a5fc0d"
+    },
+    "collarise": {
+      "damage": 19,
+      "splashDamage": 16,
+      "splashDamageRadius": 43,
+      "status": "blasted",
+      "ammoMultiplier": 3,
+      "lifetime": 31,
+      "frontColor": "9e0e0e",
+      "backColor": "9e0e0e",
+      "speed": 6
     }
-    "inaccuracy": 1,
-    "range": 180,
-    "recoilamount": 15,
-    "ammoTypes": { 
-        "fossil":{
-            "damage":13,
-            "ammoMultiplier" :1,
-            "lifetime": 27,
-            "speed": 7,
-            "frontColor": "dbc412",
-            "backColor": "dbc412"   
-       },
-       "geno":{
-            "damage":18,
-            "ammoMultiplier" :2,
-            "lifetime": 27,
-            "speed": 7,
-            "status":"radiation2",
-            "statusDuration": 120,
-            "frontColor": "a5fc0d",
-            "backColor": "a5fc0d"
-       },
-       "collarise":{
-            "damage":19,
-            "splashDamage":16,
-            "splashDamageRadius": 43
-            "status":"blasted"
-            "ammoMultiplier" :3,
-            "lifetime": 31,
-            "frontColor": "9e0e0e",
-            "backColor": "9e0e0e",
-            "speed": 6,
-       }
-    }, 
-    "requirements": [
-   {"item": "fossil", "amount": 120},
-   {"item": "geno", "amount": 40}
+  },
+  "requirements": [
+      "fossil/120",
+      "geno/40"
   ],
-"category": "turret",
-"shootSound": "laser",
-"research": {
-"parent": "raider",
-"requirements": [
- "fossil/1200",
- "geno/400"
- ]
-},
+  "category": "turret",
+  "shootSound": "laser",
+  "research": {
+    "parent": "raider",
+    "requirements": [
+      "fossil/1200",
+      "geno/400"
+    ]
+  },
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "sand-stormv2-"
+    "basePrefix": "sand-stormv2-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-launcher",
+        "x": 0,
+        "y": -4,
+        "moveX": 0,
+        "moveY": 8,
+        "progress": "recoil",
+        "under": false
+      }
+    ]
   }
 }

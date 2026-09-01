@@ -29,13 +29,12 @@ immunities: [radiation1]
   research: {
 parent: abound
 requirements: [
- fossil/1200
- geno/800
+ abound-before-the-nerf-essence/1200
  ]
  objectives: [
     {
       type: research
-      preset: dumpling
+      content: abound-before-the-nerf-essence
     }
   ]
 }

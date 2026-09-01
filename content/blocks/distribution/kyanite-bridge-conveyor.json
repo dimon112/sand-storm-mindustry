@@ -13,7 +13,7 @@
   "hasPower": false,
   "category": "distribution",
   "research":{
-    "parent: "fossil-bridge-conveyor",
+    "parent": "fossil-bridge-conveyor",
     "requirements":[ 
       "kyanite/250"
     ] 

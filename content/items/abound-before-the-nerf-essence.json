@@ -1,0 +1,8 @@
+{
+  "name": "Эссенция Абоунда",
+  "description": "Потому что так надо.",
+  "cost": 60,
+  "color": "FFFF00FF",
+  "research": "dumpling",
+  "shownPlanets": ["big-desert"]
+}

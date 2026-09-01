@@ -1,0 +1,41 @@
+type:mech
+name: "Абоунд (до нерфа)"
+speed: 0.40
+flying: false
+hitSize: 8
+health: 750
+outlineColor: 400000
+range: 625
+armor: 5
+immunities: [radiation1]
+  "weapons": [
+  {
+   name: abound-before-the-nerf-gun
+  reload: 17
+  rotate: false
+  mirror: false
+  x: 0
+  y: 0
+  shootSound: mechshoot
+  bullet: {
+    type: BasicBulletType
+    speed: 5
+    damage: 35
+    lifetime: 125
+    color: 80CB70
+    }
+    }
+    ]
+  research: {
+parent: abound
+requirements: [
+ fossil/1200
+ geno/800
+ ]
+ objectives: [
+    {
+      type: research
+      preset: dumpling
+    }
+  ]
+}

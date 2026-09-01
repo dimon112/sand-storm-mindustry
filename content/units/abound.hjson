@@ -15,8 +15,8 @@ immunities: [radiation1]
   rotate: false
   mirror: true
   x: 12
-  y: 8
-  shootSound: shoot
+  y: 5
+  shootSound: mechshoot
   bullet: {
     type: BasicBulletType
     speed: 5
@@ -39,16 +39,3 @@ requirements: [
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

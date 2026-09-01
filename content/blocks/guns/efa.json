@@ -1,12 +1,11 @@
 {
   "type": "ContinuousLiquidTurret",
   "name": "Эфа",
-  "description": "Непрерывно распыляет едкие газы, нанося коррозионный урон.",
+  "description": "Стреляет непрерывной струёй воды смешанной с едкими газами по вражеским целям.",
+  "details": "Зачем нужна вода? Банально для того, чтобы газ реагировал с водой и оседал серной или сернистой кислотой на врагах. Если воды не будет, то газ просто пройдёт сквозь врага и абсолютно ничего не сделает",
   "size": 3,
   "health": 1500,
   "range": 224,
-  "minRange": 32,
-  "drawMinRange": true,
   "reload": 5,
   "shootCone": 30,
   "rotateSpeed": 2.4,
@@ -15,24 +14,32 @@
   "shootSound": "spray",
   "liquidCapacity": 30,
   "liquidConsumed": 0.083333333333333,
+  "consume"{
+    "liquid":{
+      "liquid": "water",
+      "amount": 0.0166666666666
+    }
+  },
   "shoot": {
     "type": "ShootBarrel",
     "shots": 2,
     "shotDelay": 0,
     "barrels": [
-      -7, 0, 0,
-      7, 0, 0
+      -6, 0, 0,
+      6, 0, 0
     ]
   },
   "ammoTypes": {
     "sulfur-dioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 50,
+      "pierce": true,
+      "pierceCap": 3,
       "knockback": 3,
       "damageInterval": 12.0,
       "status": "corroded",
       "statusDuration": 180,
-      "colors": ["88FF4411", "88FF4455", "88FF44", "88FF44", "FFFFFF"],
+      "colors": ["88FF448C", "88FF44B2", "88FF44CC", "88FF44FF", "FFFFFFFF"],
       "flareColor": "88FF44",
       "hitEffect": "smokeCloud",
       "length": 260
@@ -40,12 +47,14 @@
     "sulfur-trioxide": {
       "type": "ContinuousFlameBulletType",
       "damage": 150,
+      "pierce": true,
+      "pierceCap": 3,
       "knockback": 5,
       "rangeChange": 44,
       "damageInterval": 12.0,
       "status": "corroded",
       "statusDuration": 600,
-      "colors": ["66DDFF11", "66DDFF55", "66DDFF", "66DDFF", "FFFFFF"],
+      "colors": ["66DDFF8C", "66DDFFB2", "66DDFFCC", "66DDFFFF", "FFFFFFFF"],
       "flareColor": "66DDFF",
       "hitEffect": "smokeCloud",
       "length": 320
@@ -55,9 +64,9 @@
     "power": 0.5
   },
   "requirements": [
-    {"item": "pyrit", "amount": 100},
+    {"item": "pyrit", "amount": 150},
     {"item": "fossil", "amount": 60},
-    {"item": "quartz", "amount": 200}
+    {"item": "quartz", "amount": 100}
   ],
   "category": "turret",
   "research": {

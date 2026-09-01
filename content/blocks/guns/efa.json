@@ -14,7 +14,7 @@
   "shootSound": "spray",
   "liquidCapacity": 30,
   "liquidConsumed": 0.083333333333333,
-  "consume"{
+  "consume":{
     "liquid":{
       "liquid": "water",
       "amount": 0.0166666666666

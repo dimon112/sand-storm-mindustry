@@ -1,0 +1,16 @@
+{
+  "type": "ItemBridge",
+  "name": "Кианитовый мост",
+  "description": "Перемещает предметы с помощью ауры выва",
+  "size": 2,
+  "health": 125,
+  "itemCapacity": 10,
+  "requirements": [
+    "fossil/8"
+    ],
+  "range": 6,
+  "transportTime": 5,
+  "hasPower": false,
+  "category": "distribution",
+  "research": "fossil-bridge-conveyor"
+}

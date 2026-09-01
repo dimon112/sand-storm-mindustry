@@ -1,53 +1,51 @@
 {
-    "type": "ItemTurret",
-    "name": "Geno gun",
-    "description": "the initial gun for air is not bad but quickly loses its relevance",
-    "targetAir": "true",
-    "targetGround": "false",
-    "size": 1,
-    "health": 185,
-    "outlineIcon": "false",
-    "reload": 65,
-    "rotateSpeed": 20,
-    "shoot": {
-      "type": "ShootPattern",
-      "shots": 3
+  "type": "ItemTurret",
+  "name": "Geno gun",
+  "description": "The initial gun for air is not bad but quickly loses its relevance.",
+  "targetAir": true,
+  "targetGround": false,
+  "size": 1,
+  "health": 185,
+  "outlineIcon": false,
+  "reload": 65,
+  "rotateSpeed": 20,
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 3
+  },
+  "inaccuracy": 2,
+  "range": 190,
+  "recoilamount": 5,
+  "ammoTypes": {
+    "fossil": {
+      "damage": 28,
+      "lifetime": 60,
+      "speed": 5,
+      "collidesGround": false,
+      "frontColor": "dbc412",
+      "backColor": "dbc412"
+    },
+    "geno": {
+      "damage": 36,
+      "ammoMultiplier": 3,
+      "lifetime": 45,
+      "speed": 6,
+      "status": "radiation2",
+      "frontColor": "a5fc0d",
+      "backColor": "a5fc0d"
     }
-    "inaccuracy": 2,
-    "range": 190,
-    "recoilamount": 5,
-    "ammoTypes": { 
-        "fossil":{
-            "damage":28,
-            "lifetime": 60,
-            "speed": 5,
-            "collidesGround": "false",
-            "frontColor": "dbc412",
-            "backColor": "dbc412"
-       },
-            "geno":{
-            "damage":36,
-            "ammoMultiplier" :3,
-            "lifetime": 45,
-            "speed": 6,
-            "status":"radiation2",
-            "frontColor": "a5fc0d",
-            "backColor": "a5fc0d"
-            
-       }
-    }, 
-    "requirements": [
-   {"item": "geno", "amount": 40}
+  },
+  "requirements": [
+    {"item": "geno", "amount": 40}
   ],
-"category": "turret",
-"shootSound": "laser",
-"research": {
-"parent": "desert-gun",
-"requirements": [
- "geno/400"
- ]
-}
-
+  "category": "turret",
+  "shootSound": "laser",
+  "research": {
+    "parent": "desert-gun",
+    "requirements": [
+      {"item": "geno", "amount": 400}
+    ]
+  },
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",

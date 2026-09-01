@@ -1,12 +1,12 @@
 {
   "type": "DuctRouter",
-  "name": "Desert router",
-  "description": "standard Router.",
+  "name": "Кианитовый маршрутизатор",
+  "description": "Совмещённый маршрутизатор, сортировщик и конвейер. принимает предметы только с одной стороны.",
   "category": "distribution",
-  "size": 2,
-  "health": 250,
+  "size": 3,
+  "health": 750,
   "requirements": [
-    {"item": "kyanite", "amount": 20}
+    {"item": "kyanite", "amount": 35}
   ],
   "research": "fossil-distributor"
 }

@@ -14,9 +14,7 @@
     "shots": 1,
     "shotDelay": 0,
     "barrels": [
-      0,
-      -14,
-      0
+      0, -14, 0
     ]
   },
   "range": 240,
@@ -74,16 +72,16 @@
     }
   },
   "requirements": [
-      "fossil/120",
-      "geno/40"
+    {"item": "fossil", "amount": 120},
+    {"item": "geno", "amount": 40}
   ],
   "category": "turret",
   "shootSound": "laser",
   "research": {
     "parent": "raider",
     "requirements": [
-      "fossil/1200",
-      "geno/400"
+      {"item": "fossil", "amount": 1200},
+      {"item": "geno", "amount": 400}
     ]
   },
   "squareSprite": false,

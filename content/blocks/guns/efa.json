@@ -14,11 +14,11 @@
   "shootSound": "spray",
   "liquidCapacity": 30,
   "liquidConsumed": 0.083333333333333,
-  "consume":{
-    "liquid":{
-      "liquid": "water",
-      "amount": 0.0166666666666
-    }
+  "consumes": {
+    "liquids": [
+      {"liquid": "water", "amount": 0.0166666666666}
+    ],
+    "power": 0.5
   },
   "shoot": {
     "type": "ShootBarrel",
@@ -50,7 +50,6 @@
       "pierce": true,
       "pierceCap": 3,
       "knockback": 5,
-      "rangeChange": 44,
       "damageInterval": 12.0,
       "status": "corroded",
       "statusDuration": 600,
@@ -59,9 +58,6 @@
       "hitEffect": "smokeCloud",
       "length": 320
     }
-  },
-  "consumes": {
-    "power": 0.5
   },
   "requirements": [
     {"item": "pyrit", "amount": 150},

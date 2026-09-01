@@ -18,7 +18,7 @@
   "liquidCapacity": 100,
   "extinguish": false,
   "targetUnderBlocks": false,
-  "playerControllable": false,
+  "playerControllable": true,
   "ammoTypes": {
     "arkycite": {
       "type": "BasicBulletType",
@@ -53,8 +53,8 @@
     ]
   },
   "requirements": [
-    {"item": "geno", "amount": 150},
-    {"item": "undoym", "amount": 100},
+    {"item": "geno", "amount": 250},
+    {"item": "undoym", "amount": 150},
     {"item": "quartz", "amount": 50}
   ],
   "category": "turret",

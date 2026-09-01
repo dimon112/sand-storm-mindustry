@@ -5,16 +5,16 @@
   "size": 2,
   "health": 250,
   "itemCapacity": 10,
-  "requirements": [
+  "requirements":[
     "kyanite/25"
     ],
   "range": 20,
   "transportTime": 10,
   "hasPower": false,
   "category": "distribution",
-  "research: { 
+  "research":{
     "parent: "fossil-bridge-conveyor",
-    "requirements": [ 
+    "requirements":[ 
       "kyanite/250"
     ] 
   }

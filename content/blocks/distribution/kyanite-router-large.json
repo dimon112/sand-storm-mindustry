@@ -1,0 +1,12 @@
+{
+  "type": "DuctRouter",
+  "name": "Desert router",
+  "description": "standard Router.",
+  "category": "distribution",
+  "size": 2,
+  "health": 250,
+  "requirements": [
+    {"item": "kyanite", "amount": 20}
+  ],
+  "research": "fossil-distributor"
+}

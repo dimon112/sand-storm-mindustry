@@ -3,7 +3,7 @@ name: "Абоунд (до нерфа)"
 speed: 0.40
 flying: false
 hitSize: 8
-health: 750
+health: 7500
 outlineColor: 400000
 range: 625
 armor: 5

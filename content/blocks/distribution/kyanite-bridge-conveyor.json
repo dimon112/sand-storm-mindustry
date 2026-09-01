@@ -1,16 +1,21 @@
 {
   "type": "ItemBridge",
   "name": "Кианитовый мост",
-  "description": "Перемещает предметы с помощью ауры выва",
+  "description": "Предметный мост. Работает на более дальние расстояния с помощью кианита.\n\n[accent]Примечание: эта фигня работает нестабильно из-за размера 2×2, терпите[]",
   "size": 2,
-  "health": 125,
+  "health": 250,
   "itemCapacity": 10,
   "requirements": [
-    "fossil/8"
+    "kyanite/25"
     ],
-  "range": 6,
-  "transportTime": 5,
+  "range": 20,
+  "transportTime": 10,
   "hasPower": false,
   "category": "distribution",
-  "research": "fossil-bridge-conveyor"
+  "research: { 
+    "parent: "fossil-bridge-conveyor",
+    "requirements": [ 
+      "kyanite/250"
+    ] 
+  }
 }

@@ -34,7 +34,7 @@
       "x": 0,
       "y": 0,
       "shootOnDeath": true,
-      "alwaysShoot": true,
+      "alwaysShooting": true,
       "reload": 45,
       "shootCone": 360,
       "rotate": false,

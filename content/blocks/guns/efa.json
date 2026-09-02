@@ -16,7 +16,7 @@
   "liquidConsumed": 0.083333333333333,
   "consumes": {
     "liquids": [
-      {"liquid": "water", "amount": 0.08333333333333}
+      "water/0.08333333333333"
     ],
     "power": 0.5
   },

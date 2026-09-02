@@ -1,37 +1,50 @@
-type:mech
-name: "skitch"
-speed: 0.5
-hitSize: 10
-outlineColor: 60400d
-flying: false
-health: 300
-range: 150
-outline: false
-dpsEstimate: 20
-
+{
+  "type": "mech",
+  "name": "skitch",
+  "description": "Обрыгеэээээээээээээээээн",
+  "speed": 0.5,
+  "hitSize": 10,
+  "outlineColor": "60400d",
+  "flying": false,
+  "health": 300,
+  "range": 150,
+  "outline": false,
+  "dpsEstimate": 20,
   "weapons": [
-  {
-   name: skitch-gun
-  mirror: true
-  alternate: true
-  reload: 30
-  rotate: false
-  x: 6
-  y: 0
-  range: 150
-  shootSound: shoot
-  bullet: {
-    type: BasicBulletType
-    speed: 4
-    damage: 10
-    color: 60400d
+    {
+      "name": "skitch-gun",
+      "mirror": true,
+      "alternate": true,
+      "reload": 30,
+      "rotate": false,
+      "x": 6,
+      "y": 0,
+      "range": 150,
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "damage": 10,
+        "frontColor": "60400d",
+        "backColor": "402000"
+      }
     }
+  ],
+  "abilities": [
+    {
+      "type": "ArmorPlateAbility",
+      "healthMultiplier": 0.25,
+      "drawPlate": true,
+      "plateSuffix": "-plate",
+      "drawShine": true,
+      "shineSuffix": "-shine",
+      "shineSpeed": 2.5
     }
+  ],
+  "research": {
+    "parent": "desert-factory",
+    "requirements": [
+      {"item": "fossil", "amount": 525}
     ]
-  research: {
-parent: Desert-factory
-requirements: [
- fossil/525
- ]
- 
+  }
 }

@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Abrasive
+name: Ашалительно Абразивно
 description: Стреляет песком или гематитом, не требует энергии Так как она на пирите
 size: 2
 health: 500
@@ -22,7 +22,7 @@ ammoTypes: {
   sand: {
     type: BasicBulletType
     damage: 5
-    buildingDamageMultiplier: 1.5 
+    buildingDamageMultiplier: 1.4
     knockback: 3
     speed: 10
     lifetime: 12.5
@@ -31,24 +31,25 @@ ammoTypes: {
     backColor: e4d599
     width: 4
     height: 9
-    
+    armorMultiplier: 0.6
     hitEffect: hitBulletSmall
     despawnEffect: hitBulletSmall
   }
   hematite: {
     type: BasicBulletType
     damage: 10
-    buildingDamageMultiplier: 1.5 
+    buildingDamageMultiplier: 1.6
     knockback: 5
     speed: 10
     rangeChange: 125
     lifetime: 25
-    ammoMultiplier: 25
+    ammoMultiplier: 30
     rangeBoost: 125
     frontColor: FF7744FF
     backColor: DD5533FF
     width: 4
-    height: 9
+    height: 9
+    armorMultiplier: 0.4
     hitEffect: hitBulletSmall
     despawnEffect: hitBulletSmall
   }

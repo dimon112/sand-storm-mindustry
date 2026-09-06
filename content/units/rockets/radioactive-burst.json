@@ -25,7 +25,16 @@
   "outlines": false,
   "deathSoundVolume": 0.0,
   "fallEffect": "none",
-  "deathExplosionEffect": "none",
+  "deathExplosionEffect": {
+    "type": "ParticleEffect",
+    "particles": 10,
+    "lifetime": 30,
+    "cone": 360,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "colorFrom": "80ff80",
+    "colorTo": "00aa0000"
+  },
   "fallEngineEffect": "none",
   "range": 180,
   "hidden": true,

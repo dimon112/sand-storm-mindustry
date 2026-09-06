@@ -7,6 +7,8 @@
   "targetable": false,
   "hittable": false,
   "speed": 0,
+  "loopSound": "agusha",
+  "loopSoundVolume": 0.5,
   "useUnitCap": false,
   "engineSize": 0,
   "engineOffset": 0,

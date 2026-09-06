@@ -8,11 +8,11 @@
   "hittable": false,
   "speed": 0,
   "loopSound": "agusha",
-  "loopSoundVolume": 0.5,
+  "loopSoundVolume": 0.25,
   "useUnitCap": false,
   "engineSize": 0,
   "engineOffset": 0,
-  "lifetime": 75,
+  "lifetime": 140,
   "rotateSpeed": 10,
   "hitSize": 0.1,
   "trailLength": 4,
@@ -25,8 +25,17 @@
   "trailColor": "00000000",
   "drawCell": false,
   "outlines": false,
-  "deathSoundVolume": 0.0,
-  "fallEffect": "none",
+  "deathSoundVolume": 0,
+  "fallEffect": {
+    "type": "ParticleEffect",
+    "particles": 10,
+    "lifetime": 30,
+    "cone": 360,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "colorFrom": "80ff80",
+    "colorTo": "00aa0000"
+  },
   "deathExplosionEffect": {
     "type": "ParticleEffect",
     "particles": 10,
@@ -54,7 +63,7 @@
       "shoot": {
         "shots": 20,
         "shotDelay": 2.5,
-        "firstShotDelay": 30
+        "firstShotDelay": 60
       },
       "bullet": {
         "type": "BasicBulletType",

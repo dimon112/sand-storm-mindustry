@@ -7,12 +7,10 @@
   "targetable": false,
   "hittable": false,
   "speed": 0,
-  "loopSound": "agusha",
-  "loopSoundVolume": 0.25,
   "useUnitCap": false,
   "engineSize": 0,
   "engineOffset": 0,
-  "lifetime": 140,
+  "lifetime": 45,
   "rotateSpeed": 10,
   "hitSize": 0.1,
   "trailLength": 4,
@@ -59,11 +57,12 @@
       "shootCone": 360,
       "rotate": false,
       "mirror": false,
-      "shootSound": "shootCleroy",
+      "shootSound": "shootMalign",
+      "shootSoundVolume": 0.25,
       "shoot": {
         "shots": 20,
         "shotDelay": 2.5,
-        "firstShotDelay": 60
+        "firstShotDelay": 0
       },
       "bullet": {
         "type": "BasicBulletType",

@@ -12,7 +12,7 @@
   "useUnitCap": false,
   "engineSize": 0,
   "engineOffset": 0,
-  "lifetime": 45,
+  "lifetime": 75,
   "rotateSpeed": 10,
   "hitSize": 0.1,
   "trailLength": 4,
@@ -54,7 +54,7 @@
       "shoot": {
         "shots": 20,
         "shotDelay": 2.5,
-        "firstShotDelay": 0
+        "firstShotDelay": 30
       },
       "bullet": {
         "type": "BasicBulletType",

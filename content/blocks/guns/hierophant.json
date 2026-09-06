@@ -14,7 +14,7 @@
   "rotateSpeed": 10,
   "targetGround": true,
   "targetAir": true,
-  "shootSound": "shootMissile",
+  "shootSound": "shootMalign",
   "liquidCapacity": 100,
   "extinguish": false,
   "targetUnderBlocks": false,

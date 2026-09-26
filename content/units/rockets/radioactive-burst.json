@@ -24,26 +24,8 @@
   "drawCell": false,
   "outlines": false,
   "deathSoundVolume": 0,
-  "fallEffect": {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "lifetime": 30,
-    "cone": 360,
-    "sizeFrom": 3,
-    "sizeTo": 0,
-    "colorFrom": "80ff80",
-    "colorTo": "00aa0000"
-  },
-  "deathExplosionEffect": {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "lifetime": 30,
-    "cone": 360,
-    "sizeFrom": 3,
-    "sizeTo": 0,
-    "colorFrom": "80ff80",
-    "colorTo": "00aa0000"
-  },
+  "fallEffect": "greenCloud",
+  "deathExplosionEffect": "greenCloud",
   "fallEngineEffect": "none",
   "range": 180,
   "hidden": true,

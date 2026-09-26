@@ -4,8 +4,7 @@ speed: 0.40
 flying: false
 hitSize: 8
 health: 7500
-outlineColor: 400000
-range: 625
+range: 236
 armor: 5
 immunities: [radiation1]
   "weapons": [
@@ -19,9 +18,9 @@ immunities: [radiation1]
   shootSound: mechshoot
   bullet: {
     type: BasicBulletType
-    speed: 5
+    speed: 4
     damage: 35
-    lifetime: 125
+    lifetime: 59
     color: 80CB70
     }
     }

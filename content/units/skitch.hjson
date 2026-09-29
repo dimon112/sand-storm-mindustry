@@ -31,7 +31,7 @@
     }
   ],
   "research": {
-    "parent": "desert-factory",
+    "parent": "Desert-factory",
     "requirements": [
       {"item": "fossil", "amount": 525}
     ]

@@ -1,0 +1,31 @@
+{
+  "type": "CanvasBlock",
+  "name": "Песчаный дисплей",
+  "description": "Простой рисунок на песке.",
+  "details": "Мы что, в песочнице?",
+  "size": 2,
+  "health": 100,
+  "canvasSize": 12,
+  "palette": [
+    "8c745e",
+    "ab8d72",
+    "bf9e80",
+    "d6b08f",
+    "eac09c",
+    "f7cba4",
+    "fae0c8",
+    "ffffff"
+  ],
+  "requirements": [
+    {"item": "sand", "amount": 20},
+    {"item": "sand-fabric", "amount": 5}
+  ],
+  "category": "logic",
+  "research": {
+    "parent": "core-desert",
+    "requirements": [
+      {"item": "sand", "amount": 200},
+      {"item": "sand-fabric", "amount": 50}
+    ]
+  }
+}

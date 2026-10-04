@@ -7,14 +7,14 @@
   "health": 100,
   "canvasSize": 12,
   "palette": [
-    "8c745eff",
-    "ab8d72ff",
-    "bf9e80ff",
-    "d6b08fff",
-    "eac09cff",
-    "f7cba4ff",
-    "fae0c8ff",
-    "ffffffff"
+    9192542,
+    11242866,
+    12557952,
+    14069903,
+    15384732,
+    16240292,
+    16441544,
+    16777215
   ],
   "requirements": [
     {"item": "sand", "amount": 20},

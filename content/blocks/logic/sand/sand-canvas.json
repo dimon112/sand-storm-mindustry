@@ -7,14 +7,14 @@
   "health": 100,
   "canvasSize": 12,
   "palette": [
-    0x8c745e_ff,
-    0xab8d72_ff,
-    0xbf9e80_ff,
-    0xd6b08f_ff,
-    0xeac09c_ff,
-    0xf7cba4_ff,
-    0xfae0c8_ff,
-    0xffffff_ff
+    "8c745eff",
+    "ab8d72ff",
+    "bf9e80ff",
+    "d6b08fff",
+    "eac09cff",
+    "f7cba4ff",
+    "fae0c8ff",
+    "ffffffff"
   ],
   "requirements": [
     {"item": "sand", "amount": 20},

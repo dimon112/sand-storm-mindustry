@@ -2,16 +2,16 @@
   "health": 200,
   "size": 2,
   "hasItems": true,
-  "craftTime": 75,
+  "craftTime": 60,
   "craftEffect": "none",
   "hasPower": false,
   "hasLiquids": false,
   "updateEffect": "none",
-  "itemCapacity": 20,
+  "itemCapacity": 10,
   "consumes": {
     "items": [
-      "fossil/5"
-      "sand/3"
+      "fossil/2"
+      "sand/2"
     ]
   },
   "requirements": [

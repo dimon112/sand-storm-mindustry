@@ -3,13 +3,13 @@
   "name": "Кварцинитовый синтезатор",
   "size": 3,
   "health": 800,
-  "craftTime": 75,
+  "craftTime": 60,
   "itemCapacity": 30,
 
   "consumes": {
     "power": 0.5,
     "items": [
-      "fossil/10",
+      "fossil/6",
       "sand/6"
     ]
   },

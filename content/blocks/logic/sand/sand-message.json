@@ -6,14 +6,16 @@
   "health": 150,
   "requirements": [
     {"item": "sand", "amount": 15},
-    {"item": "sand-fabric", "amount": 10}
+    {"item": "fossil", "amount": 10},
+    {"item": "pyrit", "amount": 5}
   ],
   "category": "logic",
   "research": {
     "parent": "sand-canvas",
     "requirements": [
       {"item": "sand", "amount": 150},
-      {"item": "sand-fabric", "amount": 100}
+      {"item": "fossil", "amount": 100}
+      {"item": "pyrit", "amount": 50}
     ]
   }
 }

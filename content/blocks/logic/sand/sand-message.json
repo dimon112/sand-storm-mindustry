@@ -1,0 +1,19 @@
+{
+  "type": "MessageBlock",
+  "name": "Песчаная табличка",
+  "description": "Хранит сообщение. Используется для связи между союзниками.",
+  "size": 2,
+  "health": 150,
+  "requirements": [
+    {"item": "sand", "amount": 15},
+    {"item": "sand-fabric", "amount": 10}
+  ],
+  "category": "logic",
+  "research": {
+    "parent": "sand-canvas",
+    "requirements": [
+      {"item": "sand", "amount": 150},
+      {"item": "sand-fabric", "amount": 100}
+    ]
+  }
+}

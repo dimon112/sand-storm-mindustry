@@ -3,11 +3,11 @@
   "name": "Песочница",
   "description": "Простой рисунок на песке.",
   "size": 2,
-  "health": 100,
+  "health": 250,
   "canvasSize": 32,
   "palette": [
-    -1783041,
     -137648897,
+    -1783041,
     -743535105
   ],
   "requirements": [

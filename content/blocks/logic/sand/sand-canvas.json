@@ -1,15 +1,14 @@
 {
   "type": "CanvasBlock",
-  "name": "Песчаный дисплей",
+  "name": "Песочница",
   "description": "Простой рисунок на песке.",
-  "details": "Мы что, в песочнице?",
   "size": 2,
   "health": 100,
-  "canvasSize": 16,
+  "canvasSize": 32,
   "palette": [
-    4294960330,
-    4294429604,
-    4292062861
+    -1783041,
+    -137648897,
+    -743535105
   ],
   "requirements": [
     {"item": "sand", "amount": 20},

@@ -1,15 +1,15 @@
 {
   type: SectorPreset
   planet: big-desert
-  sector: 32
+  sector: 232
   difficulty: 6
-  name: Rought time
-  description: Really rough weather detected here, research new technology and defend against enemies
+  name: Рыг тайм
+  description: Здесь влияние полярного вихря настолько сильно, что [accent]разрушает постройки[]. Вам придётся исследовать технологии [acid]регенераторов[] для защиты.
   captureWave: 25
   alwaysUnlocked: false
   addStartingItems: false
   overrideLaunchDefaults: false
-  noLighting:false
+  noLighting: true
 
     research: { 
   parent: vortex

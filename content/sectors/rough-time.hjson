@@ -1,26 +1,22 @@
 {
-  type: SectorPreset
-  planet: big-desert
-  sector: 232
-  difficulty: 6
-  name: Рыг тайм
-  description: Здесь влияние полярного вихря настолько сильно, что [accent]разрушает постройки[]. Вам придётся исследовать технологии [acid]регенераторов[] для защиты.
-  captureWave: 25
-  alwaysUnlocked: false
-  addStartingItems: false
-  overrideLaunchDefaults: false
-  noLighting: true
-
-    research: { 
-  parent: vortex
-objectives: [ 
-    { 
-      type: SectorComplete  
-      preset: vortex
-    } 
-  ] 
-} 
-
+  "type": "SectorPreset",
+  "planet": "big-desert",
+  "sector": 232,
+  "difficulty": 6,
+  "name": "Рыг тайм",
+  "description": "Здесь влияние полярного вихря настолько сильно, что [accent]разрушает постройки[]. Вам придётся исследовать технологии [acid]регенераторов[] для защиты.",
+  "captureWave": 25,
+  "alwaysUnlocked": false,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": false,
+  "noLighting": true,
+  "research": {
+    "parent": "vortex",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "vortex"
+      }
+    ]
+  }
 }
-
-

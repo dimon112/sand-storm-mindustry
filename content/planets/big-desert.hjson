@@ -17,7 +17,7 @@
     defaultCore: "core-desert",
     sectorSeed: 1423,
     startSector: 0,
-    allowLaunchToNumbered: false,
+    allowLaunchToNumbered: true,
     sectorSize: 3,
     clearSectorOnLose: false,
     allowSectorInvasion: true,

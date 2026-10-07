@@ -2,7 +2,7 @@
   "type": "SectorPreset",
   "planet": "big-desert",
   "sector": 232,
-  "difficulty": 13,
+  "difficulty": 6,
   "name": "Воздуханское время",
   "description": "Здесь влияние полярного вихря настолько сильно, что [accent]разрушает постройки[]. Вам придётся исследовать технологии [acid]регенераторов[] для защиты.",
   "captureWave": 25,

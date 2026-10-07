@@ -2,7 +2,7 @@
   "type": "SectorPreset",
   "planet": "big-desert",
   "sector": 232,
-  "difficulty": 10,
+  "difficulty": 11,
   "name": "Рыг тайм",
   "description": "Здесь влияние полярного вихря настолько сильно, что [accent]разрушает постройки[]. Вам придётся исследовать технологии [acid]регенераторов[] для защиты.",
   "captureWave": 25,

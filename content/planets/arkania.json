@@ -1,0 +1,57 @@
+generator: SerpuloPlanetGenerator
+parent: sun
+localizedName: "Аркания",
+iconColor: 00ff2a
+orbitRadius: 68
+hasAtmosphere: true,
+updateLighting: true,
+atmosphereRadIn: 0.1,
+atmosphereRadOut: 0.4,
+atmosphereColor: 00ff2a,
+drawOrbit: true,
+
+accessible: true
+alwaysUnlocked: true
+sectorSeed: 520
+startSector: 1
+sectorSize: 2
+solarSystem: sun
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: абоба
+  seed: 6
+  speed: 2
+  radius: 0.1
+  divisions: 6
+  color: 00ff2a
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: serpulo
+    seed: 56164
+    color1: 007315
+    color2: 00ff2a
+    divisions: 4.5
+    radius: 0.9
+    octaves: 3
+    persistence: 0.8
+    scl: 1.0
+    mag: 1.0
+}
+itemWhiteList: [
+    "jeronium",
+    "plunium",
+    "hinium",
+    "wenium",
+    "relium"
+]

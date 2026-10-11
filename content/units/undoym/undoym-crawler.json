@@ -92,7 +92,4 @@
     "length": 15,
     "interp": "pow2Out",
     "sizeInterp": "pow2In"
-  },
-  "deathSpawnLiquid": "liquid-undoym",
-  "deathSpawnLiquidAmount": 30
-}
+  }

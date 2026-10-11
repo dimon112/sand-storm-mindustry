@@ -12,8 +12,8 @@
   "consumes": {
     "powerBuffered": 50
   },
-  "lightningChance": 0.2,
-  "lightningDamage": 50,
+  "lightningChance": 1.0,
+  "lightningDamage": 10,
   "lightningSound": "shock",
   "lightningColor": "ffffff",
   "requirements": [

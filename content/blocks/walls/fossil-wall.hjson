@@ -1,5 +1,5 @@
 type: Wall
-health: 400
+health: 375
 armor: 3
 name: desert Wall
 description: Blocks incoming enemy bullets. Can be destroyed.
@@ -9,9 +9,9 @@ category: defense
 research: {
 parent: desert-wall
 requirements: [
-  fossil/12
+  fossil/10
 ]
 }
 requirements : [
-        fossil/6
+        fossil/5
     ]

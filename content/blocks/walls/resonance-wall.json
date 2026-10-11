@@ -9,12 +9,14 @@
   "conductivePower": true,
   "hasPower": true,
   "consumesPower": false,
-  "outputsPower": false,
+  "outputsPower": true,
+  "consumes": {
+  "powerBuffered": 50
+  },
   "lightningChance": 0.2,
   "lightningDamage": 50,
   "lightningSound": "shock",
   "lightningColor": "ffffff",
-  "powerCapacity": 50,
   "requirements": [
     {"item": "sand-stormv2-pyrit", "amount": 20},
     {"item": "sand-stormv2-quartz-resonator", "amount": 5}

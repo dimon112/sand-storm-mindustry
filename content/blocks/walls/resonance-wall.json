@@ -1,0 +1,30 @@
+{
+  "type": "Wall",
+  "name": "Резонаторная стена",
+  "description": "Проводит энергию и накапливает её. При получении урона выпускает электрическую дугу.",
+  "size": 2,
+  "health": 2000,
+  "armor": 0,
+  "insulated": true,
+  "conductivePower": true,
+  "hasPower": true,
+  "consumesPower": false,
+  "outputsPower": false,
+  "lightningChance": 0.2,
+  "lightningDamage": 50,
+  "lightningSound": "shock",
+  "lightningColor": "ffffff",
+  "powerCapacity": 50,
+  "requirements": [
+    {"item": "sand-stormv2-pyrit", "amount": 20},
+    {"item": "sand-stormv2-quartz-resonator", "amount": 5}
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "sand-stormv2-quartz-resonator",
+    "requirements": [
+      {"item": "sand-stormv2-pyrit", "amount": 200},
+      {"item": "sand-stormv2-quartz-resonator", "amount": 5}
+    ]
+  }
+}

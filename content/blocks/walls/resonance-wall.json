@@ -5,13 +5,12 @@
   "size": 2,
   "health": 2000,
   "armor": 4,
-  "insulated": true,
   "conductivePower": true,
   "hasPower": true,
-  "consumesPower": false,
+  "consumesPower": true,
   "outputsPower": true,
   "consumes": {
-  "powerBuffered": 50
+    "powerBuffered": 50
   },
   "lightningChance": 0.2,
   "lightningDamage": 50,

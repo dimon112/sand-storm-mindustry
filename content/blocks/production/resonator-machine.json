@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Резонаторный тапок",
+  "description": "Вырезает кварц, подключает к нему пирит и создаёт кварцевые резонаторы.",
+  "details": "до",
+  "size": 4,
+  "health": 1000,
+  "hasItems": true,
+  "hasPower": true,
+  "craftTime": 90,
+  "consumes": {
+    "items": [
+      {"item": "sand-stormv2-quartz", "amount": 1},
+      {"item": "sand-stormv2-pyrit", "amount": 2}
+    ],
+    "power": 0.5
+  },
+  "outputItems": [
+    {"item": "sand-stormv2-quartz-resonator", "amount": 1}
+  ],
+  "requirements": [
+    {"item": "sand-stormv2-fossil", "amount": 250},
+    {"item": "sand-stormv2-pyrit", "amount": 400},
+    {"item": "sand-stormv2-sand-fabric", "amount": 150},
+    {"item": "sand-stormv2-quartz", "amount": 100}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-stormv2-quartz-former",
+    "requirements": [
+      {"item": "sand-stormv2-fossil", "amount": 2500},
+      {"item": "sand-stormv2-pyrit", "amount": 4000},
+      {"item": "sand-stormv2-sand-fabric", "amount": 1500},
+      {"item": "sand-stormv2-quartz", "amount": 1000}
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 type: Wall
-health: 2600
+health: 2500
 armor: 5
 name: Pyrit Wall
 description: Blocks incoming enemy bullets, stronger than the fossil wall, but takes up more space
@@ -9,9 +9,9 @@ category: defense
 research: {
 parent: pyrit-wall
 requirements: [
-  pyrit/1200
+  pyrit/200
 ]
 }
 requirements : [
-        pyrit/24
+        pyrit/20
     ]

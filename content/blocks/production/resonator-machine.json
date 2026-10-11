@@ -1,19 +1,19 @@
 {
   "type": "GenericCrafter",
-  "name": "Резонаторный тапок",
+  "name": "Резонаторный станок",
   "description": "Вырезает кварц, подключает к нему пирит и создаёт кварцевые резонаторы.",
-  "details": "до",
+  "details": "Так как это чудо инженерной мысли, оно работает на скорости тапка",
   "size": 4,
-  "health": 1000,
+  "health": 1800,
   "hasItems": true,
   "hasPower": true,
-  "craftTime": 90,
+  "craftTime": 240,
   "consumes": {
     "items": [
       {"item": "sand-stormv2-quartz", "amount": 1},
       {"item": "sand-stormv2-pyrit", "amount": 2}
     ],
-    "power": 0.5
+    "power": 7.5
   },
   "outputItems": [
     {"item": "sand-stormv2-quartz-resonator", "amount": 1}

@@ -10,10 +10,10 @@
   "consumesPower": true,
   "outputsPower": true,
   "consumes": {
-    "powerBuffered": 50
+    "powerBuffered": 250
   },
-  "lightningChance": 1.0,
-  "lightningDamage": 10,
+  "lightningChance": 0.5,
+  "lightningDamage": 20,
   "lightningSound": "shock",
   "lightningColor": "ffffff",
   "requirements": [
@@ -25,7 +25,7 @@
     "parent": "sand-stormv2-quartz-resonator",
     "requirements": [
       {"item": "sand-stormv2-pyrit", "amount": 200},
-      {"item": "sand-stormv2-quartz-resonator", "amount": 5}
+      {"item": "sand-stormv2-quartz-resonator", "amount": 50}
     ]
   }
 }

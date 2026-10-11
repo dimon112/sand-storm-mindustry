@@ -1,5 +1,6 @@
 type: Wall
-health: 800
+health: 625
+armor: 5
 name: Pyrit Wall
 description: Blocks incoming enemy bullets, stronger than the fossil wall
 size: 1

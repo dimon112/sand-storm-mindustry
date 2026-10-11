@@ -4,7 +4,7 @@
   "description": "Проводит энергию и накапливает её. При получении урона выпускает электрическую дугу.",
   "size": 2,
   "health": 2000,
-  "armor": 0,
+  "armor": 4,
   "insulated": true,
   "conductivePower": true,
   "hasPower": true,

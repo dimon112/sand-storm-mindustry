@@ -9,7 +9,7 @@ category: defense
 research: {
 parent: desert-wall
 requirements: [
-  pyrit/200
+  pyrit/50
 ]
 }
 requirements : [

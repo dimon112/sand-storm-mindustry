@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "name": "Резонаторный деконвертер",
+  "description": "Преобразует электричество в импульс с помощью обратного пьезоэффекта.",
+  "size": 2,
+  "health": 250,
+  "hasLiquids": true,
+  "hasPower": true,
+  "liquidCapacity": 50,
+  "craftTime": 67.676767,
+  "consumes": {
+    "power": 0.8333333333333333
+  },
+  "outputLiquids": [
+    {"liquid": "sand-stormv2-impulse", "amount": 0.8333333333333333}
+  ],
+  "requirements": [
+    {"item": "sand-stormv2-quartz", "amount": 50},
+    {"item": "sand-stormv2-quartz-resonator", "amount": 10},
+    {"item": "sand-stormv2-pyrit", "amount": 50}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-stormv2-resonator-converter",
+    "requirements": [
+      {"item": "sand-stormv2-quartz", "amount": 500},
+      {"item": "sand-stormv2-quartz-resonator", "amount": 50},
+      {"item": "sand-stormv2-pyrit", "amount": 500}
+    ]
+  }
+}

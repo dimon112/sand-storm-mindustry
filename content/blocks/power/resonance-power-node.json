@@ -8,8 +8,8 @@
   "laserRange": 25,
   "maxNodes": 5,
   "sameBlockConnection": true,
-  "laserColor1": "00ff88",
-  "laserColor2": "44ffaa",
+  "laserColor1": "ffffff",
+  "laserColor2": "aaaaaa",
   "laserScale": 0.25,
   "requirements": [
     {"item": "sand-stormv2-quartz-resonator", "amount": 5},

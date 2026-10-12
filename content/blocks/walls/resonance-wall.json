@@ -22,7 +22,7 @@
   ],
   "category": "defense",
   "research": {
-    "parent": "sand-stormv2-quartz-resonator",
+    "parent": "sand-stormv2-pyrit-large-wall",
     "requirements": [
       {"item": "sand-stormv2-pyrit", "amount": 200},
       {"item": "sand-stormv2-quartz-resonator", "amount": 50}

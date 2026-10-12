@@ -1,0 +1,13 @@
+{
+  "type": "Liquid",
+  "name": "Импульс",
+  "description": "Другая форма энергии. Может передаваться по трубам.",
+  "details": "Точно не Астосас, так как здесь его добавление более обосновано резонаторами",
+  "color": "aaaaaa",
+  "explosiveness": 0.8,
+  "heatCapacity": 0.5,
+  "viscosity": 0.0,
+  "temperature": 0.5,
+  "boilPoint": -1,
+  "blockReactive": false
+}

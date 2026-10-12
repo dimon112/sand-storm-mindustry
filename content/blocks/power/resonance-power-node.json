@@ -1,0 +1,26 @@
+{
+  "type": "PowerNode",
+  "name": "Резонаторный энергоузел",
+  "description": "Передаёт энергию на большие расстояния.",
+  "details": "Синхронизируется только с такими же энергоузлами",
+  "size": 2,
+  "health": 500,
+  "laserRange": 25,
+  "maxNodes": 5,
+  "sameBlockConnection": true,
+  "laserColor1": "00ff88",
+  "laserColor2": "44ffaa",
+  "laserScale": 0.25,
+  "requirements": [
+    {"item": "sand-stormv2-quartz-resonator", "amount": 5},
+    {"item": "sand-stormv2-pyrit", "amount": 25}
+  ],
+  "category": "power",
+  "research": {
+    "parent": "sand-stormv2-quartz-resonator",
+    "requirements": [
+      {"item": "sand-stormv2-pyrit", "amount": 250},
+      {"item": "sand-stormv2-quartz-resonator", "amount": 50}
+    ]
+  }
+}

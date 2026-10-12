@@ -19,7 +19,7 @@
     {"item": "sand-stormv2-quartz-resonator", "amount": 10},
     {"item": "sand-stormv2-pyrit", "amount": 50}
   ],
-  "category": "crafting",
+  "category": "power",
   "research": {
     "parent": "sand-stormv2-resonator-converter",
     "requirements": [

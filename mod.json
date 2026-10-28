@@ -8,5 +8,5 @@
 
       "minGameVersion": "144",
       "hidden": false,
-      "dependencies": ["directed-lib"]
+      "dependencies": []
 }

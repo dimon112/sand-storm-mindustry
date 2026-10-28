@@ -9,4 +9,36 @@
 "dependencies": []
 "contentOrder": [
 fossil
+sand-fabric
+collarise
+quartz
+quartz-resonator
+geno
+undoym
+bone
+pyrit
+iron-sulfide
+hematite
+sulfur
+corundum
+kyanite
+asterite
+dumpling
+ground-black-pepper
+core-desert
+fossil-container
+fossil-conveyor
+fossil-junction
+fossil-router
+fossil-distributor
+fossil-bridge-conveyor
+fossil-sorter
+inverted-fossil-sorter
+overflow-fossil-gate
+underflow-fossil-gate
+fossil-unloader
+fossil-conduit
+fossil-liquid-junction
+fossil-liquid-router
+fossil-bridge-conduit
 ]

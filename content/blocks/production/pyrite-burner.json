@@ -1,42 +1,37 @@
 {
-  "type": "GenericCrafter",
+  "type": "DirectedCrafter",
   "name": "Обжигатель пирита",
-  "description": "Обжигает пирит в бескислородной среде, а затем окисляет серу с помощью кислорода для получения диоксида серы. Побочно производит сульфид железа.",
-  "details": "Для химиков: здесь происходит реакция именно термического разложения, в не окислительного обжига, это происходит в окислителе пирита",
+  "description": "Разлагает пирит в бескислородной среде на сульфид железа и серу.",
   "size": 2,
   "health": 200,
   "hasItems": true,
-  "hasLiquids": true,
   "hasPower": true,
   "craftTime": 60,
-  "squareSprite": false,
+  "itemCapacity": 20,
   "consumes": {
     "items": [
       {"item": "pyrit", "amount": 2}
     ],
-    "liquids": [
-      {"liquid": "oxygen", "amount": 0.033333333333333333333333333333}
-    ],
-    "power": 0.8333333333
+    "power": 0.5
   },
   "outputItems": [
+    {"item": "sulfur", "amount": 1},
     {"item": "iron-sulfide", "amount": 2}
   ],
-  "outputLiquids": [
-    {"liquid": "sulfur-dioxide", "amount": 0.0333333333333333333333333333}
-  ],
-  "craftEffect": {
-    "type": "ParticleEffect",
-    "cone": 360,
-    "baseRotation": 0,
-    "particles": 12,
-    "length": 4,
-    "baseLength": 3,
-    "line": true,
-    "strokeFrom": 1.5,
-    "strokeTo": 0.5,
-    "colorFrom": "ffaa00",
-    "colorTo": "ff4400"
+  "itemOutputDirections": {
+    "sulfur": 0,
+    "iron-sulfide": 2
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      { "type": "DrawRegion", "suffix": "-bottom-1" },
+      { "type": "DrawRegion", "suffix": "-bottom-2" },
+      { "type": "DrawCrucibleFlame", "flameColor": "B8C84D", "flameRadiusScl": 1, "circleStroke": 0, "flameRad": 4, "particleRad": 8 },
+      { "type": "DrawRegion", "suffix": "-wheel", "spinSprite": true, "rotateSpeed": 1.0 },
+      { "type": "DrawDefault" },
+      { "type": "DrawDirectedOutputs", "drawArrow": true, "drawItem": true }
+    ]
   },
   "requirements": [
     {"item": "pyrit", "amount": 25},
@@ -50,44 +45,6 @@
       {"item": "pyrit", "amount": 1200},
       {"item": "fossil", "amount": 800},
       {"item": "sand-fabric", "amount": 450}
-    ]
-  },
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      {
-        "type": "DrawRegion",
-        "suffix": "-bottom-1"
-      },
-      {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "oxygen",
-        "padLeft": 0.5,
-        "padBottom": 0.5,
-        "padTop": 0.5,
-        "padRight": 0.5
-      },
-      {
-        "type": "DrawRegion",
-        "suffix": "-bottom-2"
-      },
-      {
-        "type": "DrawCrucibleFlame",
-        "flameColor": "B8C84D",
-        "flameRadiusScl": 1,
-        "circleStroke": 0,
-        "flameRad": 4,
-        "particleRad": 8
-      },
-      {
-        "type": "DrawRegion",
-        "suffix": "-wheel",
-        "spinSprite": true,
-        "rotateSpeed": 1.0
-      },
-      {
-        "type": "DrawDefault"
-      }
     ]
   }
 }

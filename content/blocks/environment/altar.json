@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "Алтарь",
+  "description": "Название никак не относится к применению блока",
+  "size": 1,
+  "health": 1000,
+  "destructible": false,
+  "buildVisibility": "editorOnly",
+  "category": "defense",
+  "requirements": []
+}

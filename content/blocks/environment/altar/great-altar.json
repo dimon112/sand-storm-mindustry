@@ -1,0 +1,10 @@
+{
+  "type": "Wall",
+  "name": "Большой алтарь",
+  "size": 3,
+  "health": 9000,
+  "destructible": false,
+  "buildVisibility": "editorOnly",
+  "category": "defense",
+  "requirements": []
+}

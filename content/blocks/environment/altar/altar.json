@@ -4,7 +4,7 @@
   "description": "Название никак не относится к применению блока",
   "size": 1,
   "health": 1000,
-  "destructible": false,
+  "destructible": true,
   "buildVisibility": "editorOnly",
   "category": "defense",
   "requirements": []

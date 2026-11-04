@@ -12,8 +12,6 @@
   "alwaysShootWhenMoving": true,
   "crashDamageMultiplier": 1.5,
   "payloadCapacity": 64,
-  "circleTarget": true,
-  "circleTargetRadius": 24,
   "trailLength": 8,
   "trailColor": "ff5e5e",
   "ammoCapacity": 20,
@@ -58,7 +56,7 @@
       "faseTarget": false,
       "ignoreRotation": true,
       "shootCone": 360,
-      "minShootVelocity": 0.5,
+      "minShootVelocity": 0.0,
       "shootSound": "plasmadrop",
       "bullet": {
         "speed": 0,

@@ -1,40 +1,35 @@
-  type: GenericCrafter
-  health: 250
-  size: 2
-  hasItems: true
-  craftTime: 120
-  craftEffect: none
-  hasPower: false
-  hasLiquids: false
-  updateEffect :  none
-  itemCapacity: 10
-  consumes: {
-    items: [
-      fossil/5
+{
+  "type": "Separator",
+  "name": "Pyrite separator",
+  "health": 250,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": false,
+  "craftTime": 120,
+  "itemCapacity": 15,
+  "results": [
+    {"item": "pyrit", "amount": 3},
+    {"item": "sand", "amount": 2}
+  ],
+  "consumes": {
+    "items": [
+      {"item": "fossil", "amount": 5}
+    ]
+  },
+  "requirements": [
+    {"item": "fossil", "amount": 150},
+    {"item": "sand-fabric", "amount": 50},
+    {"item": "geno", "amount": 25}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-mixer",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "gate"
+      }
     ]
   }
-  requirements: [
-    fossil/150
-    sand-fabric/50
-    geno/25
-  ]
-  category: crafting
-  outputItems: [
-  pyrit/3
-  sand/2
-]
-research: {
-    parent: sand-mixer
-
-    objectives: [
-  {
-    type: SectorComplete
-    preset: gate
-  }
-  ]
 }
-researchCost: [
-    fossil/2000
-    sand-fabric/750
-    geno/750
-  ]
